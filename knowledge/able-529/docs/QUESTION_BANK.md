@@ -6,7 +6,7 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 
 ## Federal law and guidance
 
-1. What is the exact current legal text governing 529->ABLE rollovers after 2025?
+1. What is the exact current legal text governing 529->ABLE rollovers after 2025? **Resolved 2026-03-09:** Pub. L. 119-21 sec. 70117 struck sunset phrase; keep as monitoring question for future amendments.
 2. Did IRS publish post-2025 updates in publications, forms, or instructions that supersede older newsroom wording?
 3. Which ABLE parameters are inflation-indexed, which are static, and where are they published each year?
 4. What unresolved federal ambiguities remain for ABLE-to-Work contributions and retirement plan participation tests?
@@ -46,3 +46,11 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## Newly added unknowns (2026-03-09 run)
+
+26. Which IRS forms/instructions/publications still contain pre-2026 sunset language for 529->ABLE rollovers, and which have been updated after Pub. L. 119-21 sec. 70117?
+27. For NJ, does conformity through IRC 529(c)(3)(C)(i) automatically carry 529->ABLE treatment for all filers in TY 2026+, or are there carve-outs in forms/instructions?
+28. For Illinois, how do line 7/line 9 recapture rules apply when an in-state 529 is rolled to an ABLE account administered in a different state?
+29. Can New York's explicit "rollover to ABLE" qualified language be tied to a specific form line flow that avoids preparer misclassification under A-103/S-103 mechanics?
+30. What is the transition risk for returns spanning distributions in late 2025 vs early 2026 given the sec. 70117(b) effective-date rule?

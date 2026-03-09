@@ -17,13 +17,16 @@ Updated: 2026-03-09
      - https://www.ssa.gov/ssi/spotlights/spot-able.html
      - https://secure.ssa.gov/POMS.NSF/lnx/0501130740
 
-3. **529->ABLE rollover framing**
-   - Federal rollover treatment requires same beneficiary or qualifying family member pathway.
-   - Rollover amounts count toward ABLE annual contribution limits.
+3. **529->ABLE rollover status after 2025 (depth ambiguity resolved)**
+   - The old sunset phrase ("before January 1, 2026") was removed by enacted law.
+   - Enacted text: Pub. L. 119-21, sec. 70117(a), amended IRC 529(c)(3)(C)(i)(III) "by striking `before January 1, 2026,'"; sec. 70117(b) applies this change to taxable years beginning after Dec. 31, 2025.
+   - Current codified text in 26 USC 529(c)(3)(C)(i)(III) now reads simply: "(III) to an ABLE account ...", with no sunset phrase.
+   - Operational guardrail: rollover amounts still count toward annual ABLE contribution limits.
    - Sources:
-     - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
-     - https://www.law.cornell.edu/uscode/text/26/529
-     - https://www.law.cornell.edu/uscode/text/26/529A
+     - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+     - https://www.irs.gov/pub/irs-drop/n-18-58.pdf
 
 4. **2026 ABLE base annual contribution interpretation**
    - Best current legal reading is **$20,000** for 2026.
@@ -35,13 +38,13 @@ Updated: 2026-03-09
 
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
+1. **IRS implementation artifact lag after 2025 amendments**
+   - Some IRS newsroom/secondary summaries still reflect pre-amendment sunset language.
+   - Action: map which IRS forms/instructions/publications have fully incorporated Pub. L. 119-21 updates and build an authority hierarchy note for advisors.
 
-2. **Implementation hierarchy clarity**
+2. **Implementation hierarchy clarity (advisor-safe conflict rule)**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
-   - Action: add citation-backed authority ladder and conflict-resolution rule.
+   - Action: add citation-backed authority ladder and conflict-resolution rule with examples where sub-regulatory text lags.
 
 3. **ABLE-to-Work edge mechanics**
    - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.

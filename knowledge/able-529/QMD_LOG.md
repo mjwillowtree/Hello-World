@@ -1,5 +1,54 @@
 # QMD Log
 
+## 2026-03-09 Hourly Run (Federal correction + state breadth)
+
+### Q (Query)
+
+1. Is the 529->ABLE rollover sunset ("before January 1, 2026") still controlling federal law, or was it removed?
+2. Which state recapture positions can be upgraded from signal-level to source-backed status in one run?
+3. Adversarial check: does current code text conflict with legacy IRS-era wording in common summaries?
+
+### M (Memory)
+
+- **M8:** Pub. L. 119-21 sec. 70117(a) removed the sunset phrase from IRC 529(c)(3)(C)(i)(III) by striking "before January 1, 2026," and sec. 70117(b) applies this amendment to taxable years beginning after Dec. 31, 2025.  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** New York IT-225-I A-103 explicitly treats rollover to a qualified ABLE program as a qualified use (i.e., not nonqualified withdrawal under that rule set).  
+  Confidence: **High**  
+  Source:
+  - https://tax.ny.gov/forms/current-forms/it/it225i.htm
+
+- **M10:** Illinois provides line-level recapture mechanics (Schedule M Line 7 and Line 9), making IL one of the highest-clarity states for operational recapture analysis.  
+  Confidence: **High**  
+  Source:
+  - https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html
+
+- **M11:** California FTB instructions indicate conformity language allowing 529 plan rollover to ABLE without penalty for TY 2019+, while continuing to tax nonqualified distributions with an additional 2.5% tax.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://www.ftb.ca.gov/forms/2025/2025-3805p-instructions.html
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` to resolve sunset/permanence ambiguity and replace it with implementation-lag ambiguity.
+- Expanded `docs/STATE_RECAPTURE_WATCHLIST.md` into a Phase 1 matrix (CA, IL, NY, NJ plus unresolved states).
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and added explicit assumption test outcome.
+- Added 5 new high-value unknowns to `docs/QUESTION_BANK.md`.
+- Re-ranked `TASKLIST.md` around authority hierarchy + implementation lag as top priority.
+
+### Assumption challenge result
+
+- Challenged: "If IRS newsroom says it, implementation details are settled."
+- Outcome: **Failed as a blanket assumption.**
+- Reason: enacted law and current USC notes showed the sunset phrase was removed; legacy wording can persist in secondary summaries or stale implementation artifacts.
+
+### Next run target
+
+Build the authority hierarchy memo with specific IRS artifacts (forms/pubs/instructions/newsroom) classified as updated vs stale for 529->ABLE post-2025 treatment, then add 4 more states with form-line recapture mapping.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)
