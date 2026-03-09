@@ -1,0 +1,99 @@
+# ABLE/529 Knowledge Base (QMD Style)
+
+Last refreshed: 2026-03-09 (UTC)
+
+---
+
+## QMD 1 - ABLE eligibility expansion impact
+
+### Q (Question)
+How does the 2026 ABLE eligibility expansion change who should be screened for 529A planning?
+
+### M (Model)
+- SECURE 2.0 expands ABLE onset-age requirement from "before age 26" to "before age 46," effective 2026.
+- This increases potential eligibility among adults with earlier-onset disability who were previously excluded.
+- ABLE still sits inside SSI/Medicaid coordination constraints, so eligibility does not remove benefit-planning complexity.
+
+### D (Decision)
+- Prioritize building a screening checklist for individuals age 26-45 with documented onset before age 46.
+- Track SSA operational guidance updates each quarter for implementation nuances.
+
+Primary sources:
+- SECURE 2.0 (PL 117-328): https://www.congress.gov/117/bills/hr2617/BILLS-117hr2617enr.pdf
+- SSA POMS SI 01130.740: https://secure.ssa.gov/poms.nsf/lnx/0501130740
+
+---
+
+## QMD 2 - ABLE contribution/tax framework
+
+### Q (Question)
+What are the most decision-critical ABLE contribution and tax rules to keep current?
+
+### M (Model)
+- Base annual ABLE contribution limit is tied to the annual gift exclusion amount (2026: $19,000).
+- Contributions are not federally deductible; qualified disability expense (QDE) distributions are federal tax-free.
+- Nonqualified distributions generally trigger ordinary income tax on earnings plus 10% additional tax.
+- SSI resource treatment excludes up to $100,000 in ABLE balances for SSI means-testing purposes (with suspension mechanics beyond threshold).
+
+### D (Decision)
+- Maintain a yearly "limits and thresholds" panel with date-stamped source checks.
+- Build an ABLE distribution documentation checklist to reduce nonqualified-withdrawal risk.
+
+Primary sources:
+- Rev. Proc. 2025-32: https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+- IRS Pub 907: https://www.irs.gov/publications/p907
+- SSA ABLE Spotlight: https://www.ssa.gov/ssi/spotlights/spot-able.html
+
+---
+
+## QMD 3 - 529 core planning model
+
+### Q (Question)
+What federal 529 rules most often drive planning outcomes?
+
+### M (Model)
+- 529 contributions are not federally deductible; qualified withdrawals are federal tax-free.
+- Qualified uses include higher education costs, registered apprenticeship costs, and limited student loan repayment.
+- Nonqualified withdrawals generally cause income tax on earnings plus a 10% additional tax (with exceptions).
+- Ownership and beneficiary-change rules are central for control and tax/aid planning.
+
+### D (Decision)
+- Build scenario templates by use case (college funding, apprenticeship, debt payoff, overfunded account management).
+- Keep a federal-vs-state caution banner on every strategy recommendation.
+
+Primary sources:
+- IRS Topic 313: https://www.irs.gov/taxtopics/tc313
+- IRS Pub 970: https://www.irs.gov/publications/p970
+- 26 U.S.C. §529 (prelim): https://uscode.house.gov/view.xhtml?req=title:26%20section:529%20edition:prelim
+
+---
+
+## QMD 4 - 529 to Roth IRA rollover strategy
+
+### Q (Question)
+How should experts treat the new 529->Roth pathway without overpromising?
+
+### M (Model)
+- Federal law allows 529-to-Roth rollovers subject to strict constraints (including account-age and lifetime limits).
+- Annual IRA limits and earned-income requirements throttle how quickly rollover capacity can be used.
+- Operational details can vary by custodian, and state conformity is not uniform.
+
+### D (Decision)
+- Create a "rollover readiness" checklist:
+  1) account age,
+  2) contribution seasoning,
+  3) annual IRA room,
+  4) beneficiary earnings,
+  5) state tax conformity check.
+
+Primary sources:
+- IRS Topic 313: https://www.irs.gov/taxtopics/tc313
+- 26 U.S.C. §529(c)(3)(E): https://uscode.house.gov/view.xhtml?req=title:26%20section:529%20edition:prelim
+
+---
+
+## Open Verification Items (high-value)
+
+1. Confirm current-year status of ABLE-to-Work continuation language and effective dates in latest IRS instructions/U.S. Code updates.
+2. Confirm current-year status and sunset treatment for 529->ABLE rollover authority.
+3. Build a state-by-state conformity table before publishing any state tax conclusions.

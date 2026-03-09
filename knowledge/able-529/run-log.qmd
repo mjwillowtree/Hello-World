@@ -1,0 +1,29 @@
+# ABLE/529 Run Log
+
+## 2026-03-09T18:59:01Z (cron run)
+
+### Objective
+Initialize and execute an hourly knowledge-management loop to become an ABLE/529 domain expert.
+
+### Work completed
+- Created a durable QMD framework (`Question -> Model -> Decision`).
+- Created a standing tasklist with prioritization and run-selection logic.
+- Ran parallel specialized research sweeps for:
+  - ABLE federal rules and SSA interactions,
+  - 529 federal rules and planning constraints,
+  - 2025-2026 policy and implementation watch-items.
+- Curated high-confidence primary-source links into `knowledge.qmd`.
+
+### Insights captured
+- 2026 ABLE eligibility expansion (age-of-onset threshold shift) is the most important near-term structural change.
+- 529->Roth capability is strategically significant but operationally constrained and state-sensitive.
+- Yearly inflation updates and state conformity drift are recurring failure points for advice quality.
+
+### Next-run plan (target <=30 minutes)
+1. Start `T2`: create skeleton state-conformity matrix file and populate at least 10 states.
+2. Validate ABLE-to-Work and 529->ABLE current effective-date details using latest primary guidance.
+3. Add a compact "annual limits dashboard" section to `knowledge.qmd`.
+
+### Risks / caveats
+- State-level tax conformity and recapture rules can diverge from federal treatment.
+- Secondary sources should not be treated as authoritative without direct verification.

@@ -1,0 +1,55 @@
+# ABLE/529 Master Tasklist (QMD-Driven)
+
+Last updated: 2026-03-09 (UTC)
+Automation cadence: hourly cron
+Run budget: <=30 minutes
+
+## Mission
+
+Become a best-in-class expert on ABLE (IRC 529A) and 529 education plans by continuously:
+
+1. collecting authoritative sources,
+2. converting facts into stable mental models,
+3. making explicit decisions about what to research next.
+
+## QMD Operating Loop (every run)
+
+1. **Q (Question):** What is uncertain, changing, or decision-relevant right now?
+2. **M (Model):** What does current law/guidance imply in practice?
+3. **D (Decision):** What concrete action best improves expertise this hour?
+
+## Active Task Queue
+
+| ID | Priority | Status | Task | Completion criteria |
+|---|---|---|---|---|
+| T1 | P0 | in_progress | Maintain a federal ABLE/529 core rules sheet with inflation-adjusted annual limits. | Limits and key rules validated against IRS/SSA/Congress sources with date stamps. |
+| T2 | P0 | pending | Build a state-conformity matrix for major planning topics (K-12, student loan, 529->Roth, ABLE state tax treatment). | Matrix covers all states + DC with source links and "last verified" field. |
+| T3 | P1 | pending | Create strategy playbooks by household profile (special-needs family, overfunded 529, working ABLE beneficiary, aid-sensitive family). | At least 4 profiles with "recommended sequencing" and risk notes. |
+| T4 | P1 | pending | Add annual January verification checklist automation. | Checklist includes IRS limits, poverty guidelines, SSA POMS changes, and state conformity updates. |
+| T5 | P2 | pending | Add a glossary of edge-case definitions and pitfalls. | Glossary covers 25+ high-confusion terms and links to authority. |
+
+## Next Run Selection Rules
+
+Use this deterministic selector to choose work quickly:
+
+1. If any **P0** task is incomplete, pick the oldest P0.
+2. If all P0 tasks are blocked, advance the highest-impact P1 task.
+3. Reserve final 5 minutes to update:
+   - `knowledge.qmd`
+   - `run-log.qmd`
+   - this tasklist.
+
+## Specialized Inquiry Triggers (spin up additional agents)
+
+Launch focused subagents when any of the below are true:
+
+- New IRS inflation release or Revenue Procedure is published.
+- SSA POMS ABLE sections are updated.
+- Congress introduces or advances bills changing ABLE/529 qualified uses.
+- Conflicting interpretations appear between federal and state guidance.
+
+## Quality Bar
+
+- Prefer primary sources: U.S. Code, IRS, SSA, ED/FSA, SEC/FINRA.
+- Mark any secondary-source claim as provisional until confirmed.
+- Record source URL and "checked on" date for each non-static fact.
