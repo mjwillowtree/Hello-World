@@ -1,0 +1,38 @@
+---
+title: "ABLE/529 Mastery Tasklist"
+format: gfm
+author: "Cursor Automation"
+date: 2026-03-09
+---
+
+## Operating loop (hourly)
+
+1. Read this tasklist and select the highest-value open item.
+2. Research with source priority: IRS, SSA, Congress, Treasury/eCFR, then secondary references.
+3. Capture findings in QMD blocks (Question -> Model -> Decision) in `10-core-knowledge.qmd`.
+4. Log run outcomes and next actions in `99-run-log.qmd`.
+5. Re-rank tasks by impact x uncertainty reduction.
+
+## Definition of done for "expert-level"
+
+- Federal ABLE/529 rules mapped with section-level citations.
+- High-risk edge cases explained (benefits interactions, recapture, rollovers, excess contributions).
+- State-conformity framework created and tested on priority states.
+- Practitioner-ready decision checklists and examples maintained.
+
+## Backlog
+
+| ID | Task | Priority | Status | Notes |
+|---|---|---|---|---|
+| T1 | Verify federal ABLE/529 baselines with primary citations (limits, eligibility, tax treatment) | P0 | done | Initial baseline created this run. |
+| T2 | Resolve ABLE-to-Work post-2025 legal status with current-year IRS forms/instructions | P0 | in_progress | Potentially high-impact ambiguity. |
+| T3 | Build ABLE vs 529 vs 529->ABLE decision matrix by client scenario | P1 | pending | Include SSI/Medicaid and tax lenses. |
+| T4 | Create state conformity/recapture tracker template and populate top 10 states | P1 | pending | Focus on deduction states first. |
+| T5 | Build citation index: IRC 529, 529A, 4973, SECURE 2.0 sections | P1 | pending | Include plain-language annotations. |
+| T6 | Draft practitioner checklist for rollover execution controls/document retention | P2 | pending | Avoid disqualifying mechanics. |
+
+## Next-run execution order
+
+1. T2 (close ABLE-to-Work ambiguity).
+2. T5 (hard citation index).
+3. T4 (start state tracker with 3-5 states).

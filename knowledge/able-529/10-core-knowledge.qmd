@@ -1,0 +1,107 @@
+---
+title: "ABLE/529 Core Knowledge (QMD)"
+format: gfm
+author: "Cursor Automation"
+date: 2026-03-09
+---
+
+## QMD method
+
+- **Q (Question):** What exact rule or planning question must be answered?
+- **M (Model):** What legal/operational framework explains the rule?
+- **D (Decision):** What should practitioners do now, with confidence level and citation links?
+
+---
+
+## QMD-001: ABLE eligibility age threshold in 2026
+
+**Q:** Is ABLE eligibility still tied to disability onset before age 26, or did it expand?
+
+**M:** Federal statutory change (SECURE 2.0) + SSA operational guidance.
+
+**D (High confidence):**
+- Eligibility threshold expands to disability onset **before age 46** effective 2026.
+- Keep onset-date documentation in files for defensibility.
+
+Sources:
+- SSA POMS SI 01130.740: https://secure.ssa.gov/poms.nsf/lnx/0501130740
+- SSA ABLE spotlight: https://www.ssa.gov/ssi/spotlights/spot-able.html
+- SECURE 2.0 (Pub. L. 117-328): https://www.congress.gov/117/plaws/publ328/PLAW-117publ328.pdf
+
+---
+
+## QMD-002: ABLE annual contribution mechanics
+
+**Q:** How do annual ABLE contribution limits work, including work-based additions?
+
+**M:** Base cap links to IRC 2503(b) annual exclusion; extra worker contribution rules have evolving statutory/guidance context.
+
+**D (Medium confidence):**
+- Base ABLE annual cap tracks gift exclusion; monitor annual IRS inflation releases.
+- Treat any contribution above the base cap as a **requires-verification** workflow item until ABLE-to-Work status is confirmed for the applicable tax year.
+
+Sources:
+- IRS ABLE portal: https://www.irs.gov/ABLE
+- IRC 529A: https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+- IRS Notice 2024-80 (2025 worker add-on amounts): https://www.irs.gov/pub/irs-drop/n-24-80.pdf
+
+---
+
+## QMD-003: SSI and Medicaid interactions with ABLE balances
+
+**Q:** How do ABLE balances affect means-tested benefits?
+
+**M:** SSI resource exclusion rules + Medicaid continuation framework in SSA guidance.
+
+**D (High confidence):**
+- Up to **$100,000** in ABLE funds is excluded for SSI resource-counting.
+- SSI cash payments may be suspended above thresholds, while Medicaid can continue under ABLE framework.
+- Benefits-sensitive clients need timing/cash-flow controls for withdrawals and account balances.
+
+Sources:
+- SSA POMS SI 01130.740: https://secure.ssa.gov/poms.nsf/lnx/0501130740
+- SSA ABLE spotlight: https://www.ssa.gov/ssi/spotlights/spot-able.html
+
+---
+
+## QMD-004: 529 core federal rules and 529->Roth pathway
+
+**Q:** What are the stable federal planning anchors for 529 accounts?
+
+**M:** IRC 529 tax treatment + SECURE 2.0 rollover-to-Roth constraints.
+
+**D (High confidence):**
+- 529 contributions are not federally deductible; earnings grow tax-deferred; qualified distributions are federally tax-free.
+- 529->Roth IRA pathway exists (subject to statutory conditions, including lifetime cap and timing constraints); use checklist controls before execution.
+
+Sources:
+- IRS Topic 313: https://www.irs.gov/taxtopics/tc313
+- IRS Publication 970: https://www.irs.gov/publications/p970
+- IRC 529: https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+- SECURE 2.0 (Pub. L. 117-328): https://www.congress.gov/117/plaws/publ328/PLAW-117publ328.pdf
+
+---
+
+## QMD-005: 529->ABLE rollovers and annual-limit collision risk
+
+**Q:** What fails most often when moving funds from 529 to ABLE?
+
+**M:** Federal rollover allowance exists, but ABLE annual contribution limits still apply and state tax conformity can diverge.
+
+**D (Medium confidence):**
+- Model each rollover against remaining ABLE annual cap headroom.
+- Prefer direct institution-to-institution workflows where available.
+- Run state recapture/conformity checks before execution.
+
+Sources:
+- IRC 529: https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+- IRC 529A: https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+- IRS ABLE news explainer (background): https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+---
+
+## Uncertainty register (active)
+
+1. **ABLE-to-Work post-2025 status and limits** (high priority to resolve with current-year IRS forms/instructions).
+2. **Scope/source mapping of recent 2025 law changes** affecting 529/ABLE implementation details.
+3. **State-by-state conformity/recapture divergence** for 529 and 529->ABLE workflows.
