@@ -33,11 +33,29 @@ Updated: 2026-03-09
      - https://uscode.house.gov/quicksearch/get.plx?section=2503&title=26
      - https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
 
+5. **Post-2025 permanence of 529->ABLE rollover pathway**
+   - Current codified text in §529(c)(3)(C)(i)(III) now allows rollover to an ABLE account **without the prior "before January 1, 2026" limit**.
+   - U.S. Code amendment notes state that Pub. L. 119-21, §70117(a) struck out the sunset phrase.
+   - Related ABLE statute amendment notes in §529A indicate Pub. L. 119-21, §70115(a)(2) struck out "before January 1, 2026" in §529A(b)(2)(B)(ii) introductory text.
+   - IRS Publication 970 (current chapter text) also reflects 529->ABLE rollover language without a pre-2026 sunset phrase.
+   - Sources:
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+     - https://www.irs.gov/publications/p970/ch8.html
+
+6. **529->Roth IRA rollover federal conditions (breadth snapshot)**
+   - §529(c)(3)(E) permits tax-favored rollovers from long-term 529 plans to Roth IRAs for the **same designated beneficiary**, subject to statutory constraints.
+   - High-confidence statutory constraints: 15-year account period, exclusion of amounts tied to contributions in the 5-year lookback, annual limit mechanics tied to Roth contribution framework, and aggregate $35,000 lifetime cap.
+   - Sources:
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+     - https://www.congress.gov/117/plaws/publ328/PLAW-117publ328.pdf
+     - https://www.irs.gov/publications/p970/ch8.html
+
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
+1. **Legacy guidance lag risk**
+   - Some older IRS/newsroom and third-party pages still reference pre-2026 sunset wording.
+   - Action: maintain an explicit "stale guidance" warning with authority ladder and ensure only current codified text is used for final conclusions.
 
 2. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.

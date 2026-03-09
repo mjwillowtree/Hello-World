@@ -1,5 +1,68 @@
 # QMD Log
 
+## 2026-03-09 Hourly Run (23:01Z cron)
+
+### Q (Query)
+
+Frontier questions generated before research:
+
+1. What is the current controlling text for 529->ABLE rollovers after 2025, and does any sunset remain?
+2. Do current IRS implementation artifacts still use sunset language, or has sub-regulatory text caught up?
+3. What is the highest-value new breadth lane outside prior runs? (selected: 529->Roth rollover mechanics and guidance gaps)
+4. Adversarial: if two "official-looking" sources conflict (legacy IRS/news vs current U.S. Code), what should control advisor conclusions?
+
+### M (Memory)
+
+- **M8:** The 529->ABLE sunset is resolved at the codified-text level: U.S. Code amendment notes for IRC §529 show Pub. L. 119-21, §70117(a) struck out `"before January 1, 2026,"` from §529(c)(3)(C)(i)(III).  
+  Confidence: **High (Tier 1)**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** Parallel amendment-note evidence in IRC §529A shows Pub. L. 119-21, §70115(a)(2) struck out `"before January 1, 2026"` in §529A(b)(2)(B)(ii) introductory language.  
+  Confidence: **High (Tier 1)**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+
+- **M10:** IRS Publication 970 chapter text currently describes QTP rollovers to ABLE without pre-2026 sunset wording, supporting implementation alignment with amended statute (while still subordinate to statute).  
+  Confidence: **Medium-High (Tier 1 IRS, sub-regulatory)**  
+  Sources:
+  - https://www.irs.gov/publications/p970/ch8.html
+
+- **M11:** Breadth lane added: §529(c)(3)(E) 529->Roth rollover has high-confidence statutory constraints (same beneficiary Roth, 15-year period, 5-year lookback exclusion, annual Roth-framework limit, $35,000 aggregate cap) but still has operational ambiguities requiring conservative workflows.  
+  Confidence: **High for statute / Medium for operations**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+  - https://www.congress.gov/117/plaws/publ328/PLAW-117publ328.pdf
+
+- **M12 (surprising/contrarian):** The biggest remaining risk is no longer federal sunset legality; it is **state conformity and stale-guidance conflict**, where official-seeming but older text can mislead planning.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://www.ftb.ca.gov/forms/2025/2025-3805p-instructions.html
+  - https://nj.gov/treasury/taxation/individuals/collegededuction.shtml
+  - https://codes.ohio.gov/ohio-revised-code/section-5747.70
+
+### Assumption challenge
+
+- Challenged assumption #5 from frontier map: **"If legacy IRS text once contained a sunset, the rule still sunsets."**
+- Result: **Failed.** Current codified text and amendment notes control; legacy wording is stale if not updated.
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md`:
+  - closed post-2025 rollover sunset ambiguity,
+  - added 529->Roth breadth baseline,
+  - reframed open ambiguity toward stale-guidance risk and authority hierarchy.
+- Updated `docs/STATE_RECAPTURE_WATCHLIST.md` with CA/NJ/PA/OH reconnaissance entries and confidence framing.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` confidence scores and next-run priorities.
+- Expanded `docs/QUESTION_BANK.md` with new unresolved federal/state adversarial questions (Q26-Q31).
+- Re-ranked `TASKLIST.md` with new top priority: authority hierarchy memo.
+
+### Next run target
+
+1. Produce the authority hierarchy memo with direct citations and tie-break rules for conflicting guidance.
+2. Convert watchlist into a state matrix (first 12 states) with **form-line-level** recapture/add-back handling.
+3. Draft initial adversarial decision sheet for 529 distribution vs 529->ABLE vs 529->Roth.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

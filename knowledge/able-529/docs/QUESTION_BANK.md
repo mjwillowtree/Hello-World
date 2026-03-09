@@ -46,3 +46,9 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+26. How should conflicts be resolved when codified text and older IRS/public-facing summaries differ?
+27. For 529->Roth, does IRS provide definitive treatment of MAGI phaseout interaction under §408A(c)(2)/(c)(3), or is this still unresolved?
+28. For 529->Roth, what exact evidence packet proves compliance with the 15-year and 5-year lookback tests on exam?
+29. California: where does FTB explicitly classify federally qualified 529->ABLE rollovers for PIT and additional-tax purposes?
+30. New Jersey: does any NJ statute/regulation/instruction explicitly state whether 529->ABLE triggers deduction recapture/add-back?
+31. Ohio: where is the definitive carveout (if any) from A-3 addition for federally qualified 529->ABLE rollovers?

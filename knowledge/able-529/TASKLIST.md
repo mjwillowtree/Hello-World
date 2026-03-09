@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-09 (curiosity protocol revision)
+Last updated: 2026-03-09 (hourly run)
 
 ## Mandatory outputs every run (quality gate)
 
@@ -13,20 +13,19 @@ If any item above is missing, the run is incomplete.
 
 ## In Progress (highest expected value)
 
-1. **Definitive post-2025 529->ABLE rollover status memo**
-   - Determine whether sunset language is still operative or superseded.
-   - Anchor answer in controlling statutory text plus latest IRS implementation artifacts.
-   - Deliverable: advisor-safe position statement with conservative fallback language.
-
-2. **State recapture matrix buildout (Phase 1: 12 states)**
+1. **State recapture matrix buildout (Phase 1: 12 states)**
    - Expand from watchlist seed into a structured matrix with citations, conformity year, and form line references.
    - Prioritize: CA, NY, NJ, PA, IL, OH, UT, IN, MN, OR, CO, VA.
 
-## Next queue (depth + breadth rotation)
+2. **Authority hierarchy memo (new top priority)**
+   - Build explicit conflict-resolution ladder: statute > regulations > official IRS forms/instructions/publications > IRS newsroom > plan marketing pages.
+   - Include stale-guidance handling when legacy text conflicts with current codified law.
 
 3. **Adversarial comparison framework: 529 distribution vs 529->ABLE vs 529->Roth IRA**
    - Build side-by-side conditions where each path dominates.
    - Include federal + state tax and benefits interaction caveats.
+
+## Next queue (depth + breadth rotation)
 
 4. **SSI/Medicaid edge-case map**
    - Month-end resource timing, suspension/reinstatement mechanics, estate recovery variability.
@@ -44,3 +43,5 @@ If any item above is missing, the run is incomplete.
 - Established QMD system files and original run protocol.
 - Completed initial federal ABLE 2026 baseline sweep.
 - Added curiosity-forward architecture (`docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`) to force continuous evolution.
+- Resolved post-2025 529->ABLE sunset ambiguity using codified text and amendment notes (Pub. L. 119-21 updates to IRC §§529 and 529A).
+- Captured first breadth baseline for 529->Roth rollover conditions and unresolved operational guidance risks.
