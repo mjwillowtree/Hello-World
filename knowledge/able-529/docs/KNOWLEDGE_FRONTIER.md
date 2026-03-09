@@ -14,7 +14,7 @@ Scoring:
 | Domain | Coverage | Confidence | Volatility | Current biggest unknown |
 |---|---:|---:|---|---|
 | Federal ABLE eligibility/contribution mechanics | 3 | 3 | Med | Need hard citation package for all 2026 inflation-indexed numbers and ABLE-to-Work interactions. |
-| Federal 529->ABLE rollover legality and limits | 2 | 2 | High | Need definitive post-2025 sunset/permanence status with controlling text and IRS implementation guidance. |
+| Federal 529->ABLE rollover legality and limits | 3 | 4 | Med | Need advisor-safe authority ladder when older IRS newsroom language conflicts with amended statute text. |
 | Federal 529->Roth IRA rollover comparison | 1 | 2 | Med | Need side-by-side planning model versus 529->ABLE path. |
 | SSI/Medicaid interaction edge cases | 2 | 2 | Med | Need nuanced rules on suspension, reinstatement timing, and state Medicaid estate recovery practice differences. |
 | State tax conformity + recapture/add-back (50-state) | 1 | 1 | High | Need state-by-state matrix with source citations and tax-year applicability. |
@@ -24,8 +24,8 @@ Scoring:
 
 ## Curiosity priorities (next 3 runs)
 
-1. Resolve rollover sunset/permanence with planning-safe language.
-2. Expand state recapture matrix from seed to first 12 high-impact states.
+1. Expand state recapture matrix from seed to first 12 high-impact states.
+2. Publish authority ladder and codification currency checks for practitioner-safe answers.
 3. Build adversarial comparison sheet: 529 distribution vs 529->ABLE vs 529->Roth IRA.
 
 ## Assumptions to challenge every run

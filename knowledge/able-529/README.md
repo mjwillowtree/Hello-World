@@ -35,7 +35,7 @@ The objective is not "good notes." The objective is **full-spectrum mastery**:
 4. **Log QMD output**
    - Add a dated run section to `QMD_LOG.md`.
    - Include confidence labels and source URLs.
-   - Record at least one "surprising/contrarian" finding if discovered.
+   - Record at least one surprising/contrarian finding if discovered.
 
 5. **Evolve the system**
    - Update `docs/KNOWLEDGE_FRONTIER.md` confidence scores.

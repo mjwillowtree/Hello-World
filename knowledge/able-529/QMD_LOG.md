@@ -1,5 +1,56 @@
 # QMD Log
 
+## 2026-03-09 Post-2025 Rollover Clarification Run
+
+### Q (Query)
+
+1. Is 529->ABLE rollover still permitted after 2025, or did it sunset?
+2. If sources conflict, what should be treated as controlling authority?
+3. What new unknowns matter most after resolving this ambiguity?
+
+### M (Memory)
+
+- **M8:** Current U.S. Code amendment history for IRC 529(c)(3)(C)(i)(III) shows 2025 legislation removed the phrase "before January 1, 2026," indicating the statutory sunset text was struck.  
+  Confidence: **High**  
+  Sources:
+  - https://www.law.cornell.edu/uscode/text/26/529#amendments
+  - https://www.law.cornell.edu/uscode/text/26/529#c_3_C_iii
+
+- **M9:** Legacy IRS newsroom pages can remain online after statute changes; relying on them without checking amendment history creates material guidance risk.  
+  Confidence: **High (method + legal hierarchy)**  
+  Sources:
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+  - https://www.law.cornell.edu/uscode/text/26/529#amendments
+
+- **M10:** Best-practice answer architecture should explicitly separate (a) current statute text, (b) IRS implementation artifacts, and (c) plan-admin operational rules.  
+  Confidence: **High (methodological)**  
+  Source:
+  - Internal synthesis from this run's conflict-resolution check
+
+### Assumption challenge
+
+- **Assumption tested:** "If an IRS newsroom page says a rule sunsets, that statement remains reliable over time."
+- **Result:** **Failed.** Amendment history can supersede older web guidance; statute currency checks are mandatory.
+
+### New critical unknowns discovered
+
+1. Which IRS forms/instructions currently incorporate the post-2025 529->ABLE statutory change?
+2. What standardized advisor-safe disclosure language should be used when secondary guidance is stale?
+3. Are there operational constraints at plan level that functionally limit rollovers despite statutory permissibility?
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` to mark post-2025 rollover sunset ambiguity as resolved at code-text level.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and priorities.
+- Updated `docs/QUESTION_BANK.md` with post-resolution unknowns.
+- Updated `TASKLIST.md` to move focus from sunset determination to authority-ladder + state matrix work.
+- Added `docs/AUTHORITY_LADDER.md` with source hierarchy and currency-check protocol.
+
+### Next run target
+
+1. Convert authority ladder into reusable answer templates with conflict-disclosure language.
+2. Expand state recapture matrix by at least 4 additional high-impact states with Tier 1 citations.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

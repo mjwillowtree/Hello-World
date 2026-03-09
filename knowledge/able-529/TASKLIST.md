@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-09 (curiosity protocol revision)
+Last updated: 2026-03-09 (post-2025 rollover status resolved)
 
 ## Mandatory outputs every run (quality gate)
 
@@ -13,14 +13,14 @@ If any item above is missing, the run is incomplete.
 
 ## In Progress (highest expected value)
 
-1. **Definitive post-2025 529->ABLE rollover status memo**
-   - Determine whether sunset language is still operative or superseded.
-   - Anchor answer in controlling statutory text plus latest IRS implementation artifacts.
-   - Deliverable: advisor-safe position statement with conservative fallback language.
-
-2. **State recapture matrix buildout (Phase 1: 12 states)**
+1. **State recapture matrix buildout (Phase 1: 12 states)**
    - Expand from watchlist seed into a structured matrix with citations, conformity year, and form line references.
    - Prioritize: CA, NY, NJ, PA, IL, OH, UT, IN, MN, OR, CO, VA.
+
+2. **Authority ladder memo (advisor-safe)**
+   - Integrate conflict-resolution hierarchy into reusable answer templates:
+     - Statute -> regulations -> IRS forms/instructions -> IRS publications/newsroom -> plan/admin summaries.
+   - Add worked examples where older IRS pages are stale relative to amended code text.
 
 ## Next queue (depth + breadth rotation)
 
@@ -44,3 +44,4 @@ If any item above is missing, the run is incomplete.
 - Established QMD system files and original run protocol.
 - Completed initial federal ABLE 2026 baseline sweep.
 - Added curiosity-forward architecture (`docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`) to force continuous evolution.
+- Resolved post-2025 529->ABLE rollover sunset ambiguity at code-text level (amendment history indicates sunset phrase removed in 2025).
