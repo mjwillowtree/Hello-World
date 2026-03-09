@@ -2,6 +2,11 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-03-09 — Microsoft introduced a higher-priced **Microsoft 365 E7** tier centered on Copilot/agent capabilities, signaling a major enterprise AI monetization and packaging shift that can reset budget baselines and vendor benchmarking. Source: https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html
+- 2026-03-09 — Nature argued that releasing **open-weight AI in staged steps** is a practical risk-reduction pattern versus one-shot full release, a high-signal governance best practice for balancing ecosystem innovation with misuse containment. Source: https://www.nature.com/articles/d41586-026-00679-6
+- 2026-03-09 — STMicroelectronics announced high-volume production of its **silicon photonics platform** for 800G/1.6T interconnect demand, a meaningful supply-side signal for AI data-center scaling and networking bottleneck relief. Source: https://newsroom.st.com/media-center/press-item.html/t4761.html
+- 2026-03-09 — AI infrastructure startup Nscale announced a **$2B Series C** at a reported $14.6B valuation, indicating continued large-scale private capital confidence in GPU/data-center expansion despite tighter economics. Source: https://www.cnbc.com/2026/03/09/nscale-ai-data-center-nvidia-raise.html
+
 - 2026-03-06 — OpenAI launched **Codex Security** in research preview for automated vuln discovery/verification/fixing, with reported major false-positive and severity-noise reductions in beta. This is a material AppSec productivity and risk-management shift. Source: https://openai.com/index/codex-security-now-in-research-preview/
 - 2026-03-05 — OpenAI published the **GPT-5.4 Thinking System Card** and rolled out GPT-5.4 variants with stronger long-horizon/tool-using performance; this is frontier-model capability movement with direct product and cost implications. Source: https://openai.com/index/gpt-5-4-thinking-system-card/
 - 2026-03-05 — Microsoft disclosed **malicious AI-assistant browser extensions** harvesting LLM chat histories at scale, a concrete enterprise data-leak pathway that should trigger immediate extension-governance reviews. Source: https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/
