@@ -39,7 +39,20 @@ Updated: 2026-03-09
    - Historic IRS guidance references availability "before January 1, 2026."
    - Action: verify current codified status and any IRS implementation update after 2025 legislation.
 
+2. **Implementation hierarchy clarity**
+   - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
+   - Action: add citation-backed authority ladder and conflict-resolution rule.
+
+3. **ABLE-to-Work edge mechanics**
+   - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
+   - Action: extract controlling authority and produce monitoring examples.
+
+4. **Federal-to-state disconnect risk**
+   - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
+   - Action: link federal baseline to state matrix and add cross-reference cautions.
+
 ## Research discipline
 
 - Use Tier 1 sources to resolve numeric limits and legal applicability.
 - Treat Tier 2 summaries as directional until matched to controlling authority.
+- Treat unresolved questions as first-class artifacts; each run should either close one or refine it into narrower testable questions.

@@ -1,5 +1,35 @@
 # QMD Log
 
+## 2026-03-09 Curiosity Upgrade Run
+
+### Q (Query)
+
+1. How do we redesign the system so each hourly run must expand curiosity (not just append notes)?
+2. What structural controls ensure both depth and breadth growth toward ABLE/529 mastery?
+
+### M (Memory)
+
+- **M6:** A research system stagnates when it tracks only current tasks; it must also track unknowns, assumptions, and frontier confidence scores.  
+  Confidence: **High (methodological)**  
+  Source:
+  - Internal process redesign for this repository (QMD protocol revision)
+
+- **M7:** Curiosity can be operationalized with hard run gates: one depth upgrade, one breadth expansion, new unknown generation, and assumption challenge.  
+  Confidence: **High (methodological)**  
+  Source:
+  - Internal process redesign for this repository (QMD protocol revision)
+
+### D (Document updates)
+
+- Updated `README.md` to QMD+ with a mandatory curiosity engine.
+- Added `docs/KNOWLEDGE_FRONTIER.md` with domain coverage/confidence scoring and assumption stress tests.
+- Added `docs/QUESTION_BANK.md` to continuously generate and prioritize unanswered questions.
+- Rewrote `TASKLIST.md` to include mandatory quality gates and value-of-information prioritization.
+
+### Next run target
+
+Execute the new protocol on substance: resolve the 529->ABLE post-2025 legal status using Tier 1 authorities and simultaneously expand the state recapture matrix to at least 4 additional states.
+
 ## 2026-03-09 Run
 
 ### Q (Query)
