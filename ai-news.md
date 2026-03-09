@@ -1,0 +1,11 @@
+# AI News (High-Signal Log)
+
+Simple rule: newest items first, each entry starts with the source publication date.
+
+- 2026-03-06 — OpenAI launched **Codex Security** in research preview for automated vuln discovery/verification/fixing, with reported major false-positive and severity-noise reductions in beta. This is a material AppSec productivity and risk-management shift. Source: https://openai.com/index/codex-security-now-in-research-preview/
+- 2026-03-05 — OpenAI published the **GPT-5.4 Thinking System Card** and rolled out GPT-5.4 variants with stronger long-horizon/tool-using performance; this is frontier-model capability movement with direct product and cost implications. Source: https://openai.com/index/gpt-5-4-thinking-system-card/
+- 2026-03-05 — Microsoft disclosed **malicious AI-assistant browser extensions** harvesting LLM chat histories at scale, a concrete enterprise data-leak pathway that should trigger immediate extension-governance reviews. Source: https://www.microsoft.com/en-us/security/blog/2026/03/05/malicious-ai-assistant-extensions-harvest-llm-chat-histories/
+- 2026-03-03 — Google introduced **Gemini 3.1 Flash-Lite** (public preview), positioning it as a lower-cost/high-throughput option for production workloads; this can change model-routing and margin strategy. Source: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/
+- 2026-03-03 — New safety research on agentic models (**“Learning When to Act or Refuse”**) showed structured refusal/planning loops can significantly reduce harmful multi-step tool use, relevant to agent deployment guardrails. Source: https://arxiv.org/abs/2603.03205
+- 2026-03-01 — Reuters reported Australia’s stricter AI-age online-safety enforcement trajectory (including possible app-store/search pressure), signaling rising compliance and distribution risk for consumer AI services. Source: https://today.reuters.com/business/media-telecom/australia-says-it-may-go-after-app-stores-search-engines-ai-age-crackdown-2026-03-01/
+- 2026-02-25 — Reuters documented a widening pattern of **job cuts as investment shifts toward AI**, indicating that AI-linked workforce restructuring is moving from narrative to observable enterprise action. Source: https://www.reuters.com/business/world-at-work/companies-cutting-jobs-investments-shift-toward-ai-2026-02-25/
