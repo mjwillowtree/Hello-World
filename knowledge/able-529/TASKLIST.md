@@ -1,33 +1,46 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-09 (hourly automation run)
+Last updated: 2026-03-09 (curiosity protocol revision)
 
-## In Progress
+## Mandatory outputs every run (quality gate)
 
-1. **Verify post-2025 federal status of 529->ABLE rollover sunset language**
-   - Historic IRS communication referenced availability before 2026.
-   - Goal: identify current controlling text and implementation guidance.
-   - Deliverable: short legal memo with planning-safe wording.
+1. Resolve **one depth ambiguity** to a higher confidence level.
+2. Expand **one breadth area** not investigated in the prior run.
+3. Add at least **three new unknowns** to `docs/QUESTION_BANK.md` or close existing unknowns.
+4. Challenge at least **one core assumption** and record whether it survived.
 
-## Queued (High Priority)
+If any item above is missing, the run is incomplete.
 
-2. **Build 50-state 529->ABLE tax recapture matrix**
-   - Track whether each state has deduction recapture/add-back risk.
-   - Include official state revenue source URL and effective tax year.
+## In Progress (highest expected value)
 
-3. **Codify 2026 eligibility expansion workflow (age 26 -> 46)**
-   - Create screening checklist for newly eligible adults.
-   - Include documentation standards for disability onset evidence.
+1. **Definitive post-2025 529->ABLE rollover status memo**
+   - Determine whether sunset language is still operative or superseded.
+   - Anchor answer in controlling statutory text plus latest IRS implementation artifacts.
+   - Deliverable: advisor-safe position statement with conservative fallback language.
 
-4. **Map ABLE-to-Work operational edge cases**
-   - Retirement plan participation restrictions.
-   - Payroll timing and annual limit monitoring examples.
+2. **State recapture matrix buildout (Phase 1: 12 states)**
+   - Expand from watchlist seed into a structured matrix with citations, conformity year, and form line references.
+   - Prioritize: CA, NY, NJ, PA, IL, OH, UT, IN, MN, OR, CO, VA.
 
-5. **Create advisor-grade decision tree: 529 distribution vs 529->ABLE rollover vs 529->Roth IRA**
-   - Compare taxes, penalties, state implications, and beneficiary outcomes.
+## Next queue (depth + breadth rotation)
+
+3. **Adversarial comparison framework: 529 distribution vs 529->ABLE vs 529->Roth IRA**
+   - Build side-by-side conditions where each path dominates.
+   - Include federal + state tax and benefits interaction caveats.
+
+4. **SSI/Medicaid edge-case map**
+   - Month-end resource timing, suspension/reinstatement mechanics, estate recovery variability.
+   - Create risk controls and documentation checklist.
+
+5. **Program operations reality check**
+   - Compare legal rules with actual plan transfer workflows and constraints.
+   - Identify failure modes (timing, coding, beneficiary mismatch, annual-cap overruns).
+
+6. **Audit-defensible recordkeeping standard**
+   - Define minimal documentation package for qualified disability expenses and rollover substantiation.
 
 ## Completed
 
-- Established QMD system files and run protocol.
-- Completed initial research sweep on federal ABLE 2026 rules and 529->ABLE rollover risks.
-- Resolved 2026 ABLE base contribution interpretation to $20,000 (statute-based, medium-high confidence).
+- Established QMD system files and original run protocol.
+- Completed initial federal ABLE 2026 baseline sweep.
+- Added curiosity-forward architecture (`docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`) to force continuous evolution.
