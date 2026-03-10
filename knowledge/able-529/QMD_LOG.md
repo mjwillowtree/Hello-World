@@ -1,5 +1,99 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run (13:34 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before research (minimum set met):
+
+1. Unknown: What is the exact quote-ready amendatory + effective-date text confirming post-2025 529->ABLE continuity?
+2. Unknown: Does Minnesota's current recapture framework imply 529->ABLE state-benefit recapture risk, and where is the line-level filing flow?
+3. Unknown: Which rollover workflows across major providers create preventable documentation failures?
+4. Adversarial challenge: If IRS legacy newsroom language conflicts with later-enacted statute, can a product safely rely on the newsroom text?
+5. Product/competition question: Which providers require additional signer guarantees or supporting documentation that likely increases abandonment?
+6. State-specific question: Can we advance one priority state row (MN/OH/UT/IN queue) with Tier-1 evidence and form-line references?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Lock quote-ready federal authority block | 5,5,5,4,1 | 500 | Execute |
+| Advance one state row with form-line mapping (MN) | 5,5,4,4,2 | 200 | Execute |
+| Extract competitor workflow constraints from official forms | 4,4,4,4,2 | 128 | Execute |
+| Build one new requirement/opportunity from evidence | 5,4,5,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M11:** Pub. L. 119-21 Sec. 70117 contains explicit amendatory text removing the 529->ABLE sunset phrase and an effective-date clause for taxable years beginning after 2025, suitable for advisor quote blocks.  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M12:** Minnesota DOR recapture materials plus TY2025 Schedule M1529 create a line-level workflow where nonqualified 529 distributions trigger recapture computation and flow to Form M1 line 14; explicit ABLE carveout text remains unconfirmed.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
+  - https://www.revenue.state.mn.us/education-savings-account-contribution-subtraction
+  - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+
+- **M13:** Across multiple official plan forms, missing earnings/contribution support documentation is a repeat operational failure mode that can cause full rollover amount to be treated as earnings.  
+  Confidence: **High**  
+  Sources:
+  - https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/customer-service/able-rollover.pdf
+  - https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf
+  - https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"If federal rollover legality is settled, operational errors are mostly solved."**
+- Result: **Failed.** Official provider forms show documentation and signer workflow friction can still create nonqualified-risk outcomes even when legal eligibility exists.
+
+### D (Document updates)
+
+- Created `outputs/HUB.md`
+- Created `outputs/EXEC_SUMMARY.md`
+- Created `outputs/STATE_MATRIX.csv`
+- Created `outputs/STATE_MATRIX.md`
+- Created `outputs/LEGAL_BASELINE.md`
+- Created `outputs/COMPETITOR_LANDSCAPE.md`
+- Created `outputs/PRODUCT_OPPORTUNITIES.md`
+- Created `outputs/USER_JOURNEY_MAP.md`
+- Created `outputs/REQUIREMENTS_BACKLOG.md`
+- Created `outputs/FAQ.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (federal quote-ready authority block upgraded to High).
+- One new/updated state entry with source + line-level form reference: **Yes** (Minnesota, Schedule M1529 lines 7-15 -> Form M1 line 14).
+- One competition/workflow insight added: **Yes** (cross-provider documentation failure mode).
+- One product requirement/opportunity added or re-ranked: **Yes** (Rollover Evidence Pack + Preflight Validator to rank #1).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~86%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **9 / 51** substantive rows
+- % high-confidence states: **19.6%** (10/51)
+- Domain coverage score (10 domains): **6.1 / 10**
+- Tier-1 citation ratio: **~86%**
+- Competitor coverage count: **3**
+- Validated product opportunities: **5**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **14 / 25 citation-ready**
+
+### Next run target
+
+1. Resolve one of NJ or PA to line-level high-confidence treatment.
+2. Add one new priority state (OH or UT) with Tier-1 form-line mapping.
+3. Add one more competitor admin workflow datapoint and update conversion-risk controls in requirements backlog.
+
 ## 2026-03-10 Hourly Run
 
 ### Q (Query)

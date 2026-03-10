@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-10
+Last updated: 2026-03-10 (run 13:34 UTC)
 
 ## Mandatory outputs every run (quality gate)
 
@@ -19,9 +19,9 @@ If any item above is missing, the run is incomplete.
    - Deliverable: one-page citation memo that can be pasted into planning files.
 
 2. **State recapture matrix buildout (Phase 1: 12 states)**
-   - Current status: 8 states touched (OR, CO, VA, NY, CA, NJ, PA, IL) with uneven confidence.
+   - Current status: 9 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, MN) with uneven confidence.
    - Expand into structured matrix with citations, conformity year, and form line references.
-   - Immediate priority states: OH, UT, IN, MN.
+- Immediate priority states: OH, UT, IN.
    - Immediate confidence repairs: NJ and PA line-level treatment.
 
 ## Next queue (depth + breadth rotation)

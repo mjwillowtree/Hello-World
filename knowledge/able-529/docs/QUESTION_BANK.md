@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10
+Updated: 2026-03-10 (run 13:34 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -51,3 +51,9 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 28. What is the exact PA-40 instruction treatment (line-level) for 529->ABLE rollovers and whether prior-deduction recapture is triggered?
 29. In Illinois, does an in-state 529->IL ABLE rollover have explicit textual protection from recapture, or only inferred protection from general recapture triggers?
 30. What is the minimum authoritative citation set that can survive adversarial review in a client memo (statute + effective date + form-level implementation)?
+31. In Minnesota, is there explicit statutory or instruction-level text that carves out 529->ABLE rollovers from recapture, or is current treatment purely by nonqualified-distribution logic?
+32. Which NJ-1040 instruction line(s) explicitly govern recapture/add-back treatment for 529 distributions and do they mention ABLE rollovers?
+33. Which PA-40 instruction line(s) explicitly govern recapture/add-back treatment for 529 distributions and do they mention ABLE rollovers?
+34. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
+35. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
+36. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
