@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -17,15 +17,24 @@ Updated: 2026-03-09
      - https://www.ssa.gov/ssi/spotlights/spot-able.html
      - https://secure.ssa.gov/POMS.NSF/lnx/0501130740
 
-3. **529->ABLE rollover framing**
-   - Federal rollover treatment requires same beneficiary or qualifying family member pathway.
-   - Rollover amounts count toward ABLE annual contribution limits.
+3. **529->ABLE rollover framing (post-2025 status upgraded)**
+   - Public Law 119-21 amended IRC §529(c)(3)(C)(i)(III) by striking the sunset phrase `"before January 1, 2026,"`.
+   - The same section provides an effective-date rule: amendment applies to taxable years beginning after December 31, 2025.
+   - Operational effect: federal 529->ABLE rollover pathway remains available after 2025, subject to same-beneficiary/family-member rules and ABLE annual limit interaction.
    - Sources:
-     - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
-     - https://www.law.cornell.edu/uscode/text/26/529
-     - https://www.law.cornell.edu/uscode/text/26/529A
+     - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+     - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
 
-4. **2026 ABLE base annual contribution interpretation**
+4. **IRS wording lag risk**
+   - Some IRS legacy pages still state 529->ABLE rollovers are allowed only "before January 1, 2026."
+   - These pages are useful historical context but should not outrank later-enacted statutory text.
+   - Sources:
+     - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
+     - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+5. **2026 ABLE base annual contribution interpretation**
    - Best current legal reading is **$20,000** for 2026.
    - Reason: §529A(b)(2)(B)(i) applies ABLE-specific indexing language substituting "1996" for "1997" when applying §2503(b)(2)(B).
    - Sources:
@@ -35,9 +44,9 @@ Updated: 2026-03-09
 
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
+1. **Pinpoint citation packaging for advisor memo**
+   - Need one copy-paste-safe excerpt block with exact section headers and quoted amendatory/effective-date language from Pub. L. 119-21.
+   - Action: add a short "authority quote block" appendix for rapid client/advisor use.
 
 2. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.

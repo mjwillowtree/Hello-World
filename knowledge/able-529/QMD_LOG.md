@@ -1,5 +1,69 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+Frontier questions generated before research:
+
+1. Did Congress remove the 529->ABLE "before January 1, 2026" sunset in controlling statutory text, and what is the effective date?
+2. Which currently accessible IRS pages still carry legacy sunset wording, creating guidance-lag risk?
+3. For breadth, what do CA/NJ/PA/IL official tax sources indicate about recapture/add-back risk for 529->ABLE pathways?
+4. Adversarial check: if statute and IRS newsroom conflict, which authority should drive advisor recommendations?
+
+### M (Memory)
+
+- **M8:** Public Law 119-21 amended IRC §529(c)(3)(C)(i)(III) by striking `"before January 1, 2026,"`, with an effective-date clause applying to taxable years beginning after December 31, 2025.  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** IRS legacy newsroom content still contains pre-2026 sunset language for 529->ABLE rollovers; this is a transition-risk artifact and not higher authority than later enacted statute.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+- **M10:** State confidence is heterogeneous: California and Illinois have stronger official instruction-level recapture framing, while New Jersey and Pennsylvania still require line-level confirmation for explicit 529->ABLE treatment in current individual return instructions.  
+  Confidence: **Medium**  
+  Sources:
+  - https://www.ftb.ca.gov/forms/2018/18-3805P-instructions.html
+  - https://www.ftb.ca.gov/forms/2019/2019-3805p-instructions.html
+  - https://www.ftb.ca.gov/forms/2025/2025-3805p-instructions.html
+  - https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html
+  - https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf
+  - https://www.nj.gov/treasury/taxation/njgrosstax.shtml
+  - https://nj.gov/treasury/taxation/individuals/collegededuction.shtml
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2321/
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2208/
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxtypes/pit/documents/pa_able_qa.pdf
+
+### Assumption challenge
+
+- Challenged assumption: **"If IRS newsroom says it, implementation details are settled."**
+- Result: **Failed.** Legacy IRS pages can remain stale after statutory change; authority ladder must prioritize enacted law and codified text.
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` with post-2025 rollover status upgrade and IRS lag warning.
+- Expanded `docs/STATE_RECAPTURE_WATCHLIST.md` from a 4-state seed to an 8-state working list with confidence notes.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and next-run priorities.
+- Added new unresolved frontier questions to `docs/QUESTION_BANK.md` (items 26-30).
+- Re-ranked `TASKLIST.md` with the highest-value next actions.
+
+### New unknowns added this run
+
+1. Which IRS 2026-cycle forms/publications remain unconformed on rollover sunset wording?
+2. Exact NJ-1040 line-level handling for 529->ABLE rollover recapture/add-back (if any).
+3. Exact PA-40 line-level handling for 529->ABLE rollover recapture/add-back (if any).
+4. Whether Illinois has explicit in-state 529->ABLE anti-recapture language or only inference from general recapture triggers.
+
+### Next run target
+
+Complete the 12-state phase-1 matrix by adding OH/UT/IN/MN and close at least one of the two low-confidence states (NJ or PA) to high confidence with direct form-instruction text.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

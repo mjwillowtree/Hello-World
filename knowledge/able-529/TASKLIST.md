@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-09 (curiosity protocol revision)
+Last updated: 2026-03-10
 
 ## Mandatory outputs every run (quality gate)
 
@@ -13,14 +13,16 @@ If any item above is missing, the run is incomplete.
 
 ## In Progress (highest expected value)
 
-1. **Definitive post-2025 529->ABLE rollover status memo**
-   - Determine whether sunset language is still operative or superseded.
-   - Anchor answer in controlling statutory text plus latest IRS implementation artifacts.
-   - Deliverable: advisor-safe position statement with conservative fallback language.
+1. **Advisor-grade federal authority memo: 529->ABLE post-2025**
+   - Lock in quote-ready authority block from Pub. L. 119-21 + effective-date sentence + current USC cross-check.
+   - Build "statute controls over stale IRS page" implementation note with explicit hierarchy.
+   - Deliverable: one-page citation memo that can be pasted into planning files.
 
 2. **State recapture matrix buildout (Phase 1: 12 states)**
-   - Expand from watchlist seed into a structured matrix with citations, conformity year, and form line references.
-   - Prioritize: CA, NY, NJ, PA, IL, OH, UT, IN, MN, OR, CO, VA.
+   - Current status: 8 states touched (OR, CO, VA, NY, CA, NJ, PA, IL) with uneven confidence.
+   - Expand into structured matrix with citations, conformity year, and form line references.
+   - Immediate priority states: OH, UT, IN, MN.
+   - Immediate confidence repairs: NJ and PA line-level treatment.
 
 ## Next queue (depth + breadth rotation)
 
@@ -28,13 +30,13 @@ If any item above is missing, the run is incomplete.
    - Build side-by-side conditions where each path dominates.
    - Include federal + state tax and benefits interaction caveats.
 
-4. **SSI/Medicaid edge-case map**
-   - Month-end resource timing, suspension/reinstatement mechanics, estate recovery variability.
-   - Create risk controls and documentation checklist.
-
-5. **Program operations reality check**
+4. **Program operations reality check**
    - Compare legal rules with actual plan transfer workflows and constraints.
    - Identify failure modes (timing, coding, beneficiary mismatch, annual-cap overruns).
+
+5. **SSI/Medicaid edge-case map**
+   - Month-end resource timing, suspension/reinstatement mechanics, estate recovery variability.
+   - Create risk controls and documentation checklist.
 
 6. **Audit-defensible recordkeeping standard**
    - Define minimal documentation package for qualified disability expenses and rollover substantiation.
@@ -44,3 +46,5 @@ If any item above is missing, the run is incomplete.
 - Established QMD system files and original run protocol.
 - Completed initial federal ABLE 2026 baseline sweep.
 - Added curiosity-forward architecture (`docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`) to force continuous evolution.
+- Upgraded confidence on federal post-2025 529->ABLE legality using enacted-law amendment/effective-date language (remaining task: quote-packaging + IRS lag map).
+- Expanded state watchlist from 4 to 8 states with first confidence stratification (CA/IL stronger; NJ/PA unresolved details).
