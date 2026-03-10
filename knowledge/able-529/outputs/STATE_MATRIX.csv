@@ -1,0 +1,52 @@
+jurisdiction,status,prior_529_deduction_or_credit,529_to_ABLE_treatment,recapture_addback_rule,conformity_or_effective_note,form_line_reference,confidence,primary_sources,last_verified
+Alabama,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Alaska,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax,not_applicable,medium,,2026-03-10
+Arizona,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Arkansas,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+California,partial,no,qualified_2019_plus_directional,additional_tax_framework_for_nonqualified_events,2018_nonconformity_then_2019_plus_conformity_signal,FTB_3805P_Part_II,high,https://www.ftb.ca.gov/forms/2018/18-3805P-instructions.html;https://www.ftb.ca.gov/forms/2019/2019-3805p-instructions.html;https://www.ftb.ca.gov/forms/2025/2025-3805p-instructions.html,2026-03-10
+Colorado,partial,unknown,watchlist_only,addition_recapture_concepts_indicated_needs_line_quote,pending_confirmation,pending,low,https://tax.colorado.gov/income-tax-topics-able-contribution-subtraction,2026-03-10
+Connecticut,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Delaware,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+District of Columbia,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Florida,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax,not_applicable,medium,,2026-03-10
+Georgia,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Hawaii,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Idaho,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Illinois,partial,yes,conditional,explicit_recapture_triggers_out_of_state_transfer_or_nonqualified_withdrawal,annual_schedule_m_instructions_govern,IL_1040_Schedule_M_lines_7_and_9,high,https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html;https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf,2026-03-10
+Indiana,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Iowa,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Kansas,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Kentucky,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Louisiana,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Maine,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Maryland,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Massachusetts,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Michigan,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Minnesota,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Mississippi,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Missouri,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Montana,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Nebraska,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Nevada,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax,not_applicable,medium,,2026-03-10
+New Hampshire,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_tax_on_wages_post_repeal,not_applicable,medium,,2026-03-10
+New Jersey,partial,yes,likely_qualified_but_needs_line_level_confirmation,line_level_529_to_able_recapture_text_not_yet_locked,ty2022_plus_deduction_context,NJ_1040_line_reference_pending,medium,https://www.nj.gov/treasury/taxation/njgrosstax.shtml;https://nj.gov/treasury/taxation/individuals/collegededuction.shtml,2026-03-10
+New Mexico,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+New York,partial,yes_general_529_context,watchlist_only,needs_direct_tax_authority_quote_for_529_to_able,pending_confirmation,pending,low,https://www.ny529advisor.com/our-plan/state-tax-benefits,2026-03-10
+North Carolina,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+North Dakota,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Ohio,complete,yes,conditional_explicit_line_logic,addition_line_4_applies_to_specific_nonqualified_1099_q_scenarios_with_prior_deduction_link,2024_booklet_and_form_confirm_structure,Schedule_of_Adjustments_lines_4_20_36,high,https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf;https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf,2026-03-10
+Oklahoma,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Oregon,partial,unknown,watchlist_only,rule_text_references_recapture_mechanics_needs_current_form_line,pending_confirmation,pending,low,https://oregon.public.law/rules/oar_150-315-0065,2026-03-10
+Pennsylvania,partial,yes,unclear_partial,explicit_pa40_line_level_529_to_able_treatment_not_yet_locked,pending_current_pa40_instruction_extract,PA_40_line_reference_pending,medium_low,https://revenue-pa.custhelp.com/app/answers/detail/a_id/2321/;https://revenue-pa.custhelp.com/app/answers/detail/a_id/2208/;https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxtypes/pit/documents/pa_able_qa.pdf,2026-03-10
+Rhode Island,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+South Carolina,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+South Dakota,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax,not_applicable,medium,,2026-03-10
+Tennessee,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax_on_wages,not_applicable,medium,,2026-03-10
+Texas,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax,not_applicable,medium,,2026-03-10
+Utah,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Vermont,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Virginia,partial,unknown,watchlist_only,plan_guidance_warns_recapture_context_needs_dor_line_quote,pending_confirmation,pending,low,https://www.virginia529.com/blog/transfer-invest529-funds-to-ablenow,2026-03-10
+Washington,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax,not_applicable,medium,,2026-03-10
+West Virginia,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Wisconsin,not_started,unknown,unknown,unknown,unknown,unknown,low,,2026-03-10
+Wyoming,not_started,none_state_income_tax,unknown,not_applicable_no_state_income_tax,no_individual_state_income_tax,not_applicable,medium,,2026-03-10

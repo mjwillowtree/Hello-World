@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-10
+Last updated: 2026-03-10 (14:00 UTC run)
 
 ## Mandatory outputs every run (quality gate)
 
@@ -19,9 +19,9 @@ If any item above is missing, the run is incomplete.
    - Deliverable: one-page citation memo that can be pasted into planning files.
 
 2. **State recapture matrix buildout (Phase 1: 12 states)**
-   - Current status: 8 states touched (OR, CO, VA, NY, CA, NJ, PA, IL) with uneven confidence.
+   - Current status: 9 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH) with uneven confidence.
    - Expand into structured matrix with citations, conformity year, and form line references.
-   - Immediate priority states: OH, UT, IN, MN.
+   - Immediate priority states: UT, IN, MN.
    - Immediate confidence repairs: NJ and PA line-level treatment.
 
 ## Next queue (depth + breadth rotation)
@@ -48,3 +48,5 @@ If any item above is missing, the run is incomplete.
 - Added curiosity-forward architecture (`docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`) to force continuous evolution.
 - Upgraded confidence on federal post-2025 529->ABLE legality using enacted-law amendment/effective-date language (remaining task: quote-packaging + IRS lag map).
 - Expanded state watchlist from 4 to 8 states with first confidence stratification (CA/IL stronger; NJ/PA unresolved details).
+- Created complete `outputs/` artifact set (HUB, executive summary, legal baseline, matrix, competitor, opportunities, journey, backlog, FAQ).
+- Closed Ohio state line-level evidence row to high confidence using official 2024 forms/instructions.

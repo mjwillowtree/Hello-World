@@ -17,16 +17,16 @@ Scoring:
 | Federal 529->ABLE rollover legality and limits | 4 | 4 | Med-High | Sunset issue materially resolved via Pub. L. 119-21 / §529 amendment; still need compact quote appendix + IRS lag reconciliation memo. |
 | Federal 529->Roth IRA rollover comparison | 1 | 2 | Med | Need side-by-side planning model versus 529->ABLE path. |
 | SSI/Medicaid interaction edge cases | 2 | 2 | Med | Need nuanced rules on suspension, reinstatement timing, and state Medicaid estate recovery practice differences. |
-| State tax conformity + recapture/add-back (50-state) | 2 | 2 | High | Need state-by-state matrix with source citations and tax-year applicability; now have 8-state starter evidence with mixed confidence. |
-| Program-level operational constraints (plan forms, timing) | 1 | 1 | Med | Need practical transfer workflow constraints by major 529 and ABLE programs. |
+| State tax conformity + recapture/add-back (50-state) | 3 | 2 | High | Matrix scaffold now covers 50 states + DC but only 9 states have evidence-backed entries; need NJ/PA closure and broader high-confidence expansion. |
+| Program-level operational constraints (plan forms, timing) | 2 | 2 | Med | Captured one direct rollover workflow (ABLE for ALL); need timing/rejection data across additional major plan pairs. |
 | Audit/defensibility documentation standards | 1 | 1 | Med | Need checklist for records needed to defend disability expenses and rollover positions. |
 | Advanced planning archetypes (advisor-grade playbooks) | 1 | 1 | Med | Need scenario library for households, beneficiaries, and tax brackets. |
 
 ## Curiosity priorities (next 3 runs)
 
-1. Complete phase-1 state matrix to 12 states with confidence tags and filing-line references.
-2. Build adversarial comparison sheet: 529 distribution vs 529->ABLE vs 529->Roth IRA.
-3. Start program-operations lane: direct-transfer workflow and failure-mode checklist across major plans.
+1. Raise one medium/low-confidence state (NJ or PA) to high confidence with direct current-year line-level authority.
+2. Expand state matrix evidence coverage from 9 to 12+ states with form-line references.
+3. Build adversarial comparison sheet: 529 distribution vs 529->ABLE vs 529->Roth IRA.
 
 ## Assumptions to challenge every run
 

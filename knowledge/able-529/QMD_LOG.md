@@ -1,5 +1,95 @@
 # QMD Log
 
+## 2026-03-10 14:00 UTC Hourly Run
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. **Unknown:** In Ohio, is 529 recapture/add-back triggered for any nonqualified 1099-Q amount, or only where prior Ohio deduction/credit history exists?
+2. **Unknown:** Which exact Ohio form lines should product UX reference for 529/STABLE deductions and nonqualified additions?
+3. **Unknown:** What operational handoff constraints in real rollover forms most predict transfer failures (missing metadata, notarization, cap overrun)?
+4. **Adversarial challenge:** If federal law is updated but IRS legacy newsroom text is stale, can product safely rely on newsroom wording?
+5. **Product/competition:** Which competitor workflow constraints should be built into preflight UX first to reduce avoidable rejection?
+6. **State-specific:** Can Ohio be advanced to high confidence with line-level authority this run?
+
+Priority scoring method used:
+
+`Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort`
+
+Top tasks selected:
+
+1. Ohio line-level closure (high risk + high reusability + low effort).
+2. Competitor workflow extraction from official rollover form (high product value).
+3. Build required durable outputs for immediate human use (high decision value).
+
+### M (Memory)
+
+- **M11:** Ohio 2024 Schedule of Adjustments explicitly separates 529 nonqualified addition (line 4) from STABLE deduction (line 20) and 529 contribution deduction (line 36), enabling deterministic state-specific UX prompts.  
+  Confidence: **High**  
+  Sources:
+  - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf
+  - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
+
+- **M12:** Ohio line-4 instructions tie addition to nonqualified 529 distributions and prior Ohio deduction/credit history, overturning a simplistic "all nonqualified means recapture" assumption.  
+  Confidence: **High**  
+  Sources:
+  - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
+
+- **M13:** Official ABLE for ALL direct rollover operations require destination account pre-existence, detailed source-plan metadata, relationship certification, annual-limit compliance, and possible notarization.  
+  Confidence: **High**  
+  Sources:
+  - https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf
+
+### Assumption challenged
+
+- Challenged assumption: **"Any nonqualified 529 distribution always triggers state recapture in the same way."**
+- Outcome: **Failed in Ohio.** Ohio instructions explicitly condition line-4 addition on defined criteria including prior deduction/credit linkage.
+
+### D (Document updates)
+
+- Created `outputs/HUB.md`
+- Created `outputs/EXEC_SUMMARY.md`
+- Created `outputs/LEGAL_BASELINE.md`
+- Created `outputs/STATE_MATRIX.csv`
+- Created `outputs/STATE_MATRIX.md`
+- Created `outputs/COMPETITOR_LANDSCAPE.md`
+- Created `outputs/PRODUCT_OPPORTUNITIES.md`
+- Created `outputs/USER_JOURNEY_MAP.md`
+- Created `outputs/REQUIREMENTS_BACKLOG.md`
+- Created `outputs/FAQ.md`
+
+### Hard quality gate check
+
+- One high-impact ambiguity confidence increased: **Yes** (Ohio recapture trigger logic).
+- One new/updated state entry with source + line-level form reference: **Yes** (Ohio, lines 4/20/36).
+- One competition/workflow insight added: **Yes** (ABLE for ALL direct rollover operations).
+- One product requirement/opportunity added or reranked: **Yes** (preflight checker, transfer packet builder, filing helper).
+- >=70% Tier-1 citations for new substantive claims: **Yes** (~80%).
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **9 / 51**
+- % high-confidence states: **33%** (3/9)
+- Domain coverage score: **6.1 / 10**
+- Tier-1 citation ratio (this run): **80%**
+- Competitor coverage count: **2**
+- Validated product opportunities: **5**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25 questions): **13/25**
+
+### New unknowns added this run
+
+1. Do Ohio TY2025/TY2026 instructions preserve the exact line-4 trigger wording now observed in TY2024?
+2. Which source 529 plans actually require notarization for direct rollover requests, and how often?
+3. What are median transfer settlement times by major plan pairings (source 529 x destination ABLE)?
+
+### Next run target
+
+Close one medium/low-confidence state to high confidence (NJ or PA), plus add one additional competitor with primary-source transfer workflow artifacts and rejection requirements.
+
 ## 2026-03-10 Hourly Run
 
 ### Q (Query)

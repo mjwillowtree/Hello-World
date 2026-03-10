@@ -51,3 +51,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 28. What is the exact PA-40 instruction treatment (line-level) for 529->ABLE rollovers and whether prior-deduction recapture is triggered?
 29. In Illinois, does an in-state 529->IL ABLE rollover have explicit textual protection from recapture, or only inferred protection from general recapture triggers?
 30. What is the minimum authoritative citation set that can survive adversarial review in a client memo (statute + effective date + form-level implementation)?
+31. Does Ohio TY2025/TY2026 preserve the same line-level trigger language currently documented in TY2024 for line-4 nonqualified 529 additions?
+32. Which source 529 programs require notarization for direct 529->ABLE rollovers, and is that requirement conditional by account ownership type?
+33. What are realistic transfer settlement-time distributions (p50/p90) by source 529 plan to destination ABLE plan pair?
