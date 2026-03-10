@@ -1,5 +1,68 @@
 # QMD Log
 
+## 2026-03-10 Run
+
+### Q (Query)
+
+1. **Depth:** Is the 529->ABLE rollover sunset actually gone for post-2025 years under controlling law?
+2. **Adversarial:** If IRS newsroom language and examples are stale, what authority hierarchy should govern practitioner advice?
+3. **Breadth:** Which high-impact states can be upgraded from watchlist hints to source-backed recapture/conformity rows this run?
+
+### M (Memory)
+
+- **M8:** The prior "before January 1, 2026" sunset language for 529->ABLE treatment was removed by Pub. L. 119-21 Sec. 70117(a), with post-2025 effective-date language in Sec. 70117(b).  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid:USC-prelim-title26-section529
+
+- **M9:** Related ABLE contribution-limit interaction text also had its "before January 1, 2026" phrasing removed in §529A(b)(2)(B)(ii) via Pub. L. 119-21 Sec. 70115(a)(2).  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid:USC-prelim-title26-section529A
+
+- **M10:** New York IT-225 instructions explicitly treat rollover to a qualified ABLE program as qualified for NY 529 distribution modification logic (A-103 section), reducing prior ambiguity.  
+  Confidence: **High**  
+  Source:
+  - https://www.tax.ny.gov/forms/current-forms/it/it225i.htm
+
+- **M11:** Illinois Schedule M instructions define recapture for transfers to out-of-state plans and for nonqualified withdrawals/refunds; this gives a clearer recapture framework for analyzing 529->ABLE events.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html
+
+- **M12 (contrarian):** Legacy IRS newsroom content is useful background but can lag statutory updates; do not treat it as controlling when statute/public law text conflicts or has moved ahead.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+  - https://www.irs.gov/instructions/i1099qa
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+
+### Assumption challenge
+
+- Challenged assumption: **"If IRS newsroom says it, implementation details are settled."**
+- Result: **Failed.** Statutory/public-law text is the governing source; legacy newsroom examples lag and can anchor outdated thresholds/wording.
+
+### D (Document updates)
+
+- Added definitive memo: `docs/POST_2025_529_TO_ABLE_STATUS_MEMO.md`.
+- Updated federal baseline: resolved post-2025 sunset ambiguity and linked controlling authority.
+- Upgraded `docs/STATE_RECAPTURE_WATCHLIST.md` to matrix-style rows with confidence/open-issue fields.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and next priorities.
+- Updated `docs/QUESTION_BANK.md` (closed one unknown, added new unknowns).
+- Re-ranked `TASKLIST.md` to reflect completed depth item and next highest-EVI work.
+
+### New unknowns added this run
+
+1. New York treatment differences, if any, for NY-plan versus out-of-state 529 sources rolling to ABLE.
+2. Illinois direct DOR statement confirming 529->ABLE qualified treatment (beyond recapture inference).
+3. Pennsylvania controlling text for rollover-specific recapture/add-back treatment.
+
+### Next run target
+
+Build the adversarial decision framework comparing 529 distribution vs 529->ABLE vs 529->Roth IRA, while expanding the state matrix to at least three additional high-priority states with line-level filing references.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -33,21 +33,28 @@ Updated: 2026-03-09
      - https://uscode.house.gov/quicksearch/get.plx?section=2503&title=26
      - https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
 
+5. **Post-2025 529->ABLE rollover status**
+   - Prior sunset wording was removed by Pub. L. 119-21:
+     - Sec. 70117(a) struck "before January 1, 2026" from §529(c)(3)(C)(i)(III), effective for tax years beginning after 2025.
+     - Sec. 70115(a)(2) struck "before January 1, 2026" from §529A(b)(2)(B)(ii), with post-2025 effective date language.
+   - Current U.S. Code notes for §§529 and 529A reflect these deletions.
+   - Sources:
+     - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+     - https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid:USC-prelim-title26-section529
+     - https://uscode.house.gov/view.xhtml?edition=prelim&req=granuleid:USC-prelim-title26-section529A
+     - https://www.irs.gov/instructions/i1099qa
+
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
-
-2. **Implementation hierarchy clarity**
+1. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
-   - Action: add citation-backed authority ladder and conflict-resolution rule.
+   - Action: convert authority ladder into a reusable checklist for client memos and compliance review.
 
-3. **ABLE-to-Work edge mechanics**
+2. **ABLE-to-Work edge mechanics**
    - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
    - Action: extract controlling authority and produce monitoring examples.
 
-4. **Federal-to-state disconnect risk**
+3. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
 
