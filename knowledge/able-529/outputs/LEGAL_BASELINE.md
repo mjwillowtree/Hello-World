@@ -26,8 +26,8 @@ Primary source:
 - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
 
 Current codified text cross-check:
-- IRC §529 (prelim): https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
-- IRC §529A (prelim): https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+- IRC 529 (prelim): https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+- IRC 529A (prelim): https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
 
 **Operational interpretation (confidence: High):**
 Federal 529->ABLE rollover authority continues after 2025, subject to existing same-beneficiary/family-member and annual ABLE contribution-limit mechanics.
@@ -42,11 +42,26 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
-## 4) State-law handling posture
+## 4) State baseline examples
+
+### Ohio (line-level pattern)
+- Schedule of Adjustments line 4 (addition), line 20 (STABLE deduction), and line 36 (529 deduction) provide explicit state return mapping.
+- 2024 instruction text ties addition mechanics to nonqualified distributions and prior deduction history.
+- Sources:
+  - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf
+  - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
+
+### Minnesota (line-flow pattern)
+- DOR recapture framework plus TY2025 M1529 line flow provides form-level mapping to return line.
+- Sources:
+  - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
+  - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+
+## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
 
-## 5) Open legal unknowns (next closure targets)
+## 6) Open legal unknowns (next closure targets)
 
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
