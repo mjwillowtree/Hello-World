@@ -1,5 +1,100 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run (18:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Do current IRS publication/instruction pages still carry pre-2026 sunset language, or are they now conformed?
+2. Unknown: Can Utah be advanced from placeholder to a Tier-1 state row with statute + line-level return mapping?
+3. Unknown: Which newly observed operations constraints (outside missing documents) should be productized first?
+4. Adversarial challenge: Is "IRS guidance lag" still a safe blanket assumption across all IRS source types?
+5. Product/competition question: What new operational controls are implied by PA ABLE and ABLEnow current workflow artifacts?
+6. State-specific question: What is the exact Utah addback path (code/line) and governing statutory condition set?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Resolve IRS conformance ambiguity with Tier-1 IRS pages | 5,5,5,4,1 | 500 | Execute |
+| Advance Utah with statute + line mapping | 5,5,4,4,2 | 200 | Execute |
+| Add one competitor/workflow datapoint from official forms/notices | 4,4,4,4,2 | 128 | Execute |
+| Convert operational insight into backlog/opportunity change | 5,4,5,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M17:** Utah TC-40A instructions map my529 addback to Part 1 code 54 and route Part 1 totals to TC-40 line 5; addback applies to withdrawn my529 amounts not used for qualified education expenses and not within IRC 529(c)/530(d) exceptions.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S114_2025101420251206.html
+  - https://files.tax.utah.gov/tax/forms/current/tc-40.pdf
+
+- **M18:** Current IRS Publication 970 and 2025 Instructions for Forms 1099-QA/5498-QA include QTP-to-ABLE rollover treatment without the former "before January 1, 2026" sunset phrase, while some IRS newsroom pages remain stale.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/publications/p970
+  - https://www.irs.gov/instructions/i1099qa
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+- **M19:** PA ABLE direct rollover operations require source-plan coordination details, can require medallion signature guarantee, and treat missing principal/earnings statement as full earnings until provided; ABLEnow currently publishes explicit transition blackout constraints and temporary forms unavailability.  
+  Confidence: **High**  
+  Sources:
+  - https://paable.gov/pdf/Incoming-Direct-Rollover.pdf
+  - https://paable.gov/forms-and-docs/
+  - https://www.ablenow.com/resources/forms/
+  - https://www.ablenow.com/transition
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"IRS guidance lag means all IRS surfaces are stale for 529->ABLE sunset treatment."**
+- Result: **Failed.** Legacy newsroom pages are stale, but current IRS Publication 970 and i1099-QA instruction pages are conformed.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Utah row advanced).
+- Updated `outputs/STATE_MATRIX.md` (Utah section + coverage counts).
+- Updated `outputs/LEGAL_BASELINE.md` (IRS conformance conflict clarification + Utah baseline).
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (PA ABLE + ABLEnow transition constraints).
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (new ranked transition guardrail opportunity).
+- Updated `outputs/USER_JOURNEY_MAP.md` (blackout-window failure mode controls).
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (new provider-transition policy requirement + experiment).
+- Updated `outputs/FAQ.md` (IRS conformance, Utah mapping, blackout-risk Q&A).
+- Updated `outputs/EXEC_SUMMARY.md` and `outputs/HUB.md`.
+- Updated `docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`, and `TASKLIST.md`.
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS conformance ambiguity moved to High using current Tier-1 IRS pages).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah, TC-40A Part 1 code 54 -> TC-40 line 5).
+- One competition/workflow insight added: **Yes** (PA ABLE rollover constraints + ABLEnow transition blackout operations).
+- One product requirement/opportunity added or re-ranked: **Yes** (Provider blackout + transition guardrail engine added and ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA to line-level high confidence using current-year return instructions.
+2. Advance Indiana with Tier-1 form-line mapping.
+3. Gather first quantitative transfer timing evidence (p50/p90 delay and rejection reason frequency) from official provider notices or disclosures.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

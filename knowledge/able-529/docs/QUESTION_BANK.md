@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. In Utah, does any DOR instruction or bulletin explicitly name 529->ABLE rollovers in the my529 addback context, or is treatment inferred via IRC §529(c)/§530(d) references?
+41. For PA ABLE direct rollovers, which source 529 plans most frequently require medallion signature guarantees, and what is the observed delay impact?
+42. How should onboarding UX surface provider transition blackouts (hard stop vs warning + scheduling) to minimize abandonment while avoiding failed submissions?

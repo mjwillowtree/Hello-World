@@ -7,9 +7,9 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Utah** (with Minnesota and Ohio carried forward)
 
 ## Minnesota (advanced)
 
@@ -38,6 +38,20 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Utah (advanced)
+
+### What is locked
+- Utah TC-40A instructions map **my529 addback** to Part 1, code 54, and state that Part 1 totals carry to TC-40 line 5.
+- Utah Code §59-10-114(1)(d) codifies addback mechanics for withdrawn my529 amounts when amounts are not used for qualifying purposes and links exceptions to IRC §§529(c) and 530(d).
+
+### Sources (Tier 1)
+- https://incometax.utah.gov/additions/my529-addback
+- https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S114_2025101420251206.html
+- https://files.tax.utah.gov/tax/forms/current/tc-40.pdf
+
+### Confidence
+- **Medium-High** (line mapping is clear; explicit Utah instruction text naming 529->ABLE remains unresolved)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
@@ -53,8 +67,8 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+3. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Minnesota**: close explicit ABLE carveout question (if any) from Tier-1 text.
 
 ## Interpretation notes
 

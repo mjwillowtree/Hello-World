@@ -60,3 +60,26 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Are IRS primary materials still universally stale on the old 2026 sunset?
+**Answer:** No. Legacy newsroom pages still show old sunset language, but current IRS Publication 970 and 2025 Instructions for Forms 1099-QA/5498-QA include ongoing QTP-to-ABLE rollover treatment.  
+**Confidence:** High  
+**Sources:**  
+- https://www.irs.gov/publications/p970  
+- https://www.irs.gov/instructions/i1099qa  
+- https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+## 10) What is Utah's current line-level pattern for my529 addback?
+**Answer:** Utah maps my529 addback to TC-40A Part 1 code 54; Part 1 totals carry to TC-40 line 5. Utah Code §59-10-114(1)(d) ties addback to withdrawn amounts under defined conditions and references IRC §§529(c)/530(d) exceptions.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://incometax.utah.gov/additions/my529-addback  
+- https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S114_2025101420251206.html  
+- https://files.tax.utah.gov/tax/forms/current/tc-40.pdf
+
+## 11) Can operational blackout windows materially affect transfer success?
+**Answer:** Yes. ABLEnow's transition notice explicitly warns of a temporary blackout period with account/debit-card unavailability and delayed transactions, and its forms page reports temporary form unavailability during transition.  
+**Confidence:** High  
+**Sources:**  
+- https://www.ablenow.com/transition  
+- https://www.ablenow.com/resources/forms/

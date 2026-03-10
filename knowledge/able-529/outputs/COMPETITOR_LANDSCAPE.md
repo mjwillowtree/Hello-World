@@ -11,7 +11,8 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 | Fidelity ABLE | Supports 60-day rollover and program-to-program transfer workflows for ABLE/529 into ABLE | High operational risk if earnings/principal documentation is missing; signature complexity can increase abandonment | Official rollover/transfer request form | High |
 | ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
 | Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
-| ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
+| PA ABLE | Publishes separate direct and indirect incoming rollover forms with explicit rejection and signature-guarantee conditions | Over-limit rollovers are rejected; missing principal/earnings statement can force full-earnings treatment; medallion requirements can delay funding | Official forms + forms page | High |
+| ABLEnow | Recordkeeper transition operations include a temporary blackout period, transaction delays, and temporary form unavailability | Timing-sensitive transfers can miss expected posting windows; users can fail if they mail contributions during blackout | Official transition + forms notices | High |
 
 ## Detail notes
 
@@ -30,9 +31,20 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 - Warns that absent earnings/contributions documentation, the full rollover may be treated as earnings.
 - Source: https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf
 
+### PA ABLE
+- Publishes separate **Incoming Direct Rollover** and **Incoming Indirect Rollover** forms for ABLE/529 sources.
+- Direct-rollover terms include annual-limit/balance-limit rejection, possible medallion signature guarantee, and requirement for principal/earnings statement from the source program manager.
+- Sources:
+  - https://paable.gov/forms-and-docs/
+  - https://paable.gov/pdf/Incoming-Direct-Rollover.pdf
+  - https://paable.gov/pdf/Incoming-Indirect-Rollover.pdf
+
 ### ABLEnow
-- Public resources show dedicated forms/processes for direct and indirect rollover intake.
-- Source: https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/
+- Forms page currently states forms are temporarily unavailable during recordkeeper transition.
+- Transition notice provides key blackout dates, delayed transaction handling, and do-not-mail instructions during blackout.
+- Sources:
+  - https://www.ablenow.com/resources/forms/
+  - https://www.ablenow.com/transition
 
 ## Product-intelligence implications
 
@@ -40,3 +52,4 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 2. Beneficiary/family-member mapping is a core failure point.
 3. Earnings-basis documentation is a repeated cross-provider risk control.
 4. Signature/notarization/guarantee variance should be surfaced pre-submission.
+5. Provider transition/blackout windows are material operational constraints and should be encoded into transfer timing UX.
