@@ -42,6 +42,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-10-02
+- Question: Is IRS primary publication content now aligned with the post-2025 statute, or still sunset-lagged?
+- Finding: IRS Publication 970 text now states QTP assets "can be rolled over ... from a QTP to an ABLE account" and describes ABLE rollover treatment without the pre-2026 sunset phrase.
+- Resolution: treat IRS newsroom pages as stale artifacts, but recognize that IRS Publication 970 has moved into alignment with amended law.
+- Sources:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+  - https://www.irs.gov/publications/p970
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -57,6 +65,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Utah (line/code-level pattern)
+- Utah TC-40 instructions route additions through TC-40A Part 1 to TC-40 line 5, and include code-specific `(54) my529 Addback` language under UCA §59-10-114(1)(d).
+- Instruction text ties addback to withdrawals not used for qualified education expenses that do not meet IRC §529(c) or §530(d) exceptions, limited to previously deducted/credited amounts.
+- Sources:
+  - https://tax.utah.gov/forms/current/tc-40-fullpacket.pdf
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -66,3 +82,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+4. Utah filing-year conformity check for post-2025 federal sunset amendment language in return instructions.

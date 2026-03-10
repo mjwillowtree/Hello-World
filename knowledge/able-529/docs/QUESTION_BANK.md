@@ -60,3 +60,7 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. What are Indiana's exact line-level return instructions and recapture triggers for 529 withdrawals/rollovers after prior credit claims?
+41. In Utah, which conformity mechanism/year governs whether amended federal §529(c) rollover language applies immediately at the state level?
+42. What share of indirect 529->ABLE rollovers miss the 60-day redeposit window, and which step in the workflow predicts misses best?
+43. If IRS Publication 970 and a future IRS form instruction ever diverge on 529->ABLE detail, which source should product logic follow pending clarification?

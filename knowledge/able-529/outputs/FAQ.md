@@ -60,3 +60,25 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Has IRS primary publication language caught up with the post-2025 529->ABLE rule?
+**Answer:** Yes, IRS Publication 970 currently describes QTP assets being rolled over to ABLE accounts without the old "before January 1, 2026" sunset phrase, while some IRS newsroom pages still show legacy wording.  
+**Confidence:** High  
+**Sources:**  
+- https://www.irs.gov/pub/irs-pdf/p970.pdf  
+- https://www.irs.gov/publications/p970  
+- https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+## 10) What is Utah's current line-level treatment for nonqualified my529 withdrawals?
+**Answer:** Utah TY2025 instructions include `(54) my529 Addback` in TC-40A Part 1 and direct total additions to TC-40 line 5; addback applies when withdrawal is not for qualified education expenses and no IRC §529(c)/§530(d) exception applies, limited to previously deducted/credited amounts.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://tax.utah.gov/forms/current/tc-40-fullpacket.pdf  
+- https://incometax.utah.gov/additions/my529-addback  
+- https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+## 11) Do indirect 529->ABLE rollovers create timing and cap risk in real plan operations?
+**Answer:** Yes. CalABLE's official indirect rollover form requires redeposit within 60 days and states rollover assets count toward the annual contribution limit, creating predictable timing/headroom failure modes.  
+**Confidence:** High  
+**Sources:**  
+- https://calable.ca.gov/assets/docs/rollover-indirect-csp-to-able-form.pdf

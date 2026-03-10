@@ -11,6 +11,7 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 | Fidelity ABLE | Supports 60-day rollover and program-to-program transfer workflows for ABLE/529 into ABLE | High operational risk if earnings/principal documentation is missing; signature complexity can increase abandonment | Official rollover/transfer request form | High |
 | ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
 | Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
+| CalABLE | Indirect 529->ABLE rollover requires 60-day redeposit window; rollover assets count against annual contribution limit | Deadline/cap mistakes can convert intended rollover into exception flow or over-limit problems | Official 529-to-ABLE indirect rollover form | High |
 | ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
 
 ## Detail notes
@@ -30,6 +31,11 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 - Warns that absent earnings/contributions documentation, the full rollover may be treated as earnings.
 - Source: https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf
 
+### CalABLE
+- Indirect rollover form requires funds be deposited into CalABLE within 60 days of withdrawal from the 529 account.
+- Form states rollover assets are counted against the annual contribution limit and enforces same-beneficiary or IRC "Member of the Family" constraint.
+- Source: https://calable.ca.gov/assets/docs/rollover-indirect-csp-to-able-form.pdf
+
 ### ABLEnow
 - Public resources show dedicated forms/processes for direct and indirect rollover intake.
 - Source: https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/
@@ -39,4 +45,5 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 1. Form-first operations remain standard for rollover execution.
 2. Beneficiary/family-member mapping is a core failure point.
 3. Earnings-basis documentation is a repeated cross-provider risk control.
-4. Signature/notarization/guarantee variance should be surfaced pre-submission.
+4. Deadline and contribution-cap constraints must be surfaced before transfer initiation, not after form submission.
+5. Signature/notarization/guarantee variance should be surfaced pre-submission.

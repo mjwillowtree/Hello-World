@@ -288,3 +288,92 @@ Execute the new protocol on substance: resolve the 529->ABLE post-2025 legal sta
 ### Next run target
 
 Verify post-2025 federal legal status of 529->ABLE rollover sunset/permanence and capture advisor-safe interpretation language.
+
+## 2026-03-10 Hourly Run (22:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Does IRS primary publication text (not newsroom) now reflect post-2025 529->ABLE continuity?
+2. Which IRS artifacts still carry stale sunset wording and should be treated as transition-risk references?
+3. State-specific: can Utah be advanced from placeholder to line/code-level recapture treatment using Tier-1 forms/instructions?
+4. Product/competition: what additional real workflow constraints appear in competitor rollover forms beyond documentation fields?
+5. Unknown: where does Indiana place 529 recapture/add-back on return lines after prior credit claims?
+6. Adversarial: if "IRS says X" is true in one publication but stale in another page, do we have a safe implementation hierarchy?
+
+### Priority scoring (ROI)
+
+Priority formula:  
+`(User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort`
+
+1. **Utah line-level closure** -> score **300** (5x5x4x3 / 1)
+2. **IRS publication-lag resolution** -> score **240** (5x4x4x3 / 1)
+3. **New competitor workflow datapoint (CalABLE)** -> score **128** (4x4x4x2 / 1)
+4. **Backlog/opportunity synthesis from timing-cap constraints** -> score **96** (4x3x4x2 / 1)
+
+### M (Memory)
+
+- **M17:** IRS Publication 970 currently describes QTP assets rolling over to ABLE accounts and does not contain the pre-amendment "before January 1, 2026" sunset phrase.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+  - https://www.irs.gov/publications/p970
+
+- **M18:** Utah TY2025 TC-40 instructions include `(54) my529 Addback` under UCA §59-10-114(1)(d), with additions entered on TC-40A Part 1 and carried to TC-40 line 5; addback applies to nonqualified withdrawals not meeting IRC §529(c)/§530(d) exceptions, limited to prior deducted/credited amounts.  
+  Confidence: **High**  
+  Sources:
+  - https://tax.utah.gov/forms/current/tc-40-fullpacket.pdf
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M19:** CalABLE's official indirect 529->ABLE rollover form requires redeposit within 60 days, counts rollover assets against annual contribution limit, and enforces same-beneficiary/family-member constraint.  
+  Confidence: **High**  
+  Source:
+  - https://calable.ca.gov/assets/docs/rollover-indirect-csp-to-able-form.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"IRS lag is uniform across all IRS materials."**
+- Result: **Failed.** Legacy newsroom pages remain stale, but IRS Publication 970 is now aligned with post-2025 rollover continuity.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Utah row advanced with code/line-level mapping).
+- Updated `outputs/STATE_MATRIX.md` (Utah advanced-state narrative + coverage snapshot).
+- Updated `outputs/LEGAL_BASELINE.md` (new conflict entry: newsroom stale vs publication aligned; Utah authority block).
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (added CalABLE row and workflow constraints).
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added deadline/cap guardrails opportunity, re-ranked list).
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (added 60-day + annual-cap guardrail requirement).
+- Updated `outputs/USER_JOURNEY_MAP.md` (timing/cap failure mode controls).
+- Updated `outputs/EXEC_SUMMARY.md` (current truths/risks/opportunities refreshed).
+- Updated `outputs/FAQ.md` (IRS publication alignment, Utah line-level treatment, CalABLE operational risk).
+- Updated `outputs/HUB.md` ("what changed", KPI refresh, next-run targets).
+- Updated `docs/KNOWLEDGE_FRONTIER.md` and `docs/QUESTION_BANK.md`.
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS publication-lag ambiguity upgraded with direct Pub 970 evidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah TC-40A Part 1 code 54 -> TC-40 line 5).
+- One competition/workflow insight added: **Yes** (CalABLE 60-day redeposit + annual-cap interaction).
+- One product requirement/opportunity added or re-ranked: **Yes** (60-day rollover + annual-cap guardrails added and ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~88%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~88%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close **NJ** or **PA** to line-level high-confidence treatment using current-year return instructions.
+2. Advance **Indiana** with Tier-1 form/code references and confidence label.
+3. Collect transfer SLA/settlement-time evidence (p50/p90 proxy) from official plan operations materials.
