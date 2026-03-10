@@ -2,6 +2,9 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-03-10 — CNBC reported NVIDIA is preparing **“NemoClaw,” an open-source enterprise AI-agent platform**, signaling a potential strategic expansion from chip economics into the agent software/control layer and possible new competitive pressure on incumbent enterprise AI stacks. Source: https://www.cnbc.com/2026/03/10/nvidia-open-source-ai-agent-platform-nemoclaw-wired-agentic-tools-openclaw-clawdbot-moltbot.html
+- 2026-03-09 — Financial Times reported Microsoft is adding **Anthropic models to Copilot workplace tools**, reinforcing a multi-model enterprise distribution pattern that can reduce single-vendor dependence and reshape AI procurement strategy. Source: https://www.ft.com/content/0978b9ad-d345-4aad-bed2-37c22fbf3214
+
 - 2026-03-09 — Microsoft introduced a higher-priced **Microsoft 365 E7** tier centered on Copilot/agent capabilities, signaling a major enterprise AI monetization and packaging shift that can reset budget baselines and vendor benchmarking. Source: https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html
 - 2026-03-09 — Nature argued that releasing **open-weight AI in staged steps** is a practical risk-reduction pattern versus one-shot full release, a high-signal governance best practice for balancing ecosystem innovation with misuse containment. Source: https://www.nature.com/articles/d41586-026-00679-6
 - 2026-03-09 — STMicroelectronics announced high-volume production of its **silicon photonics platform** for 800G/1.6T interconnect demand, a meaningful supply-side signal for AI data-center scaling and networking bottleneck relief. Source: https://newsroom.st.com/media-center/press-item.html/t4761.html
