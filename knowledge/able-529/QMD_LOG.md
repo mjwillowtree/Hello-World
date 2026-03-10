@@ -1,5 +1,58 @@
 # QMD Log
 
+## 2026-03-10 09:00Z Run
+
+### Q (Query)
+
+1. Does federal authority for 529->ABLE rollovers continue after 2025, or did it sunset?
+2. For New York, what exact resident-return instruction language governs whether 529->ABLE triggers recapture/add-back?
+3. Which assumptions in the current system are most likely to fail under adversarial review?
+
+### M (Memory)
+
+- **M8:** Post-2025 federal 529->ABLE rollover authority is active because Pub. L. 119-21 Sec. 70117(a) amended IRC 529(c)(3)(C)(i)(III) by striking the phrase "before January 1, 2026,".  
+  Confidence: **High (Tier 1)**  
+  Sources:
+  - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** Current codified IRC 529(c)(3)(C)(i)(III) text contains no sunset language and still requires ABLE annual-cap coordination through cross-reference to 529A(b)(2)(B)(i).  
+  Confidence: **High (Tier 1)**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M10:** NY resident instruction language (IT-201-I line 22) explicitly treats rollovers to a qualified ABLE program as qualified use (therefore not nonqualified for line-22 add-back).  
+  Confidence: **High (Tier 1 state form instruction)**  
+  Sources:
+  - https://www.tax.ny.gov/pdf/current_forms/it/it201i.pdf
+  - https://www.tax.ny.gov/pdf/current_forms/it/it201_fill_in.pdf
+
+- **M11:** Assumption challenge result: "Federal updates automatically propagate into state treatment" remains false. Federal permanence does not eliminate state recapture risk analysis; state return instructions remain controlling for state add-back mechanics.  
+  Confidence: **High (method + state/federal mismatch evidence)**  
+  Sources:
+  - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+  - https://www.tax.ny.gov/pdf/current_forms/it/it201i.pdf
+
+### D (Document updates)
+
+- Added `docs/POST_2025_529_TO_ABLE_STATUS_MEMO.md` with controlling federal quotes and advisor-safe hierarchy.
+- Updated `docs/FEDERAL_BASELINE.md` to mark post-2025 rollover ambiguity as resolved.
+- Upgraded `docs/STATE_RECAPTURE_WATCHLIST.md` with NY line-level authority and filing mechanics.
+- Updated frontier scoring in `docs/KNOWLEDGE_FRONTIER.md`.
+- Expanded `docs/QUESTION_BANK.md` with five new unknowns (26-30) and marked two questions as newly closed/partially closed.
+- Re-ranked priorities in `TASKLIST.md`.
+
+### Quality gate check
+
+1. Depth ambiguity resolved: **Yes** (federal post-2025 rollover status).
+2. Breadth area expanded: **Yes** (state lane with NY resident recapture mechanics).
+3. New unknowns added: **Yes** (26-30 in question bank).
+4. Core assumption challenged: **Yes** (federal-state conformity assumption failed again).
+
+### Next run target
+
+Close at least one additional Tier 1 state gap (NJ or OH) with direct form/instruction quotes, then start the adversarial 529 distribution vs 529->ABLE vs 529->Roth IRA comparison grid.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

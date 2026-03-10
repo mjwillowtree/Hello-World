@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-09 (curiosity protocol revision)
+Last updated: 2026-03-10
 
 ## Mandatory outputs every run (quality gate)
 
@@ -13,14 +13,13 @@ If any item above is missing, the run is incomplete.
 
 ## In Progress (highest expected value)
 
-1. **Definitive post-2025 529->ABLE rollover status memo**
-   - Determine whether sunset language is still operative or superseded.
-   - Anchor answer in controlling statutory text plus latest IRS implementation artifacts.
-   - Deliverable: advisor-safe position statement with conservative fallback language.
-
-2. **State recapture matrix buildout (Phase 1: 12 states)**
+1. **State recapture matrix buildout (Phase 1: 12 states)**
    - Expand from watchlist seed into a structured matrix with citations, conformity year, and form line references.
-   - Prioritize: CA, NY, NJ, PA, IL, OH, UT, IN, MN, OR, CO, VA.
+   - Prioritize: CA, NJ, PA, IL, OH, UT, IN, MN, OR, CO, VA.
+
+2. **ABLE-to-Work edge mechanics playbook**
+   - Extract controlling authority for retirement-plan participation test and timing.
+   - Build payroll-calendar examples that prevent inadvertent over-contribution.
 
 ## Next queue (depth + breadth rotation)
 
@@ -44,3 +43,5 @@ If any item above is missing, the run is incomplete.
 - Established QMD system files and original run protocol.
 - Completed initial federal ABLE 2026 baseline sweep.
 - Added curiosity-forward architecture (`docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`) to force continuous evolution.
+- Completed advisor-safe federal memo: post-2025 529->ABLE rollover permanence (`docs/POST_2025_529_TO_ABLE_STATUS_MEMO.md`).
+- Closed NY resident recapture ambiguity with line-level IT-201-I authority and filing mechanics.

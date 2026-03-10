@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -33,21 +33,25 @@ Updated: 2026-03-09
      - https://uscode.house.gov/quicksearch/get.plx?section=2503&title=26
      - https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
 
+5. **Post-2025 529->ABLE rollover status (resolved)**
+   - The expiration phrase was affirmatively removed by statute.
+   - Sources:
+     - Pub. L. 119-21 Sec. 70117(a): "Section 529(c)(3)(C)(i)(III) is amended by striking 'before January 1, 2026,'."
+     - IRC 529(c)(3)(C)(i)(III) now reads: "(III) to an ABLE account ..."
+     - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
-
-2. **Implementation hierarchy clarity**
+1. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
    - Action: add citation-backed authority ladder and conflict-resolution rule.
 
-3. **ABLE-to-Work edge mechanics**
+2. **ABLE-to-Work edge mechanics**
    - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
    - Action: extract controlling authority and produce monitoring examples.
 
-4. **Federal-to-state disconnect risk**
+3. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
 

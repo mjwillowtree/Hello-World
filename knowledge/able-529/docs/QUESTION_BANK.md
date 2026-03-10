@@ -1,12 +1,12 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
 ## Federal law and guidance
 
-1. What is the exact current legal text governing 529->ABLE rollovers after 2025?
+1. What is the exact current legal text governing 529->ABLE rollovers after 2025? (Closed 2026-03-10: Pub. L. 119-21 Sec. 70117 removed the 2026 sunset phrase.)
 2. Did IRS publish post-2025 updates in publications, forms, or instructions that supersede older newsroom wording?
 3. Which ABLE parameters are inflation-indexed, which are static, and where are they published each year?
 4. What unresolved federal ambiguities remain for ABLE-to-Work contributions and retirement plan participation tests?
@@ -14,7 +14,7 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 
 ## State tax conformity and recapture
 
-6. Which states explicitly treat 529->ABLE rollovers as nonqualified for deduction recapture purposes?
+6. Which states explicitly treat 529->ABLE rollovers as nonqualified for deduction recapture purposes? (NY resident guidance now indicates ABLE rollover is qualified, not nonqualified.)
 7. Which states explicitly treat them as qualified (no recapture)?
 8. Which states are silent, forcing analogical interpretation?
 9. How do rolling conformity states differ from static conformity states in this area?
@@ -46,3 +46,11 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## New unknowns generated this run (2026-03-10)
+
+26. Do NY nonresident/part-year forms (IT-203 family) mirror the same ABLE rollover treatment as resident Form IT-201 line 22?
+27. In NJ and OH, what exact return line codes and worksheet steps handle 529 recapture for 529->ABLE events?
+28. Does any state decouple from federal post-2025 permanence by retaining date-limited treatment in its own statute or instructions?
+29. For 529->ABLE rollovers, what documentary standard best proves same-beneficiary/family-member status in an exam?
+30. What operational failure patterns cause accidental ABLE annual-limit excess when transfer timing crosses calendar year boundaries?
