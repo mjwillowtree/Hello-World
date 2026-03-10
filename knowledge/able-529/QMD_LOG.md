@@ -1,5 +1,64 @@
 # QMD Log
 
+## 2026-03-10 Run (11:15 UTC)
+
+### Q (Query)
+
+Depth track:
+1. Is the 529->ABLE rollover sunset still operative after 2025, or has it been removed in controlling law?
+
+Breadth track:
+2. What high-impact state recapture/conformity signals can be added now for CA, NJ, PA, IL, and OH?
+
+Adversarial challenge:
+3. Does older IRS wording ("before January 1, 2026") still control if current statutory text differs?
+
+### M (Memory)
+
+- **M8:** Current IRC §529 text (as presented on U.S. Code House site) includes 529->ABLE rollover operative language without the old sunset phrase, and the amendment notes explicitly state Pub. L. 119-21 §70117(a) struck out "before January 1, 2026."  
+  Confidence: **High (Tier 1 statute + editorial amendment note)**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** Historical IRS newsroom guidance still uses temporary-language framing, which is useful context but subordinate to amended statutory text when there is conflict.  
+  Confidence: **High (authority hierarchy)**  
+  Sources:
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M10:** State recapture risk remains highly uneven; CA (no 529 deduction baseline) behaves differently from deduction states (NJ/PA/IL/OH), where add-back/recapture analysis remains central and often instruction-driven.  
+  Confidence: **Medium (mixed Tier 1 completeness by state)**  
+  Sources:
+  - https://www.ftb.ca.gov/forms/2025/2025-3805p-instructions.html
+  - https://www.nj.gov/treasury/taxation/individuals/collegededuction.shtml
+  - https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html
+  - https://codes.ohio.gov/ohio-revised-code/section-5747.70
+  - https://www.revenue.pa.gov/FormsandPublications/PAPersonalIncomeTaxGuide/Pages/Deductions-and-Credits.aspx
+
+### D (Document updates)
+
+- Added `docs/FEDERAL_529_TO_ABLE_POST_2025_STATUS.md` (advisor-safe permanence memo + authority hierarchy).
+- Updated `docs/FEDERAL_BASELINE.md` to mark sunset/permanence ambiguity as resolved to a higher confidence level.
+- Expanded `docs/STATE_RECAPTURE_WATCHLIST.md` with CA/NJ/PA/IL/OH risk-screening entries.
+- Updated `docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`, and `TASKLIST.md` based on this run's findings.
+
+### Assumption challenge result
+
+- Challenged assumption: **"If IRS newsroom says it, implementation details are settled."**
+- Result: **Assumption failed.** Older IRS newsroom language can lag later statutory amendments; statute remains controlling.
+
+### New unknowns generated this run
+
+1. Exactly which IRS forms/instructions still carry pre-2026 sunset phrasing and how should advisors document hierarchy-based override.
+2. Pennsylvania line-cited authority for 529->ABLE state qualification and any recapture handling.
+3. Ohio administrative guidance clarifying add-back treatment for 529->ABLE specifically.
+4. Illinois direct Tier 1 classification of 529->ABLE relative to recapture trigger categories.
+5. California explicit FTB sentence-level treatment of 529->ABLE under current conformity year.
+
+### Next run target
+
+Elevate state analysis from risk-screening to line-cited filing-grade positions for at least 3 additional states, while building the first draft of the 529 distribution vs 529->ABLE vs 529->Roth IRA adversarial comparison framework.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

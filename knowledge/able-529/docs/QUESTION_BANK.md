@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,11 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## Newly added unknowns (2026-03-10 run)
+
+26. Which IRS forms/instructions (if any) still contain pre-2026 sunset language for 529->ABLE rollovers, and what is the correct conflict memo language for workpapers?
+27. For Pennsylvania PIT, what exact current line-cited authority confirms whether 529->ABLE is qualified and whether any prior 529 deduction recapture applies?
+28. For Ohio ORC 5747.70 implementation, is there explicit administrative guidance on when 529->ABLE triggers add-back, and which return line should be used?
+29. For Illinois, is there a direct Tier 1 source that classifies 529->ABLE distinctly from out-of-state 529 transfers for recapture purposes?
+30. For California post-conformity years, can we identify the exact FTB instruction sentence that treats 529->ABLE as qualified (or not) without ambiguity?
