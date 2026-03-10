@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,13 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## Newly added unknowns (2026-03-10)
+
+26. For NY A-103 reporting, what is the exact 2026 resident vs part-year line mapping on IT-201/IT-203 after annual form updates?
+27. Does NJ Division of Taxation provide explicit Tier 1 language classifying 529->ABLE as qualified or nonqualified for NJ recapture?
+28. What Ohio Tier 1 source (accessible in all environments) explicitly states 529->ABLE treatment and add-back line/code?
+29. For ABLE-to-Work, how should advisors handle contributions made before year-end employer true-up contributions are known?
+30. For ABLE-to-Work, how should W-2c or corrected Schedule C amounts be handled if they reduce compensation below contributed amounts?
+31. What is the best Tier 1 interpretation of self-employment "compensation" under the §219(f)(1) cross-reference for ABLE-to-Work?
+32. What controls should detect stale sub-regulatory guidance (IRS/newsroom/plan pages) before client recommendations are finalized?

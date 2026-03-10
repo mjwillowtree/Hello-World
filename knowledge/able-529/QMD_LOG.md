@@ -1,5 +1,71 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+1. Is the post-2025 529->ABLE sunset still in force, or removed in controlling statutory text?
+2. Can NY/NJ/PA/IL/OH be moved from watchlist status to source-tiered recapture treatment with line references?
+3. What ABLE-to-Work mechanics are still operationally ambiguous after reading statute + regs?
+4. Adversarial check: which currently cited guidance is stale relative to current code text?
+
+### M (Memory)
+
+- **M8:** Current U.S. Code §529(c)(3)(C)(i)(III) retains 529->ABLE rollover language without prior pre-2026 cutoff; amendment notes attribute removal of "before January 1, 2026" to Pub. L. 119-21 sec. 70117(a).  
+  Confidence: **High**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** ABLE-to-Work additional contribution mechanics are now pinned to a practical 2026 formula: additional amount is min(compensation includible in gross income, prior-year one-person poverty line), subject to retirement-plan contribution disqualifier.  
+  Confidence: **High (formula), Medium (edge operations)**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section219&num=0&edition=prelim
+  - https://www.ecfr.gov/current/title-26/chapter-I/subchapter-A/part-1/section-1.529A-2
+
+- **M10:** Using 2025 poverty-line values for 2026 ABLE-to-Work calculations yields additional caps of $15,650 (48/DC), $19,550 (AK), and $17,990 (HI), implying total potential 2026 limits of $35,650 / $39,550 / $37,990 when base cap is $20,000.  
+  Confidence: **High**  
+  Sources:
+  - https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines/prior-hhs-poverty-guidelines-federal-register-references/2025-poverty-guidelines-computations
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+
+- **M11:** New York now has strong Tier 1 language relevant to 529->ABLE characterization: IT-225-I A-103 nonqualified withdrawal rules explicitly list ABLE rollovers in the exception set (i.e., treated as qualified for this purpose).  
+  Confidence: **High**  
+  Sources:
+  - https://www.tax.ny.gov/forms/current-forms/it/it225i.htm
+
+- **M12:** Illinois provides explicit line-level recapture controls for 529/ABLE in Schedule M (line 7 out-of-state transfer recapture; line 9 nonqualified/refund recapture), making IL one of the strongest states for operational guidance.  
+  Confidence: **High**  
+  Sources:
+  - https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf
+
+- **M13 (surprising):** IRS newsroom pages can remain materially stale for years and include their own warning that news items may not be updated; reliance hierarchy must place statute/regs/forms above newsroom examples.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+### Assumption challenge
+
+- Challenged: **"If IRS newsroom says it, implementation details are settled."**
+- Outcome: **Failed.** Newsroom language/examples are not a reliable current-law endpoint; controlling text and current form instructions must govern.
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md`:
+  - moved 529->ABLE sunset issue to resolved baseline,
+  - added authority hierarchy and stale-guidance caution,
+  - added ABLE-to-Work 2026 formula and operational ambiguity framing.
+- Updated `docs/STATE_RECAPTURE_WATCHLIST.md` into source-tiered matrix with NY/IL upgrades and NJ/OH/PA gap framing.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and next-run priorities.
+- Expanded `docs/QUESTION_BANK.md` with unknowns 26-32.
+- Re-ranked `TASKLIST.md` around NJ/OH closure, ABLE-to-Work memo completion, and stale-guidance tracker.
+
+### Next run target
+
+1. Close one state gap to Tier 1 explicitness (NJ or OH).
+2. Produce ABLE-to-Work conservative example set (payroll timing, W-2c, true-up scenarios).
+3. Start adversarial comparison framework: 529 distribution vs 529->ABLE vs 529->Roth IRA.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)
