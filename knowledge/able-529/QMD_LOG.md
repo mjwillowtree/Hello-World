@@ -1,5 +1,98 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run (19:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Are current IRS primary publications (Pub 970 / Pub 907) still using pre-2026 sunset wording for 529->ABLE rollovers?
+2. Unknown: Can Indiana be advanced from placeholder to line-level treatment with explicit recapture flow on current forms?
+3. Unknown: Does Indiana distinguish 529->ABLE treatment by destination plan (in-state ABLE vs other ABLE plans)?
+4. Adversarial challenge: Is the "IRS guidance lag" assumption still valid across all IRS primary materials, or only in selected legacy pages?
+5. Product/competition question: Which additional official rollover form provides explicit rejection controls (cap/signer constraints) not yet captured?
+6. State-specific question: Can one priority row (IN or UT) be moved to high confidence with Tier-1 source text and return-line mapping?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Verify IRS publication conformity (Pub 970/907) | 5,5,5,4,1 | 500 | Execute |
+| Advance Indiana with line-level return mapping | 5,5,4,4,1 | 400 | Execute |
+| Add one new competitor workflow datapoint | 4,4,4,3,1 | 192 | Execute |
+| Convert findings into ranked requirement/opportunity | 5,4,5,3,1 | 300 | Execute |
+
+### M (Memory)
+
+- **M17:** Current IRS Publication 970 (2025) and Publication 907 (2025) language available this run describes 529->ABLE rollovers without the old "before January 1, 2026" sunset phrase; this narrows (but does not eliminate) guidance-lag risk to legacy pages.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+  - https://www.irs.gov/pub/irs-pdf/p907.pdf
+  - https://www.irs.gov/forms-pubs/about-publication-970
+
+- **M18:** Indiana DOR Information Bulletin 98 (Jan 2026) is destination-sensitive: transfer from Indiana529 to Indiana ABLE is qualified beginning in 2024, while transfer to other ABLE programs is listed as nonqualified for 2024+; recapture reporting flows through IN-CR line 9 to IT-40 Schedule 4 line 3.  
+  Confidence: **High**  
+  Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=16355
+
+- **M19:** PA ABLE incoming direct rollover form explicitly states Section 529 rollover contributions are subject to ABLE contribution/account limits and may be rejected if limits are exceeded; it also flags potential signature-guarantee requirements.  
+  Confidence: **High**  
+  Source:
+  - https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"IRS lag is uniform across all IRS primary materials after statutory change."**
+- Result: **Failed.** Legacy newsroom pages still contain stale language, but current Pub 970/Pub 907 appear conformed.
+
+### D (Document updates)
+
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `TASKLIST.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS primary-publication conformity status moved from unresolved to high-confidence nuanced view).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana: IB98 + IN-CR line 9 -> IT-40 Schedule 4 line 3).
+- One competition/workflow insight added: **Yes** (PA ABLE explicit limit-rejection and signature-guarantee process signal).
+- One product requirement/opportunity added or re-ranked: **Yes** (destination-sensitive routing gate added; opportunity table re-ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close **NJ** or **PA** with DOR/return-instruction line-level tax treatment (not program-form inference).
+2. Advance **UT** with directly retrievable Tier-1 line/code evidence from accessible sources.
+3. Start transfer-ops quant track: gather any published timing/rejection distributions and map to instrumentation requirements.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

@@ -32,15 +32,30 @@ Current codified text cross-check:
 **Operational interpretation (confidence: High):**
 Federal 529->ABLE rollover authority continues after 2025, subject to existing same-beneficiary/family-member and annual ABLE contribution-limit mechanics.
 
+### IRS primary-publication conformity check (2026-03-10 run)
+
+- IRS Publication 970 (2025) currently describes rollover capability from QTP to ABLE without the old sunset phrase.
+- IRS Publication 907 (2025) likewise describes 529-to-ABLE rollover mechanics without the pre-2026 sunset wording.
+
+Primary sources:
+- https://www.irs.gov/pub/irs-pdf/p970.pdf
+- https://www.irs.gov/pub/irs-pdf/p907.pdf
+- https://www.irs.gov/forms-pubs/about-publication-970
+
+**Interpretation update (confidence: High):**
+The "IRS lag" risk is now more specific: some legacy newsroom pages remain stale, but core IRS publications checked this run appear conformed to post-2025 rollover continuity.
+
 ## 3) Conflict log (explicit)
 
 ### Conflict C-2026-03-10-01
 - Higher authority: Pub. L. 119-21 Sec. 70117 + current USC text.
 - Lower authority artifact: IRS legacy newsroom pages still carrying pre-amendment sunset wording.
-- Resolution: statute/codified law controls; treat legacy newsroom wording as stale transition content.
+- Resolution: statute/codified law controls; treat legacy newsroom wording as stale transition content, while noting that current IRS publications (Pub 970/907) now appear conformed.
 - Sources:
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+  - https://www.irs.gov/pub/irs-pdf/p907.pdf
 
 ## 4) State baseline examples
 
@@ -56,6 +71,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 - Sources:
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+
+### Indiana (destination-sensitive pattern)
+- Indiana DOR IB98 (Jan 2026) distinguishes qualified vs nonqualified 529->ABLE withdrawals based on destination plan type (Indiana ABLE vs other ABLE).
+- Recapture carries through Schedule IN-CR line 9 to IT-40 Schedule 4 line 3.
+- Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=16355
 
 ## 5) State-law handling posture
 

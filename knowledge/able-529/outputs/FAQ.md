@@ -60,3 +60,25 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Are IRS primary publications still showing the old pre-2026 sunset text?
+**Answer:** Not in the publications checked this run. Current Pub 970 (2025) and Pub 907 (2025) describe 529->ABLE rollover mechanics without the old sunset phrase, while some older IRS newsroom pages still contain legacy wording.  
+**Confidence:** High  
+**Sources:**  
+- https://www.irs.gov/pub/irs-pdf/p970.pdf  
+- https://www.irs.gov/pub/irs-pdf/p907.pdf  
+- https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+## 10) Can destination ABLE plan choice change state tax recapture risk?
+**Answer:** Yes. Indiana DOR guidance distinguishes between transfers to Indiana ABLE (qualified in 2024+) and transfers to other ABLE programs (nonqualified in 2024+).  
+**Confidence:** High  
+**Sources:**  
+- https://www.in.gov/dor/files/ib98.pdf  
+- https://forms.in.gov/Download.aspx?id=16371  
+- https://forms.in.gov/Download.aspx?id=16355
+
+## 11) Do operational forms explicitly say rollover contributions can be rejected for cap issues?
+**Answer:** Yes. PA ABLE's incoming direct rollover form states 529 rollover contributions are subject to ABLE contribution/account limits and excess contributions will be rejected.  
+**Confidence:** High  
+**Sources:**  
+- https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf

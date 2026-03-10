@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-10 (run 19:01 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. Which NJ-1040 schedule/line instruction text (current tax year) governs 529 distribution recapture/add-back, and does it explicitly address transfers to ABLE?
+41. Which PA-40 schedule/line instruction text (current tax year) governs 529 distribution recapture/add-back, and does it explicitly address transfers to ABLE?
+42. What are observed rejection rates for rollover submissions that fail annual-limit checks or signature-guarantee requirements across large ABLE administrators?

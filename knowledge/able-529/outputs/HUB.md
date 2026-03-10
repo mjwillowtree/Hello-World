@@ -4,6 +4,12 @@ Updated: 2026-03-10
 
 ## What changed this week
 
+### 2026-03-10 (19:01 UTC cron run)
+- Closed **Indiana** from placeholder to high-confidence with destination-sensitive rule: 529->Indiana ABLE (qualified in 2024+) vs 529->other ABLE (nonqualified in 2024+), plus return-line flow (IN-CR line 9 -> IT-40 Schedule 4 line 3).
+- Challenged and refined IRS-guidance-lag assumption: current **Pub 970/Pub 907** language checked this run appears conformed (no sunset phrase found), while legacy IRS newsroom pages remain stale.
+- Added new competitor workflow datapoint: **PA ABLE** incoming direct rollover form explicitly warns that over-limit rollover contributions will be rejected and may require signature-guarantee handling.
+- Added new product requirement/opportunity: destination-sensitive routing gate keyed to state/tax-year rules.
+
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
 - Advanced **Minnesota** with line-level recapture flow (M1529 -> M1 line 14).
@@ -19,20 +25,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
+- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; Indiana advanced to destination-sensitive High confidence)
 - **Operational workflow understanding:** Medium-High for transfer failure controls
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
-- High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- State matrix completion (substantive rows): **11 / 51**
+- High-confidence states: **12 / 51 (23.5%)**
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio (new substantive claims): **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25, citation-ready quickly): **16 / 25**
 
 ## Navigation
 
@@ -49,6 +55,6 @@ Updated: 2026-03-10
 
 ## Immediate next-run targets
 
-1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment (DOR/return instructions, not plan forms).
+2. Advance **UT** with a directly retrievable Tier-1 line/code citation (current Utah tax site blocked from this environment).
+3. Quantify transfer timing distributions (p50/p90) and top rejection codes from administrator-facing evidence.
