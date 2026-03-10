@@ -1,5 +1,61 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+1. Is 529->ABLE rollover authority still limited to pre-2026 distributions, or was the sunset removed?
+2. Which state recapture rules create immediate planning risk in the first tranche of high-impact states?
+3. What new unknowns emerged after resolving the federal sunset question?
+
+### M (Memory)
+
+- **M8:** Current U.S. Code amendment notes confirm that Pub. L. 119-21 section 70117(a) struck "before January 1, 2026" from IRC 529(c)(3)(C)(i)(III), removing the prior sunset phrase for 529->ABLE rollovers.  
+  Confidence: **High**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+  - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+
+- **M9:** Effective date note indicates the amendment applies to taxable years beginning after December 31, 2025, so advisor language should include timing precision rather than generic "permanent since 2025" wording.  
+  Confidence: **High**  
+  Source:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M10:** State treatment is highly nonuniform even where federal treatment is clear; Illinois and Ohio show explicit recapture/add-back mechanics, while NY/NJ/CA remain materially ambiguous without line-level instruction confirmation.  
+  Confidence: **Medium**  
+  Sources:
+  - https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html
+  - https://codes.ohio.gov/ohio-revised-code/section-5747.70
+  - https://www.tax.ny.gov/pdf/memos/income/m18-6i.pdf
+  - https://www.nj.gov/treasury/taxation/individuals/collegededuction.shtml
+  - https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=RTC&sectionNum=17140.3.
+
+### Assumption challenge
+
+- Challenged assumption: **"If IRS/public summaries still show a sunset, the sunset still governs."**
+- Result: **Failed.** Controlling statute/amendment notes supersede stale sub-regulatory summaries.
+
+### New unknowns generated
+
+1. Which IRS forms/instructions cycle fully removes legacy pre-2026 sunset language?
+2. Does New York currently provide a specific IT-225 modification code treatment for 529->ABLE rollovers?
+3. What NJ-1040 instruction line computes recapture/add-back where prior NJBEST deductions exist?
+4. Does California provide explicit PIT conformity treatment for 529->ABLE rollovers?
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` to close the post-2025 sunset ambiguity and add an authority hierarchy.
+- Expanded `docs/STATE_RECAPTURE_WATCHLIST.md` from seed notes to a nine-state phase snapshot.
+- Re-scored `docs/KNOWLEDGE_FRONTIER.md` to reflect confidence upgrades and remaining high-volatility lanes.
+- Expanded `docs/QUESTION_BANK.md` with implementation-lag and state line-level unknowns.
+- Re-ranked `TASKLIST.md` to prioritize 12-state completion and post-amendment implementation tracking.
+
+### Next run target
+
+1. Complete the 12-state tranche by adding UT, IN, and MN with form-line citations.
+2. Resolve one NY/NJ/CA ambiguity using direct return instruction language.
+3. Start adversarial framework draft: 529 distribution vs 529->ABLE vs 529->Roth IRA.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

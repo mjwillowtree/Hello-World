@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -17,13 +17,15 @@ Updated: 2026-03-09
      - https://www.ssa.gov/ssi/spotlights/spot-able.html
      - https://secure.ssa.gov/POMS.NSF/lnx/0501130740
 
-3. **529->ABLE rollover framing**
-   - Federal rollover treatment requires same beneficiary or qualifying family member pathway.
-   - Rollover amounts count toward ABLE annual contribution limits.
+3. **529->ABLE rollover status after 2025 (resolved)**
+   - The prior sunset phrase was removed from IRC 529(c)(3)(C)(i)(III).
+   - U.S. Code amendment note for 2025 states that Pub. L. 119-21, section 70117(a), struck out "before January 1, 2026," before "to an ABLE account".
+   - Effective date note states the amendment applies to taxable years beginning after December 31, 2025.
+   - Rollover amounts still count toward ABLE annual contribution limits under section 529A(b)(2)(B)(i).
    - Sources:
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+     - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
      - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
-     - https://www.law.cornell.edu/uscode/text/26/529
-     - https://www.law.cornell.edu/uscode/text/26/529A
 
 4. **2026 ABLE base annual contribution interpretation**
    - Best current legal reading is **$20,000** for 2026.
@@ -35,21 +37,30 @@ Updated: 2026-03-09
 
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
-
-2. **Implementation hierarchy clarity**
+1. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
    - Action: add citation-backed authority ladder and conflict-resolution rule.
 
-3. **ABLE-to-Work edge mechanics**
+2. **ABLE-to-Work edge mechanics**
    - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
    - Action: extract controlling authority and produce monitoring examples.
 
-4. **Federal-to-state disconnect risk**
+3. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
+
+## Authority ladder (advisor conflict rule)
+
+When sources conflict, use this order:
+
+1. Statute and enacted public law text.
+2. Final regulations and official notices/revenue procedures.
+3. Current forms and form instructions.
+4. IRS publications/newsroom pages.
+5. Plan administrator and advisor summaries.
+
+Application in this domain:
+- Older IRS pages that still mention the pre-2026 sunset are treated as stale if inconsistent with current codified section 529 text and amendment notes.
 
 ## Research discipline
 
