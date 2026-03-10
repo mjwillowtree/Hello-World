@@ -1,60 +1,51 @@
-# Requirements Backlog (Prioritized for Shipping)
+# REQUIREMENTS_BACKLOG
 
 Updated: 2026-03-10
 
-Prioritization rubric: risk reduction, decision value, user impact, implementation effort.
+## P0 (ship-first requirements)
 
-## P0 (next sprint candidates)
+1. **Rollover preflight checklist service**
+   - Validate required artifacts before submission:
+     - distributing plan statement with earnings/principal split
+     - beneficiary identity and relationship evidence
+     - contribution-limit budget for current tax year
+   - Block submission when required items are missing; generate remediation guidance.
 
-1. **Rollover Preflight Checker**
-   - Checks:
-     - Beneficiary relationship validity (same beneficiary/family-member logic)
-     - Remaining annual contribution headroom
-     - State confidence + recapture warning state
-   - Acceptance:
-     - Blocks obviously invalid submissions.
-     - Shows citations and confidence label.
-   - Evidence:
-     - Ohio line-level recapture logic and ABLE for ALL form constraints.
+2. **Evidence-attached decision record**
+   - For each rollover decision, store:
+     - jurisdiction + filing year
+     - source URLs + retrieval date
+     - confidence label + unresolved unknowns
+   - Must support audit replay for support/compliance.
 
-2. **Transfer Packet Generator**
-   - Features:
-     - Collects required source and destination account metadata.
-     - Produces completed handoff packet and checklist (including notarization warning where applicable).
-   - Acceptance:
-     - Packet completeness score >= 95%.
-     - Missing-field rejection rate reduced.
+3. **State-treatment rules registry (versioned)**
+   - Key by jurisdiction + filing year.
+   - Fields: conformity notes, recapture trigger text, form line references, confidence.
+   - Unknown states must route to manual review.
 
-3. **Transfer Status + Reason Codes**
-   - Features:
-     - User-visible status timeline.
-     - Standardized reason codes for delays/rejections.
-   - Acceptance:
-     - Reduction in "where is my transfer?" support contacts.
+4. **Transfer packet generator**
+   - Collect required source/destination metadata.
+   - Produce completed handoff packet and checklist (including notarization/signature warnings).
 
 ## P1
 
-4. **State Filing Helper**
-   - Shows state-specific line references and whether recapture/add-back may apply.
-   - Warns when state confidence is low and routes to manual review.
+5. **Transfer journey status tracker**
+   - Milestones: request created -> outbound plan contacted -> docs received -> compliance validated -> posted.
+   - Exception states: missing earnings breakdown, signature mismatch, beneficiary mismatch.
 
-5. **Evidence Vault**
-   - Store signed attestations, submitted forms, and source citations per transfer.
-   - Exportable audit package for support/compliance.
+6. **Beneficiary/family relationship wizard**
+   - Guided questions that produce relationship eligibility output and attestation capture.
 
-## P2
+7. **Citation-backed FAQ service**
+   - Every answer includes confidence and source tier badges.
+   - Low-confidence answers include "what could change this".
 
-6. **FAQ Auto-Answer Layer**
-   - High-frequency answers with confidence + source links.
-   - Escalate to specialist when confidence < threshold.
+8. **State filing helper**
+   - Show line references when confidence is high; otherwise warn and route to review.
 
-7. **Experiment: Dynamic Confidence UX**
-   - A/B test confidence-badge designs to reduce false certainty while preserving conversion.
+## Experiments (next 2 sprints)
 
-## Experiments queue
-
-| Experiment | Hypothesis | Primary metric | Guardrail |
-|---|---|---|---|
-| Preflight checker before form stage | Early compliance checks reduce failed submissions | transfer_success_rate | no drop in eligibility_passed_rate > 5% |
-| Auto-generated document checklist | Checklist reduces missing-info rejects | packet_rejection_rate | support_contact_rate |
-| State warning banner in low-confidence states | Transparent uncertainty increases trust | user_trust_score | completion_rate |
+1. **Doc-collection-before-transfer A/B**
+   - Metric: transfer exception rate, time-to-fund, abandonment.
+2. **State-risk warning interstitial**
+   - Metric: post-filing issue tickets, warning acknowledgment.

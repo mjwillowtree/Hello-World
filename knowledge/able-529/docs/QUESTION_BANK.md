@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10
+Updated: 2026-03-10 (run 13:34 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -54,3 +54,9 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 31. Does Ohio TY2025/TY2026 preserve the same line-level trigger language currently documented in TY2024 for line-4 nonqualified 529 additions?
 32. Which source 529 programs require notarization for direct 529->ABLE rollovers, and is that requirement conditional by account ownership type?
 33. What are realistic transfer settlement-time distributions (p50/p90) by source 529 plan to destination ABLE plan pair?
+34. In Minnesota, is there explicit statutory or instruction-level text that carves out 529->ABLE rollovers from recapture, or is current treatment purely by nonqualified-distribution logic?
+35. Which NJ-1040 instruction line(s) explicitly govern recapture/add-back treatment for 529 distributions and do they mention ABLE rollovers?
+36. Which PA-40 instruction line(s) explicitly govern recapture/add-back treatment for 529 distributions and do they mention ABLE rollovers?
+37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
+38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
+39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?

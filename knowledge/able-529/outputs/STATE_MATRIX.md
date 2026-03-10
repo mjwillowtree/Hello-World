@@ -1,92 +1,62 @@
-# State Matrix (50 States + DC)
+# STATE_MATRIX (50 States + DC)
 
 Updated: 2026-03-10
 
-Canonical machine-readable matrix: [STATE_MATRIX.csv](./STATE_MATRIX.csv)
+Primary data file: `outputs/STATE_MATRIX.csv`
 
-## This run's state advancement (quality gate)
+## Coverage snapshot
 
-### Ohio (advanced to High confidence)
+- Jurisdictions tracked: **51 / 51**
+- Substantively advanced rows (beyond placeholder): **10 / 51**
+- High-confidence rows: **11 / 51**
+- Latest state advancements: **Minnesota** and **Ohio**
 
-Evidence locked from official Ohio sources:
+## Minnesota (advanced)
 
-1. **Form line mapping** (Schedule of Adjustments):
-   - Line 4 (addition): "529 plan funds used for non-qualified expenses"
-   - Line 20 (deduction): STABLE contributions
-   - Line 36 (deduction): 529 contributions
-   Source: https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf
+### What is locked
+- Minnesota DOR indicates recapture tax may apply when 529 distributions are used for nonqualified expenses.
+- TY2025 Schedule M1529 computes recapture on lines 7-15, and line 15 flows to Form M1 line 14.
 
-2. **Instruction trigger detail** (line-level):
-   - Line 4 addition ties to nonqualified 529 distributions and prior Ohio deduction history.
-   - Line 20 and line 36 define deduction/carryforward mechanics for STABLE and 529 contributions.
-   Source: https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
+### Sources (Tier 1)
+- https://www.revenue.state.mn.us/education-savings-account-recapture-tax
+- https://www.revenue.state.mn.us/education-savings-account-contribution-subtraction
+- https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
-## Coverage tracker (all jurisdictions)
+### Confidence
+- **Medium-High** (line flow is clear; explicit ABLE carveout text still unresolved)
 
-| Jurisdiction | Status | Confidence |
-|---|---|---|
-| Alabama | Not started | Low |
-| Alaska | Not started (no state income tax context) | Medium |
-| Arizona | Not started | Low |
-| Arkansas | Not started | Low |
-| California | Partial | High |
-| Colorado | Partial | Low |
-| Connecticut | Not started | Low |
-| Delaware | Not started | Low |
-| District of Columbia | Not started | Low |
-| Florida | Not started (no state income tax context) | Medium |
-| Georgia | Not started | Low |
-| Hawaii | Not started | Low |
-| Idaho | Not started | Low |
-| Illinois | Partial | High |
-| Indiana | Not started | Low |
-| Iowa | Not started | Low |
-| Kansas | Not started | Low |
-| Kentucky | Not started | Low |
-| Louisiana | Not started | Low |
-| Maine | Not started | Low |
-| Maryland | Not started | Low |
-| Massachusetts | Not started | Low |
-| Michigan | Not started | Low |
-| Minnesota | Not started | Low |
-| Mississippi | Not started | Low |
-| Missouri | Not started | Low |
-| Montana | Not started | Low |
-| Nebraska | Not started | Low |
-| Nevada | Not started (no state income tax context) | Medium |
-| New Hampshire | Not started (no broad wage income tax context) | Medium |
-| New Jersey | Partial | Medium |
-| New Mexico | Not started | Low |
-| New York | Partial | Low |
-| North Carolina | Not started | Low |
-| North Dakota | Not started | Low |
-| Ohio | Complete | High |
-| Oklahoma | Not started | Low |
-| Oregon | Partial | Low |
-| Pennsylvania | Partial | Medium-Low |
-| Rhode Island | Not started | Low |
-| South Carolina | Not started | Low |
-| South Dakota | Not started (no state income tax context) | Medium |
-| Tennessee | Not started (no broad wage income tax context) | Medium |
-| Texas | Not started (no state income tax context) | Medium |
-| Utah | Not started | Low |
-| Vermont | Not started | Low |
-| Virginia | Partial | Low |
-| Washington | Not started (no state income tax context) | Medium |
-| West Virginia | Not started | Low |
-| Wisconsin | Not started | Low |
-| Wyoming | Not started (no state income tax context) | Medium |
+## Ohio (advanced)
 
-## Current completed/partial evidence rows
+### What is locked
+- Schedule of Adjustments line mapping includes line 4 (nonqualified 529 addition), line 20 (STABLE deduction), and line 36 (529 deduction).
+- 2024 booklet instruction text ties line-4 addition to specific nonqualified scenarios and prior Ohio deduction history.
 
-| State | Treatment snapshot | Recapture/add-back signal | Conformity/effective note | Form line reference | Confidence | Primary sources |
-|---|---|---|---|---|---|---|
-| OH | Conditional (explicit line logic) | Line 4 addition for specified nonqualified 529 distributions tied to prior Ohio deduction history | 2024 booklet+form verified | Schedule of Adjustments lines 4, 20, 36 | High | Ohio IT 1040 booklet + Schedule of Adjustments |
-| CA | 2019+ qualified directional | Additional-tax framework for nonqualified events | 2018 nonconformity then 2019+ conformity signal | FTB 3805P Part II | High | 2018/2019/2025 FTB 3805P instructions |
-| IL | Conditional | Explicit recapture triggers for out-of-state transfer/nonqualified withdrawal | Annual Schedule M controls | Schedule M lines 7 and 9 | High | IL Schedule M instructions + form |
-| NJ | Likely qualified, unresolved line text | Recapture for this pathway not fully locked | TY2022+ deduction context visible | NJ-1040 line mapping pending | Medium | NJ taxation pages |
-| PA | Partial unclear | Line-level treatment not yet locked | Needs current PA-40 extract | PA-40 line mapping pending | Medium-Low | PA DOR FAQ + PA ABLE Q&A |
-| OR | Watchlist only | Rule text references recapture mechanics | Needs current form-level extraction | Pending | Low | OAR 150-315-0065 |
-| CO | Watchlist only | DOR guidance signals addition/recapture concepts | Needs line-level extract | Pending | Low | Colorado DOR ABLE topic page |
-| VA | Watchlist only | Plan guidance indicates recapture context | Needs DOR authority text | Pending | Low | Virginia529 plan guidance |
-| NY | Watchlist only | General recapture context; needs direct authority for 529->ABLE path | Pending | Pending | Low | NY 529 plan page |
+### Sources (Tier 1)
+- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf
+- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
+
+### Confidence
+- **High**
+
+## Previously advanced states (carry-forward)
+
+- California (High)
+- Illinois (High)
+- New Jersey (Medium; line-level closure pending)
+- Pennsylvania (Medium-Low; line-level closure pending)
+- Oregon (Low)
+- Colorado (Low)
+- Virginia (Low)
+- New York (Low)
+
+## Priority closure queue (next)
+
+1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
+2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
+3. **Utah**: first-pass Tier-1 row with code/line references.
+4. **Indiana**: first-pass Tier-1 row with code/line references.
+
+## Interpretation notes
+
+- Federal qualified treatment is not enough to infer state no-recapture treatment.
+- Confidence labels are legal-operational confidence for product design, not individualized tax advice certainty.

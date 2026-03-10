@@ -1,25 +1,42 @@
-# Competitor Landscape (Onboarding + Plan-Management UX)
+# COMPETITOR_LANDSCAPE (Onboarding + Plan-Management Focus)
 
 Updated: 2026-03-10
 
-Scope: operational onboarding and transfer-management behaviors (not investment performance).
+Scope: onboarding/servicing workflows (not portfolio performance).
 
-## Current evidence-backed competitor/workflow datapoints
+## Snapshot table
 
-| Competitor / Program | Workflow evidence | Onboarding/servicing implications | Confidence | Sources |
+| Provider / Program | Workflow signal | User friction / risk | Evidence | Confidence |
 |---|---|---|---|---|
-| ABLE for ALL (ABLE program) | Official 529->ABLE direct rollover form requires existing ABLE account, detailed source-plan metadata, same-beneficiary/family-member certification, annual-limit constraint handling, and possible notarization. Submission channels include mail/fax. | High friction without guided workflow. Strong need for step orchestration, eligibility checks, and document completeness checks before submission. | High | https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf |
-| ABLEnow (Virginia529-administered program) | Public resources emphasize dedicated forms for incoming 529->ABLE and indirect rollover flows. | Indicates mainstream operational reliance on form-driven transfer process vs pure API rails; likely similar abandonment points. | Medium | https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/ |
+| Fidelity ABLE | Supports 60-day rollover and program-to-program transfer workflows for ABLE/529 into ABLE | High operational risk if earnings/principal documentation is missing; signature complexity can increase abandonment | Official rollover/transfer request form | High |
+| ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
+| Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
+| ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
 
-## Cross-competitor product signals
+## Detail notes
 
-1. **Form-first operations remain standard** for rollover transfers.
-2. **Identity and beneficiary relationship mapping is a core friction point** (same beneficiary or permitted family member).
-3. **Annual contribution cap checks are operational, not just legal**: transfers may be rejected if caps are exceeded.
-4. **Notarization/authorization variance across source 529 plans** creates hidden drop-off risk.
+### Fidelity ABLE
+- Requires principal/earnings documentation for rollover classification; missing docs can force conservative earnings treatment until corrected.
+- Includes signature operations and additional signature guarantee requirements in specified cases.
+- Source: https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/customer-service/able-rollover.pdf
 
-## Gaps in current coverage
+### ABLE for ALL
+- Requires beneficiary identity matching or qualifying family-member relationship certification.
+- Separate signatures required for ABLE beneficiary/ALR and 529 account owner.
+- Source: https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf
 
-- Need direct, current source forms/process docs from at least 3 additional programs.
-- Need timing SLA data (request submitted -> transfer posted).
-- Need rejection-code taxonomy (missing fields, cap exceeded, beneficiary mismatch, stale signatures).
+### Texas ABLE
+- States 60-day qualification rules and required support documentation.
+- Warns that absent earnings/contributions documentation, the full rollover may be treated as earnings.
+- Source: https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf
+
+### ABLEnow
+- Public resources show dedicated forms/processes for direct and indirect rollover intake.
+- Source: https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/
+
+## Product-intelligence implications
+
+1. Form-first operations remain standard for rollover execution.
+2. Beneficiary/family-member mapping is a core failure point.
+3. Earnings-basis documentation is a repeated cross-provider risk control.
+4. Signature/notarization/guarantee variance should be surfaced pre-submission.

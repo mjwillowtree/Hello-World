@@ -1,82 +1,62 @@
-# FAQ (High-Frequency + Adversarial)
+# FAQ (High-frequency + Adversarial)
 
 Updated: 2026-03-10
 
-Format: answer + confidence + sources.
-
-## 1) Is 529->ABLE rollover still allowed after 2025?
-
-Yes, federal law was amended to remove the pre-2026 sunset and apply the change for taxable years beginning after 2025.  
+## 1) Is 529->ABLE rollover still federally allowed after 2025?
+**Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
 **Confidence:** High  
 **Sources:**  
 - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm  
+- https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf  
 - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
 
-## 2) If a federal source page looks old, what should control?
-
-Controlling hierarchy: statute and codified law first; legacy newsroom pages are secondary context.  
+## 2) If an IRS newsroom page still shows the old sunset, which source controls?
+**Answer:** Enacted statute/codified law controls over stale newsroom content.  
 **Confidence:** High  
 **Sources:**  
 - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm  
+- https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts  
 - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
-## 3) Does federal qualification guarantee no state tax recapture?
-
-No. State rules can diverge and may require add-back/recapture logic even when federal treatment is qualified.  
+## 3) Does federal qualification guarantee no state recapture?
+**Answer:** No. State treatment can diverge by jurisdiction and tax year.  
 **Confidence:** High  
 **Sources:**  
-- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf  
-- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf
-
-## 4) What line-level Ohio references matter for 529/ABLE treatment?
-
-Ohio Schedule of Adjustments lines 4, 20, and 36; instructions detail triggers and deduction mechanics.  
-**Confidence:** High  
-**Sources:**  
-- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf  
+- `outputs/STATE_MATRIX.csv`  
 - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
 
-## 5) What commonly causes 529->ABLE transfer failure operationally?
-
-Missing required account metadata, beneficiary/family-member mismatch, annual limit overshoot, and missing notarization/authorization conditions with source plans.  
+## 4) What commonly causes rollover operational failure?
+**Answer:** Missing earnings/principal documentation and relationship/signature errors.  
 **Confidence:** High  
-**Source:**  
+**Sources:**  
+- https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/customer-service/able-rollover.pdf  
+- https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf  
 - https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf
 
-## 6) Do users need an ABLE account open before requesting direct rollover?
-
-In ABLE for ALL’s documented process, yes: account setup is required before completing the direct rollover form workflow.  
+## 5) Are same-beneficiary/family-member constraints operationally enforced?
+**Answer:** Yes. Official forms require explicit attestation/certification fields.  
 **Confidence:** High  
-**Source:**  
-- https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf
+**Sources:**  
+- https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf  
+- https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf
 
-## 7) Are all state line-level recapture rules fully mapped already?
+## 6) What line-level state examples are currently captured?
+**Answer:** Ohio (Schedule of Adjustments line mapping) and Minnesota (M1529 flow to M1) are now represented as examples.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf  
+- https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
-No. The matrix structure exists for all 50 states + DC, but only a subset has evidence-backed partial/complete treatment.  
-**Confidence:** High  
-**Source:**  
-- ./STATE_MATRIX.csv
-
-## 8) Adversarial: "Can we auto-approve all transfers if beneficiary names match?"
-
-No. Matching names alone is insufficient; annual cap constraints, permitted family-member rules, and state tax treatment confidence still matter.  
+## 7) Adversarial: Can we auto-approve transfers if names match?
+**Answer:** No. Cap checks, relationship logic, documentation, and state treatment still must pass.  
 **Confidence:** High  
 **Sources:**  
 - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim  
-- https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf
+- `outputs/STATE_MATRIX.csv`
 
-## 9) Adversarial: "Can we treat plan blogs as final authority?"
-
-No. Plan pages are useful, but statute, regulations, IRS/SSA, and official state forms/instructions control.  
+## 8) Are all 50-state line-level rules complete?
+**Answer:** No. Matrix coverage exists for all jurisdictions, but many rows are still low-confidence placeholders.  
 **Confidence:** High  
 **Sources:**  
-- https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm  
-- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
-
-## 10) What should support agents say when state confidence is low?
-
-Provide the best available citation-backed answer, clearly mark confidence as low/medium, and route to manual review rather than definitive tax-position language.  
-**Confidence:** Medium-High  
-**Sources:**  
-- ./LEGAL_BASELINE.md  
-- ./STATE_MATRIX.csv
+- `outputs/HUB.md`  
+- `outputs/STATE_MATRIX.csv`
