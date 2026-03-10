@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -17,15 +17,22 @@ Updated: 2026-03-09
      - https://www.ssa.gov/ssi/spotlights/spot-able.html
      - https://secure.ssa.gov/POMS.NSF/lnx/0501130740
 
-3. **529->ABLE rollover framing**
-   - Federal rollover treatment requires same beneficiary or qualifying family member pathway.
+3. **529->ABLE rollover is extended beyond 2025 under current law**
+   - Public Law 119-21, §70117(a) amends IRC §529(c)(3)(C)(i)(III) by striking `"before January 1, 2026,"`.
+   - Effective date in §70117(b): applies to taxable years beginning after 2025-12-31.
+   - Current U.S. Code display for §529(c)(3)(C)(i)(III) now shows rollover-to-ABLE text without the prior sunset phrase.
+   - Sources:
+     - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+4. **529->ABLE rollover mechanics remain constrained**
+   - Federal rollover treatment still requires same beneficiary or qualifying family-member pathway.
    - Rollover amounts count toward ABLE annual contribution limits.
    - Sources:
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
      - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
-     - https://www.law.cornell.edu/uscode/text/26/529
-     - https://www.law.cornell.edu/uscode/text/26/529A
 
-4. **2026 ABLE base annual contribution interpretation**
+5. **2026 ABLE base annual contribution interpretation**
    - Best current legal reading is **$20,000** for 2026.
    - Reason: §529A(b)(2)(B)(i) applies ABLE-specific indexing language substituting "1996" for "1997" when applying §2503(b)(2)(B).
    - Sources:
@@ -33,23 +40,30 @@ Updated: 2026-03-09
      - https://uscode.house.gov/quicksearch/get.plx?section=2503&title=26
      - https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
 
+6. **ABLE-to-Work enhanced contribution path is also extended**
+   - Public Law 119-21, §70115(a)(2) strikes `"before January 1, 2026"` from §529A(b)(2)(B)(ii).
+   - §529A(b)(2)(B)(ii) currently allows additional contribution equal to the lesser of compensation or the prior-year one-person poverty line.
+   - Sources:
+     - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
-
-2. **Implementation hierarchy clarity**
+1. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
    - Action: add citation-backed authority ladder and conflict-resolution rule.
 
-3. **ABLE-to-Work edge mechanics**
-   - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
-   - Action: extract controlling authority and produce monitoring examples.
+2. **ABLE-to-Work edge mechanics (operations layer)**
+   - Core statute is now clearer, but implementation risks remain: payroll timing, self-certification workflow, and correction handling for excess amounts.
+   - Action: extract current form-level reporting flow plus plan-level operational constraints.
 
-4. **Federal-to-state disconnect risk**
+3. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
+
+4. **Code-text cross-reference anomaly to investigate**
+   - Current §529A text includes references to a "qualified ABLE rollover contribution described in section 530A(d)(4)(B)".
+   - Action: determine whether this is a drafting integration feature, codifier note issue, or substantive new rule interaction relevant to advisors.
 
 ## Research discipline
 

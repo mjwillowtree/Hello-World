@@ -1,5 +1,59 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+1. Is the federal 529->ABLE rollover sunset (pre-2026 window) still in force, or was it removed by later law?
+2. What materially changed in ABLE-to-Work contribution mechanics for 2026 advisory practice?
+3. Which state signals this run are strong enough to use, and which are still too weak/secondary?
+
+### M (Memory)
+
+- **M8:** Federal law now explicitly extends 529->ABLE rollovers beyond 2025 by removing the phrase `"before January 1, 2026,"` from IRC §529(c)(3)(C)(i)(III).  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm (Pub. L. 119-21, §70117)
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim (2025 amendment note + current text)
+
+- **M9:** The current U.S. Code text for §529(c)(3)(C)(i)(III) still permits rollover to an ABLE account and no longer contains the sunset phrase.  
+  Confidence: **High**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M10:** ABLE-to-Work enhancement also continues post-2025: Pub. L. 119-21 §70115 removed the `"before January 1, 2026"` limiter in §529A(b)(2)(B)(ii), and §529A now shows the contribution formula as base amount plus additional amount for eligible workers.  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm (Pub. L. 119-21, §70115)
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+
+- **M11:** Illinois has explicit recapture/add-back mechanics for prior 529/ABLE deductions when transfers go to out-of-state plans or when withdrawals are nonqualified/refunded; 529->ABLE classification still needs direct state-law interpretation.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html
+
+- **M12 (surprising/contrarian):** California FTB 2025 instructions indicate California generally conforms to TCJA provisions that allow 529->ABLE rollover, contradicting simplistic assumptions that California is uniformly hostile to this pathway.  
+  Confidence: **Medium**  
+  Sources:
+  - https://www.ftb.ca.gov/forms/2025/2025-3805p-instructions.html
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` to mark rollover permanence ambiguity as resolved and added ABLE-to-Work extension confirmation.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` confidence scores and recorded an explicit assumption challenge result.
+- Updated `docs/QUESTION_BANK.md` with 6 new unknowns discovered this run.
+- Updated `docs/STATE_RECAPTURE_WATCHLIST.md` with fresh CA/IL/PA evidence and a stricter source-quality requirement.
+- Re-ranked `TASKLIST.md` to prioritize authority hierarchy + Tier-1 state matrix expansion.
+
+### Assumption challenged
+
+- Challenged assumption: "Older IRS/public summaries implying pre-2026 sunset are enough to conclude rollover expiry."
+- Result: **Rejected.** Current enacted law and U.S. Code amendment notes show sunset removal.
+
+### Next run target
+
+Produce the authority-hierarchy memo (statute/regs/forms/publications/plan docs) and close 4 more state entries (NJ, OH, UT, IN) with at least one state tax authority citation each.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

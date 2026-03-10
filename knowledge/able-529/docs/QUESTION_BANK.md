@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,12 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## New unknowns added this run (2026-03-10)
+
+26. How should advisors reconcile older IRS summaries that still reference pre-2026 sunset language with the current amended code text (Pub. L. 119-21)?
+27. What is the legal and practical meaning of the new §529A references to "qualified ABLE rollover contribution described in section 530A(d)(4)(B)"?
+28. Which IRS forms/instructions are still lagging post-2025 ABLE/529 amendments, and what interim hierarchy rule should govern advisor recommendations?
+29. For Illinois, exactly which state-law category should a 529->ABLE transfer be mapped to (qualified, nonqualified, or transfer-out recapture bucket)?
+30. For California, does conformity language automatically carry the post-2025 federal extension, or is an explicit California conformity update still required for specific tax years?
+31. For Pennsylvania, what is the controlling Department of Revenue citation (not only plan FAQ) confirming 529->ABLE state treatment and reporting lines?
