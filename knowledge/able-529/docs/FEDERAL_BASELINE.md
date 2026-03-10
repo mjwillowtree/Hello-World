@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -33,21 +33,45 @@ Updated: 2026-03-09
      - https://uscode.house.gov/quicksearch/get.plx?section=2503&title=26
      - https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
 
+5. **ABLE-to-Work (2026) additional contribution mechanics**
+   - Additional contribution is allowed only for employed designated beneficiaries and is limited to the lesser of:
+     1) compensation includible in gross income for the taxable year, or
+     2) the poverty line for a 1-person household for the calendar year preceding the year in which the taxable year begins.
+   - For tax year 2026, the poverty-line reference year is 2025.
+   - 2025 federal poverty guideline baseline for 1-person household:
+     - 48 states + DC: **$15,650** (higher values apply in AK/HI).
+   - The additional ABLE-to-Work amount is disallowed if, for the taxable year, contributions are made on behalf of the beneficiary to specified retirement plans, including:
+     - a defined contribution plan under §414(i),
+     - an annuity contract under §403(b), or
+     - an eligible deferred compensation plan under §457(b).
+   - Sources:
+     - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+     - https://www.irs.gov/pub/irs-drop/n-18-62.pdf
+     - https://www.federalregister.gov/citation/90-FR-5917
+     - https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines/prior-hhs-poverty-guidelines-federal-register-references/2025-poverty-guidelines-computations
+     - https://www.irs.gov/pub/irs-drop/rp-25-32.pdf
+
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
-
-2. **Implementation hierarchy clarity**
+1. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
-   - Action: add citation-backed authority ladder and conflict-resolution rule.
+   - Working rule:
+     1) enacted public law text + effective date,
+     2) current U.S. Code (with amendment/effective-date notes),
+     3) regulations/notices/revenue procedures,
+     4) IRS forms/publications/newsroom,
+     5) plan marketing/web FAQs.
+   - Conflict protocol: if tiers conflict, default to higher tier and document fallback language.
 
-3. **ABLE-to-Work edge mechanics**
+2. **ABLE-to-Work edge mechanics**
    - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
-   - Action: extract controlling authority and produce monitoring examples.
+   - Remaining edges:
+     - year-of-inclusion compensation attribution in payroll edge cases,
+     - employer true-up contributions posted after year-end,
+     - defined-benefit-only participation interpretation in mixed plans.
+   - Action: add quote-backed examples and conservative compliance controls.
 
-4. **Federal-to-state disconnect risk**
+3. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
 

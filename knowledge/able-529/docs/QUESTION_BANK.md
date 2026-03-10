@@ -46,3 +46,11 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## Newly added frontier questions (2026-03-10 run)
+
+26. For ABLE-to-Work, how should compensation be attributed when payroll, bonuses, or corrections cross calendar-year boundaries?
+27. What is the most conservative interpretation when employer retirement contributions are posted after year-end but designated for the prior taxable year?
+28. Which official IRS/state pages still contain stale pre-2026 529->ABLE sunset language, and what is the best conflict-resolution citation packet?
+29. In states with no explicit 529->ABLE rule text, what legal argument hierarchy is strongest for predicting recapture outcomes?
+30. Which state return instructions explicitly map 529 nonqualified distribution reporting lines to ABLE rollovers, and which remain silent?
