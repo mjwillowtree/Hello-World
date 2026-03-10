@@ -1,5 +1,96 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run (23:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does Indiana explicitly route 529 nonqualified credit recapture through a line-level filing workflow suitable for product automation?
+2. Unknown: Is Indiana 529->ABLE movement treated as recapture-triggering in primary state guidance, or only implied by general rollover language?
+3. Unknown: Which form line routing for Indiana ABLE credit and 529 recapture is stable enough for immediate UX implementation?
+4. Adversarial challenge: Could a "credit state" still be operationally high-risk even when federal rollover legality is clear?
+5. Product/competition question: Which additional provider workflow requirement can create late-stage transfer fallout if not surfaced pre-submit?
+6. State-specific question: Can Indiana be advanced from placeholder to a substantive, citation-backed row this run?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close Indiana recapture workflow ambiguity | 5,5,4,4,2 | 200 | Execute |
+| Add Indiana line-level matrix row | 5,5,4,4,2 | 200 | Execute |
+| Add one new competitor workflow constraint | 4,4,4,3,1 | 192 | Execute |
+| Convert findings into requirements/opportunity updates | 5,4,5,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana guidance (DOR Bulletin #98 + Treasurer tax-credit FAQ) indicates nonqualified-withdrawal recapture treatment applies in rollover/transfer scenarios and is operationalized through IN-529R / IN-CR workflow.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+  - https://forms.in.gov/Download.aspx?id=10171
+  - https://forms.in.gov/Download.aspx?id=16371
+
+- **M18:** Indiana ABLE contribution credit has explicit form-line routing (IN-ABLE line 14 to Schedule 6 line 6 for IT-40), enabling implementable onboarding disclosures.  
+  Confidence: **High**  
+  Source:
+  - https://forms.in.gov/Download.aspx?id=16956
+
+- **M19:** STABLE direct 529->ABLE rollover workflow includes a conditional notarization acknowledgement check with the source 529 manager, adding a hidden transfer-friction vector.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://stableaccount.com/uploads/stable/attachments/clfbbz1axgycy0kll67yj9f6i-stable-rollover-direct-csp-to-able-1-3-ada.pdf
+  - https://stableaccount.com/faqs/can-i-roll-over-a-529-college-savings-plan-into-my-stable-account
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"States that offer 529 tax benefits tend to treat 529->ABLE similarly enough for a common UX path."**
+- Result: **Failed.** Indiana's credit-recapture workflow demonstrates state-specific form routing and recapture logic that cannot be safely abstracted into a generic rule.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Indiana row advanced with workflow references)
+- Updated `outputs/STATE_MATRIX.md` (coverage + Indiana narrative)
+- Updated `outputs/LEGAL_BASELINE.md` (Indiana authority block)
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (added STABLE datapoint)
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added credit-recapture product lane)
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (added credit-state recapture module requirement)
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/FAQ.md`
+- Updated `outputs/HUB.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md` (added new unknowns 40-42)
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana 529->ABLE recapture ambiguity moved from Low/Unknown to Medium-High).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana: IN-529R/IN-CR workflow + IN-ABLE line 14 -> Schedule 6 line 6).
+- One competition/workflow insight added: **Yes** (STABLE conditional notarization check).
+- One product requirement/opportunity added or re-ranked: **Yes** (credit-recapture calculator + form-router; backlog module added).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~90%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA to explicit line-level high-confidence treatment (primary objective).
+2. Add Utah as the next substantive state row with Tier-1 code/form references.
+3. Quantify transfer timing/SLA distribution signals (p50/p90) from available official/admin sources.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

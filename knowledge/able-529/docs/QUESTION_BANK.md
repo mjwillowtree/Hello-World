@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-10 (run 23:01 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. For Indiana TY2026 forms, do IN-529R and IN-CR retain the same line carry workflow currently documented, or did return-line destinations shift?
+41. Across top 10 source 529 plans, which plans require notarization acknowledgement for direct 529->ABLE transfer packets, and at which step?
+42. Which states with 529 tax credits (not deductions) explicitly classify 529->ABLE movement as recapture-triggering vs neutral?

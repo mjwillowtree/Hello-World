@@ -57,6 +57,16 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Indiana (credit-recapture pattern)
+- Indiana DOR Bulletin #98 and Indiana Treasurer tax-credit FAQ describe nonqualified withdrawal treatment that triggers credit recapture workflow.
+- Operational filing flow uses IN-529R for recapture computation, then IN-CR carry to IT-40 schedules; ABLE contribution credit is separately routed via IN-ABLE line 14 to Schedule 6 line 6.
+- Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+  - https://forms.in.gov/Download.aspx?id=10171
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=16956
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -66,3 +76,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+4. Indiana annual form-version drift check (confirm line references remain stable for TY2026 cycle).

@@ -7,9 +7,9 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Ohio** and **Indiana**
 
 ## Minnesota (advanced)
 
@@ -38,6 +38,23 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Indiana (advanced)
+
+### What is locked
+- Indiana guidance ties 529 nonqualified withdrawals (including rollover/transfer scenarios in state guidance context) to credit recapture.
+- Recapture workflow is form-structured: compute on IN-529R, then report through IN-CR to the individual return schedules.
+- Indiana ABLE contribution credit is mapped separately through IN-ABLE line 14 to Schedule 6 line 6 (IT-40 path).
+
+### Sources (Tier 1)
+- https://www.in.gov/dor/files/ib98.pdf
+- https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+- https://forms.in.gov/Download.aspx?id=10171
+- https://forms.in.gov/Download.aspx?id=16371
+- https://forms.in.gov/Download.aspx?id=16956
+
+### Confidence
+- **Medium-High** (line workflow is usable; exact annual form-version line shifts still require periodic refresh)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
@@ -48,13 +65,14 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 - Colorado (Low)
 - Virginia (Low)
 - New York (Low)
+- Minnesota (Medium-High)
 
 ## Priority closure queue (next)
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
 3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Minnesota**: explicit ABLE carveout confirmation vs current recapture inference.
 
 ## Interpretation notes
 

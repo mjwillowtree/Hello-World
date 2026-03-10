@@ -60,3 +60,19 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Does Indiana treat 529->ABLE movement as potentially recapture-triggering for its state 529 credit?
+**Answer:** Indiana primary guidance indicates nonqualified-withdrawal recapture rules apply in rollover/transfer scenarios, with recapture workflow routed through IN-529R and IN-CR forms.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.in.gov/dor/files/ib98.pdf  
+- https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/  
+- https://forms.in.gov/Download.aspx?id=10171  
+- https://forms.in.gov/Download.aspx?id=16371
+
+## 10) Should transfer UX ask about possible notary requirements before submission?
+**Answer:** Yes. Official STABLE direct rollover form indicates the source 529 manager may require notarization acknowledgement, so this should be surfaced pre-submission.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://stableaccount.com/uploads/stable/attachments/clfbbz1axgycy0kll67yj9f6i-stable-rollover-direct-csp-to-able-1-3-ada.pdf  
+- https://stableaccount.com/faqs/can-i-roll-over-a-529-college-savings-plan-into-my-stable-account

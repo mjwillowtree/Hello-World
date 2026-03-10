@@ -11,6 +11,12 @@ Updated: 2026-03-10
 - Expanded competitor workflow evidence across **Fidelity, ABLE for ALL, Texas ABLE, ABLEnow**.
 - Re-ranked opportunities toward evidence-first transfer controls (preflight + documentation + state-risk handling).
 
+### 2026-03-10 (23:01 UTC cron run)
+- Advanced **Indiana** from placeholder to substantive row with recapture workflow references (IN-529R, IN-CR, Schedule 4 line routing) and ABLE credit line mapping (IN-ABLE line 14 -> Schedule 6 line 6).
+- Added **STABLE Account** competitor workflow evidence: source-plan notarization may be required in direct 529->ABLE rollover process.
+- Added new product lane: **credit-recapture calculator + form-router** and corresponding backlog requirement.
+- Challenged assumption that "credit states generally mirror federal rollover friendliness"; Indiana evidence rejected that assumption.
+
 ### Earlier this week
 - Established QMD protocol and frontier-question engine.
 - Built initial 50-state + DC matrix scaffold.
@@ -25,14 +31,14 @@ Updated: 2026-03-10
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
+- State matrix completion (substantive rows): **11 / 51**
 - High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio (new substantive claims): **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
 - Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- Time-to-answer test (top 25, citation-ready quickly): **15 / 25**
 
 ## Navigation
 
@@ -50,5 +56,5 @@ Updated: 2026-03-10
 ## Immediate next-run targets
 
 1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
+2. Advance **UT** with Tier-1 form/code references.
 3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
