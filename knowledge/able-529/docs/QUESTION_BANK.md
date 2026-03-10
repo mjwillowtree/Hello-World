@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,8 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+26. Which IRS 2026-cycle publications/forms still contain pre-amendment 529->ABLE sunset language, and which have been conformed?
+27. What is the exact NJ-1040 instruction treatment (line-level) for 529->ABLE rollovers and any recapture/add-back consequence?
+28. What is the exact PA-40 instruction treatment (line-level) for 529->ABLE rollovers and whether prior-deduction recapture is triggered?
+29. In Illinois, does an in-state 529->IL ABLE rollover have explicit textual protection from recapture, or only inferred protection from general recapture triggers?
+30. What is the minimum authoritative citation set that can survive adversarial review in a client memo (statute + effective date + form-level implementation)?
