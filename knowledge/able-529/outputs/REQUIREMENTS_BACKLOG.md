@@ -27,20 +27,27 @@ Updated: 2026-03-10
    - Collect required source/destination metadata.
    - Produce completed handoff packet and checklist (including notarization/signature warnings).
 
+5. **Source-plan dependency probe**
+   - Before packet generation, collect source-plan constraints:
+     - medallion/signature guarantee requirement
+     - contribution/earnings statement requirement
+     - source-plan contact and submission channel
+   - Auto-route to "needs source-plan follow-up" when guarantees or basis docs are unresolved.
+
 ## P1
 
-5. **Transfer journey status tracker**
+6. **Transfer journey status tracker**
    - Milestones: request created -> outbound plan contacted -> docs received -> compliance validated -> posted.
    - Exception states: missing earnings breakdown, signature mismatch, beneficiary mismatch.
 
-6. **Beneficiary/family relationship wizard**
+7. **Beneficiary/family relationship wizard**
    - Guided questions that produce relationship eligibility output and attestation capture.
 
-7. **Citation-backed FAQ service**
+8. **Citation-backed FAQ service**
    - Every answer includes confidence and source tier badges.
    - Low-confidence answers include "what could change this".
 
-8. **State filing helper**
+9. **State filing helper**
    - Show line references when confidence is high; otherwise warn and route to review.
 
 ## Experiments (next 2 sprints)

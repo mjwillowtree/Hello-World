@@ -1,5 +1,101 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run (20:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution (minimum set met):
+
+1. Unknown: Does IRS Publication 970 (2025) Chapter 10 still carry legacy pre-2026 sunset language, or is it now conformed?
+2. Unknown: Can Indiana be advanced to high confidence with explicit line-level recapture treatment for 529->ABLE transfer scenarios?
+3. Unknown: Can Utah be advanced with code-level addback mechanics tied to filing-line flow?
+4. Adversarial challenge: Is the assumption "IRS primary guidance surfaces are still stale" still true after 2026-cycle updates?
+5. Product/competition question: Which official provider workflow now gives the strongest evidence for source-plan dependency blockers?
+6. State-specific question: Which state closure path yields the highest confidence gain this run (IN vs UT vs NJ/PA)?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close IRS primary-guidance ambiguity (Pub 970 ch.10) | 5,5,5,4,1 | 500 | Execute |
+| Advance Indiana with line-level recapture authority | 5,5,4,4,1 | 400 | Execute |
+| Advance Utah with code-level addback and line-flow | 4,4,4,3,1 | 192 | Execute |
+| Add competitor/workflow blocker evidence from official form | 4,4,4,4,1 | 256 | Execute |
+| Convert insight into product requirement/opportunity | 5,4,5,3,1 | 300 | Execute |
+
+### M (Memory)
+
+- **M17:** IRS Publication 970 (2025), Chapter 10 now explicitly describes QTP->ABLE rollovers without the pre-2026 sunset phrase, and keeps 60-day rollover mechanics.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://www.irs.gov/publications/p970/ch10.html
+
+- **M18:** Indiana Schedule IN-CR instructions explicitly classify CollegeChoice 529 rollovers/transfers to another 529 plan or ABLE account as non-qualified withdrawals for credit recapture, with carry to IT-40 Schedule 4 line 3.  
+  Confidence: **High**  
+  Source:
+  - https://forms.in.gov/Download.aspx?id=15824
+
+- **M19:** Utah TC-40A guidance uses code 54 (my529 addback) for nonqualified withdrawals that do not satisfy IRC 529(c)/530(d) exceptions, with Part 1 totals carried to TC-40 line 5.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://files.tax.utah.gov/tax/forms/current/tc-40a.pdf
+
+- **M20:** PA ABLE direct rollover operations explicitly encode source-plan dependencies: possible signature guarantees, required contribution/earnings breakdown statements, and limit-based rejection conditions.  
+  Confidence: **High**  
+  Source:
+  - https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"IRS primary guidance surfaces are still broadly stale on post-2025 529->ABLE rollover continuity."**
+- Result: **Partially failed.** Legacy newsroom pages remain stale, but current Publication 970 chapter content is conformed; stale-guidance risk is now segmented rather than universal.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Indiana + Utah rows advanced)
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/FAQ.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/HUB.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md` (new unknowns 40-42)
+- Updated `TASKLIST.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS primary-guidance status refined with current Pub. 970 evidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana high-confidence closure; Utah advanced with TC-40A code/line flow).
+- One competition/workflow insight added: **Yes** (PA ABLE source-plan dependency controls).
+- One product requirement/opportunity added or re-ranked: **Yes** (new "Source-plan dependency router" + backlog requirement).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **12 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.5 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close **NJ** or **PA** to line-level high-confidence tax-return treatment.
+2. Validate **IN/UT** treatment continuity using TY2025/TY2026 materials (avoid single-year overfit).
+3. Expand operations lane with measured transfer timing/SLA evidence by source-destination pair.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

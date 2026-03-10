@@ -32,6 +32,17 @@ Current codified text cross-check:
 **Operational interpretation (confidence: High):**
 Federal 529->ABLE rollover authority continues after 2025, subject to existing same-beneficiary/family-member and annual ABLE contribution-limit mechanics.
 
+### IRS primary-guidance cross-check (2025 publication stream)
+
+IRS Publication 970 (2025), Chapter 10, now states rollover availability from QTP to ABLE accounts without the pre-2026 sunset phrase, and retains the 60-day rollover framing:
+
+> "Assets can be rolled over or transferred from one QTP to another or from a QTP to an ABLE account."  
+> "Any amount distributed from a QTP isn’t taxable if it’s rolled over to... [a qualifying] ABLE account..."  
+> "An amount is rolled over if it’s paid to an ABLE account or another QTP within 60 days after the date of the distribution."
+
+Source:
+- https://www.irs.gov/publications/p970/ch10.html
+
 ## 3) Conflict log (explicit)
 
 ### Conflict C-2026-03-10-01
@@ -41,6 +52,15 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 - Sources:
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+### Conflict C-2026-03-10-02
+- Higher authority: enacted statute + codified text + current IRS Publication 970 Chapter 10.
+- Lower authority artifact: selected IRS newsroom pages with legacy sunset language.
+- Resolution: use statute/codified text first; Publication 970 supports the post-sunset interpretation; flag newsroom lag as transitional and non-controlling.
+- Source:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+  - https://www.irs.gov/publications/p970/ch10.html
 
 ## 4) State baseline examples
 

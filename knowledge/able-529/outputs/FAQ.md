@@ -60,3 +60,22 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Has IRS primary publication text caught up to post-2025 rollover law?
+**Answer:** Yes in Publication 970 (2025), Chapter 10. It now describes QTP->ABLE rollover rules without the old pre-2026 sunset language.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.irs.gov/publications/p970/ch10.html  
+- https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+
+## 10) Does Indiana explicitly recapture tax benefits when 529 money is rolled to ABLE?
+**Answer:** Indiana Schedule IN-CR instructions define a rollover/transfer from CollegeChoice 529 to another 529 or ABLE account as a non-qualified withdrawal for credit-recapture purposes.  
+**Confidence:** High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=15824
+
+## 11) Can rollover requests fail even when eligibility is correct?
+**Answer:** Yes. PA ABLE’s official incoming direct rollover form says transfers can be rejected if contribution limits are exceeded, and required source-plan signature guarantees or contribution/earnings statements are missing.  
+**Confidence:** High  
+**Sources:**  
+- https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf

@@ -7,9 +7,9 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
-- High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Substantively advanced rows (beyond placeholder): **12 / 51**
+- High-confidence rows: **12 / 51**
+- Latest state advancements: **Indiana** and **Utah**
 
 ## Minnesota (advanced)
 
@@ -38,6 +38,31 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Indiana (advanced)
+
+### What is locked
+- Indiana Schedule IN-CR instructions explicitly define a non-qualified withdrawal to include a rollover/transfer from CollegeChoice 529 to another Code Sec. 529 plan or an ABLE account.
+- Recapture workflow is line-linked: total recapture amount on Schedule IN-CR line 9 carries to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).
+
+### Sources (Tier 1)
+- https://forms.in.gov/Download.aspx?id=15824
+
+### Confidence
+- **High**
+
+## Utah (advanced)
+
+### What is locked
+- Utah TC-40A instructions specify code 54 (my529 addback) for withdrawals not used for qualified education expenses and not meeting IRC 529(c)/530(d) exceptions.
+- Part 1 additions are carried to TC-40 line 5, giving a clear filing-path control point for addback handling.
+
+### Sources (Tier 1)
+- https://incometax.utah.gov/additions/my529-addback
+- https://files.tax.utah.gov/tax/forms/current/tc-40a.pdf
+
+### Confidence
+- **Medium-High** (explicit addback mechanics are clear; ABLE-specific carveout is inferred through IRC-exception cross-reference rather than named directly)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
@@ -48,13 +73,15 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 - Colorado (Low)
 - Virginia (Low)
 - New York (Low)
+- Indiana (High)
+- Utah (Medium-High)
 
 ## Priority closure queue (next)
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+3. **Minnesota**: explicit ABLE carveout confirmation vs current recapture inference.
+4. **Illinois**: explicit in-state 529->ABLE anti-recapture text vs inferred treatment.
 
 ## Interpretation notes
 

@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-10 (run 20:00 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. In Indiana TY2025+, does the CollegeChoice credit recapture instruction continue to explicitly classify 529->ABLE transfers as non-qualified withdrawals?
+41. In Utah TY2026+, does TC-40A code-54 guidance continue to rely on IRC 529(c)/530(d) exception logic, or is ABLE-specific language added?
+42. What percentage of source plans in the top 20 529-by-assets require medallion/signature guarantees for outgoing 529->ABLE direct rollovers?
