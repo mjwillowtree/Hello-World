@@ -1,5 +1,56 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+1. Did 529->ABLE rollover treatment actually sunset after 2025, or was the sunset removed in controlling law?
+2. What changed in ABLE-to-Work mechanics after the 2025 law update?
+3. Which high-impact states can be upgraded in the recapture matrix with better authority mapping this run?
+
+### M (Memory)
+
+- **M8:** The old 529->ABLE sunset is no longer controlling law; Pub. L. 119-21, §70117(a) struck "before January 1, 2026" from IRC §529(c)(3)(C)(i)(III).  
+  Confidence: **High (Tier 1 statute + current codification notes)**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** ABLE-to-Work was also extended; Pub. L. 119-21, §70115(a)(2) struck "before January 1, 2026" in IRC §529A(b)(2)(B)(ii).  
+  Confidence: **High (Tier 1 statute + current codification notes)**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+
+- **M10:** Federal updates can invalidate older IRS/newsroom language; authority hierarchy (statute > regs > forms/instructions > newsroom/plan summaries) must be enforced explicitly in answers.  
+  Confidence: **High (methodological + legal hierarchy)**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md`:
+  - marked post-2025 rollover sunset ambiguity as resolved;
+  - added ABLE-to-Work extension status;
+  - added new cross-reference risk (section 530A interactions).
+- Expanded state-matrix work queue and uncertainty flags in `docs/STATE_RECAPTURE_WATCHLIST.md`.
+- Re-ranked research priorities in `TASKLIST.md` and upgraded confidence mapping in `docs/KNOWLEDGE_FRONTIER.md`.
+- Added new unknowns to `docs/QUESTION_BANK.md`.
+
+### Assumption challenge
+
+- Challenged assumption: **"Older IRS language saying 'before Jan. 1, 2026' is still operative."**
+- Result: **Failed.** Controlling statute was amended in 2025; historical IRS wording is no longer definitive.
+
+### Surprising / contrarian finding
+
+- A major legal pivot occurred in 2025 while many commonly cited IRS/newsroom references still circulate with older wording, creating a high risk of confidently wrong answers.
+
+### Next run target
+
+Close one Tier 1 state ambiguity (NY or NJ preferred) with direct tax-department form-instruction or statute-to-form linkage for 529->ABLE recapture/add-back treatment.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

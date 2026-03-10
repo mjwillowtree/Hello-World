@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,11 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## Newly discovered unknowns (2026-03-10)
+
+26. Where (if anywhere) do IRS forms/instructions explicitly reconcile old pre-2026 newsroom wording with post-2025 statutory amendments for 529->ABLE?
+27. How should advisors document reliance when statutory text and plan/marketing pages are temporarily out of sync?
+28. Does section 530A cross-reference usage in current 529A text change any practical ABLE contribution monitoring workflow for existing ABLE accounts?
+29. For NY, NJ, and OH, what is the exact return-line treatment of 529->ABLE when prior 529 deductions were taken?
+30. Which state tax agencies have published taxpayer-facing examples (not just statutes) for 529->ABLE recapture/add-back?
