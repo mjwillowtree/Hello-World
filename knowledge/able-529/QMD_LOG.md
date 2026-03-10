@@ -1,5 +1,56 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run (Depth: ABLE-to-Work, Breadth: State matrix expansion)
+
+### Q (Query)
+
+1. What is the most defensible advisor-safe interpretation of ABLE-to-Work contribution eligibility when retirement-plan participation facts are messy?
+2. Which high-impact states now have enough primary authority to classify 529->ABLE recapture/add-back risk with confidence?
+3. Which assumptions fail when secondary guidance lags statutory amendments?
+
+### M (Memory)
+
+- **M8:** ABLE-to-Work analysis should use a strict authority ladder: IRC §529A first, then regulations/IRB notices, then IRS publications/newsroom summaries.  
+  Confidence: **High (methodological + legal hierarchy)**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529A%20edition:prelim)
+  - https://www.irs.gov/irb/2018-34_IRB
+  - https://www.irs.gov/publications/p907
+
+- **M9:** ABLE-to-Work participation-test edges remain unresolved in public secondary guidance, especially DB-only coverage and tax-year attribution for employer true-ups; conservative practice is to decline extra contributions when facts are uncertain.  
+  Confidence: **Medium**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529A%20edition:prelim)
+  - https://www.federalregister.gov/documents/2020/11/19/2020-22144/guidance-under-section-529a-qualified-able-programs
+  - https://www.irs.gov/publications/p907
+
+- **M10:** State mechanics vary sharply: PA/IL have stronger filing-level signals already; NY/NJ still require exact current form-code pinning before high-confidence practitioner guidance.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxsummaries/documents/2024_tax_summary_aug.pdf
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40a.pdf
+  - https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html
+  - https://www.tax.ny.gov/pdf/memos/income/m18-6i.pdf
+  - https://www.nj.gov/treasury/taxation/njgrosstax.shtml
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` with ABLE-to-Work authority hierarchy, conservative operating rule, and rollover-permanence status tracking.
+- Expanded `docs/STATE_RECAPTURE_WATCHLIST.md` into a Phase 1 matrix covering CA, NY, NJ, PA, IL, OH, plus existing OR/CO/VA signals.
+- Added six new unresolved questions to `docs/QUESTION_BANK.md` (ABLE-to-Work mechanics + NY/NJ filing-code gaps + stale-guidance tracker).
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and logged an explicit assumption challenge outcome.
+- Re-ranked `TASKLIST.md` to prioritize ABLE-to-Work quote-backed memo and NY/NJ line-code closure.
+
+### Assumption challenge
+
+- Challenged: **"If IRS/newsroom or plan summaries mention a rule, implementation details are settled."**
+- Result: **Failed** under stress. Secondary sources still lag in some places; primary-source conflict-resolution hierarchy remains mandatory.
+
+### Next run target
+
+1. Produce quote-backed ABLE-to-Work memo with explicit handling for DB-only and true-up timing scenarios.
+2. Close NY/NJ exact line/modification-code references from current-year instructions/PDF code charts.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

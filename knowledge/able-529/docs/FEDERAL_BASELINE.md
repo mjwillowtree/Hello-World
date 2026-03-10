@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -25,7 +25,14 @@ Updated: 2026-03-09
      - https://www.law.cornell.edu/uscode/text/26/529
      - https://www.law.cornell.edu/uscode/text/26/529A
 
-4. **2026 ABLE base annual contribution interpretation**
+4. **Post-2025 529->ABLE availability**
+   - Prior sunset wording ("before January 1, 2026") was removed by later legislation.
+   - Current working position: federal 529->ABLE rollover pathway continues for tax years beginning after 2025, subject to all other statutory conditions.
+   - Sources:
+     - Public law amendment package: https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+     - Current U.S. Code text: https://uscode.house.gov/view.xhtml?req=(title:26%20section:529%20edition:prelim)
+
+5. **2026 ABLE base annual contribution interpretation**
    - Best current legal reading is **$20,000** for 2026.
    - Reason: §529A(b)(2)(B)(i) applies ABLE-specific indexing language substituting "1996" for "1997" when applying §2503(b)(2)(B).
    - Sources:
@@ -33,21 +40,27 @@ Updated: 2026-03-09
      - https://uscode.house.gov/quicksearch/get.plx?section=2503&title=26
      - https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
 
+6. **ABLE-to-Work additional contribution mechanics (advisor-safe baseline)**
+   - Controlling authority is IRC §529A first; IRS publications/newsroom are secondary summaries.
+   - Conservative operational rule: only use the extra ABLE-to-Work contribution when records support compensation eligibility and no disqualifying retirement-plan contribution condition is triggered for the same tax year.
+   - Risk-control practice: if plan-type or timing attribution is unclear (e.g., employer true-up timing), default to no extra contribution until resolved.
+   - Sources:
+     - Statute text (current): https://uscode.house.gov/view.xhtml?req=(title:26%20section:529A%20edition:prelim)
+     - IRS Notice reference: https://www.irs.gov/irb/2018-34_IRB
+     - Treasury/IRS rulemaking context: https://www.federalregister.gov/documents/2020/11/19/2020-22144/guidance-under-section-529a-qualified-able-programs
+     - IRS operational summary: https://www.irs.gov/publications/p907
+
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
-
-2. **Implementation hierarchy clarity**
+1. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
    - Action: add citation-backed authority ladder and conflict-resolution rule.
 
-3. **ABLE-to-Work edge mechanics**
-   - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
-   - Action: extract controlling authority and produce monitoring examples.
+2. **ABLE-to-Work edge mechanics**
+   - Need high-confidence explanation of retirement-plan participation test boundaries (especially DB-only coverage and whether IRA "active participant" concepts fully carry over).
+   - Action: produce quote-backed memo from statute/regulatory text and examples.
 
-4. **Federal-to-state disconnect risk**
+3. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
 

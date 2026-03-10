@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,12 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## New unknowns from 2026-03-10 run
+
+26. Does ABLE-specific authority explicitly adopt or reject IRA "active participant" concepts when applying ABLE-to-Work retirement-plan participation limits?
+27. In DB-only employer coverage (no DC/403/457 contributions), is ABLE-to-Work extra contribution disallowed?
+28. What is the controlling timing rule when employer contributions/true-ups are posted after year-end but allocated to the prior taxable year?
+29. What exact NY IT-225 modification code and line references apply to 529 recapture/add-back in current forms, and does NY explicitly classify 529->ABLE rollovers?
+30. What exact NJ-1040 instruction line(s) govern treatment of 529 nonqualified distributions and recapture flow relevant to 529->ABLE transfers?
+31. Which official IRS pages/forms still contain stale pre-2026 sunset language for 529->ABLE, and what is the safest practitioner disclaimer until all secondary guidance is updated?
