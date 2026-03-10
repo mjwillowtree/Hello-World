@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. Do current-year Indiana IT-40 instructions preserve the IN-CR treatment that classifies transfers to non-Indiana ABLE plans as nonqualified for recapture?
+41. Which source 529 plans most frequently impose medallion signature guarantees that delay outgoing 529->ABLE transfers?
+42. What is the best predictive feature set for "good-order" transfer completion time (documentation completeness, signature type, source-plan type, transfer path)?

@@ -19,10 +19,10 @@ If any item above is missing, the run is incomplete.
    - Deliverable: one-page citation memo that can be pasted into planning files.
 
 2. **State recapture matrix buildout (Phase 1: 12 states)**
-   - Current status: 10 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH, MN) with uneven confidence.
+   - Current status: 11 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH, MN, IN) with uneven confidence.
    - Expand into structured matrix with citations, conformity year, and form line references.
-   - Immediate priority states: UT, IN.
-   - Immediate confidence repairs: NJ and PA line-level treatment.
+   - Immediate priority states: UT.
+   - Immediate confidence repairs: NJ and PA line-level treatment; MN explicit carveout check.
 
 ## Next queue (depth + breadth rotation)
 

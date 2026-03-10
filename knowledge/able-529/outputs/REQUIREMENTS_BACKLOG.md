@@ -27,20 +27,25 @@ Updated: 2026-03-10
    - Collect required source/destination metadata.
    - Produce completed handoff packet and checklist (including notarization/signature warnings).
 
+5. **Good-order rules engine + SLA prediction band**
+   - Compute a "good-order" score from required fields/docs/signatures.
+   - Surface dependency warnings (for example, source-institution medallion requirement risk).
+   - Show probabilistic completion band (not a guaranteed date) tied to packet completeness.
+
 ## P1
 
-5. **Transfer journey status tracker**
+6. **Transfer journey status tracker**
    - Milestones: request created -> outbound plan contacted -> docs received -> compliance validated -> posted.
    - Exception states: missing earnings breakdown, signature mismatch, beneficiary mismatch.
 
-6. **Beneficiary/family relationship wizard**
+7. **Beneficiary/family relationship wizard**
    - Guided questions that produce relationship eligibility output and attestation capture.
 
-7. **Citation-backed FAQ service**
+8. **Citation-backed FAQ service**
    - Every answer includes confidence and source tier badges.
    - Low-confidence answers include "what could change this".
 
-8. **State filing helper**
+9. **State filing helper**
    - Show line references when confidence is high; otherwise warn and route to review.
 
 ## Experiments (next 2 sprints)
@@ -49,3 +54,5 @@ Updated: 2026-03-10
    - Metric: transfer exception rate, time-to-fund, abandonment.
 2. **State-risk warning interstitial**
    - Metric: post-filing issue tickets, warning acknowledgment.
+3. **Good-order score visibility experiment**
+   - Metric: p50 time-to-fund, % transfers entering exception queue, support-contact rate per transfer.

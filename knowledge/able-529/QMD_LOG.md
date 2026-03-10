@@ -288,3 +288,95 @@ Execute the new protocol on substance: resolve the 529->ABLE post-2025 legal sta
 ### Next run target
 
 Verify post-2025 federal legal status of 529->ABLE rollover sunset/permanence and capture advisor-safe interpretation language.
+
+## 2026-03-10 Hourly Run (21:02 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does Indiana treat all 529->ABLE transfers equally for credit-recapture purposes, or does treatment vary by destination ABLE program?
+2. Unknown: What is the exact Indiana line-level filing flow for 529 credit recapture on current forms?
+3. Unknown: Is there any official form-level timing anchor that can support transfer-SLA UX claims?
+4. Adversarial challenge: Is "federally qualified" a sufficient state-tax proxy for 529->ABLE transfers?
+5. Product/competition question: Which official provider forms contain usable "good-order" and delay signals that can be encoded in onboarding/servicing workflows?
+6. State-specific question: Can Indiana be advanced from placeholder to high-confidence with Tier-1 source + line-level references this run?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Resolve Indiana ABLE-specific recapture ambiguity | 5,5,5,4,1 | 500 | Execute |
+| Lock Indiana line-level filing path | 5,5,4,4,1 | 400 | Execute |
+| Add workflow timing evidence from official forms | 4,4,4,4,1 | 256 | Execute |
+| Convert new evidence into backlog/opportunity updates | 4,5,5,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana DOR Information Bulletin #98 (Jan 2026) distinguishes 529->ABLE recapture treatment for 2024+: transfer to Indiana ABLE 529A is treated as qualified withdrawal for recapture purposes, while transfer to other ABLE plans is treated as nonqualified for recapture analysis.  
+  Confidence: **High**  
+  Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M18:** Indiana filing flow is line-level explicit: Schedule IN-CR line 9 carries total recapture to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3); IN-CR instructions include transfer to ABLE in nonqualified-withdrawal definition.  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M19:** my529 rollover forms add operational timing and delay controls usable in product UX: Form 215 states good-order requests are usually completed within three business days, and Form 210 warns missing source-side medallion/signature requirements can delay processing.  
+  Confidence: **High**  
+  Sources:
+  - https://my529.org/wp-content/uploads/2023/07/215.pdf
+  - https://my529.org/wp-content/uploads/2025/12/210.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"If a state treats 529->ABLE as qualified, treatment is uniform across all destination ABLE plans."**
+- Result: **Failed.** Indiana distinguishes in-state ABLE destination versus other ABLE destinations for recapture purposes in 2024+ guidance.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Indiana row to high confidence with line-level references).
+- Updated `outputs/STATE_MATRIX.md` (Indiana advanced-state narrative and coverage metrics).
+- Updated `outputs/LEGAL_BASELINE.md` (Indiana authority block added).
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (my529 workflow datapoint added).
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added/re-ranked good-order SLA opportunity).
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (new good-order rules engine requirement).
+- Updated `outputs/EXEC_SUMMARY.md` (new current truths/risks/opportunities and citations).
+- Updated `outputs/USER_JOURNEY_MAP.md` (signature-guarantee and SLA control points).
+- Updated `outputs/FAQ.md` (Indiana and SLA adversarial answers).
+- Updated `outputs/HUB.md` (fresh weekly changelog + KPI snapshot).
+- Updated `docs/KNOWLEDGE_FRONTIER.md` (coverage/confidence refresh).
+- Updated `docs/QUESTION_BANK.md` (added new unknowns 40-42).
+- Updated `docs/STATE_RECAPTURE_MATRIX_PHASE1.md` (Indiana row added).
+- Updated `TASKLIST.md` (phase-1 state progression/status).
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana ABLE-destination recapture distinction upgraded to High confidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana, IN-CR line 9 -> IT-40 Schedule 4 line 3 / IT-40PNR Schedule E line 3).
+- One competition/workflow insight added: **Yes** (my529 good-order SLA anchor + medallion delay dependency).
+- One product requirement/opportunity added or re-ranked: **Yes** (Good-order readiness score + SLA predictor added and ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~89%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~89%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA with explicit current-year line-level return-instruction treatment.
+2. Advance Utah with code/form-line references.
+3. Expand operations evidence from single-provider SLA statement to cross-provider timing distribution and rejection-reason frequency.

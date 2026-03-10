@@ -57,6 +57,15 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Indiana (line-level ABLE distinction)
+- Indiana DOR Information Bulletin #98 (Jan 2026) distinguishes ABLE transfer treatment:
+  - transfer to Indiana ABLE 529A is qualified for recapture purposes beginning in 2024;
+  - transfer to ABLE accounts other than Indiana ABLE 529A is nonqualified for recapture purposes.
+- Filing flow is explicit in Schedule IN-CR: line 9 total carries to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).
+- Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.

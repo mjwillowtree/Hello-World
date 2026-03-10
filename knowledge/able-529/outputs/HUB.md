@@ -4,6 +4,12 @@ Updated: 2026-03-10
 
 ## What changed this week
 
+### 2026-03-10 (21:02 UTC cron run)
+- Closed a high-impact ambiguity in **Indiana**: 2024+ transfers from Indiana529 to Indiana ABLE 529A are treated as qualified for recapture purposes, while transfers to other ABLE plans are nonqualified for recapture logic.
+- Advanced **Indiana** to high-confidence with line-level filing flow: IN-CR line 9 -> IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).
+- Added new competitor/workflow evidence from **my529** forms: good-order requests usually completed within three business days, but source-side medallion/signature requirements can delay completion.
+- Re-ranked opportunities and backlog to add a **Good-order readiness score + SLA predictor** requirement.
+
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
 - Advanced **Minnesota** with line-level recapture flow (M1529 -> M1 line 14).
@@ -25,14 +31,14 @@ Updated: 2026-03-10
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
-- High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- State matrix completion (substantive rows): **11 / 51**
+- High-confidence states: **12 / 51 (23.5%)**
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio (new substantive claims): **~89%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25, citation-ready quickly): **15 / 25**
 
 ## Navigation
 
@@ -50,5 +56,5 @@ Updated: 2026-03-10
 ## Immediate next-run targets
 
 1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+2. Advance **UT** with Tier-1 form/code references.
+3. Quantify transfer timing variance (p50/p90) beyond one-plan evidence.

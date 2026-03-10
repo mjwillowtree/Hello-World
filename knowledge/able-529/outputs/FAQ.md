@@ -60,3 +60,17 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Does Indiana treat every 529->ABLE transfer the same for credit recapture?
+**Answer:** No. Indiana DOR Bulletin #98 states that, for 2024 and later, transfer from Indiana529 to **Indiana ABLE 529A** is treated as qualified for recapture purposes, while transfer to ABLE accounts other than Indiana ABLE 529A is treated as nonqualified for recapture purposes.  
+**Confidence:** High  
+**Sources:**  
+- https://www.in.gov/dor/files/ib98.pdf  
+- https://forms.in.gov/Download.aspx?id=16371
+
+## 10) Is there any official timing anchor for rollover processing speed?
+**Answer:** Yes, but it is conditional. my529 Form 215 says requests in good order are usually completed within three business days after receipt; Form 210 also notes missing source-side medallion/signature requirements can delay processing.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://my529.org/wp-content/uploads/2023/07/215.pdf  
+- https://my529.org/wp-content/uploads/2025/12/210.pdf
