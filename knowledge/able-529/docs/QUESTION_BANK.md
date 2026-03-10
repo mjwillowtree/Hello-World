@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,8 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+26. Which IRS/state pages still contain stale pre-amendment 529->ABLE sunset language, and how should advisor templates guard against this?
+27. For ABLE-to-Work, what is the strongest authority on contribution-year attribution when payroll withholding and ABLE deposit dates cross tax years?
+28. Does defined-benefit-only retirement coverage disqualify ABLE-to-Work additional contributions in practice under current guidance?
+29. In Utah, does explicit reference to IRC 529(c) exceptions eliminate addback for qualifying 529->ABLE rollovers in all cases or only selected ones?
+30. What minimum evidence packet proves state recapture position in audit (statute/rule + instruction line + computation worksheet)?

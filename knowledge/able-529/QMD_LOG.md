@@ -1,5 +1,68 @@
 # QMD Log
 
+## 2026-03-10 Run
+
+### Q (Query)
+
+Frontier questions generated before research:
+
+1. **Depth:** What is the strongest Tier-1/Tier-2 authority for ABLE-to-Work when payroll events cross year-end (withholding date vs ABLE posting date)?
+2. **Depth/adversarial:** Does "no contribution is made ... to a plan" under IRC 529A(b)(7)(A) effectively disqualify DB-only workers even without elective deferrals?
+3. **Breadth:** Which new state rules/instructions most directly indicate whether 529->ABLE triggers recapture/add-back (MN, UT, IN)?
+4. **Adversarial:** If federal law changed but state instructions still lag, which source hierarchy should control advisor recommendations?
+
+### M (Memory)
+
+- **M8:** Post-2025 529->ABLE sunset ambiguity is now resolved at high confidence. Current IRC 529 amendment notes show Pub. L. 119-21 section 70117(a) struck "before January 1, 2026," and effective-date text applies amendment to taxable years beginning after Dec. 31, 2025.  
+  Confidence: **High**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529%20edition:prelim)
+
+- **M9:** ABLE-to-Work extra contribution mechanics are firmly anchored in IRC 529A: additional amount is capped by the lesser of compensation or one-person poverty-line amount; retirement-plan disqualifier is contribution-based and names 401(a)/403(a), 403(b), and 457(b)-related arrangements.  
+  Confidence: **High**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529A%20edition:prelim)
+  - https://www.irs.gov/irb/2020-50_IRB#TD-9923
+
+- **M10:** IRS 1099-QA/5498-QA instructions provide operational details that matter for ABLE-to-Work controls (poverty guideline by beneficiary residence state; beneficiary recordkeeping responsibility), but they do not fully close year-end timing edge cases.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://www.irs.gov/instructions/i1099qa
+
+- **M11:** State treatment can diverge sharply even when federal exceptions exist. Oregon has explicit 529/ABLE unqualified withdrawal recapture rule text; Minnesota recapture language is clear for nonqualified 529 withdrawals but does not explicitly resolve 529->ABLE carveout in the DOR page reviewed.  
+  Confidence: **Medium**  
+  Sources:
+  - https://oregon.public.law/rules/oar_150-315-0065
+  - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
+
+- **M12 (surprising/contrarian):** Utah addback instructions explicitly key off whether an IRC 529(c)/530(d) exception applies, implying that federal statutory exception changes can alter state addback outcomes without Utah rewriting every instruction each year.  
+  Confidence: **Medium**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529%20edition:prelim)
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md`:
+  - closed rollover sunset ambiguity,
+  - added authority hierarchy/conflict rule,
+  - upgraded ABLE-to-Work core mechanics and narrowed remaining ambiguities.
+- Updated `docs/STATE_RECAPTURE_WATCHLIST.md` with MN/UT/IN additions and confidence labels.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` confidence scores and refreshed top 3 priorities.
+- Expanded `docs/QUESTION_BANK.md` with 5 new unknowns (items 26-30).
+- Re-ranked `TASKLIST.md` around highest current value-of-information (ABLE-to-Work edge memo + line-level state mapping + implementation-lag tracker).
+
+### Assumption challenge
+
+- Challenged assumption: **"Federal conformity means state conformity."**  
+  Outcome: **Failed / false.** Oregon and Minnesota language show recapture risk framing that is not automatically resolved by federal qualified treatment alone; Utah appears exception-driven but still needs line-level confirmation.
+
+### Next run target
+
+1. Lock down ABLE-to-Work year-end attribution and employer true-up guidance using highest-authority language available.
+2. Convert NY/NJ/MN/UT from "signal-level" to exact line/code-level state matrix entries.
+3. Start implementation-lag registry with at least five stale or potentially stale references.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)
