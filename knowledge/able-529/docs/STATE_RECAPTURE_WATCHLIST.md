@@ -1,8 +1,9 @@
 # State Recapture Watchlist (Seed)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Purpose: starter list for building a 50-state 529->ABLE recapture/add-back matrix.
+Primary build artifact now: `docs/STATE_RECAPTURE_MATRIX_PHASE1.md`.
 
 ## States flagged in this run
 
@@ -25,4 +26,4 @@ For each state, capture:
 
 ## Immediate next expansion targets
 
-- California, New Jersey, Pennsylvania, Illinois, Ohio, Utah, Indiana, Minnesota.
+- California, New Jersey, Pennsylvania, Illinois, New York, Virginia, Colorado, Oregon.

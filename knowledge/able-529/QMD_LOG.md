@@ -1,5 +1,63 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+Depth track:
+1. Is the federal 529->ABLE rollover sunset still operative after 2025, or has it been removed by enacted law?
+
+Breadth track:
+2. What is the best current primary-authority read for 529->ABLE recapture/conformity in Ohio, Utah, Indiana, and Minnesota?
+
+Generated frontier questions:
+3. Which states explicitly name 529A/ABLE in tax form instructions versus generic "nonqualified withdrawal" language?
+4. Where do official state forms conflict with program marketing summaries?
+5. Adversarial: if federal law is settled, what is the strongest way state treatment can still produce taxpayer harm?
+
+### M (Memory)
+
+- **M8:** Federal sunset language for 529->ABLE was removed by statute: enrolled text for Sec. 70117 amends IRC 529(c)(3)(C)(i)(III) by striking "before January 1, 2026," with effective date for taxable years beginning after December 31, 2025.  
+  Confidence: **High**  
+  Sources:
+  - https://www.congress.gov/119/bills/hr1/generated/BILLS-119hr1enr.html
+  - https://www.congress.gov/119/plaws/publ21/PLAW-119publ21.pdf
+
+- **M9:** Current U.S. Code editorial notes for IRC 529 show Pub. L. 119-21, Sec. 70117(a) struck out "before January 1, 2026," before "to an ABLE account," confirming permanence in codified notes.  
+  Confidence: **High**  
+  Source:
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M10:** State treatment remains materially non-uniform/unclear even with federal permanence: Utah appears more likely to conform through IRC exception framing, while Indiana appears recapture-oriented and Ohio/Minnesota remain unresolved for explicit 529->ABLE treatment.  
+  Confidence: **Medium**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://codes.ohio.gov/ohio-revised-code/section-5747.70
+  - https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+  - https://www.revenue.state.mn.us/recapture-tax
+
+- **M11 (assumption stress):** "Federal conformity means state conformity" is a failed assumption in this domain; federal certainty does not eliminate state recapture risk.  
+  Confidence: **High (methodological + current evidence)**
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` to mark post-2025 rollover permanence as resolved and citation-backed.
+- Added `docs/STATE_RECAPTURE_MATRIX_PHASE1.md` with OH/UT/IN/MN entries and confidence labels.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` confidence scores and assumption stress-test outcome.
+- Expanded `docs/QUESTION_BANK.md` with five new unknowns (26-30).
+- Re-ranked `TASKLIST.md` around authority-hierarchy memo + state matrix expansion.
+- Updated `docs/STATE_RECAPTURE_WATCHLIST.md` to align with matrix workflow.
+
+### Surprising / contrarian finding
+
+The highest-risk unanswered questions are no longer mainly federal; they are state implementation and filing-line interpretation issues where legal ambiguity can persist despite federal statutory clarity.
+
+### Next run target
+
+1. Add 4 more high-impact states (CA, NY, NJ, PA) to the matrix with form-line citations.
+2. Produce the authority-hierarchy memo with conflict-resolution examples.
+3. Close one low-confidence state (NJ or PA) to high confidence.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

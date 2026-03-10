@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -46,3 +46,11 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 23. Which commonly repeated "facts" about ABLE/529 are wrong or materially incomplete?
 24. If current guidance changed tomorrow, what assumptions in the knowledge base would fail first?
 25. What question would a tax litigator ask that this system cannot yet answer with primary sources?
+
+## New unknowns added (2026-03-10 run)
+
+26. Which states explicitly reference IRC 529(c)(3)(C)(i)(III) (or 529A rollovers) in form instructions, rather than only generic "nonqualified withdrawal" language?
+27. For Indiana, what is the strongest in.gov primary citation that directly states 529->ABLE transfer recapture treatment?
+28. For Ohio, is there an explicit Department of Taxation interpretation that 529->ABLE is exempt (or not exempt) from ORC 5747.70 add-back?
+29. For Minnesota, does any DOR notice/instruction classify 529->ABLE as a "qualified" rollover versus a recapture event?
+30. Does Utah conformity treatment create any tax-year timing mismatch between federal rollover permanence and Utah addback mechanics?
