@@ -1,5 +1,64 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+Depth track:
+1. Is the federal 529->ABLE rollover still sunset-limited, or is it now permanent after 2025 legislation?
+
+Breadth track:
+2. What does current state evidence suggest for recapture/add-back risk in CA, NY, NJ, PA, IL, and OH?
+
+Adversarial check:
+3. If statute and older IRS webpages conflict, which authority controls for advisor-safe guidance?
+
+### M (Memory)
+
+- **M8:** The sunset phrase "before January 1, 2026" was struck from §529(c)(3)(C)(i)(III) by P.L. 119-21 §70117(a), and the change applies to taxable years beginning after Dec. 31, 2025.  
+  Confidence: **High**  
+  Sources:
+  - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529%20edition:prelim)
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+
+- **M9 (Contrarian):** Older IRS newsroom language can remain sunset-era even after statutory text changes; statute + enacted law notes must control when sources conflict.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+  - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529%20edition:prelim)
+
+- **M10:** Early 6-state state-tax evidence is heterogeneous: PA currently shows strong conformity signal, while NY/NJ remain low-confidence for ABLE-specific recapture handling, and IL/OH show recapture-risk framing absent explicit carveouts.  
+  Confidence: **Medium**  
+  Sources:
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxlawpoliciesbulletinsnotices/taxsummaries/documents/2024_tax_summary_aug.pdf
+  - https://tax.ny.gov/forms/current-forms/it/it225i.htm
+  - https://www.nj.gov/treasury/taxation/njgrosstax.shtml
+  - https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf
+  - https://tax.ohio.gov/faq-529
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` to close the post-2025 rollover sunset ambiguity and capture effective-date language.
+- Expanded `docs/STATE_RECAPTURE_WATCHLIST.md` into a 6-state evidence matrix v0.1 (CA/NY/NJ/PA/IL/OH) with confidence and caveats.
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and recorded this run's failed assumption test.
+- Expanded `docs/QUESTION_BANK.md` with new unknowns on IRS lag and low-confidence state authority hierarchy.
+- Re-ranked `TASKLIST.md` to prioritize IRS artifact reconciliation and state matrix confidence upgrades.
+
+### Assumption challenge
+
+- Challenged assumption: "If IRS newsroom says it, implementation details are settled."
+- Result: **Failed.** Current Code + public law notes indicate permanence, while legacy IRS pages still carry historical sunset framing.
+
+### New unknowns created this run
+
+1. Which IRS forms/instructions/publications still contain pre-2026 rollover sunset phrasing?
+2. What exact advisor documentation should show authority hierarchy when IRS sub-regulatory guidance lags statute?
+3. In NY and NJ, what is the highest-authority ABLE rollover recapture source (statute vs regulation vs form instruction)?
+
+### Next run target
+
+Produce an "authority ladder memo" (statute -> regulations -> IRS forms/publications -> plan materials) and raise NY/NJ from low-confidence to medium+ with primary state tax authority citations.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)

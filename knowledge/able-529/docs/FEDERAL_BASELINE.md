@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-09
+Updated: 2026-03-10
 
 ## Confirmed baseline rules
 
@@ -33,23 +33,32 @@ Updated: 2026-03-09
      - https://uscode.house.gov/quicksearch/get.plx?section=2503&title=26
      - https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill
 
+5. **Post-2025 status of 529->ABLE rollovers (depth resolution)**
+   - §529(c)(3)(C)(i)(III) no longer contains the phrase "before January 1, 2026".
+   - The statutory notes for §529 identify the amendment source: P.L. 119-21, §70117(a), which struck that sunset phrase.
+   - Effective-date note in P.L. 119-21 §70117(b): applies to taxable years beginning after Dec. 31, 2025.
+   - Confidence: **High** (controlling text + amendment note aligned).
+   - Sources:
+     - https://uscode.house.gov/view.xhtml?req=(title:26%20section:529%20edition:prelim)
+     - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+
 ## Known ambiguities (must resolve)
 
-1. **Post-2025 rollover sunset/permanence language**
-   - Historic IRS guidance references availability "before January 1, 2026."
-   - Action: verify current codified status and any IRS implementation update after 2025 legislation.
-
-2. **Implementation hierarchy clarity**
+1. **Implementation hierarchy clarity**
    - Need precise hierarchy note for advisors: statute vs regulations vs publications/newsroom vs plan guidance.
    - Action: add citation-backed authority ladder and conflict-resolution rule.
 
-3. **ABLE-to-Work edge mechanics**
+2. **ABLE-to-Work edge mechanics**
    - Need high-confidence explanation of retirement plan participation test and payroll timing pitfalls.
    - Action: extract controlling authority and produce monitoring examples.
 
-4. **Federal-to-state disconnect risk**
+3. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
+
+4. **IRS artifact lag risk after statute changes**
+   - Older IRS newsroom pages still include pre-2026 sunset wording.
+   - Action: identify which IRS forms/instructions/publications now reflect permanence and which still lag.
 
 ## Research discipline
 
