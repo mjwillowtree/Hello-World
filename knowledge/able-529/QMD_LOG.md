@@ -1,5 +1,78 @@
 # QMD Log
 
+## 2026-03-10 Hourly Run
+
+### Q (Query)
+
+Frontier questions generated before research:
+
+1. **Depth:** Did enacted law after 2025 actually remove the 529->ABLE sunset, or does any controlling authority still preserve a cutoff?
+2. **Depth/adversarial:** If statute and IRS sub-regulatory artifacts conflict, which authority should govern advisor recommendations in 2026?
+3. **Breadth:** What do Utah, Indiana, and Minnesota actually do on 529->ABLE recapture/add-back, and where do form-line instructions diverge from higher-level guidance?
+4. **Breadth/adversarial:** Could a taxpayer be technically correct under statute but still face filing friction because state forms and program operations lag?
+
+### M (Memory)
+
+- **M8:** The federal "before January 1, 2026" sunset for 529->ABLE rollovers was removed by Pub. L. 119-21 sec. 70117(a), with an effective-date rule for taxable years beginning after 2025-12-31.  
+  Confidence: **High**  
+  Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+
+- **M9:** Older IRS artifacts (Notice 2018-58, pre-amendment form instructions/publications, preamble language) can remain operationally useful but legally stale after statutory amendments.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/pub/irs-drop/n-18-58.pdf
+  - https://www.irs.gov/pub/irs-drop/td-9923.pdf
+  - https://www.irs.gov/pub/irs-pdf/p907.pdf
+  - https://www.irs.gov/pub/irs-pdf/i1099q.pdf
+  - https://www.irs.gov/pub/irs-pdf/i1099qa.pdf
+
+- **M10:** Utah recapture/addback signaling is primarily statute cross-reference based (IRC section 529(c)/530(d) exception structure) rather than explicit ABLE naming.  
+  Confidence: **Medium**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://le.utah.gov/xcode/Title59/Chapter10/C59-10-S114_2025101420251206.html
+
+- **M11:** Indiana currently shows a guidance-layer conflict: Bulletin 98 (newer) provides nuanced ABLE treatment, while Schedule IN-CR instruction text remains broader and potentially inconsistent.  
+  Confidence: **Medium**  
+  Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+
+- **M12:** Minnesota recapture framework is explicit for section 529 qualified vs nonqualified uses, but ABLE-specific treatment is mostly inferential (not clearly named in primary authority reviewed this run).  
+  Confidence: **Medium**  
+  Sources:
+  - https://www.revisor.mn.gov/statutes/cite/290.06/pdf
+  - https://www.revisor.mn.gov/statutes/cite/290.0684/pdf
+  - https://www.revisor.mn.gov/statutes/cite/290.0132/pdf
+  - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
+  - https://www.revenue.state.mn.us/sites/default/files/2024-12/m1529-24.pdf
+
+### D (Document updates)
+
+- Updated `docs/FEDERAL_BASELINE.md` to resolve the post-2025 sunset ambiguity with controlling authority and effective-date language.
+- Expanded `docs/STATE_RECAPTURE_WATCHLIST.md` with UT, IN, and MN entries plus confidence annotations.
+- Re-ranked priorities in `TASKLIST.md` (state matrix + implementation-lag tracker now top in-progress items).
+- Updated `docs/KNOWLEDGE_FRONTIER.md` scores and recorded assumption stress-test outcomes.
+- Added new unknowns to `docs/QUESTION_BANK.md` focused on guidance conflicts and lag-risk operations.
+
+### Assumption challenge (mandatory)
+
+- Challenged assumption: **"If IRS/plan guidance says it, implementation details are settled."**
+- Result: **Failed.** Statute moved first; operational guidance can lag materially.
+- Practical implication: maintain explicit authority ladder and conservative fallback script for stale forms/guidance.
+
+### Surprising/contrarian finding
+
+- Indiana currently appears to have internally inconsistent taxpayer-facing artifacts (newer bulletin vs form instruction wording), which means "official source" is not always singular and requires conflict triage.
+
+### Next run target
+
+1. Build a formal authority hierarchy memo with citation templates for advisor use when statute and forms diverge.
+2. Add five more Phase-1 states (CA, NJ, PA, IL, OH) with form-line citations.
+3. Start adversarial comparison model: 529 distribution vs 529->ABLE vs 529->Roth IRA under constrained annual caps.
+
 ## 2026-03-09 Curiosity Upgrade Run
 
 ### Q (Query)
