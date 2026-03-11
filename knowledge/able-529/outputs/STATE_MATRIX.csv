@@ -13,7 +13,7 @@
 "Hawaii","Unknown","Unknown","Unknown","Unknown","Pending","Low","TBD","2026-03-10"
 "Idaho","Unknown","Unknown","Unknown","Unknown","Pending","Low","TBD","2026-03-10"
 "Illinois","Yes","Conditional","Recapture applies for specified triggers including out-of-state transfer/nonqualified use under state instructions","Annual Schedule M instructions govern filing-year treatment","Schedule M line 7 and line 9 recapture references","High","https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html; https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf","2026-03-10"
-"Indiana","Unknown","Unknown","Unknown","Unknown","Pending","Low","TBD","2026-03-10"
+"Indiana","Yes (state 529 credit framework)","Likely nonqualified for state credit-retention when rolled to ABLE (state-specific)","Nonqualified withdrawals require credit recapture reporting; Indiana guidance and recapture schedule tie this to CollegeChoice credit recapture workflow","Federal-qualified rollover treatment does not automatically control Indiana credit recapture posture","Schedule IN-CR (code 837, Column D) with flow to IT-40 Schedule 4 line 3","Medium-High","https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/; https://www.in.gov/dor/files/ib98.pdf; https://forms.in.gov/Download.aspx?id=16371; https://forms.in.gov/Download.aspx?id=15814","2026-03-11"
 "Iowa","Unknown","Unknown","Unknown","Unknown","Pending","Low","TBD","2026-03-10"
 "Kansas","Unknown","Unknown","Unknown","Unknown","Pending","Low","TBD","2026-03-10"
 "Kentucky","Unknown","Unknown","Unknown","Unknown","Pending","Low","TBD","2026-03-10"

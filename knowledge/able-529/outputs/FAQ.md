@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,20 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) If a rollover is federally qualified, can we assume state credit benefits are preserved?
+**Answer:** No. Indiana evidence indicates state credit-recapture workflow can still apply to nonqualified state treatment pathways, so federal-qualified and state-safe checks must be separate.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/  
+- https://www.in.gov/dor/files/ib98.pdf  
+- https://forms.in.gov/Download.aspx?id=16371  
+- https://forms.in.gov/Download.aspx?id=15814
+
+## 10) What new operational friction was added this run?
+**Answer:** STABLE rollover forms add preconditions that should be checked before packet generation, including destination-account setup and possible notarization acknowledgement.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://stableaccount.com/uploads/stable/attachments/cll2f89o5ystx0imdch37f43i-stable-rollover-direct-csp-to-able-1-3-ada.pdf  
+- https://stableaccount.com/uploads/stable/attachments/cll2f7r93ystb0imd5sip0fva-stable-rollover-able-to-able-1-3-ada.pdf  
+- https://stableaccount.com/resources/forms

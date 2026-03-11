@@ -1,15 +1,15 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Indiana** (new), plus prior **Minnesota** and **Ohio**
 
 ## Minnesota (advanced)
 
@@ -38,10 +38,26 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Indiana (advanced this run)
+
+### What is locked
+- Indiana official tax-credit materials and recapture workflow indicate state-level recapture handling for nonqualified CollegeChoice withdrawals, with ABLE rollover treatment requiring state-specific caution.
+- Schedule IN-CR uses recapture code 837 for CollegeChoice credit recapture and flows to IT-40 Schedule 4 line 3.
+
+### Sources (Tier 1)
+- https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+- https://www.in.gov/dor/files/ib98.pdf
+- https://forms.in.gov/Download.aspx?id=16371
+- https://forms.in.gov/Download.aspx?id=15814
+
+### Confidence
+- **Medium-High** (line-flow appears stable; direct current-year DOR instruction quote for explicit 529->ABLE wording still worth hard-quote closure)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
 - Illinois (High)
+- Indiana (Medium-High)
 - New Jersey (Medium; line-level closure pending)
 - Pennsylvania (Medium-Low; line-level closure pending)
 - Oregon (Low)
@@ -54,7 +70,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
 3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Indiana**: tighten from Medium-High to High with direct DOR form-instruction quote text.
 
 ## Interpretation notes
 

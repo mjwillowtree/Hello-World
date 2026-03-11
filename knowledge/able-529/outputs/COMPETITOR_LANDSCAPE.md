@@ -1,6 +1,6 @@
 # COMPETITOR_LANDSCAPE (Onboarding + Plan-Management Focus)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Scope: onboarding/servicing workflows (not portfolio performance).
 
@@ -12,6 +12,7 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 | ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
 | Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
 | ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
+| STABLE Account | Direct 529->ABLE and ABLE->ABLE rollover forms with program-manager coordination language | Notarization acknowledgement and destination-account prerequisites can create preventable delays | Official STABLE rollover forms | Medium-High |
 
 ## Detail notes
 
@@ -34,9 +35,18 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 - Public resources show dedicated forms/processes for direct and indirect rollover intake.
 - Source: https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/
 
+### STABLE Account
+- Provides separate direct 529-to-STABLE and ABLE-to-ABLE rollover forms.
+- Form package highlights operational friction points: destination account setup prerequisites and possible notarization acknowledgement requested by source program manager.
+- Source:
+  - https://stableaccount.com/uploads/stable/attachments/cll2f89o5ystx0imdch37f43i-stable-rollover-direct-csp-to-able-1-3-ada.pdf
+  - https://stableaccount.com/uploads/stable/attachments/cll2f7r93ystb0imd5sip0fva-stable-rollover-able-to-able-1-3-ada.pdf
+  - https://stableaccount.com/resources/forms
+
 ## Product-intelligence implications
 
 1. Form-first operations remain standard for rollover execution.
 2. Beneficiary/family-member mapping is a core failure point.
 3. Earnings-basis documentation is a repeated cross-provider risk control.
 4. Signature/notarization/guarantee variance should be surfaced pre-submission.
+5. Destination-account-exists checks should occur before packet generation.

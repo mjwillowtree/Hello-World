@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,16 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01
+- Higher authority context: Federal law permits 529->ABLE rollover treatment under IRC structure.
+- State-level divergence signal: Indiana state credit-recapture materials indicate nonqualified-withdrawal recapture workflow can still apply in state tax-credit systems, requiring state-specific analysis even when federal rollover pathway exists.
+- Resolution: product and support logic must treat federal qualification and state credit-recapture exposure as separate checks.
+- Sources:
+  - https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=15814
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -57,6 +67,15 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Indiana (line-flow pattern)
+- Indiana recapture schedule and tax-credit guidance establish a state recapture reporting path for nonqualified 529 events (Schedule IN-CR code 837 -> IT-40 Schedule 4 line 3).
+- This is a key state-divergence example for product controls: do not infer state-safe treatment from federal qualification alone.
+- Sources:
+  - https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=15814
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -65,4 +84,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
-3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+3. Indiana explicit current-year DOR instruction quote confirming ABLE rollover handling language used in recapture analysis.

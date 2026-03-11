@@ -1,5 +1,100 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (11:02 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does Indiana formally separate federal-qualified 529->ABLE treatment from state 529 credit-recapture treatment?
+2. Unknown: What are the exact Indiana form-line mechanics for reporting 529-related recapture on current return workflows?
+3. Unknown: Which operational preconditions (destination account, notarization acknowledgment) are now visible in additional official rollover forms?
+4. Adversarial challenge: If a rollover is federally qualified, is it safe to suppress state recapture warnings?
+5. Product/competition question: Which newly observed competitor workflow step is most likely to reduce avoidable transfer failures if surfaced earlier in onboarding?
+6. State-specific question: Can Indiana be advanced from placeholder to substantive matrix row with Tier-1 sources and line-level references?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close Indiana state-treatment ambiguity + line-flow | 5,5,4,4,2 | 200 | Execute |
+| Add competitor workflow datapoint from official form set | 4,4,4,3,1 | 192 | Execute |
+| Convert evidence into backlog/opportunity update | 5,4,5,3,2 | 150 | Execute |
+| Improve authority conflict ladder with state divergence pattern | 5,5,4,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana official credit-recapture workflow (Schedule IN-CR code 837 with carry to IT-40 Schedule 4 line 3) provides line-level structure for state recapture handling in 529-related nonqualified treatment.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=15814
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M18:** Indiana official tax-credit guidance indicates federal-qualified rollover assumptions cannot be automatically reused for state credit-retention outcomes; state logic must be independently checked.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://www.in.gov/tos/iesa/tax-credit/tax-credit-faq/
+
+- **M19:** STABLE rollover forms add operational friction points beyond documentation basics, including destination-account readiness and possible notarization acknowledgement, which can be preflighted in-product.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://stableaccount.com/uploads/stable/attachments/cll2f89o5ystx0imdch37f43i-stable-rollover-direct-csp-to-able-1-3-ada.pdf
+  - https://stableaccount.com/uploads/stable/attachments/cll2f7r93ystb0imd5sip0fva-stable-rollover-able-to-able-1-3-ada.pdf
+  - https://stableaccount.com/resources/forms
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"If a rollover is federally qualified, state credit benefits are automatically safe."**
+- Result: **Failed.** Indiana evidence supports distinct state recapture logic and separate reporting workflow.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Indiana row advanced with sources + form-line reference)
+- Updated `outputs/STATE_MATRIX.md` (new Indiana advanced section + coverage metrics)
+- Updated `outputs/LEGAL_BASELINE.md` (new conflict block: federal-qualified vs state recapture divergence)
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (added STABLE workflow datapoint)
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added/re-ranked divergence interstitial opportunity)
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (added divergence warning and destination-readiness requirements)
+- Updated `outputs/USER_JOURNEY_MAP.md` (added divergence + destination readiness failure modes)
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/FAQ.md`
+- Updated `outputs/HUB.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md` (added three new unknowns: #40-#42)
+- Updated `TASKLIST.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana federal-vs-state treatment ambiguity moved from Unknown to Medium-High).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana: IN-CR code 837 -> IT-40 Schedule 4 line 3).
+- One competition/workflow insight added: **Yes** (STABLE destination-account + notarization acknowledgment friction).
+- One product requirement/opportunity added or re-ranked: **Yes** (Federal-vs-State Divergence Interstitial + new backlog requirement).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~80%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~80%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close NJ or PA with direct current-year return-instruction quote (line-level).
+2. Advance Utah with TC-40A code-level and return-line mapping.
+3. Add first measurable transfer-ops timing evidence (p50/p90) from official program or administrator materials.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)
