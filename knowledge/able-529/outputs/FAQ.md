@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,17 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Does Indiana treat Indiana529 -> ABLE rollover as recapture-triggering?
+**Answer:** Yes. Indiana Schedule IN-CR defines nonqualified Indiana529 withdrawals to include rollover/transfer from Indiana529 to another Section 529 plan or ABLE account, and line 9 carries to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).  
+**Confidence:** High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16957  
+- https://forms.in.gov/Download.aspx?id=16907
+
+## 10) Adversarial: Are notarization/signature requirements just edge cases we can ignore in product UX?
+**Answer:** No. Official direct rollover forms explicitly warn source-plan notarization may be required and that invalid conditions can cause rejection/nonqualified tax outcomes; this must be preflighted.  
+**Confidence:** High  
+**Sources:**  
+- https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf  
+- https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/customer-service/able-rollover.pdf

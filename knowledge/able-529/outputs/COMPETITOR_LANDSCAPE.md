@@ -1,6 +1,6 @@
 # COMPETITOR_LANDSCAPE (Onboarding + Plan-Management Focus)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Scope: onboarding/servicing workflows (not portfolio performance).
 
@@ -12,6 +12,7 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 | ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
 | Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
 | ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
+| STABLE Account (program platform) | Direct 529->ABLE form includes source-plan coordination, possible notarization, and rejection language for over-limit contributions | Signature/notary uncertainty and annual-limit rejection risk can create preventable abandonment | Official direct rollover form | High |
 
 ## Detail notes
 
@@ -33,6 +34,11 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 ### ABLEnow
 - Public resources show dedicated forms/processes for direct and indirect rollover intake.
 - Source: https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/
+
+### STABLE Account (platform form)
+- Direct rollover form states source 529 plan may require notarization acknowledgement before submission.
+- Form states rollover assets count against annual contribution limit and contributions over the allowed amount are rejected in their entirety.
+- Source: https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf
 
 ## Product-intelligence implications
 

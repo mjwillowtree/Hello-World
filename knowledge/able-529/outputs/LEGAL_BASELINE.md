@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,15 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01
+- Higher authority: Pub. L. 119-21 + IRS Publication 970 (2025) chapter text (posted Jan. 29, 2026).
+- Lower authority artifact: IRS newsroom pages that still mention the pre-2026 sunset.
+- Resolution: treat IRS guidance as mixed by channel/date; prioritize statute + current publication/form text over legacy newsroom content.
+- Sources:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+  - https://www.irs.gov/publications/p970
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -56,6 +65,15 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 - Sources:
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+
+### Indiana (line-level closure)
+- IN-CR instructions define nonqualified Indiana529 withdrawals to include rollover/transfer from Indiana529 to another Section 529 plan or ABLE account.
+- IN-CR line 9 carries total recapture to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://forms.in.gov/Download.aspx?id=16940
+  - https://www.in.gov/dor/tax-forms/individual/current/?a=744162
 
 ## 5) State-law handling posture
 

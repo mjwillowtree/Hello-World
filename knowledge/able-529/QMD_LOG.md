@@ -1,5 +1,97 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (17:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does Indiana explicitly treat Indiana529 -> ABLE rollover/transfer as nonqualified for credit recapture, and what is the exact return-line flow?
+2. Unknown: Has IRS Publication 970 (2025) conformed to post-2025 529->ABLE rollover law, or does it still carry sunset language?
+3. Unknown: Which operational control beyond documentation most predictably causes avoidable transfer failure?
+4. Adversarial challenge: Is it safe to treat all IRS channels as equally stale once a statutory amendment lands?
+5. Product/competition question: Do official rollover forms require notary/signer controls that should be surfaced pre-submission?
+6. State-specific question: Can Indiana be advanced from placeholder to high-confidence line-level treatment this run?
+
+### Prioritization by ROI
+
+Formula:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Indiana line-level closure (IN-CR + IN-529) | 5,5,5,4,2 | 250 | Execute |
+| IRS Pub. 970 conformity check (post-2025) | 5,4,4,4,1 | 320 | Execute |
+| New workflow datapoint from official direct rollover form | 4,4,4,3,1 | 192 | Execute |
+| Convert findings into ranked product requirement changes | 5,4,5,3,1 | 300 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana 2025 Schedule IN-CR defines a nonqualified Indiana529 withdrawal to include a rollover/transfer from Indiana529 to another Section 529 plan or ABLE account; IN-CR line 9 carries total recapture to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://forms.in.gov/Download.aspx?id=16940
+  - https://www.in.gov/dor/tax-forms/individual/current/?a=744162
+
+- **M18:** IRS Publication 970 (2025, posted Jan. 29, 2026) reflects QTP-to-ABLE rollover treatment without the old "before Jan. 1, 2026" sunset framing, indicating partial IRS-channel conformity after statutory amendment.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+  - https://www.irs.gov/publications/p970
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+
+- **M19:** STABLE direct rollover form introduces material workflow controls: possible source-plan notarization, annual-limit hard rejection for excess contributions, and explicit nonqualified tax-risk warning if rollover conditions are not met.  
+  Confidence: **High**  
+  Source:
+  - https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"All IRS sub-regulatory channels remain stale after the rollover sunset amendment."**
+- Result: **Failed.** IRS channel state is mixed: Pub. 970 appears conformed, while older newsroom pages remain stale.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Indiana row advanced to High with line-level references).
+- Updated `outputs/STATE_MATRIX.md` (Indiana advanced section + coverage metrics).
+- Updated `outputs/LEGAL_BASELINE.md` (new conflict entry + Indiana authority block).
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (added STABLE workflow datapoint).
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added/ranked Signature/Notary Orchestrator).
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (new signature/notary detector requirement + experiment).
+- Updated `outputs/USER_JOURNEY_MAP.md` (added notary/signature drop-off mode).
+- Updated `outputs/EXEC_SUMMARY.md`, `outputs/FAQ.md`, `outputs/HUB.md`.
+- Updated `docs/QUESTION_BANK.md`, `docs/KNOWLEDGE_FRONTIER.md`, `TASKLIST.md`.
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS Pub. 970 conformity status upgraded to High confidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana: IN-CR line 9 -> IT-40 Schedule 4 line 3).
+- One competition/workflow insight added: **Yes** (STABLE notarization + over-limit rejection control).
+- One product requirement/opportunity added or re-ranked: **Yes** (Signature/Notary Orchestrator added and ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~90%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA to explicit line-level high-confidence treatment.
+2. Advance Utah with code/line references and confidence label.
+3. Add measured transfer timing/SLA evidence and first rejection-code taxonomy.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

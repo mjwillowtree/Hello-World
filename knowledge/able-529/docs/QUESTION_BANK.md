@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 17:01 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,14 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+
+## Closed or upgraded this run
+
+- **Q26 (partially closed):** IRS Publication 970 (2025) appears conformed to post-sunset rollover language; newsroom lag risk remains for legacy IRS pages.
+- **Indiana closure:** New line-level state treatment captured in matrix (IN-CR line 9 -> IT-40 Schedule 4 line 3) for Indiana529 -> ABLE recapture.
+
+## New unknowns (added 2026-03-11)
+
+40. Which specific NJ-1040 and/or NJ-1040 Schedule NJ-1040-O forms/instructions (TY2025/TY2026) govern 529 distribution add-backs, and do they mention ABLE rollovers explicitly?
+41. Does Utah's current TC-40A code/line framework treat 529->ABLE transfers as nonqualified recapture events, and where is the exact return-line mapping?
+42. Across major plan pairs, what percentage of direct rollovers require notarization or authority-proof documents, and how often does this create first-submission failure?
