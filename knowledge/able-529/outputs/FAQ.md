@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,17 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) What is now known for New Jersey line-level treatment?
+**Answer:** NJ-1040 instructions identify earnings on nonqualified distributions from qualified tuition program accounts (including NJBEST) and qualified state 529A ABLE accounts as taxable interest (line 16a context), while qualified distributions are listed in exempt-income examples.  
+**Confidence:** High  
+**Sources:**  
+- https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf  
+- https://www.nj.gov/treasury/taxation/individuals/collegededuction.shtml
+
+## 10) Can users execute unlimited ABLE-to-ABLE rollovers operationally?
+**Answer:** No. STABLE's official rollover workflow requires certification that same-beneficiary rollovers occur no more than once every 12 months, and it requires old-account closure controls tied to a 60-day window.  
+**Confidence:** High (program-operational)  
+**Sources:**  
+- https://stableaccount.com/assets/docs/rollover-able-to-able-form.pdf  
+- https://stableaccount.com/faqs/can-i-transfer-an-existing-able-account-into-my-stable-account

@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 03:00 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,14 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+
+## Resolved this run
+
+- Q35 closed: NJ-1040 line-level handling now captured in matrix and legal baseline from current NJ instructions.
+
+## New unknowns added this run
+
+40. Under Pennsylvania Act 56 implementation, where exactly do PA-40 instructions map federally excludable 529->ABLE rollovers for current filing years?
+41. In Utah, is there explicit state text confirming 529->ABLE transfers satisfy the IRC 529(c) exception in TC-40A code 54 handling (not just inferred)?
+42. Which ABLE programs besides STABLE operationalize one-rollover-per-12-month checks as hard system gates vs post-submission review?
+43. What evidence package is minimally sufficient to prove old-account closure within 60 days across major ABLE administrators?

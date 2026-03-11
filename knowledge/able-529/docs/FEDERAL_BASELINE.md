@@ -1,6 +1,6 @@
 # Federal Baseline (ABLE + 529 Interaction)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## Confirmed baseline rules
 
@@ -59,6 +59,11 @@ Updated: 2026-03-10
 4. **Federal-to-state disconnect risk**
    - Need explicit warning framework where federal qualified treatment does not guarantee state non-recapture treatment.
    - Action: link federal baseline to state matrix and add cross-reference cautions.
+
+## State-progress note (from this run)
+
+- New Jersey line-level treatment is now locked from NJ-1040 instructions.
+- Utah addback mechanics are now line-mapped (TC-40A code 54), with explicit ABLE carveout language still unresolved.
 
 ## Research discipline
 

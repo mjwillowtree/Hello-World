@@ -1,15 +1,43 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
-- High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Substantively advanced rows (beyond placeholder): **12 / 51**
+- High-confidence rows: **12 / 51**
+- Latest state advancements: **New Jersey** (closure) and **Utah** (first-pass line mapping)
+
+## New Jersey (advanced/closed this run)
+
+### What is locked
+- NJ-1040 instructions now provide line-level treatment relevant to 529/ABLE recapture logic.
+- Instructions identify taxable interest treatment for earnings on nonqualified distributions from qualified tuition program accounts (including NJBEST) and qualified state 529A ABLE accounts.
+- Instructions also flag distribution portions attributable to contributions previously deducted on New Jersey returns.
+
+### Sources (Tier 1)
+- https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf
+- https://www.nj.gov/treasury/taxation/individuals/collegededuction.shtml
+
+### Confidence
+- **High**
+
+## Utah (advanced this run)
+
+### What is locked
+- Utah TC-40A instructions provide explicit addback line mechanics for my529 withdrawals.
+- TC-40A Part 1 code 54 (my529 addback) cites UCA Section 59-10-114(1)(d) and flows into TC-40 line 5.
+- Addback applies where withdrawals are not for qualified education expenses and do not meet IRC 529(c)/530(d) exceptions.
+
+### Sources (Tier 1)
+- https://tax.utah.gov/forms/current/tc-40inst.pdf
+- https://tax.utah.gov/forms/current/tc-40a.pdf
+
+### Confidence
+- **Medium-High** (line-level addback workflow is clear; explicit ABLE carveout text still open)
 
 ## Minnesota (advanced)
 
@@ -42,19 +70,20 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 - California (High)
 - Illinois (High)
-- New Jersey (Medium; line-level closure pending)
+- New Jersey (High; line-level closure completed)
 - Pennsylvania (Medium-Low; line-level closure pending)
 - Oregon (Low)
 - Colorado (Low)
 - Virginia (Low)
 - New York (Low)
+- Utah (Medium-High)
 
 ## Priority closure queue (next)
 
-1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
-2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+1. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
+2. **Indiana**: first-pass Tier-1 row with code/line references.
+3. **Minnesota**: explicit ABLE carveout confirmation vs current recapture inference.
+4. **Utah**: close ABLE-specific treatment from conditional to explicit.
 
 ## Interpretation notes
 

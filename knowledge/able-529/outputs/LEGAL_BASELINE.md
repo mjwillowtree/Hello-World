@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -44,6 +44,20 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 
 ## 4) State baseline examples
 
+### New Jersey (line-level pattern)
+- NJ-1040 instructions provide line-level taxable interest treatment for earnings on nonqualified distributions from qualified tuition program accounts (including NJBEST) and qualified state 529A ABLE accounts.
+- Instructions also identify distribution portions attributable to previously deducted contributions as taxable.
+- Source:
+  - https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf
+  - https://www.nj.gov/treasury/taxation/individuals/collegededuction.shtml
+
+### Utah (line-level pattern, conditional ABLE inference)
+- TC-40A Part 1 code 54 (my529 addback) is explicitly tied to UCA Section 59-10-114(1)(d) and carries to TC-40 line 5.
+- Trigger language references withdrawals not used for qualified education expenses and not meeting IRC 529(c)/530(d) exceptions.
+- Source:
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+
 ### Ohio (line-level pattern)
 - Schedule of Adjustments line 4 (addition), line 20 (STABLE deduction), and line 36 (529 deduction) provide explicit state return mapping.
 - 2024 instruction text ties addition mechanics to nonqualified distributions and prior deduction history.
@@ -63,6 +77,6 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 
 ## 6) Open legal unknowns (next closure targets)
 
-1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
-2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
+1. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back under Act 56/2024 conformity changes.
+2. Utah explicit ABLE carveout confirmation (if any) vs current IRC-exception inference for my529 addback.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.

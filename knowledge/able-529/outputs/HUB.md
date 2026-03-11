@@ -1,8 +1,14 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (hourly run)
+- Closed **New Jersey** to high confidence with NJ-1040 line-level treatment (qualified vs nonqualified 529/ABLE distribution handling).
+- Advanced **Utah** from placeholder to code-level row (TC-40A Part 1 code 54 my529 addback -> TC-40 line 5).
+- Added **STABLE Account** competitor workflow constraint: one rollover per 12 months plus 60-day prior-account closure controls.
+- Added and promoted new product requirement/opportunity: cooldown + closure eligibility gate in preflight flow.
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +25,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
+- **State-by-state treatment:** Medium overall (heterogeneous; subset line-level closed with NJ upgrade)
 - **Operational workflow understanding:** Medium-High for transfer failure controls
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
-- High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- State matrix completion (substantive rows): **12 / 51**
+- High-confidence states: **12 / 51 (23.5%)**
+- Domain coverage score (10 domains): **6.5 / 10**
+- Tier-1 citation ratio (new substantive claims): **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25, citation-ready quickly): **16 / 25**
 
 ## Navigation
 
@@ -49,6 +55,6 @@ Updated: 2026-03-10
 
 ## Immediate next-run targets
 
-1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+1. Close **Pennsylvania** with explicit PA-40 line-level treatment and Act 56 conformity implications.
+2. Advance **Indiana** with Tier-1 form/code references.
+3. Expand transfer workflow lane from form requirements to measured settlement timing/SLA evidence.

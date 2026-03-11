@@ -1,5 +1,109 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (03:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does current NJ-1040 instruction text explicitly line-lock qualified vs nonqualified 529/ABLE treatment?
+2. Unknown: Can Utah be advanced from placeholder to line-level code mapping for 529-related addback mechanics?
+3. Unknown: Which operational constraints (beyond documentation) are hard-gated in official competitor rollover workflows?
+4. Adversarial challenge: "NJ and PA are both unresolved, so neither can be made implementation-ready without statutory rewrite."
+5. Product/competition question: Which competitor workflow rule should be converted into a preflight hard-stop next?
+6. State-specific question: Can one priority state row (NJ or UT) be advanced with Tier-1 line-level references this run?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close NJ to line-level confidence | 5,5,5,5,1 | 625 | Execute |
+| Advance Utah with code-level line mapping | 4,4,4,4,2 | 128 | Execute |
+| Add one competitor workflow hard-gate datapoint | 4,4,4,4,2 | 128 | Execute |
+| Convert evidence into backlog/opportunity ranking change | 5,4,5,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M17:** NJ TY2025 NJ-1040 instructions provide line-level treatment where taxable interest includes earnings on nonqualified distributions from qualified tuition accounts (including NJBEST) and qualified state 529A ABLE accounts; qualified distributions are listed as exempt examples.  
+  Confidence: **High**  
+  Sources:
+  - https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf
+  - https://www.nj.gov/treasury/taxation/individuals/collegededuction.shtml
+
+- **M18:** Utah TY2025 TC-40A instructions lock code-level recapture/addback mechanics: code 54 (my529 addback) under UCA Section 59-10-114(1)(d), with totals carried to TC-40 line 5.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+
+- **M19:** STABLE's official rollover workflow includes additional eligibility gates beyond docs: one rollover per 12 months and old-account closure/60-day controls, plus ALR continuity constraints.  
+  Confidence: **High**  
+  Sources:
+  - https://stableaccount.com/assets/docs/rollover-able-to-able-form.pdf
+  - https://stableaccount.com/faqs/can-i-transfer-an-existing-able-account-into-my-stable-account
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"New Jersey remains too ambiguous for line-level product guidance this week."**
+- Result: **Failed.** Current NJ-1040 instructions contain sufficient line-level qualified/nonqualified treatment signals to move NJ to high confidence.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (NJ closure + Utah first-pass row)
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/FAQ.md`
+- Updated `outputs/HUB.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/STATE_RECAPTURE_MATRIX_PHASE1.md`
+- Updated `docs/STATE_RECAPTURE_WATCHLIST.md`
+- Updated `docs/FEDERAL_BASELINE.md`
+- Updated `TASKLIST.md`
+
+### New unknowns added this run
+
+1. Under Pennsylvania Act 56 implementation, where exactly do PA-40 instructions map federally excludable 529->ABLE rollovers for current filing years?
+2. In Utah, is there explicit state text confirming 529->ABLE transfers satisfy the IRC 529(c) exception in TC-40A code 54 handling?
+3. Which ABLE programs besides STABLE enforce one-rollover-per-12-month as a hard gate vs post-submission review?
+4. What evidence package is minimally sufficient to prove old-account closure within 60 days across major ABLE administrators?
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (NJ moved to High with line-level instruction support).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah code 54 -> TC-40 line 5; NJ line 16a context upgraded).
+- One competition/workflow insight added: **Yes** (STABLE cooldown/closure constraints).
+- One product requirement/opportunity added or re-ranked: **Yes** (cooldown + closure guardrail added to opportunities/backlog).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~90%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **12 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.5 / 10**
+- Tier-1 citation ratio: **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close Pennsylvania to line-level confidence using PA-40 instruction + Act 56 implementation text.
+2. Advance Indiana with code/form-line references.
+3. Collect timing/SLA evidence for transfer operations (p50/p90 settlement windows) from official administrators.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)
