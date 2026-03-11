@@ -1,15 +1,15 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Ohio** and **Utah**
 
 ## Minnesota (advanced)
 
@@ -38,6 +38,21 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Utah (advanced)
+
+### What is locked
+- Utah TC-40A guidance maps **my529 addback** to **Part 1, code 54** under UCA 59-10-114(1)(d).
+- Utah return flow maps TC-40A Part 1 additions total to **TC-40 line 5**.
+- Explicit Utah instruction carveout for federally qualified 529->ABLE rollover was not located in this run's cited filing instructions.
+
+### Sources (Tier 1)
+- https://incometax.utah.gov/additions/my529-addback
+- https://tax.utah.gov/forms/current/tc-40a.pdf
+- https://tax.utah.gov/forms/current/tc-40.pdf
+
+### Confidence
+- **Medium-High** (line-level addback mapping is clear; explicit 529->ABLE carveout text remains open)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
@@ -48,13 +63,14 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 - Colorado (Low)
 - Virginia (Low)
 - New York (Low)
+- Utah (Medium-High)
 
 ## Priority closure queue (next)
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+3. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Minnesota carveout check**: explicit ABLE carveout text vs inference from recapture framework.
 
 ## Interpretation notes
 

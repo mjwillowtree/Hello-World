@@ -1,6 +1,6 @@
 # COMPETITOR_LANDSCAPE (Onboarding + Plan-Management Focus)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Scope: onboarding/servicing workflows (not portfolio performance).
 
@@ -12,6 +12,7 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 | ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
 | Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
 | ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
+| ABLE Utah (STABLE) | Direct 529->ABLE rollover form emphasizes same-beneficiary/family-member qualification and annual-limit interaction | Mid-transfer cap overrun risk if prior-year contributions are not budgeted before initiating rollover | Official direct rollover form and ABLE-to-ABLE rollover form | Medium-High |
 
 ## Detail notes
 
@@ -34,9 +35,17 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 - Public resources show dedicated forms/processes for direct and indirect rollover intake.
 - Source: https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/
 
+### ABLE Utah (STABLE)
+- 529->ABLE direct rollover form requires same beneficiary or qualifying family-member pathway and states rollover amounts count toward the standard annual contribution limit.
+- ABLE-to-ABLE rollover form reinforces a once-per-12-month operational limit.
+- Sources:
+  - https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf
+  - https://ableut.com/assets/docs/rollover-able-to-able-form.pdf
+
 ## Product-intelligence implications
 
 1. Form-first operations remain standard for rollover execution.
 2. Beneficiary/family-member mapping is a core failure point.
 3. Earnings-basis documentation is a repeated cross-provider risk control.
 4. Signature/notarization/guarantee variance should be surfaced pre-submission.
+5. Contribution-limit budgeting must happen **before** transfer initiation, not after intake.

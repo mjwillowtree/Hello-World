@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,18 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) What is the current Utah filing-line treatment signal for 529-related addback?
+**Answer:** Utah maps my529 addback to TC-40A Part 1 code 54 and carries TC-40A Part 1 additions to TC-40 line 5. This locks return-line flow, but this run did not locate explicit Utah filing-instruction text carving out federally qualified 529->ABLE rollovers.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://incometax.utah.gov/additions/my529-addback  
+- https://tax.utah.gov/forms/current/tc-40a.pdf  
+- https://tax.utah.gov/forms/current/tc-40.pdf
+
+## 10) Why must the product reserve ABLE annual contribution headroom before starting a rollover?
+**Answer:** Official rollover forms indicate 529 rollover amounts count toward the standard annual ABLE contribution limit, so concurrent contributions can consume headroom during transfer processing and create avoidable exceptions.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf  
+- https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf

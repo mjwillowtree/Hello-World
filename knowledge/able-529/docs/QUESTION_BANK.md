@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 13:00 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. In Utah, do current TC-40/TC-40A instructions or Utah code explicitly exempt federally qualified 529->ABLE rollovers from the my529 addback path (code 54), or is manual interpretation required?
+41. Which ABLE administrators implement pre-transfer annual-cap reservation versus post-transfer exception handling, and how does that affect completion rate?
+42. What operational evidence can establish p50/p90 rollover settlement times (request-to-posted) by source 529 plan and destination ABLE program?

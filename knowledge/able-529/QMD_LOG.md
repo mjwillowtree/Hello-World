@@ -1,5 +1,100 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (13:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution (minimum set met):
+
+1. Unknown: In Utah, what exact line-level return flow governs my529 addback and where does it land on TC-40?
+2. Unknown: Does Utah publish explicit filing-instruction carveout text for federally qualified 529->ABLE rollovers?
+3. Unknown: Which official rollover forms most clearly signal annual-cap interaction as an operational failure mode?
+4. Adversarial challenge: Is documentation preflight alone sufficient to prevent transfer exceptions?
+5. Product/competition question: Which provider explicitly surfaces annual-limit interaction in rollover intake language?
+6. State-specific question: Can Utah be moved from placeholder to substantive line-level row this run with Tier-1 sources?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Advance Utah with line-level filing references | 5,5,4,4,2 | 200 | Execute |
+| Add competitor evidence on cap-limit operational constraints | 4,4,4,4,2 | 128 | Execute |
+| Re-rank backlog with cap-reservation control | 5,4,5,3,2 | 150 | Execute |
+| Attempt NJ/PA closure from current web-accessible Tier-1 sources | 5,5,5,2,4 | 62.5 | Defer (insufficient confidence this run) |
+
+### M (Memory)
+
+- **M17:** Utah tax authority guidance maps my529 addback to TC-40A Part 1 code 54 under UCA 59-10-114(1)(d), with Part 1 totals flowing to TC-40 line 5.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+  - https://tax.utah.gov/forms/current/tc-40.pdf
+
+- **M18:** Utah line-level filing flow is clearer than before, but an explicit Utah filing-instruction carveout for federally qualified 529->ABLE rollover remains unresolved.  
+  Confidence: **Medium**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+
+- **M19:** ABLE Utah (STABLE) rollover forms add operational evidence that rollover amounts interact with annual contribution limits and that rollover frequency controls can apply (ABLE-to-ABLE once per 12 months).  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf
+  - https://ableut.com/assets/docs/rollover-able-to-able-form.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"If documentation is complete, rollover execution risk is largely solved."**
+- Result: **Failed.** Annual-cap headroom drift during in-flight transfers is a separate exception channel, requiring cap reservation logic in addition to document checks.
+
+### D (Document updates)
+
+- Updated `TASKLIST.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Utah moved from Low placeholder to Medium-High line-level filing mapping).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah TC-40A Part 1 code 54 -> TC-40 line 5).
+- One competition/workflow insight added: **Yes** (ABLE Utah annual-limit + rollover-frequency operational controls).
+- One product requirement/opportunity added or re-ranked: **Yes** (contribution-cap reservation control added and ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment from Tier-1 tax authority documents.
+2. Advance **Indiana** to first-pass line-level row with code/form references.
+3. Build first SLA evidence slice (p50/p90 proxy) from administrator disclosures or official process timing references.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

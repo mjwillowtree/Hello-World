@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -57,6 +57,15 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Utah (line-flow pattern)
+- Utah TC-40A instructions map my529 addback to Part 1, code 54 (UCA 59-10-114(1)(d)).
+- TC-40A Part 1 additions flow to TC-40 line 5 for return filing.
+- Explicit Utah filing-instruction carveout for federally qualified 529->ABLE rollover remains unconfirmed.
+- Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+  - https://tax.utah.gov/forms/current/tc-40.pdf
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -66,3 +75,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+4. Utah explicit carveout confirmation (if any) for federally qualified 529->ABLE rollover vs general my529 addback rule.
