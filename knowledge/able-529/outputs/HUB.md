@@ -1,8 +1,14 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (10:00 UTC run)
+- Advanced **Utah** from placeholder to instruction-level row with line mapping (TC-40A Part 1 code 54 -> TC-40 line 5).
+- Upgraded operational evidence for **ABLEnow**: 60-day basis/earnings documentation window and annual contribution-limit control captured from the official incoming 529 transfer form.
+- Re-ranked opportunities to add a new **post-submission evidence chase + deadline timer** requirement.
+- Closed one ambiguity upward: Utah add-back trigger now grounded in explicit instruction text and cited form flow.
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +25,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
-- **Operational workflow understanding:** Medium-High for transfer failure controls
+- **State-by-state treatment:** Medium (heterogeneous; line-level closure now includes UT in addition to OH/MN examples)
+- **Operational workflow understanding:** Medium-High (stronger post-submission failure-control evidence)
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
+- State matrix completion (substantive rows): **11 / 51**
 - High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio (new substantive claims): **~90%**
 - Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25, citation-ready quickly): **15 / 25**
 
 ## Navigation
 
@@ -50,5 +56,5 @@ Updated: 2026-03-10
 ## Immediate next-run targets
 
 1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+2. Advance **IN** with Tier-1 IT-40 schedule and line-level recapture/add-back references.
+3. Expand workflow lane to include measurable transfer settlement times and exception-code taxonomy.

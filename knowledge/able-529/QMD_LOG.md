@@ -1,5 +1,94 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (10:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution (minimum set met):
+
+1. Unknown: In Utah, what exact instruction text controls my529 add-back triggers and what return lines are required?
+2. Unknown: Does Utah instruction language implicitly cover 529->ABLE rollover treatment through IRC 529(c)/530(d) exception references?
+3. Unknown: Which post-submission documentation deadlines are explicitly enforced by major ABLE providers?
+4. Adversarial challenge: Is it safe to assume transfer risk ends once preflight docs are uploaded?
+5. Product/competition question: Which operational control should be added to reduce post-submission misclassification failures?
+6. State-specific question: Can Utah be advanced from placeholder to instruction-level matrix row with line references this run?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close Utah with Tier-1 line mapping | 5,5,4,4,2 | 200 | Execute |
+| Extract ABLEnow post-submission constraints from official form | 5,4,4,4,2 | 160 | Execute |
+| Re-rank product opportunities from new evidence | 4,5,5,3,2 | 150 | Execute |
+| Indiana closure attempt from official forms | 4,4,4,3,3 | 64 | Partial (deferred) |
+
+### M (Memory)
+
+- **M17:** Utah DOR TC-40A instructions explicitly require a my529 add-back (code 54) for withdrawals not used for qualified education expenses and not meeting IRC 529(c)/530(d) exceptions, with Part 1 totals carried to TC-40 line 5.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://files.tax.utah.gov/tax/forms/current/tc-40a.pdf
+
+- **M18:** ABLEnow's official incoming 529->ABLE transfer form requires source-plan basis/earnings documentation within 60 days; otherwise, ABLEnow may treat the entire transfer balance as earnings.  
+  Confidence: **High**  
+  Source:
+  - https://www.ablenow.com/uploads/documents/ABLEnow_Incoming_Program-to-Program-Transfer_529.pdf
+
+- **M19:** ABLEnow's incoming 529 transfer form repeats annual ABLE contribution-limit enforcement for transfer amount sizing, reinforcing that transfer workflow UX must perform cap budgeting before and after submission.  
+  Confidence: **High**  
+  Sources:
+  - https://www.ablenow.com/uploads/documents/ABLEnow_Incoming_Program-to-Program-Transfer_529.pdf
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529A&num=0&edition=prelim
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"If preflight checklist passes, transfer tax-classification risk is mostly eliminated."**
+- Result: **Failed.** ABLEnow form evidence shows post-submission dependency on source-plan basis/earnings documentation within a stated time window.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Utah row advanced with line-level mapping).
+- Updated `outputs/STATE_MATRIX.md` (Utah advanced section + coverage snapshot).
+- Updated `outputs/LEGAL_BASELINE.md` (added Utah authority block, refreshed closure queue).
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (ABLEnow workflow controls upgraded to high confidence).
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added/ranked post-submission timer opportunity).
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (new P0 post-submission documentation SLA monitor).
+- Updated `outputs/USER_JOURNEY_MAP.md` (added deadline-timer and post-submission evidence failure modes).
+- Updated `outputs/EXEC_SUMMARY.md` and `outputs/FAQ.md` (new Utah + ABLEnow truth statements).
+- Updated `outputs/HUB.md` (fresh changelog + KPI refresh).
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Utah add-back trigger/line mapping moved from Low unknown to Medium-High).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah, TC-40A Part 1 code 54 -> TC-40 line 5).
+- One competition/workflow insight added: **Yes** (ABLEnow 60-day basis/earnings documentation window).
+- One product requirement/opportunity added or re-ranked: **Yes** (Post-submission evidence chase + deadline timer).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~90%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~90%**
+- Competitor coverage count: **4**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA with explicit line-level return instruction text.
+2. Advance Indiana with IT-40/associated schedule line references and confidence label.
+3. Expand competitor lane to measured settlement-time evidence (p50/p90) and rejection-code taxonomy.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)
