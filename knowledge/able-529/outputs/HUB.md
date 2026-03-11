@@ -1,8 +1,15 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (14:01 UTC trigger)
+- Advanced **Indiana** from placeholder to line-level mapping: Schedule IN-CR line 9 -> IT-40 Schedule 4 line 3.
+- Logged explicit Indiana transition conflict: 2024 IN-CR wording vs Jan-2026 DOR Bulletin #98 in-state ABLE carveout.
+- Added **PA ABLE** competitor workflow datapoint (conditional Medallion Signature Guarantee + earnings-breakdown dependency).
+- Added and ranked new product opportunity: **plan-pair signature-guarantee predictor**.
+- Expanded requirements with a **plan-pair requirement rules engine** for conditional source-plan constraints.
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +26,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
+- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; 11/51 substantive rows)
 - **Operational workflow understanding:** Medium-High for transfer failure controls
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
+- State matrix completion (substantive rows): **11 / 51**
 - High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio (new substantive claims): **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25, citation-ready quickly): **15 / 25**
 
 ## Navigation
 
@@ -49,6 +56,6 @@ Updated: 2026-03-10
 
 ## Immediate next-run targets
 
-1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+1. Close one of **NJ** or **PA** to high confidence with explicit line-level return treatment and rollover classification logic.
+2. Advance **UT** with Tier-1 code/form mapping.
+3. Quantify transfer timing (p50/p90) and exception-code frequencies from official administrator disclosures.

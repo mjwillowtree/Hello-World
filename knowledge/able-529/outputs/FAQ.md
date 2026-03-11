@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,17 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) In Indiana, does a 529->ABLE rollover always trigger state credit recapture?
+**Answer:** Not always. Indiana return instructions and recapture schedules clearly map where recapture is posted, but current materials show filing-year nuance: older form text broadly treats ABLE transfers as nonqualified, while Jan-2026 DOR Bulletin #98 states that for 2024+ transfers to an Indiana ABLE 529A plan are qualified for credit-recapture purposes (with other ABLE transfers remaining nonqualified).  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16371  
+- https://forms.in.gov/Download.aspx?id=16915  
+- https://www.in.gov/dor/files/ib98.pdf
+
+## 10) Should product UX pre-check Medallion Signature Guarantee requirements?
+**Answer:** Yes. Official PA ABLE rollover instructions state that source program managers may require a Medallion Signature Guarantee and that missing a required guarantee can delay the rollover.  
+**Confidence:** High  
+**Sources:**  
+- https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf

@@ -1,5 +1,98 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (14:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: For Indiana, what are the exact line-level recapture posting mechanics for 529 credit clawback on current forms?
+2. Unknown: Does current Indiana authority distinguish in-state ABLE rollovers from other ABLE rollovers for recapture treatment?
+3. Unknown: Which operational constraints newly observed in official forms can be converted into pre-submission controls?
+4. Adversarial challenge: Are state forms and agency bulletins synchronized enough to safely treat either one as complete on its own?
+5. Product/competition question: Do official workflows expose conditional signature-guarantee requirements that should be modeled as plan-pair logic?
+6. State-specific question: Can Indiana be moved from placeholder to line-level mapped status this run?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close Indiana line-level recapture mapping | 5,5,5,4,2 | 250 | Execute |
+| Resolve Indiana ABLE treatment ambiguity using latest DOR authority | 5,5,4,4,2 | 200 | Execute |
+| Add new competitor workflow datapoint from official form | 4,4,4,3,1 | 192 | Execute |
+| Convert workflow evidence into backlog requirement | 5,4,5,3,1 | 300 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana now has line-level posting clarity for 529 credit recapture: Schedule IN-CR line 9 flows to IT-40 Schedule 4 line 3, and IT-40 instructions explicitly classify this as recapture of certain Indiana offset credits.  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=16915
+
+- **M18:** Indiana guidance currently shows transition friction: 2024 IN-CR language broadly treats transfer to ABLE as non-qualified, while Jan-2026 DOR Bulletin #98 says transfers to an Indiana ABLE 529A plan are qualified for 2024+ recapture purposes, with other ABLE transfers still nonqualified.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M19:** PA ABLE incoming direct rollover operations include conditional Medallion Signature Guarantee requirements from source managers; missing required guarantee can delay rollover, and absent principal/earnings statement can cause temporary full-earnings treatment.  
+  Confidence: **High**  
+  Source:
+  - https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"State forms and state agency bulletins are always synchronized by filing year."**
+- Result: **Failed.** Indiana currently requires conflict-aware handling because older form text and newer bulletin language are not fully aligned.
+
+### D (Document updates)
+
+- Updated `TASKLIST.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana 529->ABLE treatment moved from unknown to medium-high with explicit conflict logging and latest-authority posture).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana, Schedule IN-CR line 9 -> IT-40 Schedule 4 line 3).
+- One competition/workflow insight added: **Yes** (PA ABLE conditional medallion/signature-guarantee workflow + earnings-breakdown dependency).
+- One product requirement/opportunity added or re-ranked: **Yes** (new plan-pair signature-guarantee predictor + rules-engine requirement).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA to high confidence with explicit line-level rollover treatment logic.
+2. Advance Utah with Tier-1 code/form line mapping.
+3. Collect transfer timing/SLA evidence and begin exception-frequency proxy measurement.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

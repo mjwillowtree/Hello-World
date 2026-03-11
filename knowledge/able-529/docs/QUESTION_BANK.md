@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 14:01 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,7 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. Which Indiana filing-year forms (IN-CR/IT-40 schedules) will first fully reflect Bulletin #98's in-state ABLE carveout language?
+41. In Pennsylvania, does treatment of federally exempt 529 rollovers explicitly include 529->ABLE, or only 529->529, in current-year return instructions?
+42. Which source 529 plans most frequently require Medallion Signature Guarantees for direct rollovers into ABLE plans?
+43. What is the minimum evidence set a source plan must transmit (principal/earnings, contribution year, basis metadata) to avoid temporary full-earnings classification at destination ABLE plans?
