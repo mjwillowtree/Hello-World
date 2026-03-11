@@ -1,6 +1,6 @@
 # COMPETITOR_LANDSCAPE (Onboarding + Plan-Management Focus)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Scope: onboarding/servicing workflows (not portfolio performance).
 
@@ -11,7 +11,8 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 | Fidelity ABLE | Supports 60-day rollover and program-to-program transfer workflows for ABLE/529 into ABLE | High operational risk if earnings/principal documentation is missing; signature complexity can increase abandonment | Official rollover/transfer request form | High |
 | ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
 | Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
-| ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
+| ABLEnow | Indirect rollover form enforces 60-day deposit, one-ABLE-account rule context, family-member attestations, and basis/earnings statement requirement | Entire deposit is treated as earnings until supporting statement is received; signature source differs for ABLE vs 529 origin | Official incoming indirect rollover form | High |
+| PA ABLE | Direct rollover form includes destination limits, external-plan documentation dependency, and conditional Medallion Signature Guarantee path | Missing principal/earnings statement causes full-earnings treatment; absent required signature guarantee can delay transfer | Official incoming direct rollover form | High |
 
 ## Detail notes
 
@@ -31,8 +32,16 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 - Source: https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf
 
 ### ABLEnow
-- Public resources show dedicated forms/processes for direct and indirect rollover intake.
-- Source: https://www.ablenow.com/resources/forms/ ; https://www.ablenow.com/blog/articles/how-to-transfer-529-funds-to-ablenow/
+- Indirect rollover requires deposit within 60 days and statement showing basis/earnings breakdown.
+- Until statement is received, the entire deposit is treated as earnings.
+- For 529-origin indirect rollover, signature is required from the 529 account owner.
+- Source: https://www.ablenow.com/uploads/documents/ABLEnow_Incoming_Rollover_Indirect.pdf
+
+### PA ABLE
+- 529 rollover contributions are checked against annual contribution and account balance limits; over-limit contributions are rejected.
+- Program manager must provide principal/earnings statement; absent statement, transfer is treated as earnings.
+- If source program requires it, Medallion Signature Guarantee is mandatory; notary is insufficient.
+- Source: https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
 
 ## Product-intelligence implications
 
@@ -40,3 +49,4 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 2. Beneficiary/family-member mapping is a core failure point.
 3. Earnings-basis documentation is a repeated cross-provider risk control.
 4. Signature/notarization/guarantee variance should be surfaced pre-submission.
+5. Destination-plan contribution and balance-limit checks can create hard rejects even when transfer paperwork is complete.

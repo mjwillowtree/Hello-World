@@ -19,9 +19,9 @@ If any item above is missing, the run is incomplete.
    - Deliverable: one-page citation memo that can be pasted into planning files.
 
 2. **State recapture matrix buildout (Phase 1: 12 states)**
-   - Current status: 10 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH, MN) with uneven confidence.
+   - Current status: 11 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH, MN, IN) with uneven confidence.
    - Expand into structured matrix with citations, conformity year, and form line references.
-   - Immediate priority states: UT, IN.
+   - Immediate priority states: UT, NJ/PA closure.
    - Immediate confidence repairs: NJ and PA line-level treatment.
 
 ## Next queue (depth + breadth rotation)
@@ -50,3 +50,4 @@ If any item above is missing, the run is incomplete.
 - Expanded state watchlist from 4 to 8 states with first confidence stratification (CA/IL stronger; NJ/PA unresolved details).
 - Created complete `outputs/` artifact set (HUB, executive summary, legal baseline, matrix, competitor, opportunities, journey, backlog, FAQ).
 - Closed Ohio state line-level evidence row to high confidence using official 2024 forms/instructions.
+- Closed Indiana destination-specific recapture treatment to high confidence with line-level filing references (IN-CR -> IT-40).

@@ -1,8 +1,19 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (hourly cron run)
+- Advanced **Indiana** to high confidence using Tier-1 forms + Jan 2026 DOR bulletin:
+  - destination-specific recapture logic (Indiana ABLE 529A carveout vs other ABLE plans),
+  - line-level filing map (IN-CR line 9 -> IT-40 Schedule 4 line 3).
+- Added new operational competitor evidence from **PA ABLE** direct rollover form:
+  - conditional Medallion Signature Guarantee path,
+  - destination-limit rejection risk,
+  - full-earnings default if basis/earnings statement missing.
+- Upgraded **ABLEnow** workflow confidence to High with explicit basis/earnings and signature requirements from official indirect rollover form.
+- Re-ranked opportunities/backlog to include a destination-rule decision layer and signature-guarantee gate.
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +30,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
-- **Operational workflow understanding:** Medium-High for transfer failure controls
+- **State-by-state treatment:** Medium overall (heterogeneous; 11/51 substantive rows now closed)
+- **Operational workflow understanding:** High for documentation/signature failure controls
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
-- High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
+- State matrix completion (substantive rows): **11 / 51**
+- High-confidence states: **12 / 51 (23.5%)**
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio (new substantive claims): **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
 - Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- Time-to-answer test (top 25, citation-ready quickly): **16 / 25**
 
 ## Navigation
 
@@ -50,5 +61,5 @@ Updated: 2026-03-10
 ## Immediate next-run targets
 
 1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+2. Advance **UT** with Tier-1 form/code references.
+3. Expand transfer workflow lane from form requirements to observed timing/SLA distribution evidence.

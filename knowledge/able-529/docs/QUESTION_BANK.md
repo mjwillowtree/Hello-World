@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. In Indiana, will TY2026+ Schedule IN-CR instructions be revised to explicitly reflect the in-state ABLE carveout documented in Bulletin #98?
+41. Which other states (if any) apply destination-specific treatment where 529->in-state ABLE differs from 529->out-of-state ABLE for recapture?
+42. For major source 529 programs, what percentage require Medallion Signature Guarantee on outbound direct rollovers, and what is the observed delay impact?

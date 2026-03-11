@@ -1,6 +1,6 @@
 # REQUIREMENTS_BACKLOG
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## P0 (ship-first requirements)
 
@@ -27,21 +27,31 @@ Updated: 2026-03-10
    - Collect required source/destination metadata.
    - Produce completed handoff packet and checklist (including notarization/signature warnings).
 
+5. **Destination-rule decision layer (state + plan specific)**
+   - Evaluate rollover against destination plan constraints before submission:
+     - annual contribution limit and account balance limit checks
+     - state destination-specific recapture rules (for example, Indiana in-state ABLE exception logic)
+   - Return pass/fail with explanation and citation links.
+
 ## P1
 
-5. **Transfer journey status tracker**
+6. **Transfer journey status tracker**
    - Milestones: request created -> outbound plan contacted -> docs received -> compliance validated -> posted.
    - Exception states: missing earnings breakdown, signature mismatch, beneficiary mismatch.
 
-6. **Beneficiary/family relationship wizard**
+7. **Beneficiary/family relationship wizard**
    - Guided questions that produce relationship eligibility output and attestation capture.
 
-7. **Citation-backed FAQ service**
+8. **Citation-backed FAQ service**
    - Every answer includes confidence and source tier badges.
    - Low-confidence answers include "what could change this".
 
-8. **State filing helper**
+9. **State filing helper**
    - Show line references when confidence is high; otherwise warn and route to review.
+
+10. **Conditional signature-guarantee check**
+   - Ask source-plan requirement questions and branch to Medallion Signature Guarantee instructions only when triggered.
+   - Warn that notary is not a substitute when Medallion is required.
 
 ## Experiments (next 2 sprints)
 
@@ -49,3 +59,5 @@ Updated: 2026-03-10
    - Metric: transfer exception rate, time-to-fund, abandonment.
 2. **State-risk warning interstitial**
    - Metric: post-filing issue tickets, warning acknowledgment.
+3. **Guarantee-gate experiment**
+   - Metric: avoidable transfer delays tied to missing signature guarantees.

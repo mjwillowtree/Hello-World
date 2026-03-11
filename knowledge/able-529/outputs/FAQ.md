@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,30 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Does Indiana treat all 529->ABLE rollovers the same for recapture?
+**Answer:** No. Indiana DOR Bulletin #98 states that for 2024+ transfers, Indiana529 to **Indiana ABLE 529A** can be qualified, while transfer to other ABLE plans is nonqualified for recapture purposes.  
+**Confidence:** High  
+**Sources:**  
+- https://www.in.gov/dor/files/ib98.pdf  
+- https://forms.in.gov/Download.aspx?id=16957
+
+## 10) Where is Indiana 529 credit recapture reported on the return?
+**Answer:** On Schedule IN-CR line 9, carried to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).  
+**Confidence:** High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16957  
+- https://forms.in.gov/Download.aspx?id=16915
+
+## 11) If a plan does not send principal/earnings support, what can happen operationally?
+**Answer:** Official ABLE forms indicate the entire transfer can be treated as earnings until documentation is received.  
+**Confidence:** High  
+**Sources:**  
+- https://www.ablenow.com/uploads/documents/ABLEnow_Incoming_Rollover_Indirect.pdf  
+- https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+## 12) Is a notary enough when a transfer requires signature guarantee?
+**Answer:** Not always. PA ABLE states a required Medallion Signature Guarantee must be obtained from an authorized financial institution officer and a notary cannot substitute.  
+**Confidence:** High  
+**Sources:**  
+- https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf

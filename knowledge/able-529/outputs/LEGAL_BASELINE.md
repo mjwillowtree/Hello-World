@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01
+- Higher-authority specificity: Indiana DOR Information Bulletin #98 (Jan 2026) gives explicit 2024+ destination-specific ABLE treatment for Indiana529 recapture.
+- Potentially overbroad artifact: Schedule IN-CR instruction shorthand references rollover to "any other ... ABLE account" as nonqualified and then points readers to Bulletin #98 for detail.
+- Resolution: Use Schedule IN-CR for filing-line mechanics and Bulletin #98 for detailed qualification logic by destination plan.
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://www.in.gov/dor/files/ib98.pdf
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -57,6 +65,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Indiana (destination-specific recapture pattern)
+- Schedule IN-CR line 9 flows recapture to IT-40 Schedule 4 line 3.
+- Bulletin #98 (Jan 2026) states transfers to Indiana ABLE 529A (2024+) are qualified, while transfers to other ABLE plans are nonqualified for recapture.
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://www.in.gov/dor/files/ib98.pdf
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -65,4 +81,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
-3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+3. Whether Indiana will mirror Bulletin #98 destination-specific ABLE text directly in future IN-CR instruction wording.

@@ -1,5 +1,94 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (06:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution (minimum set met):
+
+1. Unknown: In Indiana, what is the exact filing-line path for 529 credit recapture and does current guidance distinguish in-state ABLE vs other ABLE destinations?
+2. Unknown: Does Indiana's current-year tax package provide a destination-specific 529->ABLE recapture rule that is operationally usable in product logic?
+3. Unknown: Which official ABLE rollover forms explicitly state "treat whole amount as earnings until basis/earnings statement is received"?
+4. Adversarial challenge: Is it safe to infer that all 529->ABLE rollovers are state-equivalent once federally qualified?
+5. Product/competition question: Which transfer requirements (for example, Medallion Signature Guarantee, destination limits) should be hard-gated before packet submission?
+6. State-specific question: Can Indiana be advanced from Unknown to High-confidence with Tier-1 sources and line-level references this run?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close Indiana state ambiguity with line-level form mapping | 5,5,5,4,1 | 500 | Execute |
+| Validate destination-specific recapture logic from controlling Indiana DOR text | 5,5,4,4,1 | 400 | Execute |
+| Add new competitor operations datapoint from official rollover forms | 4,4,4,4,1 | 256 | Execute |
+| Convert evidence into one new ranked opportunity + backlog requirement | 5,4,5,3,1 | 300 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana DOR Information Bulletin #98 (Jan 2026) provides destination-specific recapture treatment: for 2024+ Indiana529 distributions, transfer to Indiana ABLE 529A can be qualified, while transfer to other ABLE plans is nonqualified for recapture.  
+  Confidence: **High**  
+  Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M18:** Indiana filing-line mechanics are explicit: Schedule IN-CR line 9 carries recapture to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3); IN-529 line 16 carries credit to Schedule 6 line 6.  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://forms.in.gov/Download.aspx?id=16907
+
+- **M19:** PA ABLE and ABLEnow forms confirm operational hard-fail constraints: missing basis/earnings statement can force full-earnings treatment, and Medallion Signature Guarantee can be required conditionally by source plan.  
+  Confidence: **High**  
+  Sources:
+  - https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+  - https://www.ablenow.com/uploads/documents/ABLEnow_Incoming_Rollover_Indirect.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"All 529->ABLE rollovers are treated equivalently at the state layer once federally qualified."**
+- Result: **Failed.** Indiana's DOR guidance is destination-specific (Indiana ABLE vs other ABLE), which creates product-critical branching logic.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Indiana row advanced to high confidence, line-level mapping added).
+- Updated `outputs/STATE_MATRIX.md` (Indiana advanced section + coverage counts).
+- Updated `outputs/LEGAL_BASELINE.md` (new Indiana conflict-resolution note and destination-specific rule block).
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (added PA ABLE row; upgraded ABLEnow detail/confidence).
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added signature-guarantee and limits gate opportunity; re-ranked).
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (added destination-rule decision layer and conditional signature-guarantee check).
+- Updated `outputs/EXEC_SUMMARY.md`, `outputs/FAQ.md`, `outputs/USER_JOURNEY_MAP.md`, and `outputs/HUB.md`.
+- Updated `docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`, and `TASKLIST.md`.
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana destination-specific recapture logic upgraded to High).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana IN-CR line 9 -> IT-40 Schedule 4 line 3; IN-529 line 16 -> Schedule 6 line 6).
+- One competition/workflow insight added: **Yes** (PA ABLE Medallion + limit/rejection path; ABLEnow earnings-default detail).
+- One product requirement/opportunity added or re-ranked: **Yes** (Destination-rule decision layer + signature-guarantee gate).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~90%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close **NJ** or **PA** with line-level return instruction treatment (primary state ambiguity lane).
+2. Advance **Utah** with Tier-1 code/form references (state breadth lane).
+3. Move ops lane from form constraints to observed timing/SLA evidence (workflow measurement lane).
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)
