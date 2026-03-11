@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,28 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Are there IRS primary materials (not just newsroom posts) that support 529->ABLE rollovers now?
+**Answer:** Yes. IRS Publication 970 chapter content and current Form 1099-Q instructions both describe QTP->ABLE rollovers, including annual-limit and 60-day mechanics, and do not show the old sunset phrase in the extracted sections reviewed this run.  
+**Confidence:** High  
+**Sources:**  
+- https://www.irs.gov/publications/p970/ch10.html  
+- https://www.irs.gov/instructions/i1099q
+
+## 10) What is New Jersey's current line-level treatment for nonqualified 529/ABLE distributions?
+**Answer:** NJ-1040 instructions include earnings on nonqualified distributions from qualified tuition programs and qualified state 529A ABLE accounts in taxable interest (line 16a), and also include NJBEST nonqualified distribution portions attributable to prior deducted contributions.  
+**Confidence:** High  
+**Sources:**  
+- https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf
+
+## 11) What Pennsylvania line handles taxable non-educational 529 distributions?
+**Answer:** PA-40 instructions route non-educational IRC 529 distributions to PA Schedule A line 13, while also stating federally exempt IRC 529 distribution rollovers are excluded from taxable income.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+
+## 12) Why should product UX track 60-day rollover and source-account closure milestones?
+**Answer:** Official ABLE United rollover instructions tie qualified treatment and means-tested-benefit treatment to 60-day timing and account-closure conditions, so missing these milestones is a legal/compliance failure mode.  
+**Confidence:** High  
+**Sources:**  
+- https://www.ableunited.com/wp-content/uploads/able-united-rollover-able-to-able-1.8_ADA.pdf

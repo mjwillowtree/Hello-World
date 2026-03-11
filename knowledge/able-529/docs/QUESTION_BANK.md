@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 00:01 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,8 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. Do Indiana IT-40 schedules explicitly treat 529->ABLE rollovers as federally exempt, and where is recapture/add-back reported line-by-line?
+41. In Pennsylvania TY2025/TY2026 instruction packets, is the "federally exempt IRC 529 distribution rollover" exclusion text unchanged from TY2024?
+42. For Utah, is there explicit instruction-level language naming 529->ABLE rollovers as an IRC 529(c) exception, or only a generic exception reference?
+43. Which ABLE administrators require source-account closure confirmation before they post incoming rollover funds?
+44. What proportion of rollover failures are timing-window misses (60-day) versus documentation deficiencies?

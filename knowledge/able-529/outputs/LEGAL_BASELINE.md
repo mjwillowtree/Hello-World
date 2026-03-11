@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01
+- Prior assumption: IRS sub-regulatory materials are broadly unconformed post-amendment.
+- New higher-confidence evidence: current IRS primary publications/instructions now describe QTP->ABLE rollovers without a sunset phrase and with operational details (same-beneficiary/family path, annual-limit constraint, 60-day rollover timing, and Form 1099-Q box coding).
+- Resolution: guidance-lag risk is now **segmented** (some IRS newsroom artifacts stale, but key filing/publication channels are conformed).
+- Sources:
+  - https://www.irs.gov/publications/p970/ch10.html
+  - https://www.irs.gov/instructions/i1099q
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -57,12 +65,23 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### New Jersey (line-level closure pattern)
+- NJ-1040 instructions place earnings on nonqualified 529/529A distributions in taxable interest and separately include NJBEST nonqualified distribution portions attributable to prior deducted contributions.
+- NJBEST contribution deduction appears in NJ-1040 college affordability line set (line 37a).
+- Source:
+  - https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf
+
+### Utah (code-level addback pattern)
+- TC-40A Part 1 code 54 (my529 addback) applies for nonqualified withdrawals absent IRC 529(c)/530(d) exception and flows to TC-40 line 5.
+- Source:
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
 
 ## 6) Open legal unknowns (next closure targets)
 
-1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
-2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
-3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+1. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+2. Utah explicit 529->ABLE carveout text (currently inferred through IRC exception references in addback instructions).
+3. Pennsylvania TY2025/TY2026 packet confirmation that federally exempt 529 rollover and Schedule A line-13 mechanics remain unchanged.

@@ -1,8 +1,16 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (hourly run)
+- Closed major **NJ** ambiguity to line-level confidence using NJ-1040 instructions (nonqualified 529/ABLE treatment + NJBEST prior-deduction recapture language).
+- Upgraded **PA** from medium-low to medium-high using PA-40 instructions (federally exempt 529 rollovers excluded; non-educational 529 distributions mapped to Schedule A line 13).
+- Advanced **Utah** from placeholder to substantive via TC-40A Part 1 code 54 addback flow to TC-40 line 5 (with IRC exception references).
+- Added **ABLE United** competitor workflow evidence (60-day deadlines, old-account closure dependency, ALR continuity, 12-month cadence limits).
+- Added new P0 requirement lane: rollover timing + closure guardrails and monitoring.
+- Reduced federal ambiguity by confirming current IRS Pub. 970 and Form 1099-Q instructions contain QTP->ABLE rollover mechanics (while legacy newsroom content remains a stale-risk channel).
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +27,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
+- **State-by-state treatment:** Medium overall (heterogeneous; NJ/PA improved, Utah partially closed)
 - **Operational workflow understanding:** Medium-High for transfer failure controls
-- **Product opportunity signal strength:** Medium-High
+- **Product opportunity signal strength:** High (timing/closure controls now evidence-backed)
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
-- High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- State matrix completion (substantive rows): **11 / 51**
+- High-confidence states: **12 / 51 (23.5%)**
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio (new substantive claims): **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25, citation-ready quickly): **16 / 25**
 
 ## Navigation
 
@@ -49,6 +57,6 @@ Updated: 2026-03-10
 
 ## Immediate next-run targets
 
-1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+1. Advance **Indiana** with Tier-1 form/code references (first substantive row).
+2. Verify **PA TY2025/TY2026** instructions preserve current line-level rollover/non-educational treatment.
+3. Expand transfer workflow lane with timing distributions (p50/p90), exception code taxonomy, and closure-confirmation instrumentation.

@@ -1,15 +1,15 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
-- High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
+- High-confidence rows: **12 / 51**
+- Latest state advancements: **Utah** (new) and **New Jersey/Pennsylvania** confidence upgrades
 
 ## Minnesota (advanced)
 
@@ -38,12 +38,53 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## New Jersey (upgraded)
+
+### What is locked
+- NJ-1040 instructions include earnings on nonqualified distributions from both qualified tuition programs and qualified state 529A ABLE accounts in taxable interest.
+- NJ-1040 instructions also include earnings on nonqualified NJBEST distributions and portions attributable to contributions previously deducted on a New Jersey return.
+- NJ College Affordability deduction lines are explicitly identified (lines 37a-37c), including NJBEST contribution deductions on line 37a.
+
+### Sources (Tier 1)
+- https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf
+- https://nj.gov/treasury/taxation/individuals/collegededuction.shtml
+
+### Confidence
+- **High**
+
+## Pennsylvania (upgraded)
+
+### What is locked
+- PA-40 instructions treat federally exempt IRC 529 distribution rollovers as excluded from taxable income.
+- PA-40 instructions route non-educational IRC 529 distributions to PA Schedule A line 13 (taxable amount mechanics included).
+- PA Schedule O remains the deduction schedule for IRC 529 and 529A contribution deductions (feeding PA-40 line 10).
+
+### Sources (Tier 1)
+- https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+
+### Confidence
+- **Medium-High** (rollover exclusion is clear; filing-year reconfirmation still needed for 2025/2026 packets)
+
+## Utah (newly advanced)
+
+### What is locked
+- Utah TC-40A Part 1 code 54 requires my529 addback where withdrawal is not for qualified education expenses and does not meet an IRC 529(c)/530(d) exception.
+- TC-40A Part 1 totals carry to TC-40 line 5, creating return-level recapture/addback flow.
+- Utah also has a separate ABLE contribution credit framework (TC-40A Part 4 code 63), useful for product eligibility/tax-benefit messaging.
+
+### Sources (Tier 1)
+- https://incometax.utah.gov/additions/my529-addback
+- https://tax.utah.gov/forms/current/tc-40inst.pdf
+
+### Confidence
+- **Medium** (explicit 529->ABLE carveout text still not found in the extracted lines)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
 - Illinois (High)
-- New Jersey (Medium; line-level closure pending)
-- Pennsylvania (Medium-Low; line-level closure pending)
+- New Jersey (High)
+- Pennsylvania (Medium-High)
 - Oregon (Low)
 - Colorado (Low)
 - Virginia (Low)
@@ -51,10 +92,10 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Priority closure queue (next)
 
-1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
-2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+1. **Indiana**: first-pass Tier-1 row with code/line references.
+2. **Minnesota**: explicit ABLE carveout confirmation (if any) versus recapture-framework inference.
+3. **Pennsylvania**: verify TY2025/TY2026 instruction packets preserve current rollover/non-educational line treatment.
+4. **Utah**: verify explicit 529->ABLE treatment language (currently inferred via IRC exception reference).
 
 ## Interpretation notes
 

@@ -1,5 +1,106 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (00:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Do current IRS primary publications/instructions now reflect post-2025 529->ABLE continuity, or are they still carrying sunset-era language?
+2. Unknown: What exact NJ-1040 line-level text governs nonqualified 529/ABLE distributions and prior-deduction recapture behavior?
+3. Unknown: Can Utah be advanced from placeholder using official code/line workflow for my529 addback and return flow?
+4. Adversarial challenge: Is it still safe to assume IRS sub-regulatory materials are broadly stale even after statute change?
+5. Product/competition question: Which official workflow documents make timing/closure controls explicit enough to justify new product guardrails?
+6. State-specific question: Can at least one unresolved state row be moved forward with Tier-1 source + line-level form reference this run?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| NJ line-level closure from official instructions | 5,5,5,4,1 | 500 | Execute |
+| Utah first substantive row (TC-40A code-level flow) | 4,4,4,4,1 | 256 | Execute |
+| IRS primary publication conformity check | 5,4,5,3,1 | 300 | Execute |
+| Add competitor timing/closure datapoint | 4,4,4,3,1 | 192 | Execute |
+
+### M (Memory)
+
+- **M17:** NJ-1040 TY2025 instructions explicitly tax earnings on nonqualified 529 and qualified state 529A ABLE distributions (line 16a context) and include NJBEST nonqualified distribution portions attributable to prior NJ-deducted contributions.  
+  Confidence: **High**  
+  Sources:
+  - https://www.njportal.com/Taxation/NJ1040/Content/Docs/Instructions/Current_NJ1040Instructions.pdf
+  - https://nj.gov/treasury/taxation/individuals/collegededuction.shtml
+
+- **M18:** PA-40 TY2024 instructions explicitly exclude federally exempt IRC 529 distribution rollovers from taxable income and map non-educational 529 distributions to PA Schedule A line 13.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+
+- **M19:** Utah TC-40A instructions set my529 addback at Part 1 code 54 (with IRC 529(c)/530(d) exception language) and carry Part 1 totals to TC-40 line 5, providing a concrete state addback flow.  
+  Confidence: **Medium**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+
+- **M20:** ABLE United rollover operations make 60-day timing and old-account closure compliance explicit; form language also enforces same-beneficiary/family and once-per-12-month cadence for same beneficiary.  
+  Confidence: **High**  
+  Source:
+  - https://www.ableunited.com/wp-content/uploads/able-united-rollover-able-to-able-1.8_ADA.pdf
+
+- **M21:** IRS Pub. 970 chapter content and current Form 1099-Q instructions both operationalize QTP->ABLE rollover mechanics (including 60-day and reporting rules), indicating primary IRS filing guidance is more conformed than legacy newsroom pages.  
+  Confidence: **High**  
+  Sources:
+  - https://www.irs.gov/publications/p970/ch10.html
+  - https://www.irs.gov/instructions/i1099q
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"IRS sub-regulatory guidance is broadly stale post-amendment."**
+- Result: **Partly failed.** Legacy newsroom pages remain stale-risk, but core IRS publication/instruction channels reviewed this run are conformed for QTP->ABLE mechanics.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/FAQ.md`
+- Updated `outputs/HUB.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS primary publication conformity status upgraded with Tier-1 evidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah advanced; NJ and PA line-level upgrades added).
+- One competition/workflow insight added: **Yes** (ABLE United 60-day + closure dependency + cadence constraints).
+- One product requirement/opportunity added or re-ranked: **Yes** (new rollover timing/closure guardrail requirement and ranked opportunity).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~90%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio: **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close Indiana to first substantive line-level row with Tier-1 forms/instructions.
+2. Confirm Pennsylvania TY2025/TY2026 packets retain current rollover/non-educational line mechanics.
+3. Build transfer timing evidence baseline (p50/p90 cycle times and top exception codes).
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)
