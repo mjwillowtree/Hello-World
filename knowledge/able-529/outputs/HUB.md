@@ -1,8 +1,14 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (hourly run)
+- Advanced **Indiana** to high confidence with destination-sensitive recapture logic: Indiana529 -> Indiana ABLE (qualified from 2024) versus Indiana529 -> other ABLE programs (nonqualified for recapture), plus filing-flow references.
+- Advanced **Utah** to medium confidence with line/code-level addback mapping (TC-40A code 54 -> TC-40 line 5) and IRC-exception linkage.
+- Added **ABLE United** workflow evidence: 60-day closure/timing condition, potential notarization, and earnings-treatment fallback if statements are missing.
+- Re-ranked opportunities and requirements with two new controls: destination-plan policy router and deadline countdown escalation.
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +25,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
-- **Operational workflow understanding:** Medium-High for transfer failure controls
+- **State-by-state treatment:** Medium overall (heterogeneous; 12 rows now substantive)
+- **Operational workflow understanding:** Medium-High for transfer failure + timing controls
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
-- High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
+- State matrix completion (substantive rows): **12 / 51**
+- High-confidence states: **12 / 51 (23.5%)**
+- Domain coverage score (10 domains): **6.5 / 10**
+- Tier-1 citation ratio (new substantive claims): **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
 - Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- Time-to-answer test (top 25, citation-ready quickly): **16 / 25**
 
 ## Navigation
 
@@ -50,5 +56,5 @@ Updated: 2026-03-10
 ## Immediate next-run targets
 
 1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+2. Pull exact **Indiana Schedule 4 line number** for recapture repayment.
+3. Expand transfer workflow lane with measured timing/SLA evidence (p50/p90).

@@ -1,6 +1,6 @@
 # EXEC_SUMMARY
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## Current truths (plain English)
 
@@ -10,24 +10,29 @@ Updated: 2026-03-10
    - Federal qualification does not automatically remove state recapture/add-back risk.
 3. **Operational transfer failure is often documentation-driven.**
    - Official provider forms warn missing principal/earnings support can create misclassification and exceptions.
+4. **State treatment can be destination-sensitive, not just state-of-residence sensitive.**
+   - Indiana explicitly distinguishes Indiana529 transfers to Indiana ABLE (qualified) from transfers to other ABLE programs (nonqualified for recapture).
 
 ## Biggest risks
 
 1. State recapture surprise risk in unresolved jurisdictions.
 2. Transfer submission without required documentation and attestations.
 3. Guidance hierarchy errors (stale summaries over controlling law).
+4. Missing deadline controls for 60-day rollover/closure conditions in manual workflows.
 
 ## Biggest opportunities
 
 1. Preflight rollover validator (eligibility + documentation + annual-cap checks).
 2. State risk engine (jurisdiction + tax year + line references + confidence).
 3. Audit-ready citation layer for product/support consistency.
+4. Destination-plan routing guardrails for state-specific recapture branches.
 
 ## Decision posture now
 
 - Safe to design onboarding around post-2025 federal rollover continuity.
 - Unsafe to auto-assume no state recapture in unresolved states.
 - Highest leverage: reduce transfer exception rate through evidence-first workflow.
+- Add explicit deadline and destination controls to prevent avoidable nonqualified outcomes.
 
 ## Key citations
 
@@ -39,6 +44,10 @@ Updated: 2026-03-10
   - https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/customer-service/able-rollover.pdf
   - https://www.texasable.org/wp-content/uploads/dlm_uploads/2025/02/TxAble_IncomingRolloverForm_2.13.25_Fillable.pdf
   - https://ableforall.com/uploads/ableforall/attachments/cltymmoe43wtu0jlefxjj1v5q-able-for-all-rollover-direct-csp-to-able-form.pdf
+  - https://www.ableunited.com/wp-content/uploads/able-united-rollover-able-to-able-1.8_ADA.pdf
 - State examples:
   - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf

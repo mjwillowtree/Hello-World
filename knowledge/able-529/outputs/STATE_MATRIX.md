@@ -1,15 +1,44 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
-- High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Substantively advanced rows (beyond placeholder): **12 / 51**
+- High-confidence rows: **12 / 51**
+- Latest state advancements: **Indiana** and **Utah**
+
+## Indiana (advanced)
+
+### What is locked
+- Indiana DOR Information Bulletin #98 (Jan 2026) states that, beginning in 2024, a transfer from Indiana529 to an **Indiana ABLE 529A savings plan** is treated as a qualified withdrawal.
+- The same bulletin lists transfers to ABLE programs other than Indiana ABLE as nonqualified withdrawals for credit-recapture purposes (2024+).
+- TY2025 Schedule IN-529 maps the 529 credit to a line-level filing flow (line 16 -> Schedule 6 line 6 for IT-40 / Schedule G line 6 for IT-40PNR).
+- Recapture repayment is reported via Schedule IN-CR and listed on Schedule 4 (IT-40) or Schedule E (IT-40PNR).
+
+### Sources (Tier 1)
+- https://www.in.gov/dor/files/ib98.pdf
+- https://forms.in.gov/Download.aspx?id=16907
+
+### Confidence
+- **High**
+
+## Utah (advanced)
+
+### What is locked
+- TC-40 instructions list **code 54 my529 addback** and require addback where a my529 withdrawal was not used for qualified education expenses and did not meet an IRC 529(c) or 530(d) exception.
+- The same instructions map TC-40A Part 1 totals to **TC-40 line 5** and include **code 20 my529 credit** in TC-40A Part 3 (carried to TC-40 line 24).
+- Utah instructions also include ABLE program credit coding (code 63), confirming ABLE appears in the same filing architecture.
+
+### Sources (Tier 1)
+- https://tax.utah.gov/forms/current/tc-40inst.pdf
+- https://tax.utah.gov/forms/current/tc-40a.pdf
+
+### Confidence
+- **Medium** (explicit addback mechanics are clear; 529->ABLE treatment relies on IRC-exception interpretation in instruction text)
 
 ## Minnesota (advanced)
 
@@ -42,10 +71,12 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 - California (High)
 - Illinois (High)
+- Indiana (High)
 - New Jersey (Medium; line-level closure pending)
 - Pennsylvania (Medium-Low; line-level closure pending)
 - Oregon (Low)
 - Colorado (Low)
+- Utah (Medium)
 - Virginia (Low)
 - New York (Low)
 
@@ -53,8 +84,8 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+3. **Minnesota**: explicit ABLE carveout confirmation vs recapture inference.
+4. **Indiana**: pull exact Schedule 4 line number for recapture repayment entry.
 
 ## Interpretation notes
 

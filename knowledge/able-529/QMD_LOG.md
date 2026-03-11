@@ -1,5 +1,101 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (07:02 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does Indiana currently treat 529->ABLE transfers differently based on destination ABLE program, and where is repayment reported on return forms?
+2. Unknown: Can Utah be advanced with line-level addback mapping tied to 529(c)/530(d) exceptions in current instructions?
+3. Unknown: Which operational controls are explicitly deadline-critical (not just best-practice) in official rollover forms?
+4. Adversarial challenge: "If a rollover is federally qualified, destination account choice cannot change state recapture risk."
+5. Product/competition question: Which official program form provides the strongest evidence for a mandatory transfer-deadline timer and escalation workflow?
+6. State-specific question: Can Indiana or Utah move from placeholder to citation-backed matrix rows this run?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Indiana destination-sensitive recapture closure | 5,5,5,5,2 | 312.5 | Execute |
+| Utah line/code-level addback mapping | 4,4,4,4,2 | 128 | Execute |
+| Add competitor deadline-control datapoint | 4,4,4,4,1 | 256 | Execute |
+| Convert evidence to product requirement re-rank | 5,4,5,4,2 | 200 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana DOR Information Bulletin #98 (Jan 2026) explicitly treats Indiana529 -> Indiana ABLE transfers (beginning 2024) as qualified withdrawals, while transfers to other ABLE programs are nonqualified for credit-recapture purposes.  
+  Confidence: **High**  
+  Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M18:** Indiana line-level filing flow for 529 credit is explicit in TY2025 Schedule IN-529 (line 16 -> Schedule 6 line 6 for IT-40 / Schedule G line 6 for IT-40PNR), and recapture repayment reporting is routed via Schedule IN-CR to Schedule 4 (IT-40) or Schedule E (IT-40PNR).  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M19:** Utah TC-40 instructions provide explicit my529 addback logic (TC-40A Part 1 code 54 -> TC-40 line 5) for withdrawals not meeting qualified-use/IRC exception conditions, plus my529 credit coding (code 20).  
+  Confidence: **Medium**  
+  Sources:
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+
+- **M20:** ABLE United form language introduces hard operational risk controls: potential notarization, 60-day closure dependency, and temporary full-earnings treatment when supporting statements are missing.  
+  Confidence: **High**  
+  Source:
+  - https://www.ableunited.com/wp-content/uploads/able-united-rollover-able-to-able-1.8_ADA.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"Destination ABLE program choice cannot affect state recapture if federal rules are satisfied."**
+- Result: **Failed.** Indiana guidance creates destination-sensitive treatment (Indiana ABLE vs non-Indiana ABLE) for credit-recapture outcomes.
+
+### D (Document updates)
+
+- Updated `TASKLIST.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana state treatment moved from Unknown/Low to High with destination-sensitive recapture rule).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana and Utah updated with line/code mapping).
+- One competition/workflow insight added: **Yes** (ABLE United 60-day closure + notarization + documentation fallback controls).
+- One product requirement/opportunity added or re-ranked: **Yes** (destination-plan policy router added; transfer tracker re-ranked with deadline controls).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~90%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **12 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.5 / 10**
+- Tier-1 citation ratio: **~90%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA to line-level high confidence with current return instructions.
+2. Pull exact Indiana Schedule 4 line number for recapture repayment.
+3. Gather measured transfer timing/SLA evidence from official admin workflows and support disclosures.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

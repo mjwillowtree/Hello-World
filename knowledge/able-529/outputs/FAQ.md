@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,23 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Adversarial: If a rollover is federally qualified, can we ignore destination-plan details?
+**Answer:** No. Indiana DOR guidance explicitly creates a destination-sensitive recapture distinction: transfers to Indiana ABLE (2024+) are treated as qualified for credit-recapture purposes, while transfers to other ABLE programs are listed as nonqualified for recapture.  
+**Confidence:** High  
+**Sources:**  
+- https://www.in.gov/dor/files/ib98.pdf  
+- https://forms.in.gov/Download.aspx?id=16907
+
+## 10) Do we need a deadline timer in transfer operations?
+**Answer:** Yes. ABLE United form language ties qualified status and benefits consequences to 60-day closure/timing conditions and requires documentation to avoid conservative earnings treatment.  
+**Confidence:** High  
+**Sources:**  
+- https://www.ableunited.com/wp-content/uploads/able-united-rollover-able-to-able-1.8_ADA.pdf
+
+## 11) Does Utah have explicit state addback mechanics for my529 withdrawals?
+**Answer:** Yes. Utah TC-40 instructions include TC-40A Part 1 code 54 (my529 addback) for withdrawals not meeting qualified-use/IRC exception conditions, and provide line flow to TC-40 line 5.  
+**Confidence:** Medium  
+**Sources:**  
+- https://tax.utah.gov/forms/current/tc-40inst.pdf  
+- https://tax.utah.gov/forms/current/tc-40a.pdf

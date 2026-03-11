@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -57,6 +57,21 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Indiana (destination-sensitive qualified treatment)
+- Indiana DOR Information Bulletin #98 (Jan 2026) defines transfers to an **Indiana ABLE 529A savings plan** (beginning in 2024) as qualified withdrawals.
+- The same bulletin states that, for 2024 and later, transfers from Indiana529 to an ABLE account **other than Indiana ABLE 529A** are nonqualified for credit-recapture purposes.
+- Recapture repayment reporting is mapped to Schedule IN-CR and then to Schedule 4 (IT-40) / Schedule E (IT-40PNR).
+- Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16907
+
+### Utah (addback logic keyed to IRC exceptions)
+- TY2025 Utah TC-40 instructions include TC-40A Part 1 code 54 (my529 addback) and direct filers to add back withdrawals not used for qualified education expenses that do not meet IRC 529(c)/530(d) exceptions.
+- This forms a state implementation pattern where treatment depends on whether the rollover fits IRC-qualified exceptions.
+- Sources:
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -66,3 +81,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+4. Indiana exact Schedule 4 line number for 529 recapture repayment entry (IB98 names schedule, not line).
