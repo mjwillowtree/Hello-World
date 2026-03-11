@@ -1,5 +1,96 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (01:02 UTC cron trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: In Indiana, does current primary guidance distinguish 529->Indiana ABLE 529A from 529->other ABLE programs for credit recapture?
+2. Unknown: What exact Indiana line-level filing flow carries 529 credit recapture to the individual return?
+3. Unknown: Which official rollover forms explicitly warn of full rejection when annual ABLE cap is exceeded?
+4. Adversarial challenge: Are state recapture outcomes determined only by federal qualification + transaction type, or can destination-plan details change outcome?
+5. Product/competition question: Which additional provider workflow constraint should be converted into a ship-level requirement this run?
+6. State-specific question: Can Indiana be advanced from placeholder to substantive treatment with Tier-1 line-level references?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Indiana destination-sensitive recapture closure | 5,5,5,5,2 | 312.5 | Execute |
+| Indiana line-level form mapping in matrix | 5,4,5,4,2 | 200 | Execute |
+| Add fresh competitor workflow datapoint (cap/notary risk) | 4,4,4,4,2 | 128 | Execute |
+| Convert new risk into requirement/opportunity ranking | 5,4,5,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana DOR Information Bulletin 98 (Jan 2026) states that for 2024+, Indiana529 transfers to Indiana ABLE 529A are qualified for recapture purposes, while transfers to ABLE programs other than Indiana ABLE 529A are not.  
+  Confidence: **High**  
+  Source:
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M18:** Indiana Schedule IN-CR provides line-level recapture mechanics and return flow (line 9 to IT-40 Schedule 4 line 3 / IT-40PNR Schedule E line 3), with 529 recapture code 837 and nonqualified-withdrawal instructions.  
+  Confidence: **High**  
+  Source:
+  - https://forms.in.gov/Download.aspx?id=16371
+
+- **M19:** Official STABLE direct rollover form requires pre-existing ABLE account, dual signatures, possible notarization, and warns that contributions above annual limit may be rejected in entirety.  
+  Confidence: **High**  
+  Source:
+  - https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"State treatment for 529->ABLE depends only on federal qualification and transaction type."**
+- Result: **Failed.** Indiana guidance introduces destination-sensitive treatment (Indiana ABLE 529A vs other ABLE programs) for recapture outcomes.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Indiana row advanced with line-level references)
+- Updated `outputs/STATE_MATRIX.md` (Indiana section + coverage snapshot)
+- Updated `outputs/LEGAL_BASELINE.md` (Indiana authority block + conflict log)
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (ABLE Utah/STABLE workflow datapoint)
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (new cap-overflow opportunity, re-ranked table)
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (annual-limit reservation ledger requirement)
+- Updated `outputs/USER_JOURNEY_MAP.md` (notary/cap-overflow failure controls)
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/FAQ.md`
+- Updated `outputs/HUB.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `TASKLIST.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana destination-sensitive recapture treatment advanced from unknown to Medium-High implementation confidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana IN-CR line 9 -> IT-40 Schedule 4 line 3 / IT-40PNR Schedule E line 3).
+- One competition/workflow insight added: **Yes** (STABLE direct rollover full-rejection + notarization workflow risk).
+- One product requirement/opportunity added or re-ranked: **Yes** (annual-limit reservation ledger requirement + cap-overflow opportunity ranked #4).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close **NJ** or **PA** with explicit current-year line-level instruction treatment.
+2. Advance **UT** with Tier-1 return-line references.
+3. Add operational timing metrics (transfer SLA p50/p90) from official/admin sources and wire into backlog KPIs.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

@@ -1,15 +1,30 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Indiana** (plus prior Minnesota and Ohio)
+
+## Indiana (advanced)
+
+### What is locked
+- Indiana DOR Bulletin 98 (Jan 2026) states that beginning in 2024, transfer of Indiana529 funds to an **Indiana ABLE 529A** plan is treated as a qualified withdrawal for credit-recapture purposes.
+- The same bulletin states that for 2024+ transfers to ABLE accounts **other than Indiana ABLE 529A** are not qualified withdrawals for recapture purposes.
+- Schedule IN-CR provides return-line flow for recapture amounts (line 9 to IT-40 Schedule 4 line 3 / IT-40PNR Schedule E line 3) and code mapping.
+
+### Sources (Tier 1)
+- https://www.in.gov/dor/files/ib98.pdf
+- https://forms.in.gov/Download.aspx?id=16371
+- https://forms.in.gov/Download.aspx?id=16907
+
+### Confidence
+- **Medium-High** (bulletin-level treatment is explicit; monitor for annual IN-CR instruction synchronization language)
 
 ## Minnesota (advanced)
 
@@ -54,7 +69,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
 3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Minnesota closure**: explicit ABLE carveout confirmation (if any) versus recapture inference.
 
 ## Interpretation notes
 

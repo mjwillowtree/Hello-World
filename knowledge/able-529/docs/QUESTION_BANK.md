@@ -1,8 +1,13 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (hourly run)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
+
+## Recently closed (this run)
+
+- Q32 (partially closed): official STABLE direct rollover form confirms conditional notarization and explicit warning that over-limit contributions can be rejected in entirety.
+- Indiana state-treatment ambiguity (newly closed): Bulletin 98 now provides destination-sensitive 529->ABLE recapture logic for 2024+ (Indiana ABLE 529A vs other ABLE programs).
 
 ## Federal law and guidance
 
@@ -60,3 +65,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. For Indiana filing-year synchronization, does the next IN-CR revision explicitly align wording with Bulletin 98's in-state ABLE carve-in?
+41. Which major ABLE programs reject over-limit direct rollovers in full versus partial acceptance/return mechanics?
+42. What product control best predicts reduction in cap-overflow failures: reservation ledger, pre-submit attestation, or same-day cap reconciliation?

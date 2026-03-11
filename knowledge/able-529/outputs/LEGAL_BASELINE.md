@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01
+- Higher authority signal (newer state guidance): Indiana DOR Information Bulletin 98 (Jan 2026) states that, for 2024+, transfer to an **Indiana ABLE 529A** plan is treated as qualified for credit-recapture purposes, while transfer to ABLE accounts other than Indiana ABLE 529A is not.
+- Lower/older implementation artifact: Schedule IN-CR instructions broadly describe rollover transfer to any other 529 plan or ABLE account as non-qualified, without explicit in-state ABLE distinction.
+- Resolution posture: treat Bulletin 98 as current interpretive guidance and keep filing-year workflow tagged **Medium-High** pending synchronized IN-CR instruction language.
+- Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -56,6 +64,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 - Sources:
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+
+### Indiana (destination-sensitive rollover treatment)
+- Bulletin 98 states that beginning in 2024, transfer from Indiana529 to Indiana ABLE 529A is a qualified withdrawal for recapture purposes, while transfer to ABLE accounts other than Indiana ABLE 529A is not.
+- Schedule IN-CR provides line-level recapture flow (line 9 to IT-40 Schedule 4 line 3 or IT-40PNR Schedule E line 3).
+- Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16371
+  - https://forms.in.gov/Download.aspx?id=16907
 
 ## 5) State-law handling posture
 

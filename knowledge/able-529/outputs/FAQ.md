@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,16 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) In Indiana, is every 529->ABLE rollover treated the same for recapture?
+**Answer:** No. Indiana Bulletin 98 (Jan 2026) indicates that, beginning in 2024, a transfer to **Indiana ABLE 529A** is treated as qualified for recapture purposes, while transfer to other ABLE programs is not.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.in.gov/dor/files/ib98.pdf  
+- https://forms.in.gov/Download.aspx?id=16371
+
+## 10) Can an over-limit direct rollover be partially accepted by default?
+**Answer:** Not reliably. The STABLE direct rollover form warns that contributions over the annual limit are rejected in their entirety, so products should implement cap checks/reservations before submission.  
+**Confidence:** High  
+**Sources:**  
+- https://ableut.com/assets/docs/rollover-direct-csp-to-able-form.pdf
