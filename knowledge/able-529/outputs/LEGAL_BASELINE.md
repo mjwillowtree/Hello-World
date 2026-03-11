@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,15 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01
+- Higher authority: PA DOR Answer ID 2517 + PA-40IN/PA-40O line-level instructions.
+- Lower-confidence artifact: previously cited Answer ID 2321 treated as ABLE-specific support.
+- Resolution: Answer ID 2321 is contribution-deduction scope (other-state tuition program) and does not close 529->ABLE qualification; keep PA-qualified rollover status as conditional/open.
+- Sources:
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/~/where-should-a-distribution-from-an-irc-section-529-college-and-career-saving
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2321/~/can-i-deduct-contributions-made-to-a-college-tuition-program-of-another-state
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -57,6 +66,22 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Utah (exception-aware addback pattern)
+- Utah Code 59-10-114(1)(d) addback is triggered for my529 withdrawals not used for qualified education expenses and not meeting IRC 529(c)/530(d) exceptions, to the extent prior Utah benefit was claimed.
+- TY2025 instructions map this to TC-40A Part 1 code 54, carried to TC-40 line 5.
+- Sources:
+  - https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+
+### Pennsylvania (line-level nonqualified reporting pattern)
+- PA DOR Answer ID 2517 states nonqualified 529 distributions are taxable and reported as interest income on PA Schedule A and PA-40 line 2.
+- PA Schedule O instructions flow deductible 529/529A contributions to PA-40 line 10.
+- Sources:
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/~/where-should-a-distribution-from-an-irc-section-529-college-and-career-saving
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40o.pdf
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -64,5 +89,5 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 ## 6) Open legal unknowns (next closure targets)
 
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
-2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
+2. PA explicit statement (if any) that federally qualified 529->ABLE rollovers are PA-qualified (current closure is nonqualified line reporting).
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.

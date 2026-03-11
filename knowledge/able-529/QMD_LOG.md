@@ -1,5 +1,99 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (08:02 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does Utah statute explicitly tie my529 addback to IRC 529(c)/530(d) exceptions, or is that only implied in secondary guidance?
+2. Unknown: What is Pennsylvania's exact line-level reporting flow for nonqualified IRC 529 distributions in current guidance?
+3. Unknown: Can Pennsylvania deduction flow for 529/529A be tied to explicit PA-40 line references this run?
+4. Adversarial challenge: Is previously cited PA Answer ID 2321 actually ABLE-specific authority, or was it misclassified?
+5. Product/competition question: Which official ABLE form adds conditional signature-guarantee/medallion friction that should be preflighted?
+6. State-specific question: Can Utah be advanced from placeholder to substantive row with statute + return-line mapping?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close Utah exception/addback ambiguity with statute + instructions | 5,5,4,4,2 | 200 | Execute |
+| Close PA line-level nonqualified reporting flow | 5,5,5,4,2 | 250 | Execute |
+| Add one new competitor workflow datapoint from official form | 4,4,4,4,1 | 256 | Execute |
+| Re-rank backlog/opportunities from new workflow evidence | 4,4,5,3,1 | 240 | Execute |
+
+### M (Memory)
+
+- **M17:** Utah Code 59-10-114(1)(d) conditions my529 addback on withdrawals not used for qualified education expenses and not meeting IRC 529(c)/530(d) exceptions, and TY2025 instructions map this to TC-40A Part 1 code 54 carried to TC-40 line 5.  
+  Confidence: **High**  
+  Sources:
+  - https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://tax.utah.gov/forms/current/tc-40inst.pdf
+
+- **M18:** Pennsylvania DOR Answer ID 2517 now explicitly states nonqualified 529 distributions are taxable and reportable as interest income on PA Schedule A and PA-40 line 2; PA-40IN/PA-40O preserve deduction flow to PA-40 line 10 via Schedule O.  
+  Confidence: **High**  
+  Sources:
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/~/where-should-a-distribution-from-an-irc-section-529-college-and-career-saving
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40o.pdf
+
+- **M19:** PA ABLE Incoming Direct Rollover Form introduces conditional source-plan signature-guarantee (Medallion) handling, earnings-basis certification dependency, and annual/balance cap rejection risk.  
+  Confidence: **High**  
+  Source:
+  - https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"PA Answer ID 2321 is ABLE-specific authority for 529->ABLE state treatment."**
+- Result: **Failed.** Answer ID 2321 is about deductibility of contributions to other-state college tuition programs, not explicit ABLE rollover qualification treatment; evidence map corrected.
+
+### D (Document updates)
+
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+- Updated `TASKLIST.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `docs/STATE_RECAPTURE_WATCHLIST.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Utah exception-aware addback closure from placeholder to Medium-High).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah code 54 -> TC-40 line 5; PA line-level nonqualified reporting closure).
+- One competition/workflow insight added: **Yes** (PA ABLE conditional signature-guarantee + earnings-certification dependency).
+- One product requirement/opportunity added or re-ranked: **Yes** (added source-plan signature-guarantee rules service/opportunity).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.5 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Resolve New Jersey with explicit NJ-1040 line-level treatment for 529->ABLE.
+2. Advance Indiana with Tier-1 form/code references and confidence label.
+3. Add transfer timing/SLA evidence (p50/p90 or admin-stated timing bands) from official program sources.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

@@ -1,15 +1,43 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Utah** and **Pennsylvania (line-level upgrade)**
+
+## Utah (newly advanced)
+
+### What is locked
+- Utah Code 59-10-114(1)(d) adds back my529 withdrawals only when the withdrawal is not used for qualified education expenses **and** does not meet an IRC 529(c)/530(d) exception.
+- TY2025 TC-40A instructions map this addback to **code 54** in Part 1, carried to **TC-40 line 5**.
+
+### Sources (Tier 1)
+- https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html
+- https://incometax.utah.gov/additions/my529-addback
+- https://tax.utah.gov/forms/current/tc-40inst.pdf
+
+### Confidence
+- **Medium-High**
+
+## Pennsylvania (line-level upgrade)
+
+### What is locked
+- PA DOR Answer ID 2517 states nonqualified 529 distributions are taxable and reportable as interest income on **PA Schedule A and PA-40 line 2**.
+- PA-40/PA Schedule O instructions maintain deduction flow through **PA Schedule O -> PA-40 line 10**.
+
+### Sources (Tier 1)
+- https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/~/where-should-a-distribution-from-an-irc-section-529-college-and-career-saving
+- https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+- https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40o.pdf
+
+### Confidence
+- **Medium** (line-level nonqualified reporting confirmed; explicit 529->ABLE PA-qualified statement still unresolved)
 
 ## Minnesota (advanced)
 
@@ -43,7 +71,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 - California (High)
 - Illinois (High)
 - New Jersey (Medium; line-level closure pending)
-- Pennsylvania (Medium-Low; line-level closure pending)
+- Pennsylvania (Medium; nonqualified line-level mapping now closed, 529->ABLE explicit carveout still open)
 - Oregon (Low)
 - Colorado (Low)
 - Virginia (Low)
@@ -52,9 +80,9 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ## Priority closure queue (next)
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
-2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+2. **Pennsylvania**: explicit PA-qualified 529->ABLE treatment confirmation (if any) beyond nonqualified mapping.
+3. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Minnesota**: explicit ABLE carveout confirmation (if any) versus current inference.
 
 ## Interpretation notes
 

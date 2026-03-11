@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 08:02 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,9 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. Which NJ-1040 line/instruction explicitly states treatment of 529->ABLE rollovers for taxpayers who previously claimed NJBEST deductions?
+41. Does Pennsylvania publish any explicit statement that federally qualified 529->ABLE rollovers are PA-qualified, or only nonqualified reporting guidance?
+42. For Utah, does any state guidance explicitly mention 529->ABLE rollovers under the IRC 529(c) exception language used in 59-10-114(1)(d)?
+43. Which ABLE programs explicitly state settlement-time expectations (e.g., 5-10 business days) for incoming direct rollovers?
+44. What source-plan metadata fields are most frequently missing when a destination ABLE form requires earnings/contributions certification?
+45. Adversarial: Which currently cited state FAQ IDs are stale, retitled, or scoped differently than the proposition they support?

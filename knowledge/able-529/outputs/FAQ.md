@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,30 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Where does Pennsylvania report nonqualified 529 distributions?
+**Answer:** PA DOR states nonqualified IRC 529 distributions are taxable and reportable as interest income on **PA Schedule A and PA-40 line 2**.  
+**Confidence:** High  
+**Sources:**  
+- https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/~/where-should-a-distribution-from-an-irc-section-529-college-and-career-saving  
+- https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf
+
+## 10) How is Utah my529 addback reported on the return?
+**Answer:** TY2025 instructions map my529 addback to **TC-40A Part 1 code 54**, and the total additions carry to **TC-40 line 5**.  
+**Confidence:** High  
+**Sources:**  
+- https://incometax.utah.gov/additions/my529-addback  
+- https://tax.utah.gov/forms/current/tc-40inst.pdf
+
+## 11) Does Utah always recapture/add back a my529 withdrawal?
+**Answer:** No. Utah Code 59-10-114(1)(d) conditions addback on withdrawals not used for qualified education expenses **and** not meeting an IRC 529(c)/530(d) exception, to the extent prior Utah tax benefit was claimed.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html  
+- https://incometax.utah.gov/additions/my529-addback
+
+## 12) Adversarial: Can we wait until packet submission to check whether a signature guarantee is required?
+**Answer:** No. Official PA ABLE rollover form makes signature guarantee contingent on source-plan requirements; if discovered late, the transfer can be delayed or rejected. This should be preflighted.  
+**Confidence:** High  
+**Sources:**  
+- https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf

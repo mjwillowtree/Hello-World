@@ -1,6 +1,6 @@
 # EXEC_SUMMARY
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## Current truths (plain English)
 
@@ -10,23 +10,29 @@ Updated: 2026-03-10
    - Federal qualification does not automatically remove state recapture/add-back risk.
 3. **Operational transfer failure is often documentation-driven.**
    - Official provider forms warn missing principal/earnings support can create misclassification and exceptions.
+4. **Utah now has clearer exception-aware addback mechanics.**
+   - State addback trigger explicitly references IRC 529(c)/530(d) exceptions and maps to TC-40A code 54 -> TC-40 line 5.
+5. **Pennsylvania line-level nonqualified reporting is now clearer.**
+   - PA DOR states nonqualified 529 distributions are reported as interest income on PA Schedule A and PA-40 line 2.
 
 ## Biggest risks
 
-1. State recapture surprise risk in unresolved jurisdictions.
+1. State recapture surprise risk in unresolved jurisdictions (especially where explicit 529->ABLE state-qualified text is missing).
 2. Transfer submission without required documentation and attestations.
-3. Guidance hierarchy errors (stale summaries over controlling law).
+3. Late-stage signature-guarantee requirements from source plans causing avoidable rejection/abandonment.
+4. Guidance hierarchy errors (stale summaries over controlling law).
 
 ## Biggest opportunities
 
 1. Preflight rollover validator (eligibility + documentation + annual-cap checks).
 2. State risk engine (jurisdiction + tax year + line references + confidence).
-3. Audit-ready citation layer for product/support consistency.
+3. Signature-guarantee rules precheck keyed to source plan.
+4. Audit-ready citation layer for product/support consistency.
 
 ## Decision posture now
 
 - Safe to design onboarding around post-2025 federal rollover continuity.
-- Unsafe to auto-assume no state recapture in unresolved states.
+- Unsafe to auto-assume no state recapture/addback in unresolved states.
 - Highest leverage: reduce transfer exception rate through evidence-first workflow.
 
 ## Key citations
@@ -42,3 +48,7 @@ Updated: 2026-03-10
 - State examples:
   - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+  - https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/~/where-should-a-distribution-from-an-irc-section-529-college-and-career-saving
+  - https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf

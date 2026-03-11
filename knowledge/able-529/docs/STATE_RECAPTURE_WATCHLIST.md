@@ -1,6 +1,6 @@
 # State Recapture Watchlist (Seed)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Purpose: staged buildout for a 50-state 529->ABLE recapture/add-back matrix.
 
@@ -14,8 +14,9 @@ Purpose: staged buildout for a 50-state 529->ABLE recapture/add-back matrix.
 | New York | Plan materials discuss state recapture triggers generally | https://www.ny529advisor.com/our-plan/state-tax-benefits | Confirm direct 529->ABLE treatment with NY tax authority text |
 | California | FTB instructions show 2018 nonconformity then 2019+ conformity on ABLE rollover treatment | https://www.ftb.ca.gov/forms/2018/18-3805P-instructions.html; https://www.ftb.ca.gov/forms/2019/2019-3805p-instructions.html; https://www.ftb.ca.gov/forms/2025/2025-3805p-instructions.html | High-confidence directional; extract line-level quote pack |
 | New Jersey | NJ 529 deduction regime clear, but explicit published 529->ABLE recapture treatment still needs direct line confirmation | https://www.nj.gov/treasury/taxation/njgrosstax.shtml; https://nj.gov/treasury/taxation/individuals/collegededuction.shtml | Medium confidence; confirm NJ-1040 instructions line detail |
-| Pennsylvania | PA deduction framework clear; explicit 529->ABLE qualified/nonqualified PIT handling still partially unclear in indexed sources | https://revenue-pa.custhelp.com/app/answers/detail/a_id/2321/; https://revenue-pa.custhelp.com/app/answers/detail/a_id/2208/; https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/taxtypes/pit/documents/pa_able_qa.pdf | Medium-Low; resolve via current PA-40 instructions + DOR FAQs |
+| Pennsylvania | Nonqualified line-level reporting now confirmed (Schedule A + PA-40 line 2); explicit PA-qualified 529->ABLE statement still open | https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/~/where-should-a-distribution-from-an-irc-section-529-college-and-career-saving; https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40in.pdf; https://www.pa.gov/content/dam/copapwp-pagov/en/revenue/documents/formsandpublications/formsforindividuals/pit/documents/2024/2024_pa-40o.pdf | Medium; explicit 529->ABLE qualified-treatment text still to verify |
 | Illinois | Schedule M instructions define recapture triggers (out-of-state transfer/nonqualified withdrawal) with line-level references | https://tax.illinois.gov/forms/incometax/currentyear/individual/il-1040-schedule-m-instr.html; https://tax.illinois.gov/content/dam/soi/en/web/tax/forms/incometax/documents/currentyear/individual/il-1040-schedule-m.pdf | High on recapture mechanics; still confirm explicit in-state 529->ABLE pathway wording |
+| Utah | Statute and instructions now provide code-level addback mechanics with IRC exception language and return-line flow | https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html; https://incometax.utah.gov/additions/my529-addback; https://tax.utah.gov/forms/current/tc-40inst.pdf | Medium-High; explicit 529->ABLE mention still open |
 
 ## Matrix schema to apply next runs
 
@@ -29,7 +30,7 @@ For each state, capture:
 
 ## Immediate next expansion targets
 
-- Ohio, Utah, Indiana, Minnesota (plus one West Coast and one Northeast state not yet sampled).
+- Indiana, New Jersey explicit closure, and one additional West Coast/Northeast state for breadth.
 
 ## Notes from this run
 
