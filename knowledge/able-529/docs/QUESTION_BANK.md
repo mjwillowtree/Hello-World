@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (hourly run)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. For Indiana TY2025 filers, does DOR enforcement follow IN-CR's broader "ABLE account" wording or Bulletin #98's destination-sensitive carveout framework for 2024+ distributions?
+41. What is the exact PA-40 line path (line + schedule + instruction text) for reporting nonqualified 529 distributions and any add-back/recapture effect tied to prior deductions?
+42. Which source 529 administrators reject transfers most often due to missing medallion/notary artifacts, and what are the top rejection reason codes?

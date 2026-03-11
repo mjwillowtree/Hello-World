@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,16 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01
+- Higher/recency signal: Indiana DOR Information Bulletin #98 (Jan 2026) includes explicit 2024+ differentiation for Indiana529->Indiana ABLE vs other ABLE transfers in recapture definitions.
+- Conflicting implementation artifact: TY2025 Schedule IN-CR instruction language still uses broader Indiana529 transfer wording to "any other ... 529 plan or ABLE account."
+- Resolution posture: keep **Medium-High** confidence (not High), apply tax-year + document-version controls in product logic, and require manual review when source account, destination ABLE state, and filing year interact.
+- Sources:
+  - https://www.in.gov/dor/files/ib98.pdf
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://forms.in.gov/Download.aspx?id=16938
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -57,12 +67,29 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Indiana (line-flow + conflict-managed pattern)
+- TY2025 IN-CR line 9 flows recapture totals to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).
+- IN-CR includes recapture code mapping (837 for Indiana529; 872 for ABLE 529A), and IT-40 booklet line-3 instructions direct filers to IN-CR for offset-credit recapture.
+- Jan-2026 Information Bulletin #98 introduces a destination-sensitive ABLE carveout framing that requires tax-year/version controls against IN-CR instruction text.
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16938
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://www.in.gov/dor/files/ib98.pdf
+
+### New Jersey (line-level treatment)
+- TY2025 NJ-1040 instructions state that earnings on nonqualified distributions from qualified tuition accounts and qualified state 529A ABLE accounts are taxable.
+- The same instructions list qualified distributions from those account categories as exempt, and separately include nonqualified NJBEST earnings/previously deducted contribution amounts in taxable income treatment.
+- Sources:
+  - https://www.nj.gov/treasury/taxation/pdf/current/1040i.pdf
+  - https://www.nj.gov/treasury/taxation/njgrosstax.shtml
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
 
 ## 6) Open legal unknowns (next closure targets)
 
-1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
-2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
+1. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
+2. Indiana hierarchy closure: whether/when IN-CR wording is superseded in practice by Bulletin #98 for 2024+ filings.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.

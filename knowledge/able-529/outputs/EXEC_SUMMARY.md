@@ -1,6 +1,6 @@
 # EXEC_SUMMARY
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## Current truths (plain English)
 
@@ -10,18 +10,22 @@ Updated: 2026-03-10
    - Federal qualification does not automatically remove state recapture/add-back risk.
 3. **Operational transfer failure is often documentation-driven.**
    - Official provider forms warn missing principal/earnings support can create misclassification and exceptions.
+4. **Indiana and New Jersey now have stronger line-level implementation anchors.**
+   - Indiana recapture line flow is mapped (IN-CR -> IT-40 Schedule 4), and New Jersey 2025 instructions are line-mapped for qualified vs nonqualified 529/ABLE treatment.
 
 ## Biggest risks
 
 1. State recapture surprise risk in unresolved jurisdictions.
 2. Transfer submission without required documentation and attestations.
 3. Guidance hierarchy errors (stale summaries over controlling law).
+4. Signature-friction failures (medallion/notary requirements discovered too late).
 
 ## Biggest opportunities
 
 1. Preflight rollover validator (eligibility + documentation + annual-cap checks).
 2. State risk engine (jurisdiction + tax year + line references + confidence).
-3. Audit-ready citation layer for product/support consistency.
+3. Signature-threshold preclear (amount + signer-role + plan-specific guarantee logic).
+4. Audit-ready citation layer for product/support consistency.
 
 ## Decision posture now
 
@@ -42,3 +46,6 @@ Updated: 2026-03-10
 - State examples:
   - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16938
+  - https://www.nj.gov/treasury/taxation/pdf/current/1040i.pdf

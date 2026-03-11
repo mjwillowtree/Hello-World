@@ -1,6 +1,6 @@
 # COMPETITOR_LANDSCAPE (Onboarding + Plan-Management Focus)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Scope: onboarding/servicing workflows (not portfolio performance).
 
@@ -8,7 +8,7 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 
 | Provider / Program | Workflow signal | User friction / risk | Evidence | Confidence |
 |---|---|---|---|---|
-| Fidelity ABLE | Supports 60-day rollover and program-to-program transfer workflows for ABLE/529 into ABLE | High operational risk if earnings/principal documentation is missing; signature complexity can increase abandonment | Official rollover/transfer request form | High |
+| Fidelity ABLE | Supports 60-day rollover and program-to-program transfer workflows for ABLE/529 into ABLE | High operational risk if earnings/principal documentation is missing; medallion guarantee requirement can trigger last-mile abandonment in certain >$10k 529 transfers | Official rollover/transfer request form | High |
 | ABLE for ALL | Direct 529->ABLE rollover with same-beneficiary or family-member certification and multi-party signatures | Relationship/attestation errors can trigger rejection or nonqualified risk | Official direct rollover form | High |
 | Texas ABLE | Distinguishes direct vs indirect rollovers and requires support docs for earnings/contributions | Without support docs, full rollover can be treated as earnings | Official incoming rollover form | High |
 | ABLEnow | Public form resources for incoming 529->ABLE and indirect rollover flows | Form-first operational flow likely creates similar checklist/drop-off patterns | Forms + workflow pages | Medium |
@@ -17,7 +17,7 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 
 ### Fidelity ABLE
 - Requires principal/earnings documentation for rollover classification; missing docs can force conservative earnings treatment until corrected.
-- Includes signature operations and additional signature guarantee requirements in specified cases.
+- Includes signature operations and a specific medallion-signature requirement when the 529 participant differs from signer in Section 6a and transfer value exceeds $10,000.
 - Source: https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/customer-service/able-rollover.pdf
 
 ### ABLE for ALL
@@ -40,3 +40,4 @@ Scope: onboarding/servicing workflows (not portfolio performance).
 2. Beneficiary/family-member mapping is a core failure point.
 3. Earnings-basis documentation is a repeated cross-provider risk control.
 4. Signature/notarization/guarantee variance should be surfaced pre-submission.
+5. Dollar-threshold-based signature controls (e.g., Fidelity >$10k condition) should be modeled explicitly in preflight UX, not buried in post-submit exception handling.

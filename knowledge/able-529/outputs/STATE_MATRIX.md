@@ -1,15 +1,15 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Indiana** (new) and **New Jersey** (line-mapped)
 
 ## Minnesota (advanced)
 
@@ -38,11 +38,43 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Indiana (advanced this run)
+
+### What is locked
+- TY2025 Schedule IN-CR provides line-level recapture flow: line 9 carries to Form IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).
+- IN-CR code mapping explicitly identifies Indiana529 credit recapture (code 837) and ABLE 529A credit recapture (code 872).
+- Indiana IT-40 booklet confirms line-3 recapture workflow and directs filers to IN-CR for offset-credit recapture.
+
+### Sources (Tier 1)
+- https://forms.in.gov/Download.aspx?id=16957
+- https://forms.in.gov/Download.aspx?id=16938
+- https://forms.in.gov/Download.aspx?id=16915
+- https://secure.in.gov/dor/tax-forms/individual/current/
+- https://www.in.gov/dor/files/ib98.pdf
+
+### Confidence
+- **Medium-High** (line mapping is clear, but IN-CR wording and Jan-2026 Bulletin #98 should be versioned together for 2024+ Indiana529->Indiana ABLE carveout interpretation)
+
+## New Jersey (line-level mapping upgraded)
+
+### What is locked
+- TY2025 NJ-1040 instructions include taxable treatment for earnings on nonqualified distributions from qualified tuition accounts and state 529A ABLE accounts.
+- NJ-1040 instructions also identify nonqualified NJBEST earnings and distribution portions attributable to previously deducted NJ contributions as taxable.
+- Qualified distributions from qualified tuition/state 529A ABLE accounts and qualified NJBEST distributions are listed as exempt.
+
+### Sources (Tier 1)
+- https://www.nj.gov/treasury/taxation/pdf/current/1040i.pdf
+- https://www.nj.gov/treasury/taxation/njgrosstax.shtml
+- https://nj.gov/treasury/taxation/individuals/collegededuction.shtml
+
+### Confidence
+- **Medium-High** (line treatment is now explicit; NJ instructions still do not use a specific "529->ABLE rollover" phrase)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
 - Illinois (High)
-- New Jersey (Medium; line-level closure pending)
+- New Jersey (Medium-High; line-level mapped)
 - Pennsylvania (Medium-Low; line-level closure pending)
 - Oregon (Low)
 - Colorado (Low)
@@ -51,10 +83,10 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Priority closure queue (next)
 
-1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
-2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+1. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
+2. **Utah**: first-pass Tier-1 row with code/line references.
+3. **Indiana**: resolve IN-CR vs Bulletin #98 wording conflict into tax-year-safe product rule.
+4. **Minnesota**: close explicit ABLE carveout vs inference gap.
 
 ## Interpretation notes
 

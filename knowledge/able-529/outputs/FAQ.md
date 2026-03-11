@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,18 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) What is Indiana's current line-level recapture flow for 529/ABLE credits?
+**Answer:** Indiana recapture totals are reported on Schedule IN-CR line 9 and carried to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3). IN-CR identifies recapture code 837 for Indiana529 credit and code 872 for ABLE 529A credit.  
+**Confidence:** High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16957  
+- https://forms.in.gov/Download.aspx?id=16938  
+- https://forms.in.gov/Download.aspx?id=16915
+
+## 10) Adversarial: Are Indiana form instructions and bulletins fully synchronized on 529->ABLE recapture treatment?
+**Answer:** Not fully. TY2025 IN-CR uses broader "ABLE account" wording in Indiana529 nonqualified-withdrawal text, while Jan-2026 Bulletin #98 introduces a destination-sensitive 2024+ carveout framing. Product logic should apply tax-year/version controls and manual review for edge cases.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16957  
+- https://www.in.gov/dor/files/ib98.pdf

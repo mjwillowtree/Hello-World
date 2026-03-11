@@ -1,5 +1,104 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (05:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: For Indiana filings, what is the exact line-level recapture flow and code mapping for Indiana529 and ABLE 529A credits?
+2. Unknown: Can New Jersey be upgraded from generic to line-level treatment for qualified vs nonqualified 529/ABLE distributions?
+3. Unknown: What specific signature-threshold requirements in official forms are strong enough to justify dedicated product controls?
+4. Adversarial challenge: Are current-year state forms and bulletins always synchronized enough to support a single deterministic rule?
+5. Product/competition question: Which form-level signature requirement is most likely to create preventable late-stage transfer abandonment?
+6. State-specific question: Can Indiana be advanced from placeholder to a citation-backed row with line-level references this run?
+
+### Prioritization by ROI
+
+Formula used:
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Indiana line-level closure + conflict resolution posture | 5,5,5,4,2 | 250 | Execute |
+| NJ line-level mapping upgrade | 4,5,4,3,2 | 120 | Execute |
+| New workflow datapoint from official form (signature threshold) | 4,4,4,4,1 | 256 | Execute |
+| Add one product requirement/opportunity linked to new workflow evidence | 4,4,5,3,1 | 240 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana TY2025 recapture flow is line-mapped: Schedule IN-CR line 9 carries to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3), with recapture codes 837 (Indiana529) and 872 (ABLE 529A).  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16938
+  - https://forms.in.gov/Download.aspx?id=16915
+
+- **M18:** Indiana contains a source-synchronization risk: TY2025 IN-CR wording uses broad "ABLE account" language for Indiana529 nonqualified-withdrawal treatment, while Jan-2026 Information Bulletin #98 adds destination-sensitive carveout framing for 2024+ distributions.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M19:** New Jersey TY2025 NJ-1040 instructions provide line-level treatment: nonqualified earnings from qualified tuition and state 529A ABLE accounts are taxable, while qualified distributions are exempt; NJBEST deduction-linked amounts are separately addressed.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://www.nj.gov/treasury/taxation/pdf/current/1040i.pdf
+
+- **M20:** Fidelity's ABLE rollover form includes a conditional medallion signature guarantee requirement for certain 529 transfer scenarios (participant mismatch + value >$10,000), creating a discrete conversion-risk control opportunity.  
+  Confidence: **High**  
+  Source:
+  - https://www.fidelity.com/bin-public/060_www_fidelity_com/documents/customer-service/able-rollover.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"Current-year state forms and bulletins are operationally synchronized enough to encode one deterministic rule without version controls."**
+- Result: **Failed.** Indiana evidence shows meaningful form-vs-bulletin divergence that requires tax-year/document-version-aware handling.
+
+### D (Document updates)
+
+- Updated `TASKLIST.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana line-level recapture mechanics + hierarchy conflict posture).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana advanced; New Jersey line-mapped upgrade).
+- One competition/workflow insight added: **Yes** (Fidelity medallion threshold condition for specified >$10k transfer scenario).
+- One product requirement/opportunity added or re-ranked: **Yes** (signature-threshold preclear added and ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~88%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~88%**
+- Competitor coverage count: **4**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close Pennsylvania to line-level PA-40 treatment with Tier-1 return instruction references.
+2. Resolve Indiana IN-CR vs Bulletin #98 precedence into tax-year-specific implementation rules.
+3. Add one transfer timing/SLA datapoint from official administrator artifacts and connect it to exception metrics.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

@@ -1,6 +1,6 @@
 # USER_JOURNEY_MAP (Onboarding + Plan Management)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## End-to-end journey
 
@@ -10,7 +10,7 @@ Updated: 2026-03-10
 | 2. Open account | Create ABLE account | Identity/ALR workflow complexity | KYC drop-off, authorization mismatch | Progressive save + ALR checklist |
 | 3. Select funding path | Choose direct rollover, indirect rollover, or contribution | Poor understanding of path-specific requirements | Wrong path, timing/document errors | Path explainer + required-doc preview |
 | 4. Pre-transfer compliance | Validate docs and relationship/cap checks | Missing source-plan earnings/principal docs | Submission blocked or misclassified | Hard-stop preflight validator |
-| 5. Execute transfer | Submit forms/signatures and coordinate plans | Manual form burden; signature requirements | Rejection due to missing fields/signatures | Packet builder + validation |
+| 5. Execute transfer | Submit forms/signatures and coordinate plans | Manual form burden; threshold-based medallion/notary requirements | Rejection due to missing fields/signatures or wrong signature type | Packet builder + signature-type validation |
 | 6. Track status | Understand progress and delays | Opaque multi-party handoff | Repeat support calls, abandonment | Timeline + reason codes |
 | 7. Post/funding validation | Confirm posted amount and annual-cap interaction | Cross-contributor cap uncertainty | Over-limit contributions | Contribution headroom meter |
 | 8. Ongoing management + tax support | Contributions, distributions, records, filing | State-specific recapture uncertainty | Filing errors, audit readiness gaps | Filing helper + evidence vault |
@@ -21,6 +21,7 @@ Updated: 2026-03-10
 2. Beneficiary/family-member mismatch.
 3. Opaque transfer status and delays.
 4. State-specific recapture surprise at filing time.
+5. Late discovery that transfer requires medallion/notary process.
 
 ## Evidence anchors
 

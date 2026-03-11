@@ -1,8 +1,15 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (hourly run)
+- Advanced **Indiana** from placeholder to line-level mapped status using TY2025 IN-CR and IT-40 Schedule 4 references.
+- Upgraded **New Jersey** from generic treatment to line-level NJ-1040 mapping (line 16a / line 26 / line 37a anchors).
+- Logged an explicit Indiana authority conflict: TY2025 IN-CR wording vs Jan-2026 Bulletin #98 carveout framing for 2024+ Indiana529->Indiana ABLE interpretation.
+- Added a new workflow constraint: **Fidelity medallion signature guarantee requirement in specified >$10,000 signer-mismatch cases**.
+- Added and ranked a new product opportunity/requirement: **signature-threshold preclear** to prevent late-stage transfer fallout.
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +26,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
+- **State-by-state treatment:** Medium overall (heterogeneous; more line-level closures, still significant unresolved states)
 - **Operational workflow understanding:** Medium-High for transfer failure controls
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
+- State matrix completion (substantive rows): **11 / 51**
 - High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio (new substantive claims): **~88%**
 - Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **7**
+- Time-to-answer test (top 25, citation-ready quickly): **16 / 25**
 
 ## Navigation
 
@@ -49,6 +56,6 @@ Updated: 2026-03-10
 
 ## Immediate next-run targets
 
-1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
+1. Close **PA** to explicit line-level return instruction treatment.
+2. Resolve Indiana form-vs-bulletin hierarchy into tax-year-safe implementation logic.
 3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
