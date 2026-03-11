@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-10 (merged main + branch)
+Last updated: 2026-03-11 (hourly cron run)
 
 ## Mandatory outputs every run (quality gate)
 
@@ -16,12 +16,13 @@ If any item above is missing, the run is incomplete.
 1. **Advisor-grade federal authority memo: 529->ABLE post-2025**
    - Lock in quote-ready authority block from Pub. L. 119-21 + effective-date sentence + current USC cross-check.
    - Build "statute controls over stale IRS page" implementation note with explicit hierarchy.
+   - Add IRS Pub. 970 (2025) conformance excerpt as supporting (non-controlling) operational citation.
    - Deliverable: one-page citation memo that can be pasted into planning files.
 
 2. **State recapture matrix buildout (Phase 1: 12 states)**
-   - Current status: 10 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH, MN) with uneven confidence.
+   - Current status: 11 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH, MN, IN) with uneven confidence.
    - Expand into structured matrix with citations, conformity year, and form line references.
-   - Immediate priority states: UT, IN.
+   - Immediate priority state: UT.
    - Immediate confidence repairs: NJ and PA line-level treatment.
 
 ## Next queue (depth + breadth rotation)
@@ -50,3 +51,4 @@ If any item above is missing, the run is incomplete.
 - Expanded state watchlist from 4 to 8 states with first confidence stratification (CA/IL stronger; NJ/PA unresolved details).
 - Created complete `outputs/` artifact set (HUB, executive summary, legal baseline, matrix, competitor, opportunities, journey, backlog, FAQ).
 - Closed Ohio state line-level evidence row to high confidence using official 2024 forms/instructions.
+- Closed Indiana to high confidence with line-level recapture treatment including explicit 529->ABLE non-qualified rollover language (IN-CR + Schedule 4 + IT-40 booklet + IN-529/IN-ABLE).

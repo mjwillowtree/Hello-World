@@ -1,5 +1,102 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (12:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Has IRS primary publication text (not newsroom) been conformed for post-2025 529->ABLE rollover treatment?
+2. Unknown: Can Indiana be advanced from placeholder to line-level state recapture treatment with explicit 529->ABLE language?
+3. Unknown: Which additional official plan form shows concrete signature-guarantee or limit-rejection workflow controls?
+4. Adversarial challenge: Is the assumption "IRS guidance remains stale even after statute changes" still true when checking current-year primary publications?
+5. Product/competition question: Which workflow control should be prioritized if conditional medallion requirements and ABLE limit rejection are both present?
+6. State-specific question: What exact Indiana line flow maps recapture from schedule calculation to the main return?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Validate IRS primary-guidance conformance (Pub. 970) | 5,5,5,4,1 | 500 | Execute |
+| Close one new state row with line-level references (IN) | 5,5,4,5,1 | 500 | Execute |
+| Add official workflow datapoint with rejection controls | 4,4,4,4,1 | 256 | Execute |
+| Translate new evidence into backlog/opportunity ranking | 5,4,5,3,2 | 150 | Execute |
+
+### M (Memory)
+
+- **M17:** IRS Publication 970 (2025), Chapter 7 currently describes QTP-to-ABLE rollovers without the legacy pre-2026 sunset phrase in that rollover section, increasing confidence that at least one Tier-1 IRS publication is conformed post-amendment.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+
+- **M18:** Indiana Schedule IN-CR explicitly defines a non-qualified Indiana529 withdrawal to include rollover/transfer to another Section 529 plan or ABLE account; recapture flows to Schedule 4 line 3 and then IT-40 line 10.  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16938
+  - https://forms.in.gov/Download.aspx?id=16915
+
+- **M19:** Indiana IN-529 and IN-ABLE credit instructions exclude transferred amounts (including plan-to-plan and 529/ABLE transfer amounts) from credit-eligible contribution treatment.  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://forms.in.gov/Download.aspx?id=16956
+
+- **M20:** PA ABLE incoming direct rollover operations include conditional medallion-signature workflow and explicit rejection risk when Section 529 rollover contributions exceed ABLE limits.  
+  Confidence: **High**  
+  Source:
+  - https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"IRS guidance is broadly stale after statutory changes, so IRS primary publications cannot be used for current-year product language."**
+- Result: **Partially failed.** Legacy newsroom content can remain stale, but current Publication 970 appears conformed for the rollover section; hierarchy remains statute first, then conformed publication text.
+
+### D (Document updates)
+
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+- Updated `TASKLIST.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS primary publication conformance signal improved from unresolved to Medium-High).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana: IN-CR line 9 -> Schedule 4 line 3 -> IT-40 line 10).
+- One competition/workflow insight added: **Yes** (PA ABLE medallion + limit-rejection controls).
+- One product requirement/opportunity added or re-ranked: **Yes** (Signature-guarantee + limit-fit gate added/re-ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA with explicit PA-40/NJ-1040 line-level treatment and ABLE mention/silence classification.
+2. Advance Utah with TC-40A code/line mapping and primary-source confidence label.
+3. Add timing/SLA evidence and rejection-code taxonomy for transfer-ops tracker requirements.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -32,6 +32,17 @@ Current codified text cross-check:
 **Operational interpretation (confidence: High):**
 Federal 529->ABLE rollover authority continues after 2025, subject to existing same-beneficiary/family-member and annual ABLE contribution-limit mechanics.
 
+### IRS primary guidance cross-check (current Pub. 970)
+
+Publication 970 (2025), Chapter 7, now states that assets can be rolled over "from a QTP to an ABLE account" and does not include the legacy pre-2026 sunset phrase in this rollover description.
+
+Primary source:
+- https://www.irs.gov/pub/irs-pdf/p970.pdf
+
+Operational interpretation (confidence: Medium-High):
+- IRS primary publication text appears conformed for current-year QTP->ABLE rollover description.
+- Enacted law still controls in case of any future IRS sub-guidance drift.
+
 ## 3) Conflict log (explicit)
 
 ### Conflict C-2026-03-10-01
@@ -40,6 +51,16 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 - Resolution: statute/codified law controls; treat legacy newsroom wording as stale transition content.
 - Sources:
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
+  - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+### Conflict C-2026-03-11-01
+- Higher authority set: Pub. L. 119-21 + current USC text + IRS Publication 970 (2025).
+- Lower authority artifact: older IRS newsroom pages still indexed with pre-amendment wording.
+- Resolution: legal/product implementation should anchor on statute + codified text; treat Publication 970 as supporting conformed Tier-1 guidance for current-year onboarding copy, while flagging newsroom links as stale-risk references.
+- Sources:
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+  - https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section529&num=0&edition=prelim
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
 ## 4) State baseline examples
@@ -56,6 +77,16 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 - Sources:
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
+
+### Indiana (line-level nonqualified definition)
+- IT-40 Booklet and Schedule IN-CR map recapture to Schedule 4 line 3.
+- Schedule IN-CR explicitly defines a non-qualified Indiana529 withdrawal to include rollover/transfer to another Section 529 plan or ABLE account.
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16938
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://forms.in.gov/Download.aspx?id=16956
 
 ## 5) State-law handling posture
 

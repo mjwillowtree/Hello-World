@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,25 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Has IRS primary publication text caught up on 529->ABLE rollover rules?
+**Answer:** Current Publication 970 (2025) Chapter 7 describes rollovers from a QTP to an ABLE account and does not include the old pre-2026 sunset phrase in that rollover section.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.irs.gov/pub/irs-pdf/p970.pdf  
+- https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
+
+## 10) Does Indiana treat 529->ABLE rollover as non-qualified for state credit recapture?
+**Answer:** Indiana Schedule IN-CR explicitly includes rollover/transfer from Indiana529 to another Section 529 plan or ABLE account in the non-qualified withdrawal definition, with recapture flowing to Schedule 4 line 3.  
+**Confidence:** High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16957  
+- https://forms.in.gov/Download.aspx?id=16938  
+- https://forms.in.gov/Download.aspx?id=16915
+
+## 11) Can transferred amounts still earn Indiana contribution credits?
+**Answer:** Indiana IN-529 and IN-ABLE instructions exclude transferred amounts (including transfers to/from 529/ABLE programs) from credit-eligible contributions.  
+**Confidence:** High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16907  
+- https://forms.in.gov/Download.aspx?id=16956

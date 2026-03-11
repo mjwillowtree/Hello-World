@@ -1,6 +1,6 @@
 # Knowledge Frontier Map (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (hourly run)
 
 Purpose: force continuous curiosity, breadth expansion, and confidence upgrades.
 
@@ -14,11 +14,11 @@ Scoring:
 | Domain | Coverage | Confidence | Volatility | Current biggest unknown |
 |---|---:|---:|---|---|
 | Federal ABLE eligibility/contribution mechanics | 3 | 3 | Med | Need hard citation package for all 2026 inflation-indexed numbers and ABLE-to-Work interactions. |
-| Federal 529->ABLE rollover legality and limits | 4 | 4 | Med-High | Sunset issue materially resolved via Pub. L. 119-21 / §529 amendment; still need compact quote appendix + IRS lag reconciliation memo. |
+| Federal 529->ABLE rollover legality and limits | 4 | 4 | Med-High | Sunset issue materially resolved via Pub. L. 119-21 / §529 amendment; still need compact quote appendix and IRS form/publication lag map by tax year. |
 | Federal 529->Roth IRA rollover comparison | 1 | 2 | Med | Need side-by-side planning model versus 529->ABLE path. |
 | SSI/Medicaid interaction edge cases | 2 | 2 | Med | Need nuanced rules on suspension, reinstatement timing, and state Medicaid estate recovery practice differences. |
-| State tax conformity + recapture/add-back (50-state) | 3 | 2 | High | Matrix scaffold spans 51 jurisdictions with 9+ substantive rows; NJ/PA line-level closure remains highest priority, then UT/IN expansion. |
-| Program-level operational constraints (plan forms, timing) | 2 | 2 | Med | Official forms from Fidelity, ABLE for ALL, and Texas ABLE confirm documentation/signer failure modes; still need SLA timing evidence. |
+| State tax conformity + recapture/add-back (50-state) | 3 | 3 | High | Matrix scaffold spans 51 jurisdictions with 11 substantive rows (Indiana newly closed to high confidence); NJ/PA line-level closure remains highest priority, then UT expansion. |
+| Program-level operational constraints (plan forms, timing) | 3 | 3 | Med | Official forms from Fidelity, ABLE for ALL, Texas ABLE, and PA ABLE confirm documentation/signer failure modes plus signature-guarantee and limit-rejection risk; still need SLA timing evidence. |
 | Audit/defensibility documentation standards | 1 | 1 | Med | Need checklist for records needed to defend disability expenses and rollover positions. |
 | Advanced planning archetypes (advisor-grade playbooks) | 1 | 1 | Med | Need scenario library for households, beneficiaries, and tax brackets. |
 

@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (hourly run)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. For Utah TY2025/TY2026, what exact TC-40A code and line instructions govern my529 add-back/recapture and do they explicitly mention 529->ABLE rollovers?
+41. In NJ and PA current-year individual return instructions, is 529->ABLE treatment explicit, inferred, or silent at the line level?
+42. Across major source 529 plans, which transfer scenarios trigger medallion signature guarantee requirements and what conditional fields drive that requirement?

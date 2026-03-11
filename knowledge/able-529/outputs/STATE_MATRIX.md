@@ -1,15 +1,15 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
-- High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
+- High-confidence rows: **12 / 51**
+- Latest state advancement: **Indiana**
 
 ## Minnesota (advanced)
 
@@ -38,6 +38,23 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Indiana (advanced)
+
+### What is locked
+- IT-40 Booklet line-level instructions specify recapture of Indiana529 and ABLE 529A credits through Schedule IN-CR and Schedule 4 line 3.
+- Schedule IN-CR explicitly defines a non-qualified Indiana529 withdrawal to include a rollover/transfer to another Section 529 plan **or ABLE account**.
+- IN-529 and IN-ABLE instructions explicitly exclude transferred amounts from credit-eligible contributions.
+
+### Sources (Tier 1)
+- https://forms.in.gov/Download.aspx?id=16915
+- https://forms.in.gov/Download.aspx?id=16957
+- https://forms.in.gov/Download.aspx?id=16938
+- https://forms.in.gov/Download.aspx?id=16907
+- https://forms.in.gov/Download.aspx?id=16956
+
+### Confidence
+- **High**
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
@@ -54,7 +71,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
 3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Minnesota**: close explicit ABLE carveout/no-carveout authority gap.
 
 ## Interpretation notes
 
