@@ -1,15 +1,15 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Utah** (plus prior Minnesota and Ohio)
 
 ## Minnesota (advanced)
 
@@ -38,6 +38,21 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **High**
 
+## Utah (advanced)
+
+### What is locked
+- Utah TC-40A instructions designate **Part 1, code 54** as a my529 addback and explicitly tie addback to withdrawals that are not qualified and do not meet an IRC §529(c) or §530(d) exception.
+- The same instruction set maps total Part 1 additions to **TC-40 line 5** and separately lists **Part 4, code 63** for ABLE program credit mechanics.
+
+### Sources (Tier 1)
+- https://incometax.utah.gov/additions/my529-addback
+- https://tax.utah.gov/forms/current/tc-40a.pdf
+- https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html
+- https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1035.html
+
+### Confidence
+- **Medium-High** (code-level form mapping and trigger text are explicit; remaining uncertainty is implementation interpretation for edge-case transactions)
+
 ## Previously advanced states (carry-forward)
 
 - California (High)
@@ -53,8 +68,8 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+3. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Minnesota**: explicit ABLE carveout confirmation vs recapture-framework inference.
 
 ## Interpretation notes
 

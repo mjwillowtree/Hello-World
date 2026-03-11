@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 18:00 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,7 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. In Indiana, which exact IN-CR code/line pair governs recapture for 529 and ABLE credits, and where does it flow on IT-40?
+41. In Utah TY2026 drafts, do TC-40A code definitions or carry lines change for my529 addback (code 54) and ABLE credit (code 63)?
+42. Which ABLE administrators explicitly require source-account closure attestation (not just funds transfer) for rollover qualification?
+43. What evidence can be collected to estimate p50/p90 transfer completion times by source/destination program pair?

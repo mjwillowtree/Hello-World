@@ -288,3 +288,80 @@ Execute the new protocol on substance: resolve the 529->ABLE post-2025 legal sta
 ### Next run target
 
 Verify post-2025 federal legal status of 529->ABLE rollover sunset/permanence and capture advisor-safe interpretation language.
+
+## 2026-03-11 Hourly Run (18:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. State-specific: Can Utah be advanced from placeholder to code-level filing confidence using TC-40A primary instructions?
+2. Unknown: Does Utah recapture/addback logic explicitly key off IRC §529(c) exceptions in a way that informs 529->ABLE treatment?
+3. Unknown: What exact Utah form mapping (codes/line carry) should product filing UX reference?
+4. Product/competition: Which additional administrator form adds operational constraints not yet represented in the competitor map?
+5. Adversarial challenge: Is "60-day compliance" a single destination-deposit clock, or can qualification fail on additional conditions (e.g., source-account closure)?
+6. Unknown: What unresolved questions remain after Utah closure that maximize next-run ROI (Indiana, NJ/PA, SLA evidence)?
+
+### M (Memory)
+
+- **M17:** Utah TC-40A instructions define my529 addback under Part 1 code 54 and require addback for withdrawals not used for qualified education expenses and not meeting IRC §529(c)/§530(d) exceptions, to the extent previously deducted/credited.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://le.utah.gov/xcode/Title59/Chapter10/59-10-S114.html
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+
+- **M18:** Utah instructions map additions to TC-40A Part 1 and carry totals to TC-40 line 5, while separately defining ABLE credit logic under TC-40A Part 4 code 63 (UCA §59-10-1035).  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://tax.utah.gov/forms/current/tc-40a.pdf
+  - https://le.utah.gov/xcode/Title59/Chapter10/59-10-S1035.html
+
+- **M19:** ABLE United's official rollover form introduces a multi-condition compliance pattern: direct/indirect 60-day rules, 12-month rollover frequency control, possible notarization, and warning that failure to close the old account within 60 days can jeopardize qualified treatment.  
+  Confidence: **High**  
+  Source:
+  - https://www.ableunited.com/wp-content/uploads/able-united-rollover-able-to-able-1.8_ADA.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"60-day rollover compliance is only about depositing funds into the destination account."**
+- Result: **Failed.** At least one official administrator form also conditions safe treatment on source-account closure timing and related attestations.
+
+### D (Document updates)
+
+- Updated `outputs/STATE_MATRIX.csv` (Utah row advanced with code-level references).
+- Updated `outputs/STATE_MATRIX.md` (Utah section + coverage snapshot).
+- Updated `outputs/COMPETITOR_LANDSCAPE.md` (added ABLE United workflow constraints).
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md` (added deadline/closure guardrails opportunity).
+- Updated `outputs/REQUIREMENTS_BACKLOG.md` (added P0 dual 60-day + closure attestation requirement).
+- Updated `outputs/USER_JOURNEY_MAP.md` (deadline/closure drop-off control points).
+- Updated `outputs/EXEC_SUMMARY.md`, `outputs/LEGAL_BASELINE.md`, `outputs/FAQ.md`, and `outputs/HUB.md`.
+- Updated `docs/KNOWLEDGE_FRONTIER.md`, `docs/QUESTION_BANK.md`, and `TASKLIST.md`.
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Utah moved from Low placeholder to Medium-High code-level treatment).
+- One new/updated state entry with source + line-level form reference: **Yes** (Utah, TC-40A Part 1 code 54 -> TC-40 line 5; Part 4 code 63 context).
+- One competition/workflow insight added: **Yes** (ABLE United source-account closure + notarization variance).
+- One product requirement/opportunity added or re-ranked: **Yes** (dual 60-day + closure guardrails added to opportunities and P0 backlog).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~89%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.4 / 10**
+- Tier-1 citation ratio: **~89%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **15 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA with explicit line-level return instruction treatment.
+2. Advance Indiana using IN-529 + recapture form/code authority.
+3. Add at least two official timing/SLA datapoints from administrators to move transfer-ops insight from qualitative to measurable.

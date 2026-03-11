@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,16 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) State-specific: How does Utah handle potential 529 recapture/addback?
+**Answer:** Utah instructions use TC-40A Part 1 code 54 ("my529 addback") and require addback when a my529 withdrawal is not for qualified expenses and does not meet an IRC §529(c) or §530(d) exception; totals flow to TC-40 line 5.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://incometax.utah.gov/additions/my529-addback  
+- https://tax.utah.gov/forms/current/tc-40a.pdf
+
+## 10) Adversarial: Is the 60-day rule only about depositing funds into the destination ABLE account?
+**Answer:** Not always. At least one official program form (ABLE United) warns that if the old ABLE account is not closed within 60 days, qualified treatment can fail, creating tax and means-tested-benefit risk.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.ableunited.com/wp-content/uploads/able-united-rollover-able-to-able-1.8_ADA.pdf
