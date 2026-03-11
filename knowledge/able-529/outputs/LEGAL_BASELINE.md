@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -44,6 +44,22 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 
 ## 4) State baseline examples
 
+### Indiana (line-level pattern)
+- IN-CR instructions explicitly define non-qualified Indiana529 withdrawal to include a rollover/transfer from Indiana529 to any other Code Section 529 plan or ABLE account.
+- IN-CR total recapture is entered on IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3), and Schedule 4 line 3 is the recapture line.
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16938
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://secure.iot.in.gov/dor/7101.htm
+
+### Utah (line-level pattern)
+- TC-40A instructions define my529 addback (Part 1, code 54) and carry additions to TC-40 line 5.
+- Addback trigger language is tied to withdrawals not used for qualified education expenses and not meeting exceptions in IRC Section 529(c) or 530(d).
+- Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://incometax.utah.gov/tc-40a/
+
 ### Ohio (line-level pattern)
 - Schedule of Adjustments line 4 (addition), line 20 (STABLE deduction), and line 36 (529 deduction) provide explicit state return mapping.
 - 2024 instruction text ties addition mechanics to nonqualified distributions and prior deduction history.
@@ -66,3 +82,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+4. Utah explicit 529->ABLE wording in return packet PDFs vs current IRC-exception framing on instruction webpage.

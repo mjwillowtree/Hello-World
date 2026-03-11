@@ -1,15 +1,43 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
-- High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Substantively advanced rows (beyond placeholder): **12 / 51**
+- High-confidence rows: **12 / 51**
+- Latest state advancements: **Indiana** and **Utah**
+
+## Indiana (advanced)
+
+### What is locked
+- IN-CR instructions state that a non-qualified Indiana529 withdrawal includes a rollover/transfer from Indiana529 to any other Code Section 529 plan or ABLE account.
+- IN-CR total recapture flows to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3), and Schedule 4 line 3 is the recapture line.
+
+### Sources (Tier 1)
+- https://forms.in.gov/Download.aspx?id=16957
+- https://forms.in.gov/Download.aspx?id=16938
+- https://forms.in.gov/Download.aspx?id=16915
+- https://secure.iot.in.gov/dor/7101.htm
+
+### Confidence
+- **High**
+
+## Utah (advanced)
+
+### What is locked
+- Utah TC-40A instructions identify my529 addback as code 54 in Part 1 and carry total additions to TC-40 line 5.
+- The my529 addback trigger applies when a withdrawal was not used for qualified education expenses and did not meet an exception under IRC Section 529(c) or 530(d).
+
+### Sources (Tier 1)
+- https://incometax.utah.gov/additions/my529-addback
+- https://incometax.utah.gov/tc-40a/
+
+### Confidence
+- **Medium-High**
 
 ## Minnesota (advanced)
 
@@ -25,7 +53,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ### Confidence
 - **Medium-High** (line flow is clear; explicit ABLE carveout text still unresolved)
 
-## Ohio (advanced)
+## Ohio (advanced, prior run)
 
 ### What is locked
 - Schedule of Adjustments line mapping includes line 4 (nonqualified 529 addition), line 20 (STABLE deduction), and line 36 (529 deduction).
@@ -53,8 +81,8 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
-3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+3. **Minnesota**: explicit ABLE carveout confirmation vs inference.
+4. **Year-over-year drift checks**: verify TY2026 carry-forward wording in newly advanced states.
 
 ## Interpretation notes
 

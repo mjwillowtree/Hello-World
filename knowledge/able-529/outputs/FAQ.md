@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,18 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Adversarial: If a 529->ABLE rollover is federally qualified, is state recapture always avoided?
+**Answer:** No. Indiana IN-CR instructions explicitly define non-qualified Indiana529 withdrawal to include a rollover/transfer to any other Section 529 plan or ABLE account, triggering recapture reporting.  
+**Confidence:** High  
+**Sources:**  
+- https://forms.in.gov/Download.aspx?id=16957  
+- https://forms.in.gov/Download.aspx?id=16938  
+- https://forms.in.gov/Download.aspx?id=16915
+
+## 10) What is Utah's filing-line handling for my529 addback?
+**Answer:** Use TC-40A Part 1 code 54 for my529 addback; total additions carry to TC-40 line 5. Trigger language references withdrawals that fail IRC Section 529(c) or 530(d) exceptions.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://incometax.utah.gov/additions/my529-addback  
+- https://incometax.utah.gov/tc-40a/

@@ -288,3 +288,96 @@ Execute the new protocol on substance: resolve the 529->ABLE post-2025 legal sta
 ### Next run target
 
 Verify post-2025 federal legal status of 529->ABLE rollover sunset/permanence and capture advisor-safe interpretation language.
+
+## 2026-03-11 Hourly Run (02:02 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Does Indiana now provide explicit line-level treatment for 529->ABLE rollover recapture, or is treatment still inferred?
+2. Unknown: What is Utah's current-year line-level addback workflow for my529 withdrawals and does it reference IRC exception logic?
+3. Unknown: Which additional provider form introduces operational blockers not yet represented (notary, cap rejection behavior, etc.)?
+4. Adversarial challenge: If a rollover is federally qualified, can product safely assume state no-recapture?
+5. Product/competition question: Which transfer-step requirement should be promoted to a hard-stop control in onboarding to reduce avoidable failures?
+6. State-specific question: Can we advance at least one priority state row (UT/IN queue) to source-backed, line-level confidence this run?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Close Indiana line-level recapture ambiguity | 5,5,5,5,2 | 312.5 | Execute |
+| Advance Utah with code/line references | 4,4,4,4,2 | 128 | Execute |
+| Add one new competitor workflow datapoint | 4,4,4,3,2 | 96 | Execute |
+| Re-rank product requirements from new state evidence | 5,5,5,3,2 | 187.5 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana 2025 Schedule IN-CR instructions explicitly classify Indiana529 rollover/transfer to any other Code Section 529 plan or ABLE account as non-qualified withdrawal, with recapture flowing to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).  
+  Confidence: **High**  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16938
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://secure.iot.in.gov/dor/7101.htm
+
+- **M18:** Utah TC-40A instructions place my529 addback at Part 1 code 54, carry additions to TC-40 line 5, and define trigger language by reference to IRC Sec. 529(c)/530(d) exceptions.  
+  Confidence: **Medium-High**  
+  Sources:
+  - https://incometax.utah.gov/additions/my529-addback
+  - https://incometax.utah.gov/tc-40a/
+
+- **M19:** STABLE direct 529->ABLE rollover form includes notarization acknowledgement and explicit warning that over-limit contributions are rejected in full.  
+  Confidence: **High**  
+  Source:
+  - https://ableut.com/uploads/stable/attachments/cll2gvfqyv1wo0jrccglqex5i-stable-rollover-direct-csp-to-able-1-3-ada.pdf
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"If a rollover is federally qualified, state recapture risk is negligible."**
+- Result: **Failed.** Indiana primary instructions explicitly route Indiana529->ABLE rollover transfers through non-qualified withdrawal recapture logic.
+
+### D (Document updates)
+
+- Updated `TASKLIST.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana 529->ABLE recapture treatment moved from Unknown to High-confidence explicit line-level evidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana and Utah advanced).
+- One competition/workflow insight added: **Yes** (STABLE notarization + over-limit rejection behavior).
+- One product requirement/opportunity added or re-ranked: **Yes** (State recapture tripwire engine promoted to top rank and P0).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~91%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **12 / 51** substantive rows
+- % high-confidence states: **23.5%** (12/51)
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio: **~91%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of NJ or PA with explicit current-year line-level return instruction treatment.
+2. Resolve Indiana edge case: any carveout for Indiana529 -> Indiana ABLE vs current broad non-qualified wording.
+3. Add timing/SLA evidence (p50/p90 transfer durations) to operational controls and backlog instrumentation.

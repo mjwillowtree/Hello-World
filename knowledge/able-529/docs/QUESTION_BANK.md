@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 02:02 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,6 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. Does Indiana provide any carveout that avoids IN-CR recapture when Indiana529 funds are rolled specifically to Indiana ABLE 529A, or is the recapture trigger absolute for any ABLE destination?
+41. In Utah, does the downloadable TC-40 full packet (not just the instruction webpage) preserve the same IRC 529(c)/530(d) exception framing for code 54 my529 addback?
+42. Which administrators reject over-limit rollover contributions outright versus holding them in suspense, and how often does each path occur?
