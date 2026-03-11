@@ -1,6 +1,6 @@
 # Curiosity Question Bank (ABLE/529)
 
-Updated: 2026-03-10 (run 13:34 UTC)
+Updated: 2026-03-11 (run 04:01 UTC)
 
 Use this bank to avoid local optimization. Each run should answer at least one question from a domain not touched in the previous run.
 
@@ -60,3 +60,7 @@ Use this bank to avoid local optimization. Each run should answer at least one q
 37. What percentage of major ABLE administrators require earnings-basis documentation before they will classify rollover amounts correctly?
 38. How often do signature requirements (including medallion guarantees) create transfer abandonment in 529->ABLE workflows?
 39. What is the minimal product event schema required to reconstruct a transfer decision and defend it in an audit or complaint?
+40. In Indiana, how does DOR reconcile TY2025 IN-CR wording with Information Bulletin #98's 2024+ carve-in for Indiana529->Indiana ABLE transfers?
+41. Which official NJ and PA forms (not FAQs) contain the first explicit line-level 529->ABLE recapture/add-back instruction text?
+42. What is the minimum metadata bundle needed to correctly route source-plan transfer forms to destination-plan operations teams without manual support?
+43. Which plan pairs publish or disclose operational SLAs for program-to-program transfers, and where are those disclosures captured?

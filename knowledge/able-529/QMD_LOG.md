@@ -1,5 +1,106 @@
 # QMD Log
 
+## 2026-03-11 Hourly Run (04:01 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before research (minimum set met):
+
+1. Unknown: What is Indiana's exact line-level filing path for 529/ABLE credit recapture on current-year returns?
+2. Unknown: Does Indiana currently treat Indiana529->Indiana ABLE as recapture-exempt, and is guidance synchronized across forms and bulletin text?
+3. Unknown: What primary-source language should a product show when Indiana Tier-1 sources disagree?
+4. Adversarial challenge: "If all sources are Tier 1, they are internally consistent." Is this true in practice?
+5. Product/competition question: Which institution owns the user action in Invest529->ABLEnow transfer flow (form origin vs submission destination)?
+6. State-specific question: Can Indiana be advanced from placeholder to a source-cited, line-level matrix row this run?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| Indiana line-level closure from official forms | 5,5,5,4,2 | 250 | Execute |
+| Reconcile Indiana IN-CR vs Bulletin #98 | 5,5,4,4,3 | 133 | Execute |
+| Add one new workflow datapoint from official plan guidance | 4,4,4,3,2 | 96 | Execute |
+| Re-rank backlog from new conflict/workflow evidence | 4,4,5,3,2 | 120 | Execute |
+
+### M (Memory)
+
+- **M17:** Indiana `IN-CR` gives explicit recapture filing flow: line 9 total carries to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3), and its nonqualified definition includes Indiana529 rollover/transfer to ABLE.  
+  Confidence: **High** (line-level filing mechanics)  
+  Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16915
+
+- **M18:** Indiana `IN-529` instructions exclude contributions made to accounts that will be transferred to ABLE from Indiana529 credit eligibility.  
+  Confidence: **High**  
+  Source:
+  - https://forms.in.gov/Download.aspx?id=16907
+
+- **M19:** Indiana Information Bulletin #98 (Jan 2026) states that for 2024 and later, Indiana529 transfers to **Indiana ABLE 529A** are treated as qualified for recapture purposes, while transfers to other ABLE plans are nonqualified.  
+  Confidence: **High**  
+  Source:
+  - https://www.in.gov/dor/files/ib98.pdf
+
+- **M20:** Invest529 guidance documents a two-step outbound flow to ABLEnow (open/confirm ABLEnow, then submit ABLEnow incoming transfer form to Invest529), plus annual-limit and 60-day indirect rollover constraints.  
+  Confidence: **High**  
+  Source:
+  - https://www.invest529.com/articles-webinars/transfer-invest529-funds-to-ablenow/
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"Tier-1 sources within a state will always align on treatment details."**
+- Result: **Failed.** Indiana TY2025 form language and January 2026 bulletin language diverge on Indiana529->Indiana ABLE treatment, requiring conflict-aware product handling.
+
+### D (Document updates)
+
+- Updated `TASKLIST.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+
+### New unknowns added this run
+
+1. How does Indiana DOR want filers to reconcile `IN-CR` wording with Bulletin #98 for Indiana529->Indiana ABLE in TY2025/TY2026?
+2. Which NJ-1040 and PA-40 line(s) explicitly mention ABLE rollover treatment (if any) in current-year instructions?
+3. Which plan pairs publish transfer settlement SLAs, and what is the operational variance (p50/p90)?
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (Indiana moved from unknown to conflict-captured medium with explicit line-level filing mechanics).
+- One new/updated state entry with source + line-level form reference: **Yes** (Indiana: IN-CR line 9 -> IT-40 Schedule 4 line 3).
+- One competition/workflow insight added: **Yes** (Invest529->ABLEnow form-routing workflow).
+- One product requirement/opportunity added or re-ranked: **Yes** (Authority-conflict sentinel + cross-institution form router).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~92%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **11 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio: **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close one of **NJ** or **PA** to explicit line-level treatment with current-year primary forms/instructions.
+2. Advance **UT** with code/form-line references.
+3. Resolve Indiana conflict-open status with direct DOR clarification or published filing-year reconciliation note.
+
 ## 2026-03-10 Hourly Run (13:34 UTC trigger)
 
 ### Q (Query)

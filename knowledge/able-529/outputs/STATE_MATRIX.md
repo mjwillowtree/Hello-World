@@ -1,15 +1,36 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
 ## Coverage snapshot
 
 - Jurisdictions tracked: **51 / 51**
-- Substantively advanced rows (beyond placeholder): **10 / 51**
+- Substantively advanced rows (beyond placeholder): **11 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Indiana** (plus prior Minnesota/Ohio)
+
+## Indiana (advanced this run)
+
+### What is locked
+- Indiana `IN-CR` provides explicit recapture filing flow: line 9 total carries to **IT-40 Schedule 4, line 3** (or IT-40PNR Schedule E, line 3).
+- `IN-CR` nonqualified-withdrawal text for Indiana529 includes rollover/transfer to "any other Code Section 529 plan or ABLE account."
+- `IN-529` instructions state contributions intended for transfer to an ABLE account are not eligible for the Indiana529 credit.
+
+### Conflict to track (Tier-1 vs Tier-1)
+- Indiana Information Bulletin #98 (Publication Date: Jan 2026) states that for 2024 and later, transfer from Indiana529 to an **Indiana ABLE 529A** plan is treated as qualified for recapture purposes, while transfers to other ABLE plans are nonqualified.
+- Product posture: do **not** auto-resolve this edge case without tax-year/source-version logic and escalation.
+
+### Sources (Tier 1)
+- https://forms.in.gov/Download.aspx?id=16957
+- https://forms.in.gov/Download.aspx?id=16915
+- https://forms.in.gov/Download.aspx?id=16907
+- https://www.in.gov/dor/files/ib98.pdf
+- https://www.in.gov/dor/tax-forms/individual/current/?a=744162
+
+### Confidence
+- **Medium** (line-level filing path is clear; substantive treatment conflict requires controlled handling)
 
 ## Minnesota (advanced)
 
@@ -54,7 +75,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
 2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
 3. **Utah**: first-pass Tier-1 row with code/line references.
-4. **Indiana**: first-pass Tier-1 row with code/line references.
+4. **Indiana conflict closure**: reconcile IN-CR wording vs Bulletin #98 treatment for Indiana529->Indiana ABLE.
 
 ## Interpretation notes
 

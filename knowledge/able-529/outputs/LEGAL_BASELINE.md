@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -42,6 +42,16 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
 
+### Conflict C-2026-03-11-01 (Indiana Tier-1 internal conflict)
+- Source A (TY2025 form text): Indiana `IN-CR` defines Indiana529 nonqualified withdrawals to include "a rollover distribution or transfer from the Indiana529 education savings plan to any other Code Section 529 plan or ABLE account," and sends recapture to IT-40 Schedule 4 line 3.
+- Source B (later bulletin): Indiana Information Bulletin #98 (Publication Date Jan 2026) states that for 2024 and later, Indiana529 transfer to an **Indiana ABLE 529A** plan is qualified for recapture purposes, while transfer to other ABLE plans is nonqualified.
+- Resolution posture: filing-line mechanics are high confidence; substantive treatment for Indiana529->Indiana ABLE requires tax-year/version-aware handling and manual escalation until DOR clarifies alignment between current forms and bulletin.
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://www.in.gov/dor/files/ib98.pdf
+
 ## 4) State baseline examples
 
 ### Ohio (line-level pattern)
@@ -57,6 +67,16 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
   - https://www.revenue.state.mn.us/education-savings-account-recapture-tax
   - https://www.revenue.state.mn.us/sites/default/files/2025-10/m1529-25-grid.pdf
 
+### Indiana (line-flow + conflict pattern)
+- IN-CR line 9 carries total recapture to IT-40 Schedule 4 line 3 (or IT-40PNR Schedule E line 3).
+- IN-529 instruction text excludes contributions made to accounts that will be transferred to ABLE from Indiana529 credit eligibility.
+- Information Bulletin #98 introduces a narrower carve-in for Indiana529->Indiana ABLE (for 2024+), creating a Tier-1 reconciliation task with TY2025 forms.
+- Sources:
+  - https://forms.in.gov/Download.aspx?id=16957
+  - https://forms.in.gov/Download.aspx?id=16915
+  - https://forms.in.gov/Download.aspx?id=16907
+  - https://www.in.gov/dor/files/ib98.pdf
+
 ## 5) State-law handling posture
 
 Federal qualified treatment does **not** guarantee state conformity or no-recapture treatment. For implementation, consult `outputs/STATE_MATRIX.csv` by jurisdiction and filing year, with form-level references.
@@ -65,4 +85,4 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
 2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
-3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
+3. Indiana: authoritative reconciliation of IN-CR TY2025 wording vs Jan-2026 Bulletin #98 carve-in for Indiana529->Indiana ABLE.

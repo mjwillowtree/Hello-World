@@ -1,8 +1,15 @@
 # HUB (529 + ABLE Product Intelligence)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## What changed this week
+
+### 2026-03-11 (hourly run)
+- Advanced **Indiana** from placeholder to substantive row with line-level filing mapping (`IN-CR` line 9 -> `IT-40 Schedule 4 line 3`).
+- Resolved one high-impact ambiguity upward from unknown to medium confidence: Indiana treatment now has explicit Tier-1 conflict capture (`IN-CR` vs Information Bulletin #98 carve-in for Indiana ABLE).
+- Added product/competition workflow datapoint from **Invest529 -> ABLEnow** showing explicit two-step form-routing and annual-cap constraints.
+- Added/raised backlog opportunities for **authority-conflict detection** and **cross-institution form routing**.
+- Updated FAQ and legal baseline with adversarial conflict-safe guidance.
 
 ### 2026-03-10 (merged branch context)
 - Resolved federal quote-ready authority block for post-2025 529->ABLE continuity (Pub. L. 119-21 Sec. 70117).
@@ -19,20 +26,20 @@ Updated: 2026-03-10
 ## Confidence summary
 
 - **Federal legal baseline:** High
-- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; only subset line-level closed)
+- **State-by-state treatment:** Low-to-Medium overall (heterogeneous; Indiana advanced but conflict-open)
 - **Operational workflow understanding:** Medium-High for transfer failure controls
 - **Product opportunity signal strength:** Medium-High
 
 ## KPI snapshot
 
-- State matrix completion (substantive rows): **10 / 51**
+- State matrix completion (substantive rows): **11 / 51**
 - High-confidence states: **11 / 51 (21.6%)**
-- Domain coverage score (10 domains): **6.1 / 10**
-- Tier-1 citation ratio (new substantive claims): **~85%**
-- Competitor coverage count: **4**
-- Validated product opportunities: **5**
-- Unresolved critical unknowns: **8**
-- Time-to-answer test (top 25, citation-ready quickly): **14 / 25**
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio (new substantive claims): **~92%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **9**
+- Time-to-answer test (top 25, citation-ready quickly): **16 / 25**
 
 ## Navigation
 
@@ -50,5 +57,6 @@ Updated: 2026-03-10
 ## Immediate next-run targets
 
 1. Close one of **NJ** or **PA** with explicit line-level return instruction treatment.
-2. Advance **UT** or **IN** with Tier-1 form/code references.
-3. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
+2. Advance **UT** with Tier-1 form/code references.
+3. Resolve Indiana conflict-open status by finding DOR clarification aligning `IN-CR` with Bulletin #98 (or documenting filing-year split).
+4. Expand transfer workflow lane with timing/SLA and rejection-code evidence.
