@@ -1,6 +1,6 @@
 # STATE_MATRIX (50 States + DC)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 Primary data file: `outputs/STATE_MATRIX.csv`
 
@@ -9,7 +9,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 - Jurisdictions tracked: **51 / 51**
 - Substantively advanced rows (beyond placeholder): **10 / 51**
 - High-confidence rows: **11 / 51**
-- Latest state advancements: **Minnesota** and **Ohio**
+- Latest state advancements: **Ohio (TY2025 reconfirmation)** and **Pennsylvania (line mapping partial closure)**
 
 ## Minnesota (advanced)
 
@@ -28,22 +28,39 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ## Ohio (advanced)
 
 ### What is locked
-- Schedule of Adjustments line mapping includes line 4 (nonqualified 529 addition), line 20 (STABLE deduction), and line 36 (529 deduction).
-- 2024 booklet instruction text ties line-4 addition to specific nonqualified scenarios and prior Ohio deduction history.
+- TY2025 Schedule of Adjustments line mapping includes line 4 (nonqualified 529 addition), line 20 (STABLE deduction), and line 37 (529 deduction).
+- TY2025 booklet instruction text still ties line-4 addition to specific nonqualified scenarios and prior Ohio deduction history.
 
 ### Sources (Tier 1)
-- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/scheduleofadjustments.pdf
-- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2024/it1040-booklet.pdf
+- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/scheduleofadjustments.pdf
+- https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf
 
 ### Confidence
 - **High**
+
+## Pennsylvania (advanced this run, partial closure)
+
+### What is locked
+- PA DOR states nonqualified IRC 529 distributions are taxable and reportable as interest income on **PA Schedule A** and **PA-40 line 2**.
+- PA DOR references **PA-40 O** and **PA-40IN** for deduction workflow administration.
+
+### What remains open
+- Explicit line-level treatment for federally qualified **529->ABLE** rollovers in current PA-40 instruction text is still not fully locked.
+
+### Sources (Tier 1)
+- https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/
+- https://revenue-pa.custhelp.com/app/answers/detail/a_id/3400/
+- https://revenue-pa.custhelp.com/app/answers/detail/a_id/2321/
+
+### Confidence
+- **Medium**
 
 ## Previously advanced states (carry-forward)
 
 - California (High)
 - Illinois (High)
 - New Jersey (Medium; line-level closure pending)
-- Pennsylvania (Medium-Low; line-level closure pending)
+- Pennsylvania (Medium; qualified 529->ABLE line-level closure pending)
 - Oregon (Low)
 - Colorado (Low)
 - Virginia (Low)
@@ -52,7 +69,7 @@ Primary data file: `outputs/STATE_MATRIX.csv`
 ## Priority closure queue (next)
 
 1. **New Jersey**: NJ-1040 line-level treatment for 529->ABLE.
-2. **Pennsylvania**: PA-40 line-level treatment for 529->ABLE.
+2. **Pennsylvania**: explicit PA-40IN/PA-40 line treatment for federally qualified 529->ABLE rollover.
 3. **Utah**: first-pass Tier-1 row with code/line references.
 4. **Indiana**: first-pass Tier-1 row with code/line references.
 

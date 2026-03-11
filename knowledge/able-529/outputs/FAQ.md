@@ -1,6 +1,6 @@
 # FAQ (High-frequency + Adversarial)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Is 529->ABLE rollover still federally allowed after 2025?
 **Answer:** Yes, based on Pub. L. 119-21 Sec. 70117 removing the sunset phrase and applying to taxable years beginning after 2025.  
@@ -60,3 +60,23 @@ Updated: 2026-03-10
 **Sources:**  
 - `outputs/HUB.md`  
 - `outputs/STATE_MATRIX.csv`
+
+## 9) Has IRS publication-level guidance caught up to post-2025 529->ABLE rollover law?
+**Answer:** Partly yes. IRS Publication 970 (2025), Chapter 7, describes QTP-to-ABLE rollovers without the pre-2026 sunset phrase and keeps same-beneficiary/family + annual-limit framing. Legacy IRS newsroom pages can still be stale.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://www.irs.gov/pub/irs-pdf/p970.pdf  
+- https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm  
+- https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+## 10) Can a missing source-plan earnings/contribution statement change rollover handling?
+**Answer:** Yes. PA ABLE's incoming direct rollover form states the program manager must provide a contribution/earnings breakdown and that PA ABLE will treat the full transfer as earnings until it is provided.  
+**Confidence:** High  
+**Sources:**  
+- https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+## 11) Does Pennsylvania provide line-level reporting guidance for nonqualified 529 distributions?
+**Answer:** Yes. PA DOR states nonqualified IRC 529 distributions are taxable and reportable as interest income on PA Schedule A and PA-40 line 2.  
+**Confidence:** Medium-High  
+**Sources:**  
+- https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/

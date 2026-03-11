@@ -1,6 +1,6 @@
 # REQUIREMENTS_BACKLOG
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## P0 (ship-first requirements)
 
@@ -27,20 +27,27 @@ Updated: 2026-03-10
    - Collect required source/destination metadata.
    - Produce completed handoff packet and checklist (including notarization/signature warnings).
 
+5. **Source-plan requirement discovery service (new)**
+   - Before packet generation, require source-plan policy check:
+     - whether Medallion Signature Guarantee is required
+     - whether source plan requires wet signatures, notarization, or specific transfer forms
+     - whether principal/earnings certification is mandatory for correct posting
+   - Persist evidence URL and retrieval date to decision record; block "ready to submit" if unresolved.
+
 ## P1
 
-5. **Transfer journey status tracker**
+6. **Transfer journey status tracker**
    - Milestones: request created -> outbound plan contacted -> docs received -> compliance validated -> posted.
    - Exception states: missing earnings breakdown, signature mismatch, beneficiary mismatch.
 
-6. **Beneficiary/family relationship wizard**
+7. **Beneficiary/family relationship wizard**
    - Guided questions that produce relationship eligibility output and attestation capture.
 
-7. **Citation-backed FAQ service**
+8. **Citation-backed FAQ service**
    - Every answer includes confidence and source tier badges.
    - Low-confidence answers include "what could change this".
 
-8. **State filing helper**
+9. **State filing helper**
    - Show line references when confidence is high; otherwise warn and route to review.
 
 ## Experiments (next 2 sprints)
@@ -49,3 +56,5 @@ Updated: 2026-03-10
    - Metric: transfer exception rate, time-to-fund, abandonment.
 2. **State-risk warning interstitial**
    - Metric: post-filing issue tickets, warning acknowledgment.
+3. **Source-plan guarantee precheck experiment**
+   - Metric: late-stage rejection rate due to missing guarantee; median days from packet creation to accepted transfer.

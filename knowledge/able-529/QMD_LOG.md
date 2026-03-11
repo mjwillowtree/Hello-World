@@ -288,3 +288,100 @@ Execute the new protocol on substance: resolve the 529->ABLE post-2025 legal sta
 ### Next run target
 
 Verify post-2025 federal legal status of 529->ABLE rollover sunset/permanence and capture advisor-safe interpretation language.
+
+## 2026-03-11 Hourly Run (15:00 UTC trigger)
+
+### Q (Query)
+
+Frontier questions generated before execution:
+
+1. Unknown: Has IRS publication-level guidance (Pub. 970) conformed to post-2025 529->ABLE statutory treatment, or is it still sunset-stale?
+2. Unknown: Does Ohio TY2025 preserve TY2024 line-level 529/STABLE treatment and conditional add-back logic?
+3. Unknown: Can Pennsylvania be advanced with explicit line-level PA reporting references from Tier-1 state guidance?
+4. Adversarial challenge: "If IRS newsroom is stale, are all IRS sub-regulatory materials unreliable for product implementation?"
+5. Product/competition question: Which official plan forms add source-plan signature-guarantee dependencies that should be surfaced before packet generation?
+6. State-specific question: Can Pennsylvania's nonqualified 529 filing flow be line-mapped with controlling state sources this run?
+
+### Prioritization by ROI
+
+Priority = (User risk impact x Decision value x Reusability x Uncertainty reduction) / Effort
+
+| Task | Score inputs (I,D,R,U,E) | Priority score | Decision |
+|---|---|---:|---|
+| IRS Pub. 970 conformance check vs statute | 5,5,5,4,1 | 500 | Execute |
+| Ohio TY2025 line-level verification | 5,4,4,4,1 | 320 | Execute |
+| Pennsylvania line-level mapping improvement | 5,4,4,3,2 | 120 | Execute |
+| New competitor workflow datapoint + requirement implication | 4,4,4,4,2 | 128 | Execute |
+
+### M (Memory)
+
+- **M17:** IRS Publication 970 (2025), Chapter 7, includes QTP->ABLE rollover treatment (same beneficiary/family-member + annual-limit framing) and no "before January 1, 2026" sunset phrase was found in the publication text.  
+  Confidence: **Medium-High**  
+  Source:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+
+- **M18:** Ohio TY2025 preserves line-level mechanics: Schedule of Adjustments line 4 remains the nonqualified 529 add-back line; deductions for STABLE and 529 contributions appear on lines 20 and 37; line-4 instruction remains conditioned on prior deduction linkage.  
+  Confidence: **High**  
+  Sources:
+  - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/scheduleofadjustments.pdf
+  - https://dam.assets.ohio.gov/image/upload/tax.ohio.gov/forms/ohio_individual/individual/2025/it1040-booklet.pdf
+
+- **M19:** PA ABLE's incoming direct rollover process introduces two concrete operational hazards: conditional Medallion Signature Guarantee requirements and temporary "all earnings" treatment until source-plan contribution/earnings certification is provided.  
+  Confidence: **High**  
+  Source:
+  - https://www.paable.gov/pdf/Incoming-Direct-Rollover.pdf
+
+- **M20:** Pennsylvania DOR line-maps nonqualified IRC 529 distributions to PA Schedule A and PA-40 line 2, improving state filing specificity (while explicit qualified 529->ABLE instruction-line treatment remains open).  
+  Confidence: **Medium**  
+  Sources:
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2517/
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/3400/
+  - https://revenue-pa.custhelp.com/app/answers/detail/a_id/2321/
+
+### Assumption challenged + outcome
+
+- Challenged assumption: **"If IRS newsroom pages are stale, all IRS publication-level content is equally stale."**
+- Result: **Failed.** Pub. 970 (2025) appears conformed for QTP->ABLE rollover language even while older newsroom pages remain stale artifacts.
+
+### D (Document updates)
+
+- Updated `outputs/HUB.md`
+- Updated `outputs/EXEC_SUMMARY.md`
+- Updated `outputs/STATE_MATRIX.csv`
+- Updated `outputs/STATE_MATRIX.md`
+- Updated `outputs/LEGAL_BASELINE.md`
+- Updated `outputs/COMPETITOR_LANDSCAPE.md`
+- Updated `outputs/PRODUCT_OPPORTUNITIES.md`
+- Updated `outputs/USER_JOURNEY_MAP.md`
+- Updated `outputs/REQUIREMENTS_BACKLOG.md`
+- Updated `outputs/FAQ.md`
+- Updated `docs/KNOWLEDGE_FRONTIER.md`
+- Updated `docs/QUESTION_BANK.md`
+- Updated `TASKLIST.md`
+
+### Hard quality gates check
+
+- One high-impact ambiguity confidence increased: **Yes** (IRS publication-level conformance status upgraded from uncertain to Medium-High confidence).
+- One new/updated state entry with source + line-level form reference: **Yes** (Pennsylvania row advanced with PA Schedule A + PA-40 line 2 mapping; Ohio TY2025 line-level recertified).
+- One competition/workflow insight added: **Yes** (PA ABLE guarantee + source certification dependency).
+- One product requirement/opportunity added or re-ranked: **Yes** (source-plan requirement discovery service added and opportunity ranked).
+- Tier-1 citation ratio for new substantive claims >=70%: **Yes (~95%)**.
+- HUB updated with fresh "what changed": **Yes**.
+- At least one assumption challenged: **Yes**.
+
+### KPI snapshot
+
+- State matrix completion: **10 / 51** substantive rows
+- % high-confidence states: **21.6%** (11/51)
+- Domain coverage score (10 domains): **6.6 / 10**
+- Tier-1 citation ratio: **~95%**
+- Competitor coverage count: **5**
+- Validated product opportunities: **6**
+- Unresolved critical unknowns: **8**
+- Time-to-answer test (top 25): **16 / 25 citation-ready**
+
+### Next run target
+
+1. Close New Jersey with explicit NJ-1040 line-level treatment for 529/ABLE outcomes.
+2. Advance one new state (UT or IN) with Tier-1 line/form references.
+3. Quantify transfer timing/SLA distribution and rejection-code patterns across at least two plan pairs.

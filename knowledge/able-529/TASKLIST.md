@@ -1,6 +1,6 @@
 # ABLE/529 Master Tasklist
 
-Last updated: 2026-03-10 (merged main + branch)
+Last updated: 2026-03-11 (15:00 UTC run)
 
 ## Mandatory outputs every run (quality gate)
 
@@ -22,7 +22,7 @@ If any item above is missing, the run is incomplete.
    - Current status: 10 states touched (OR, CO, VA, NY, CA, NJ, PA, IL, OH, MN) with uneven confidence.
    - Expand into structured matrix with citations, conformity year, and form line references.
    - Immediate priority states: UT, IN.
-   - Immediate confidence repairs: NJ and PA line-level treatment.
+   - Immediate confidence repairs: NJ explicit line-level treatment for qualified 529->ABLE.
 
 ## Next queue (depth + breadth rotation)
 
@@ -50,3 +50,4 @@ If any item above is missing, the run is incomplete.
 - Expanded state watchlist from 4 to 8 states with first confidence stratification (CA/IL stronger; NJ/PA unresolved details).
 - Created complete `outputs/` artifact set (HUB, executive summary, legal baseline, matrix, competitor, opportunities, journey, backlog, FAQ).
 - Closed Ohio state line-level evidence row to high confidence using official 2024 forms/instructions.
+- Reconfirmed Ohio row using TY2025 line-level instructions/forms and improved Pennsylvania to medium confidence with PA Schedule A + PA-40 line 2 mapping for nonqualified 529 distributions.

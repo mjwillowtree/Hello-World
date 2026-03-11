@@ -1,6 +1,6 @@
 # LEGAL_BASELINE (Federal + State Authority Ladder)
 
-Updated: 2026-03-10
+Updated: 2026-03-11
 
 ## 1) Authority hierarchy for this knowledge system
 
@@ -32,6 +32,23 @@ Current codified text cross-check:
 **Operational interpretation (confidence: High):**
 Federal 529->ABLE rollover authority continues after 2025, subject to existing same-beneficiary/family-member and annual ABLE contribution-limit mechanics.
 
+### IRS publication-level conformance check (new)
+
+IRS Publication 970 (2025), Chapter 7, now states:
+
+> "Any amount distributed from a QTP isn't taxable if it's rolled over to ...  
+> An ABLE account for the benefit of the same beneficiary or for the benefit of a member of the beneficiary's family ..." (p.53)  
+> "An amount is rolled over if it's paid to an ABLE account or another QTP within 60 days after the date of the distribution." (p.54)
+
+Source:
+- https://www.irs.gov/pub/irs-pdf/p970.pdf
+
+Validation note:
+- Text search found no "before January 1, 2026" phrase in the 2025 Pub. 970 PDF.
+
+Interpretation (confidence: Medium-High):
+- IRS publication-level guidance now aligns with the post-2025 statutory baseline for 529->ABLE rollovers, reducing but not eliminating stale-guidance risk from legacy newsroom pages.
+
 ## 3) Conflict log (explicit)
 
 ### Conflict C-2026-03-10-01
@@ -41,6 +58,14 @@ Federal 529->ABLE rollover authority continues after 2025, subject to existing s
 - Sources:
   - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
   - https://www.irs.gov/newsroom/tax-reform-affects-able-accounts-savers-credit-529-rollovers
+
+### Conflict C-2026-03-11-01
+- Challenged assumption: "All IRS sub-regulatory guidance remains stale after statutory sunset removal."
+- Outcome: failed. Pub. 970 (2025) appears conformed for rollover rule text, while specific legacy newsroom pages remain stale artifacts.
+- Sources:
+  - https://www.irs.gov/pub/irs-pdf/p970.pdf
+  - https://www.irs.gov/newsroom/irs-issues-final-regulations-for-achieving-a-better-life-experience-accounts
+  - https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm
 
 ## 4) State baseline examples
 
@@ -64,5 +89,5 @@ Federal qualified treatment does **not** guarantee state conformity or no-recapt
 ## 6) Open legal unknowns (next closure targets)
 
 1. NJ line-level NJ-1040 instruction treatment for 529->ABLE recapture/add-back.
-2. PA line-level PA-40 instruction treatment for 529->ABLE recapture/add-back.
+2. PA explicit PA-40IN/PA-40 line treatment for federally qualified 529->ABLE rollovers.
 3. Minnesota explicit ABLE carveout confirmation (if any) vs current recapture framework inference.
