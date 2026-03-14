@@ -2,6 +2,11 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-03-13 — Anthropic made **1M-token context generally available** for Opus 4.6 and Sonnet 4.6 at standard pricing (removing prior long-context premium), a material shift in long-context economics that can change enterprise agent architecture and cost controls. Source: https://claude.com/blog/1m-context-ga
+- 2026-03-11 — Reuters reported Atlassian is cutting about **10% of staff (~1,600 roles)** as it reallocates toward AI and enterprise priorities, a clear AI-linked workforce restructuring signal with board-level planning implications. Source: https://www.wireless.reuters.com/technology/atlassian-lay-off-about-1600-people-pivot-ai-2026-03-11/
+- 2026-03-11 — New arXiv research introduced a **scaling-law framework for jailbreak attacks**, finding prompting-based jailbreak strategies can be highly compute-efficient, a practical risk signal for teams relying on static guardrails and LLM-as-judge controls. Source: https://arxiv.org/abs/2603.11149
+- 2026-03-10 — Google expanded **Gemini-native creation/retrieval workflows** across Docs, Sheets, Slides, and Drive, signaling a deeper AI control point inside core productivity surfaces that can accelerate enterprise distribution lock-in. Source: https://blog.google/products-and-platforms/products/workspace/gemini-workspace-updates-march-2026/
+
 - 2026-03-09 — Microsoft introduced a higher-priced **Microsoft 365 E7** tier centered on Copilot/agent capabilities, signaling a major enterprise AI monetization and packaging shift that can reset budget baselines and vendor benchmarking. Source: https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html
 - 2026-03-09 — Nature argued that releasing **open-weight AI in staged steps** is a practical risk-reduction pattern versus one-shot full release, a high-signal governance best practice for balancing ecosystem innovation with misuse containment. Source: https://www.nature.com/articles/d41586-026-00679-6
 - 2026-03-09 — STMicroelectronics announced high-volume production of its **silicon photonics platform** for 800G/1.6T interconnect demand, a meaningful supply-side signal for AI data-center scaling and networking bottleneck relief. Source: https://newsroom.st.com/media-center/press-item.html/t4761.html
