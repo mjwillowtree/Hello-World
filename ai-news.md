@@ -2,6 +2,9 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-03-14 — Reuters reported Meta is planning sweeping layoffs as AI costs mount (with reports indicating cuts could reach ~20%, though Meta disputed specifics), a high-signal indicator that AI-capex pressure is driving megacap workforce restructuring at new scale. Source: https://www.cnbc.com/2026/03/14/meta-planning-sweeping-layoffs-as-ai-costs-mount-reuters.html
+- 2026-03-14 — Reuters reported Elon Musk said Tesla’s “gigantic” AI chip-fab project would launch within seven days, signaling potential vertical integration of AI silicon supply by major model-intensive operators and a possible shift in long-term compute economics. Source: https://www.reuters.com/business/autos-transportation/musk-says-teslas-gigantic-chip-fab-project-launch-seven-days-2026-03-14/
+
 - 2026-03-09 — Microsoft introduced a higher-priced **Microsoft 365 E7** tier centered on Copilot/agent capabilities, signaling a major enterprise AI monetization and packaging shift that can reset budget baselines and vendor benchmarking. Source: https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html
 - 2026-03-09 — Nature argued that releasing **open-weight AI in staged steps** is a practical risk-reduction pattern versus one-shot full release, a high-signal governance best practice for balancing ecosystem innovation with misuse containment. Source: https://www.nature.com/articles/d41586-026-00679-6
 - 2026-03-09 — STMicroelectronics announced high-volume production of its **silicon photonics platform** for 800G/1.6T interconnect demand, a meaningful supply-side signal for AI data-center scaling and networking bottleneck relief. Source: https://newsroom.st.com/media-center/press-item.html/t4761.html
