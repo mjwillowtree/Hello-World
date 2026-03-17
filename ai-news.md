@@ -2,9 +2,6 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
-- 2026-03-16 — AWS and NVIDIA announced an expanded collaboration at GTC 2026 with new production-stack integrations (accelerated compute, interconnect, fine-tuning/inference), including stated deployment of **1M+ NVIDIA GPUs across AWS Regions**. This is a major supply-and-platform signal for enterprise AI capacity planning and vendor strategy. Source: https://aws.amazon.com/blogs/machine-learning/aws-and-nvidia-deepen-strategic-collaboration-to-accelerate-ai-from-pilot-to-production/
-- 2026-03-16 — NVIDIA published technical details on its **Vera Rubin POD** architecture (seven chips, five rack-scale systems) targeting token-heavy agentic workloads, signaling another step-change in AI infrastructure design and cost/performance expectations. Source: https://developer.nvidia.com/blog/nvidia-vera-rubin-pod-seven-chips-five-rack-scale-systems-one-ai-supercomputer/
-
 - 2026-03-09 — Microsoft introduced a higher-priced **Microsoft 365 E7** tier centered on Copilot/agent capabilities, signaling a major enterprise AI monetization and packaging shift that can reset budget baselines and vendor benchmarking. Source: https://www.cnbc.com/2026/03/09/microsoft-office-365-e7-copilot-ai.html
 - 2026-03-09 — Nature argued that releasing **open-weight AI in staged steps** is a practical risk-reduction pattern versus one-shot full release, a high-signal governance best practice for balancing ecosystem innovation with misuse containment. Source: https://www.nature.com/articles/d41586-026-00679-6
 - 2026-03-09 — STMicroelectronics announced high-volume production of its **silicon photonics platform** for 800G/1.6T interconnect demand, a meaningful supply-side signal for AI data-center scaling and networking bottleneck relief. Source: https://newsroom.st.com/media-center/press-item.html/t4761.html
