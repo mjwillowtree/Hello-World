@@ -2,6 +2,11 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-03-25 — OpenAI shut down `Sora` and exited its consumer AI-video app strategy (confirmed by Reuters/AP and broader independent coverage), a material strategic retrenchment that reprioritizes compute and execution toward core products while reducing near-term deepfake/liability exposure. Source: https://www.reuters.com/technology/openai-set-discontinue-sora-video-platform-app-wsj-reports-2026-03-24/
+
+Watchlist (not yet publishable as high-signal):
+- 2026-03-26 — Reports that OpenAI paused an erotic chatbot remain largely source-chained (`FT` -> Reuters rewrites) with limited primary disclosure; keep on watchlist until stronger independent confirmation or direct company detail emerges. Source: https://www.reuters.com/business/openai-indefinitely-pauses-plans-release-erotic-chatbot-ft-says-2026-03-26/
+
 - 2026-03-18 — Reuters reports the U.S. administration is defending Anthropic’s Pentagon blacklisting in court, turning AI model-provider terms/safety guardrails into an active procurement and national-security legal battleground with direct public-sector go-to-market implications. Source: https://www.reuters.com/legal/government/trump-administration-defends-anthropic-blacklisting-us-court-2026-03-18/
 - 2026-03-18 — European Parliament committees scheduled a vote on the Digital Omnibus on AI (simplification changes tied to EU AI rules), a concrete near-term signal that compliance pathways and enforcement burden for AI providers/deployers may shift again. Source: https://www.europarl.europa.eu/doceo/document/CJ40-OJ-2026-03-18-1_EN.html
 - 2026-03-18 — TrojAI announced agent-led red teaming, runtime agent execution intelligence, and coding-agent protection, reinforcing a high-signal best practice: move from prompt-only checks to continuous workflow/runtime controls mapped to OWASP/MITRE/NIST-style frameworks. Source: https://www.prnewswire.com/news-releases/trojai-extends-enterprise-ai-security-with-agent-led-red-teaming-runtime-intelligence-and-coding-agent-protection-302716692.html
