@@ -2,6 +2,8 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-03-26 — AP reports a federal judge preliminarily blocked the Pentagon’s “supply chain risk” designation and broader federal-use ban on Anthropic, a material legal precedent that can reset AI procurement leverage, model-governance terms, and public-sector market access (independently corroborated by NPR/CNBC). Source: https://apnews.com/article/pentagon-ai-anthropic-claude-judge-637d07aca9e480294380be0da1d0a514
+
 - 2026-03-18 — Reuters reports the U.S. administration is defending Anthropic’s Pentagon blacklisting in court, turning AI model-provider terms/safety guardrails into an active procurement and national-security legal battleground with direct public-sector go-to-market implications. Source: https://www.reuters.com/legal/government/trump-administration-defends-anthropic-blacklisting-us-court-2026-03-18/
 - 2026-03-18 — European Parliament committees scheduled a vote on the Digital Omnibus on AI (simplification changes tied to EU AI rules), a concrete near-term signal that compliance pathways and enforcement burden for AI providers/deployers may shift again. Source: https://www.europarl.europa.eu/doceo/document/CJ40-OJ-2026-03-18-1_EN.html
 - 2026-03-18 — TrojAI announced agent-led red teaming, runtime agent execution intelligence, and coding-agent protection, reinforcing a high-signal best practice: move from prompt-only checks to continuous workflow/runtime controls mapped to OWASP/MITRE/NIST-style frameworks. Source: https://www.prnewswire.com/news-releases/trojai-extends-enterprise-ai-security-with-agent-led-red-teaming-runtime-intelligence-and-coding-agent-protection-302716692.html
