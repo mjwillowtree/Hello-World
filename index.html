@@ -3,55 +3,479 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+  <title>Voice Teleprompter</title>
   <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      min-height: 100vh;
+      background: #111;
+      color: #fff;
+      font-family: 'Georgia', serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    #toolbar {
+      background: #1a1a1a;
+      border-bottom: 1px solid #333;
+      padding: 10px 16px;
       display: flex;
       align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+    }
+
+    #toolbar h1 {
+      font-size: 16px;
+      font-weight: bold;
+      color: #ccc;
+      letter-spacing: 1px;
+      margin-right: 8px;
+    }
+
+    button {
+      padding: 8px 18px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: opacity 0.15s;
+    }
+    button:hover { opacity: 0.85; }
+    button:disabled { opacity: 0.35; cursor: default; }
+
+    #btn-start { background: #22c55e; color: #000; }
+    #btn-stop  { background: #ef4444; color: #fff; }
+    #btn-edit  { background: #3b82f6; color: #fff; }
+    #btn-reset { background: #555; color: #fff; }
+
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: #aaa;
+      font-size: 13px;
+    }
+
+    input[type=range] { width: 80px; accent-color: #22c55e; }
+
+    #status {
+      font-size: 13px;
+      color: #888;
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #mic-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #444;
+      transition: background 0.3s;
+    }
+    #mic-dot.listening { background: #ef4444; animation: pulse 1s infinite; }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+
+    /* ── Teleprompter display ── */
+    #display-wrapper {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+    }
+
+    #display {
+      height: 100%;
+      overflow-y: scroll;
+      padding: 40px 10%;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+    }
+    #display::-webkit-scrollbar { display: none; }
+
+    #script-text {
+      font-size: 2.2rem;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+
+    .word {
+      display: inline;
+      border-radius: 4px;
+      padding: 0 2px;
+      transition: background 0.15s, color 0.15s;
+    }
+    .word.spoken   { color: #555; }
+    .word.current  { background: #facc15; color: #000; border-radius: 4px; }
+    .word.upcoming { color: #fff; }
+
+    /* Fade edges */
+    #display-wrapper::before,
+    #display-wrapper::after {
+      content: '';
+      position: absolute;
+      left: 0; right: 0;
+      height: 80px;
+      pointer-events: none;
+      z-index: 1;
+    }
+    #display-wrapper::before { top: 0; background: linear-gradient(#111, transparent); }
+    #display-wrapper::after  { bottom: 0; background: linear-gradient(transparent, #111); }
+
+    /* ── Edit modal ── */
+    #edit-modal {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.8);
+      z-index: 100;
+      align-items: center;
       justify-content: center;
-      font-family: "DM Sans", system-ui, sans-serif;
-      background: linear-gradient(135deg, #0f0f12 0%, #1a1a24 50%, #0d0d10 100%);
-      color: #e4e4e7;
+    }
+    #edit-modal.open { display: flex; }
+
+    #edit-box {
+      background: #1e1e1e;
+      border-radius: 12px;
+      padding: 24px;
+      width: 80%;
+      max-width: 700px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
     }
 
-    main {
-      text-align: center;
-      padding: 2rem;
+    #edit-box h2 { color: #ccc; font-size: 18px; }
+
+    #script-input {
+      width: 100%;
+      height: 340px;
+      background: #111;
+      color: #fff;
+      border: 1px solid #444;
+      border-radius: 8px;
+      padding: 14px;
+      font-size: 1rem;
+      line-height: 1.6;
+      resize: vertical;
+      font-family: inherit;
     }
 
-    h1 {
-      font-size: clamp(2.5rem, 8vw, 4rem);
-      font-weight: 600;
-      letter-spacing: -0.02em;
-      background: linear-gradient(90deg, #fff 0%, #a1a1aa 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-      margin-bottom: 0.5rem;
-    }
-
-    p {
-      font-size: 1.125rem;
-      color: #71717a;
-      font-weight: 400;
-    }
+    #edit-actions { display: flex; gap: 10px; justify-content: flex-end; }
+    #btn-save   { background: #22c55e; color: #000; }
+    #btn-cancel { background: #555; color: #fff; }
   </style>
 </head>
 <body>
-  <main>
-    <h1>Hello, World</h1>
-    <p>Your simple website is ready.</p>
-    <p>Built with branches and merges.</p>
-  </main>
+
+<div id="toolbar">
+  <h1>TELEPROMPTER</h1>
+  <button id="btn-start">&#9654; Start</button>
+  <button id="btn-stop" disabled>&#9632; Stop</button>
+  <button id="btn-edit">&#9998; Edit Script</button>
+  <button id="btn-reset">&#8634; Reset</button>
+
+  <div class="control-group">
+    <label for="font-size">Size</label>
+    <input type="range" id="font-size" min="1.2" max="4" step="0.1" value="2.2">
+  </div>
+
+  <div id="status">
+    <div id="mic-dot"></div>
+    <span id="status-text">Ready</span>
+  </div>
+</div>
+
+<div id="display-wrapper">
+  <div id="display">
+    <div id="script-text"></div>
+  </div>
+</div>
+
+<div id="edit-modal">
+  <div id="edit-box">
+    <h2>Edit Script</h2>
+    <textarea id="script-input" placeholder="Paste or type your script here..."></textarea>
+    <div id="edit-actions">
+      <button id="btn-cancel">Cancel</button>
+      <button id="btn-save">Save &amp; Load</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── State ──────────────────────────────────────────────────────────────────
+let words = [];          // [{raw, clean, el}, ...]
+let wordIndex = 0;       // current position in script
+let recognition = null;
+let listening = false;
+
+const DEFAULT_SCRIPT = `Welcome to the Voice Teleprompter.
+
+This app uses your microphone and browser speech recognition to follow along with your script automatically.
+
+Simply speak naturally and the highlighted word will advance in sync with your voice.
+
+You can edit this script by clicking the Edit Script button above. Paste in your own text and click Save to load it.
+
+When you are ready, press the Start button and begin speaking. The teleprompter will scroll and highlight each word as you say it.
+
+Good luck with your presentation.`;
+
+// ── DOM refs ───────────────────────────────────────────────────────────────
+const scriptTextEl   = document.getElementById('script-text');
+const displayEl      = document.getElementById('display');
+const statusText     = document.getElementById('status-text');
+const micDot         = document.getElementById('mic-dot');
+const btnStart       = document.getElementById('btn-start');
+const btnStop        = document.getElementById('btn-stop');
+const btnEdit        = document.getElementById('btn-edit');
+const btnReset       = document.getElementById('btn-reset');
+const btnSave        = document.getElementById('btn-save');
+const btnCancel      = document.getElementById('btn-cancel');
+const editModal      = document.getElementById('edit-modal');
+const scriptInput    = document.getElementById('script-input');
+const fontSizeSlider = document.getElementById('font-size');
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function cleanWord(w) {
+  return w.toLowerCase().replace(/[^a-z0-9']/g, '');
+}
+
+function loadScript(text) {
+  wordIndex = 0;
+  words = [];
+  scriptTextEl.innerHTML = '';
+
+  const rawWords = text.trim().split(/(\s+)/);
+  rawWords.forEach(token => {
+    if (/^\s+$/.test(token)) {
+      scriptTextEl.appendChild(document.createTextNode(token));
+    } else if (token.length > 0) {
+      const span = document.createElement('span');
+      span.className = 'word upcoming';
+      span.textContent = token;
+      scriptTextEl.appendChild(span);
+      words.push({ raw: token, clean: cleanWord(token), el: span });
+    }
+  });
+
+  highlightCurrent();
+}
+
+function highlightCurrent() {
+  words.forEach((w, i) => {
+    if (i < wordIndex)       w.el.className = 'word spoken';
+    else if (i === wordIndex) w.el.className = 'word current';
+    else                      w.el.className = 'word upcoming';
+  });
+
+  if (words[wordIndex]) scrollToCurrent();
+}
+
+function scrollToCurrent() {
+  const el = words[wordIndex]?.el;
+  if (!el) return;
+  const top = el.offsetTop - displayEl.clientHeight / 2.5;
+  displayEl.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
+}
+
+// ── Word matching ──────────────────────────────────────────────────────────
+function matchTranscript(transcript) {
+  const spoken = transcript.toLowerCase()
+    .replace(/[^a-z0-9'\s]/g, '')
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean);
+
+  if (spoken.length === 0) return;
+
+  let scriptPos = wordIndex;
+
+  for (let i = 0; i < spoken.length; i++) {
+    const sw = spoken[i];
+    let found = -1;
+    for (let j = scriptPos; j < Math.min(scriptPos + 15, words.length); j++) {
+      if (words[j].clean === sw || fuzzyMatch(words[j].clean, sw)) {
+        found = j;
+        break;
+      }
+    }
+    if (found !== -1) {
+      scriptPos = found + 1;
+    }
+  }
+
+  if (scriptPos > wordIndex) {
+    wordIndex = scriptPos;
+    highlightCurrent();
+  }
+}
+
+function fuzzyMatch(a, b) {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  if (a.length < 4 || b.length < 4) return false;
+  return levenshtein(a, b) <= 1;
+}
+
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  const dp = Array.from({ length: m + 1 }, (_, i) =>
+    Array.from({ length: n + 1 }, (_, j) => i === 0 ? j : j === 0 ? i : 0)
+  );
+  for (let i = 1; i <= m; i++)
+    for (let j = 1; j <= n; j++)
+      dp[i][j] = a[i-1] === b[j-1]
+        ? dp[i-1][j-1]
+        : 1 + Math.min(dp[i-1][j], dp[i][j-1], dp[i-1][j-1]);
+  return dp[m][n];
+}
+
+// ── Speech Recognition ─────────────────────────────────────────────────────
+function startListening() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!SpeechRecognition) {
+    setStatus('Speech API not supported. Use Chrome or Edge.', true);
+    return;
+  }
+
+  recognition = new SpeechRecognition();
+  recognition.continuous = true;
+  recognition.interimResults = true;
+  recognition.lang = 'en-US';
+
+  let finalBuffer = '';
+
+  recognition.onstart = () => {
+    listening = true;
+    micDot.classList.add('listening');
+    setStatus('Listening\u2026');
+    btnStart.disabled = true;
+    btnStop.disabled = false;
+  };
+
+  recognition.onresult = (e) => {
+    let interim = '';
+    for (let i = e.resultIndex; i < e.results.length; i++) {
+      const t = e.results[i][0].transcript;
+      if (e.results[i].isFinal) {
+        finalBuffer += ' ' + t;
+        matchTranscript(finalBuffer.trim());
+        finalBuffer = '';
+      } else {
+        interim = t;
+      }
+    }
+    if (interim) matchTranscript(interim);
+  };
+
+  recognition.onerror = (e) => {
+    if (e.error === 'no-speech') return;
+    if (e.error === 'not-allowed') {
+      setStatus('Microphone access denied.', true);
+      stopListening();
+      return;
+    }
+    setStatus('Error: ' + e.error, true);
+  };
+
+  recognition.onend = () => {
+    if (listening) {
+      try { recognition.start(); } catch(_) {}
+    }
+  };
+
+  try {
+    recognition.start();
+  } catch (err) {
+    setStatus('Could not start recognition: ' + err.message, true);
+  }
+}
+
+function stopListening() {
+  listening = false;
+  micDot.classList.remove('listening');
+  btnStart.disabled = false;
+  btnStop.disabled = true;
+  setStatus('Stopped');
+  if (recognition) {
+    recognition.stop();
+    recognition = null;
+  }
+}
+
+function setStatus(msg, error = false) {
+  statusText.textContent = msg;
+  statusText.style.color = error ? '#ef4444' : '#888';
+}
+
+// ── Controls ───────────────────────────────────────────────────────────────
+btnStart.addEventListener('click', () => {
+  if (words.length === 0) {
+    setStatus('No script loaded.', true);
+    return;
+  }
+  startListening();
+});
+
+btnStop.addEventListener('click', stopListening);
+
+btnReset.addEventListener('click', () => {
+  stopListening();
+  wordIndex = 0;
+  highlightCurrent();
+  displayEl.scrollTo({ top: 0, behavior: 'smooth' });
+  setStatus('Ready');
+});
+
+btnEdit.addEventListener('click', () => {
+  editModal.classList.add('open');
+  scriptInput.focus();
+});
+
+btnCancel.addEventListener('click', () => editModal.classList.remove('open'));
+
+btnSave.addEventListener('click', () => {
+  const text = scriptInput.value.trim();
+  if (text) {
+    stopListening();
+    loadScript(text);
+    editModal.classList.remove('open');
+    setStatus('Script loaded. Press Start when ready.');
+  }
+});
+
+fontSizeSlider.addEventListener('input', () => {
+  scriptTextEl.style.fontSize = fontSizeSlider.value + 'rem';
+});
+
+editModal.addEventListener('click', (e) => {
+  if (e.target === editModal) editModal.classList.remove('open');
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.target === scriptInput) return;
+  if (e.code === 'Space') {
+    e.preventDefault();
+    listening ? stopListening() : btnStart.click();
+  }
+});
+
+// ── Init ───────────────────────────────────────────────────────────────────
+scriptInput.value = DEFAULT_SCRIPT;
+loadScript(DEFAULT_SCRIPT);
+setStatus('Ready \u2014 press Start or Space to begin');
+</script>
 </body>
 </html>
