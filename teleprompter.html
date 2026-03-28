@@ -293,7 +293,9 @@ function scrollToCurrent() {
 
 // ── Word matching ──────────────────────────────────────────────────────────
 // Given a list of clean recognized words, advance wordIndex as far as we can.
-function matchTranscript(transcript) {
+// maxLookahead: how far ahead to search for each word
+// maxAdvance: cap on total words advanced in one call (prevents paragraph jumps)
+function matchTranscript(transcript, maxLookahead = 6, maxAdvance = 10) {
   const spoken = transcript.toLowerCase()
     .replace(/[^a-z0-9'\s]/g, '')
     .trim()
@@ -302,14 +304,16 @@ function matchTranscript(transcript) {
 
   if (spoken.length === 0) return;
 
-  // Sliding window: for each spoken word try to find it near current position
   let scriptPos = wordIndex;
+  const startPos = wordIndex;
 
   for (let i = 0; i < spoken.length; i++) {
+    // Stop if we've already advanced too far in one event
+    if (scriptPos - startPos >= maxAdvance) break;
+
     const sw = spoken[i];
-    // Search ahead up to 15 words for a match
     let found = -1;
-    for (let j = scriptPos; j < Math.min(scriptPos + 15, words.length); j++) {
+    for (let j = scriptPos; j < Math.min(scriptPos + maxLookahead, words.length); j++) {
       if (words[j].clean === sw || fuzzyMatch(words[j].clean, sw)) {
         found = j;
         break;
@@ -371,19 +375,19 @@ function startListening() {
   };
 
   recognition.onresult = (e) => {
-    let interim = '';
     for (let i = e.resultIndex; i < e.results.length; i++) {
       const t = e.results[i][0].transcript;
       if (e.results[i].isFinal) {
+        // Final results: match with normal lookahead
         finalBuffer += ' ' + t;
-        matchTranscript(finalBuffer.trim());
+        matchTranscript(finalBuffer.trim(), 6, 10);
         finalBuffer = '';
       } else {
-        interim = t;
+        // Interim: very tight lookahead (3) so it only advances if
+        // the next word or two clearly match — avoids paragraph jumps
+        matchTranscript(t, 3, 4);
       }
     }
-    // Also try interim for responsiveness
-    if (interim) matchTranscript(interim);
   };
 
   recognition.onerror = (e) => {
