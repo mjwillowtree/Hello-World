@@ -2,6 +2,12 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-03-30 — No new AI stories were published to this log for the last 24h window because none cleared the required bar of independent reporting plus third-party corroboration without leaning on press-release or single-source promotional framing. Sources reviewed: Reuters, AP, Bloomberg, FT search surfaces.
+
+Watchlist (not published; corroboration/qualification pending):
+- 2026-03-30 — Reuters Breakingviews analysis on SoftBank/OpenAI financing strain may indicate real AI capital-structure fragility, but this item is currently commentary-led and not yet a clearly corroborated new factual development. Source: https://www.reuters.com/markets/asia/masayoshi-son-represents-fragile-link-ai-chain-2026-03-30/
+- 2026-03-30 — Reports about Mistral debt financing for AI data-center build-out appear potentially material for EU AI infrastructure, but independent multi-outlet validation and direct primary sourcing are not yet strong enough for publication. Source: https://ca.marketscreener.com/news/france-s-mistral-raises-830-million-in-debt-for-ai-data-centre-build-up-ce7e51d8d18bf020
+
 - 2026-03-18 — Reuters reports the U.S. administration is defending Anthropic’s Pentagon blacklisting in court, turning AI model-provider terms/safety guardrails into an active procurement and national-security legal battleground with direct public-sector go-to-market implications. Source: https://www.reuters.com/legal/government/trump-administration-defends-anthropic-blacklisting-us-court-2026-03-18/
 - 2026-03-18 — European Parliament committees scheduled a vote on the Digital Omnibus on AI (simplification changes tied to EU AI rules), a concrete near-term signal that compliance pathways and enforcement burden for AI providers/deployers may shift again. Source: https://www.europarl.europa.eu/doceo/document/CJ40-OJ-2026-03-18-1_EN.html
 - 2026-03-18 — TrojAI announced agent-led red teaming, runtime agent execution intelligence, and coding-agent protection, reinforcing a high-signal best practice: move from prompt-only checks to continuous workflow/runtime controls mapped to OWASP/MITRE/NIST-style frameworks. Source: https://www.prnewswire.com/news-releases/trojai-extends-enterprise-ai-security-with-agent-led-red-teaming-runtime-intelligence-and-coding-agent-protection-302716692.html
