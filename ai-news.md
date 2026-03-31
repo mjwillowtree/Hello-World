@@ -2,6 +2,17 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+## 2026-03-31 (Last 24 Hours)
+
+### Publish
+- 2026-03-30 — Reuters reports California now requires AI safeguards for firms seeking state contracts (including misuse controls and watermarking), which materially shifts U.S. public-sector AI procurement/compliance requirements and creates a state-level counterweight to federal AI policy direction. Source: https://www.reuters.com/sustainability/society-equity/california-ai-order-requires-firms-seeking-state-contracts-have-safeguards-2026-03-31/
+- 2026-03-30 — Reuters reports a random-sample Northwestern study found 60% of U.S. federal judges are already using AI tools, an unexpected institutional adoption signal that can accelerate court-level policy, training, and evidentiary standards around AI-assisted legal work. Source: https://www.reuters.com/legal/government/majority-us-federal-judges-are-using-ai-study-finds-2026-03-30/
+
+### Watchlist (Not Published)
+- 2026-03-31 — Reuters says Big Tech's AI capex plans face potential energy-price shock risk, which is strategically important but remains primarily single-outlet analytical framing pending stronger independent corroboration of near-term spending pullbacks. Source: https://www.reuters.com/world/china/big-techs-635-billion-ai-spending-faces-energy-shock-test-sp-global-says-2026-03-31/
+
+## Archive
+
 - 2026-03-18 — Reuters reports the U.S. administration is defending Anthropic’s Pentagon blacklisting in court, turning AI model-provider terms/safety guardrails into an active procurement and national-security legal battleground with direct public-sector go-to-market implications. Source: https://www.reuters.com/legal/government/trump-administration-defends-anthropic-blacklisting-us-court-2026-03-18/
 - 2026-03-18 — European Parliament committees scheduled a vote on the Digital Omnibus on AI (simplification changes tied to EU AI rules), a concrete near-term signal that compliance pathways and enforcement burden for AI providers/deployers may shift again. Source: https://www.europarl.europa.eu/doceo/document/CJ40-OJ-2026-03-18-1_EN.html
 - 2026-03-18 — TrojAI announced agent-led red teaming, runtime agent execution intelligence, and coding-agent protection, reinforcing a high-signal best practice: move from prompt-only checks to continuous workflow/runtime controls mapped to OWASP/MITRE/NIST-style frameworks. Source: https://www.prnewswire.com/news-releases/trojai-extends-enterprise-ai-security-with-agent-led-red-teaming-runtime-intelligence-and-coding-agent-protection-302716692.html
