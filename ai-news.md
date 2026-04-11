@@ -2,6 +2,12 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-04-11 — No AI items in the last 24 hours cleared the publish bar (independent reporting, external corroboration, and material strategic impact) without freshness/corroboration ambiguity.
+
+Watchlist (not published high-signal yet):
+- 2026-04-10 — Reuters reported U.S. Treasury and the Fed warning major bank CEOs about Anthropic's new model cyber risks, which is strategically material, but this remained effectively single-outlet in-window because corroboration was primarily Bloomberg-sourced or syndicated mirrors. Source: https://www.reuters.com/business/finance/bessent-powell-warn-bank-ceos-about-anthropic-model-risks-bloomberg-news-reports-2026-04-10/
+- 2026-04-10 — Reuters reported OpenAI found a third-party supply-chain security issue affecting macOS app-signing workflow, but with no evidence of user-data/system compromise and no independent Tier-1 confirmation in-window, it remains watchlist only. Source: https://www.reuters.com/business/openai-identifies-security-issue-involving-third-party-tool-says-user-data-was-2026-04-11/
+
 - 2026-03-18 — Reuters reports the U.S. administration is defending Anthropic’s Pentagon blacklisting in court, turning AI model-provider terms/safety guardrails into an active procurement and national-security legal battleground with direct public-sector go-to-market implications. Source: https://www.reuters.com/legal/government/trump-administration-defends-anthropic-blacklisting-us-court-2026-03-18/
 - 2026-03-18 — European Parliament committees scheduled a vote on the Digital Omnibus on AI (simplification changes tied to EU AI rules), a concrete near-term signal that compliance pathways and enforcement burden for AI providers/deployers may shift again. Source: https://www.europarl.europa.eu/doceo/document/CJ40-OJ-2026-03-18-1_EN.html
 - 2026-03-18 — TrojAI announced agent-led red teaming, runtime agent execution intelligence, and coding-agent protection, reinforcing a high-signal best practice: move from prompt-only checks to continuous workflow/runtime controls mapped to OWASP/MITRE/NIST-style frameworks. Source: https://www.prnewswire.com/news-releases/trojai-extends-enterprise-ai-security-with-agent-led-red-teaming-runtime-intelligence-and-coding-agent-protection-302716692.html
