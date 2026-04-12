@@ -2,6 +2,11 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-04-12 — No qualifying high-signal AI stories from the last 24 hours met the publication bar after excluding single-source/vendor-led items and uncorroborated reports.
+
+Watchlist (not publishable yet; awaiting independent corroboration):
+- 2026-04-12 — Reuters, citing the Financial Times, says UK financial regulators are urgently assessing cyber risk from Anthropic's latest model; this could be a material financial-stability/compliance signal, but Reuters said it could not independently verify and no second Tier-1 confirmation was found in-window. Source: https://www.reuters.com/world/uk/uk-financial-regulators-rush-assess-risks-anthropics-latest-ai-model-ft-reports-2026-04-12/
+
 - 2026-03-18 — Reuters reports the U.S. administration is defending Anthropic’s Pentagon blacklisting in court, turning AI model-provider terms/safety guardrails into an active procurement and national-security legal battleground with direct public-sector go-to-market implications. Source: https://www.reuters.com/legal/government/trump-administration-defends-anthropic-blacklisting-us-court-2026-03-18/
 - 2026-03-18 — European Parliament committees scheduled a vote on the Digital Omnibus on AI (simplification changes tied to EU AI rules), a concrete near-term signal that compliance pathways and enforcement burden for AI providers/deployers may shift again. Source: https://www.europarl.europa.eu/doceo/document/CJ40-OJ-2026-03-18-1_EN.html
 - 2026-03-18 — TrojAI announced agent-led red teaming, runtime agent execution intelligence, and coding-agent protection, reinforcing a high-signal best practice: move from prompt-only checks to continuous workflow/runtime controls mapped to OWASP/MITRE/NIST-style frameworks. Source: https://www.prnewswire.com/news-releases/trojai-extends-enterprise-ai-security-with-agent-led-red-teaming-runtime-intelligence-and-coding-agent-protection-302716692.html
