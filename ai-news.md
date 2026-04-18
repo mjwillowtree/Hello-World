@@ -2,6 +2,13 @@
 
 Simple rule: newest items first, each entry starts with the source publication date.
 
+- 2026-04-18 — **No publishable high-signal AI items in the last 24 hours**. A strict validation pass found no story that simultaneously met: (1) independent reporting, (2) third-party corroboration, and (3) in-window freshness.  
+  Validation window: 2026-04-17T13:01Z to 2026-04-18T13:01Z.
+
+Watchlist (not published; corroboration or freshness gap):
+- 2026-04-17 — AP reported India’s high-stakes AI summit in New Delhi; potentially important for AI governance alignment, but concrete policy outputs and multi-outlet confirmation were not yet clear enough for publish status. Source: https://apnews.com/article/india-ai-modi-macron-lula-f32aa15263349dadad1840dadc75ca83
+- 2026-04-15 — Reuters reported ECB plans to warn banks about Anthropic model cyber risks; high-signal regulatory theme, but outside the strict 24-hour window for this run. Source: https://www.reuters.com/world/ecb-warn-bankers-about-new-anthropic-model-risks-source-says-2026-04-15/
+
 - 2026-03-18 — Reuters reports the U.S. administration is defending Anthropic’s Pentagon blacklisting in court, turning AI model-provider terms/safety guardrails into an active procurement and national-security legal battleground with direct public-sector go-to-market implications. Source: https://www.reuters.com/legal/government/trump-administration-defends-anthropic-blacklisting-us-court-2026-03-18/
 - 2026-03-18 — European Parliament committees scheduled a vote on the Digital Omnibus on AI (simplification changes tied to EU AI rules), a concrete near-term signal that compliance pathways and enforcement burden for AI providers/deployers may shift again. Source: https://www.europarl.europa.eu/doceo/document/CJ40-OJ-2026-03-18-1_EN.html
 - 2026-03-18 — TrojAI announced agent-led red teaming, runtime agent execution intelligence, and coding-agent protection, reinforcing a high-signal best practice: move from prompt-only checks to continuous workflow/runtime controls mapped to OWASP/MITRE/NIST-style frameworks. Source: https://www.prnewswire.com/news-releases/trojai-extends-enterprise-ai-security-with-agent-led-red-teaming-runtime-intelligence-and-coding-agent-protection-302716692.html
